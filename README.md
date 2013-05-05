@@ -11,3 +11,6 @@ roubo_dai@san412,in
 -------------------
 为了能够提高效率，在VIM下添加了python的语法字典，所以VIM下可以完美python。
 同时为了满足方便性，尝试着在eclipe中搭建一个，使用pydev也已成功，界面很友好。
+
+1、试运行程序 /home/roubo/openPy/PyDevTest/run.py
+2、随机图片生成程序 /home/roubo/openPy/PGMimage/PGMImage.py
