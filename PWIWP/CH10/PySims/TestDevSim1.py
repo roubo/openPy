@@ -1,4 +1,5 @@
 #! /usr/bin/python
+#vim: set fileencoding=utf-8
 #-------------------------------------------------------------------------------
 # TestDevSim1.py
 #-------------------------------------------------------------------------------
@@ -17,6 +18,7 @@ import  DevSim.DevSimDefs as DS
 
 def testDevSim1():
     print "Init DevSim"
+    #初始化一个仿真器实例，这时8个线程和一个主线程都已经就绪了。
     simIO = DevSim.DevSim()
 
     # set up the simulated device

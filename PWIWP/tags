@@ -1,0 +1,841 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACTIVE	CH10/PySims/SimLib/RetCodes.py	/^ACTIVE              = -1        #: Device or function is active$/;"	v
+ACTIVE	CH12/RetCodes.py	/^ACTIVE              = -1        #: Device or function is active$/;"	v
+AINcmd	CH14/u3ledblink.py	/^AINcmd  = u3.AIN(0, 31, False, False)$/;"	v
+ANSITerm	CH13/SimpleANSI.py	/^class ANSITerm:$/;"	c	inherits:
+ASCIIDataRead	CH10/PySims/DevSim/DevSim.py	/^from    SimLib.FileUtils import ASCIIDataRead   # class import$/;"	i
+ASCIIDataRead	CH10/PySims/SimLib/FileUtils.py	/^class ASCIIDataRead:$/;"	c	inherits:
+ASCIIDataRead	CH12/FileUtils.py	/^class ASCIIDataRead:$/;"	c	inherits:
+ASCIIDataWrite	CH10/PySims/SimLib/FileUtils.py	/^class ASCIIDataWrite:$/;"	c	inherits:
+ASCIIDataWrite	CH12/FileUtils.py	/^class ASCIIDataWrite:$/;"	c	inherits:
+AcqData	CH11/AcqData.py	/^class AcqData:$/;"	c	inherits:
+Acquire	CH09/propcontrol.py	/^def Acquire(port):$/;"	f	access:public
+AutoConvert	CH10/PySims/ACSim/AutoConvert.py	/^def AutoConvert(input):$/;"	f	access:public
+AutoConvert	CH10/PySims/SimLib/AutoConvert.py	/^def AutoConvert(input):$/;"	f	access:public
+AutoConvert	CH12/AutoConvert.py	/^def AutoConvert(input):$/;"	f	access:public
+BAD_CMD	CH10/PySims/SimLib/RetCodes.py	/^BAD_CMD             = -23       #: Bad command detected$/;"	v
+BAD_CMD	CH12/RetCodes.py	/^BAD_CMD             = -23       #: Bad command detected$/;"	v
+BAD_PARAM	CH10/PySims/SimLib/RetCodes.py	/^BAD_PARAM           = -49       #: A function or configuration parameter is out of range or invalid type$/;"	v
+BAD_PARAM	CH12/RetCodes.py	/^BAD_PARAM           = -49       #: A function or configuration parameter is out of range or invalid type$/;"	v
+BAD_RESP	CH10/PySims/SimLib/RetCodes.py	/^BAD_RESP            = -24       #: Bad response detected$/;"	v
+BAD_RESP	CH12/RetCodes.py	/^BAD_RESP            = -24       #: Bad response detected$/;"	v
+BAD_VALUE	CH10/PySims/SimLib/RetCodes.py	/^BAD_VALUE           = -53       #: Value returned to caller is not valid$/;"	v
+BAD_VALUE	CH12/RetCodes.py	/^BAD_VALUE           = -53       #: Value returned to caller is not valid$/;"	v
+BangBang	CH09/bangbang.py	/^def BangBang():$/;"	f	access:public
+CALC_PARM	CH10/PySims/SimLib/RetCodes.py	/^CALC_PARM           = -56       #: calculated parameter value is out of range$/;"	v
+CALC_PARM	CH12/RetCodes.py	/^CALC_PARM           = -56       #: calculated parameter value is out of range$/;"	v
+CFG_ERROR	CH10/PySims/SimLib/RetCodes.py	/^CFG_ERROR           = -48       #: Invalid\/missing configuration data detected$/;"	v
+CFG_ERROR	CH12/RetCodes.py	/^CFG_ERROR           = -48       #: Invalid\/missing configuration data detected$/;"	v
+CFG_VAL	CH10/PySims/SimLib/RetCodes.py	/^CFG_VAL             = -57       #: Invalid value retreived from INI file$/;"	v
+CFG_VAL	CH12/RetCodes.py	/^CFG_VAL             = -57       #: Invalid value retreived from INI file$/;"	v
+CHAN_DELAY	CH10/PySims/ACSim/SPCSim.py	/^CHAN_DELAY = 0.5    # operation delay for realism, this can be zero$/;"	v
+COLSTRT	CH13/bgansi.py	/^COLSTRT = 9     # column start offset$/;"	v
+CON	CH13/SimpleANSI.py	/^CON = 0$/;"	v
+CONSOLE	CH10/PySims/ACSim/SPCSim.py	/^CONSOLE = 0         # use console for all I\/O$/;"	v
+CONT	CH10/PySims/ACSim/SPCSim.py	/^CONT = 2$/;"	v
+CSI	CH13/SimpleANSI.py	/^CSI = ESC+"["$/;"	v
+CYCLIC	CH10/PySims/DevSim/DevSimDefs.py	/^CYCLIC      = 1$/;"	v
+CYCNONE	CH10/PySims/DevSim/DevSimDefs.py	/^CYCNONE     = 0$/;"	v
+CYCPULSE	CH10/PySims/DevSim/DevSimDefs.py	/^CYCPULSE    = 2$/;"	v
+CYCRAMP	CH10/PySims/DevSim/DevSimDefs.py	/^CYCRAMP     = 3$/;"	v
+CYCSAW	CH10/PySims/DevSim/DevSimDefs.py	/^CYCSAW      = 4$/;"	v
+CYCSINE	CH10/PySims/DevSim/DevSimDefs.py	/^CYCSINE     = 1$/;"	v
+ChkChan	CH10/PySims/ACSim/SPCSim.py	/^    def ChkChan(self, cmdstrs):$/;"	m	class:SPCSim	access:public
+ChkECB	CH10/PySims/ACSim/SPCSim.py	/^    def ChkECB(self, cmdstrs):$/;"	m	class:SPCSim	access:public
+Class1	CH03/docstrings.py	/^class Class1:$/;"	c	inherits:
+CloseDev	CH05/PDevAPI.c	/^static PyObject *CloseDev(PyObject *self, PyObject *args)$/;"	f	file:	signature:(PyObject *self, PyObject *args)
+ConfigDev	CH05/PDevAPI.c	/^static PyObject *ConfigDev(PyObject *self, PyObject *args)$/;"	f	file:	signature:(PyObject *self, PyObject *args)
+ConfigParser	CH10/PySims/ACSim/SPCSim.py	/^import ConfigParser$/;"	i
+ConfigParser	CH10/PySims/DevSim/DevSim.py	/^import  ConfigParser$/;"	i
+ConfigRst	CH05/PDevAPI.c	/^static PyObject *ConfigRst(PyObject *self, PyObject *args)$/;"	f	file:	signature:(PyObject *self, PyObject *args)
+DEV_AIO_ERR	CH10/PySims/SimLib/RetCodes.py	/^DEV_AIO_ERR         = -37       #: A fault was detected during an analog I\/O operation$/;"	v
+DEV_AIO_ERR	CH12/RetCodes.py	/^DEV_AIO_ERR         = -37       #: A fault was detected during an analog I\/O operation$/;"	v
+DEV_ALREADY_INIT	CH10/PySims/SimLib/RetCodes.py	/^DEV_ALREADY_INIT    = -45       #: Channel or device already initialized$/;"	v
+DEV_ALREADY_INIT	CH12/RetCodes.py	/^DEV_ALREADY_INIT    = -45       #: Channel or device already initialized$/;"	v
+DEV_BUSY	CH10/PySims/SimLib/RetCodes.py	/^DEV_BUSY            = -47       #: Device is currently busy$/;"	v
+DEV_BUSY	CH12/RetCodes.py	/^DEV_BUSY            = -47       #: Device is currently busy$/;"	v
+DEV_DIO_ERR	CH10/PySims/SimLib/RetCodes.py	/^DEV_DIO_ERR         = -38       #: A fault was detected during a discrete I\/O operation$/;"	v
+DEV_DIO_ERR	CH12/RetCodes.py	/^DEV_DIO_ERR         = -38       #: A fault was detected during a discrete I\/O operation$/;"	v
+DEV_FAIL	CH10/PySims/SimLib/RetCodes.py	/^DEV_FAIL            = -6        #: Device is in a failed state$/;"	v
+DEV_FAIL	CH12/RetCodes.py	/^DEV_FAIL            = -6        #: Device is in a failed state$/;"	v
+DEV_FAULT	CH10/PySims/SimLib/RetCodes.py	/^DEV_FAULT           = -39       #: Generic HW API fault detected$/;"	v
+DEV_FAULT	CH12/RetCodes.py	/^DEV_FAULT           = -39       #: Generic HW API fault detected$/;"	v
+DEV_LIMIT	CH10/PySims/SimLib/RetCodes.py	/^DEV_LIMIT           = -40       #: Device is at a limit$/;"	v
+DEV_LIMIT	CH12/RetCodes.py	/^DEV_LIMIT           = -40       #: Device is at a limit$/;"	v
+DEV_NOTINIT	CH10/PySims/SimLib/RetCodes.py	/^DEV_NOTINIT         = -44       #: Device or subsystem is not initialized$/;"	v
+DEV_NOTINIT	CH12/RetCodes.py	/^DEV_NOTINIT         = -44       #: Device or subsystem is not initialized$/;"	v
+DEV_NOTRDY	CH10/PySims/SimLib/RetCodes.py	/^DEV_NOTRDY          = -43       #: Device is not ready$/;"	v
+DEV_NOTRDY	CH12/RetCodes.py	/^DEV_NOTRDY          = -43       #: Device is not ready$/;"	v
+DEV_OFF	CH10/PySims/SimLib/RetCodes.py	/^DEV_OFF             = -5        #: The device or component is off$/;"	v
+DEV_OFF	CH12/RetCodes.py	/^DEV_OFF             = -5        #: The device or component is off$/;"	v
+DEV_ON	CH10/PySims/SimLib/RetCodes.py	/^DEV_ON              = -4        #: The device or component is on$/;"	v
+DEV_ON	CH12/RetCodes.py	/^DEV_ON              = -4        #: The device or component is on$/;"	v
+DEV_OVERLOAD	CH10/PySims/SimLib/RetCodes.py	/^DEV_OVERLOAD        = -46       #: Device overload error$/;"	v
+DEV_OVERLOAD	CH12/RetCodes.py	/^DEV_OVERLOAD        = -46       #: Device overload error$/;"	v
+DEV_OVERTEMP	CH10/PySims/SimLib/RetCodes.py	/^DEV_OVERTEMP        = -41       #: Device reports an over-temperature condition$/;"	v
+DEV_OVERTEMP	CH12/RetCodes.py	/^DEV_OVERTEMP        = -41       #: Device reports an over-temperature condition$/;"	v
+DEV_UNDERTEMP	CH10/PySims/SimLib/RetCodes.py	/^DEV_UNDERTEMP       = -42       #: Device reports an under-temperature condition$/;"	v
+DEV_UNDERTEMP	CH12/RetCodes.py	/^DEV_UNDERTEMP       = -42       #: Device reports an under-temperature condition$/;"	v
+DISABLED	CH10/PySims/SimLib/RetCodes.py	/^DISABLED            = -3        #: Device of function is disabled$/;"	v
+DISABLED	CH12/RetCodes.py	/^DISABLED            = -3        #: Device of function is disabled$/;"	v
+DISCONNECT	CH10/PySims/SimLib/RetCodes.py	/^DISCONNECT          = -36       #: Unexpected comm channel disconnect$/;"	v
+DISCONNECT	CH12/RetCodes.py	/^DISCONNECT          = -36       #: Unexpected comm channel disconnect$/;"	v
+DISK_ERROR	CH10/PySims/SimLib/RetCodes.py	/^DISK_ERROR          = -15       #: Error encountered while accessing disk$/;"	v
+DISK_ERROR	CH12/RetCodes.py	/^DISK_ERROR          = -15       #: Error encountered while accessing disk$/;"	v
+DISK_FULL	CH10/PySims/SimLib/RetCodes.py	/^DISK_FULL           = -16       #: Iinsufficient space on the disk$/;"	v
+DISK_FULL	CH12/RetCodes.py	/^DISK_FULL           = -16       #: Iinsufficient space on the disk$/;"	v
+DIV_ZERO	CH10/PySims/SimLib/RetCodes.py	/^DIV_ZERO            = -22       #: Divide by zero error$/;"	v
+DIV_ZERO	CH12/RetCodes.py	/^DIV_ZERO            = -22       #: Divide by zero error$/;"	v
+DS	CH10/PySims/DevSim/DevSim.py	/^import  DevSimDefs as DS$/;"	i
+DS	CH10/PySims/TestDevSim1.py	/^import  DevSim.DevSimDefs as DS$/;"	i
+DS	CH10/PySims/TestDevSim2.py	/^import  DevSim.DevSimDefs as DS$/;"	i
+DS	CH10/PySims/TestDevSim3.py	/^import  DevSim.DevSimDefs as DS$/;"	i
+DS	CH10/PySims/TestDevSim4.py	/^import  DevSim.DevSimDefs as DS$/;"	i
+DS	CH10/PySims/TestDevSim5.py	/^import  DevSim.DevSimDefs as DS$/;"	i
+DS	CH10/PySims/TestDevSim6.py	/^import  DevSim.DevSimDefs as DS$/;"	i
+DS	CH10/PySims/TestDevSim7.py	/^import  DevSim.DevSimDefs as DS$/;"	i
+DataRecord	CH12/ctypes_struct.py	/^class DataRecord(ctypes.Structure):$/;"	c	inherits:ctypes.Structure
+DataRecord	CH12/ctypes_struct2.py	/^class DataRecord(ctypes.Structure):$/;"	c	inherits:ctypes.Structure
+DataRecord	CH12/ctypes_struct_file.py	/^class DataRecord(ctypes.Structure):$/;"	c	inherits:ctypes.Structure
+DataRecord	CH12/ctypes_struct_file2.py	/^class DataRecord(ctypes.Structure):$/;"	c	inherits:ctypes.Structure
+DataRecord	CH12/pack_struct_file.py	/^class DataRecord(ctypes.Structure):$/;"	c	inherits:ctypes.Structure
+DevSim	CH10/PySims/DevSim/DevSim.py	/^class DevSim():$/;"	c	inherits:
+DevSim	CH10/PySims/TestDevSim1.py	/^from    DevSim  import  DevSim$/;"	i
+DevSim	CH10/PySims/TestDevSim1.py	/^import  DevSim.DevSimDefs as DS$/;"	i
+DevSim	CH10/PySims/TestDevSim2.py	/^from    DevSim  import  DevSim$/;"	i
+DevSim	CH10/PySims/TestDevSim2.py	/^import  DevSim.DevSimDefs as DS$/;"	i
+DevSim	CH10/PySims/TestDevSim3.py	/^from    DevSim  import  DevSim$/;"	i
+DevSim	CH10/PySims/TestDevSim3.py	/^import  DevSim.DevSimDefs as DS$/;"	i
+DevSim	CH10/PySims/TestDevSim4.py	/^from    DevSim  import  DevSim$/;"	i
+DevSim	CH10/PySims/TestDevSim4.py	/^import  DevSim.DevSimDefs as DS$/;"	i
+DevSim	CH10/PySims/TestDevSim5.py	/^from    DevSim  import  DevSim$/;"	i
+DevSim	CH10/PySims/TestDevSim5.py	/^import  DevSim.DevSimDefs as DS$/;"	i
+DevSim	CH10/PySims/TestDevSim6.py	/^from    DevSim  import  DevSim$/;"	i
+DevSim	CH10/PySims/TestDevSim6.py	/^import  DevSim.DevSimDefs as DS$/;"	i
+DevSim	CH10/PySims/TestDevSim7.py	/^from    DevSim  import  DevSim$/;"	i
+DevSim	CH10/PySims/TestDevSim7.py	/^import  DevSim.DevSimDefs as DS$/;"	i
+Dispatch	CH10/PySims/ACSim/SPCSim.py	/^    def Dispatch(self, instr):$/;"	m	class:SPCSim	access:public
+ECB	CH10/PySims/ACSim/SPCSim.py	/^ECB  = 1$/;"	v
+ERR	CH10/PySims/ACSim/SPCSim.py	/^ERR  = 0$/;"	v
+ESC	CH13/SimpleANSI.py	/^ESC = "\\x1b"$/;"	v
+EXT_IN	CH10/PySims/DevSim/DevSimDefs.py	/^EXT_IN      = 0$/;"	v
+EXT_TRIG	CH10/PySims/DevSim/DevSimDefs.py	/^EXT_TRIG    = 1$/;"	v
+FILE	CH03/pgmrand.py	/^FILE = open("pgmtest.pgm","w")$/;"	v
+FILE_EMPTY	CH10/PySims/SimLib/RetCodes.py	/^FILE_EMPTY          = -14       #: File is empty (zero size)$/;"	v
+FILE_EMPTY	CH12/RetCodes.py	/^FILE_EMPTY          = -14       #: File is empty (zero size)$/;"	v
+FileUtils	CH10/PySims/DevSim/DevSim.py	/^import  SimLib.FileUtils$/;"	i
+Frame1	CH13/wxexample.py	/^class Frame1(wx.Frame):$/;"	c	inherits:wx.Frame
+Function1	CH03/docstrings.py	/^def Function1():$/;"	f	access:public
+Function1	CH03/globals.py	/^def Function1():$/;"	f	access:public
+Function1	CH03/globals2.py	/^def Function1():$/;"	f	access:public
+Function2	CH03/globals.py	/^def Function2():$/;"	f	access:public
+Function2	CH03/globals2.py	/^def Function2():$/;"	f	access:public
+Function3	CH03/globals2.py	/^def Function3():$/;"	f	access:public
+GPIB_FAIL	CH10/PySims/SimLib/RetCodes.py	/^GPIB_FAIL           = -30       #: GPIB error detected$/;"	v
+GPIB_FAIL	CH12/RetCodes.py	/^GPIB_FAIL           = -30       #: GPIB error detected$/;"	v
+GenOut	CH09/PID.py	/^    def GenOut(self, error):$/;"	m	class:PID	access:public
+GenOut	CH10/gnuplot/PID.py	/^    def GenOut(self, error):$/;"	m	class:PID	access:public
+GetCommand	CH10/PySims/ACSim/SPCSim.py	/^    def GetCommand(self):$/;"	f	access:public
+GetDataSamples	CH11/AcqData.py	/^    def GetDataSamples(self):$/;"	m	class:AcqData	access:public
+GetDelta	CH10/PySims/SimLib/TimeUtils.py	/^    def GetDelta(self):$/;"	m	class:Timer	access:public
+GetDelta	CH12/TimeUtils.py	/^    def GetDelta(self):$/;"	m	class:Timer	access:public
+GetErrorDesc	CH10/PySims/SimLib/RetCodes.py	/^def GetErrorDesc(error_code):$/;"	f	access:public
+GetErrorDesc	CH12/RetCodes.py	/^def GetErrorDesc(error_code):$/;"	f	access:public
+GetErrorName	CH10/PySims/SimLib/RetCodes.py	/^def GetErrorName(error_code):$/;"	f	access:public
+GetErrorName	CH12/RetCodes.py	/^def GetErrorName(error_code):$/;"	f	access:public
+GetTotal	CH10/PySims/SimLib/TimeUtils.py	/^    def GetTotal(self):$/;"	m	class:Timer	access:public
+GetTotal	CH12/TimeUtils.py	/^    def GetTotal(self):$/;"	m	class:Timer	access:public
+Gnuplot	CH10/gnuplot/PIDPlot2.py	/^import Gnuplot, Gnuplot.funcutils$/;"	i
+H	CH09/bangbang.py	/^H = 2.0             # hysteresis range$/;"	v
+HOLD	CH10/PySims/ACSim/SPCSim.py	/^HOLD = 1$/;"	v
+INACTIVE	CH10/PySims/SimLib/RetCodes.py	/^INACTIVE            = -2        #: Device or function is inactive$/;"	v
+INACTIVE	CH12/RetCodes.py	/^INACTIVE            = -2        #: Device or function is inactive$/;"	v
+INCHAN1	CH10/PySims/DevSim/DevSimDefs.py	/^INCHAN1     = 0$/;"	v
+INCHAN2	CH10/PySims/DevSim/DevSimDefs.py	/^INCHAN2     = 1$/;"	v
+INCHAN3	CH10/PySims/DevSim/DevSimDefs.py	/^INCHAN3     = 2$/;"	v
+INCHAN4	CH10/PySims/DevSim/DevSimDefs.py	/^INCHAN4     = 3$/;"	v
+INT_TRIG	CH10/PySims/DevSim/DevSimDefs.py	/^INT_TRIG    = 2$/;"	v
+INV_DATA	CH10/PySims/SimLib/RetCodes.py	/^INV_DATA            = -20       #: invalid data type encountered$/;"	v
+INV_DATA	CH12/RetCodes.py	/^INV_DATA            = -20       #: invalid data type encountered$/;"	v
+INV_FILE	CH10/PySims/SimLib/RetCodes.py	/^INV_FILE            = -10       #: File reference does not exist$/;"	v
+INV_FILE	CH12/RetCodes.py	/^INV_FILE            = -10       #: File reference does not exist$/;"	v
+INV_FORMAT	CH10/PySims/SimLib/RetCodes.py	/^INV_FORMAT          = -21       #: invalid data format encountered$/;"	v
+INV_FORMAT	CH12/RetCodes.py	/^INV_FORMAT          = -21       #: invalid data format encountered$/;"	v
+IO_BUSY	CH10/PySims/SimLib/RetCodes.py	/^IO_BUSY             = -34       #: An I\/O operation is currently busy$/;"	v
+IO_BUSY	CH12/RetCodes.py	/^IO_BUSY             = -34       #: An I\/O operation is currently busy$/;"	v
+InitSIO	CH10/PySims/ACSim/SPCSim.py	/^    def InitSIO(self):$/;"	f	access:public
+Initialize	CH09/PID.py	/^    def Initialize(self):$/;"	m	class:PID	access:public
+Initialize	CH10/gnuplot/PID.py	/^    def Initialize(self):$/;"	m	class:PID	access:public
+Kb	CH09/propcontrol.py	/^Kb = 1.0$/;"	v
+Kp	CH09/propcontrol.py	/^Kp = 1.0$/;"	v
+LEDoff	CH14/u3ledblink.py	/^LEDoff  = u3.LED(0)$/;"	v
+LEDon	CH14/u3ledblink.py	/^LEDon   = u3.LED(1)$/;"	v
+LIM	CH10/PySims/ACSim/SPCSim.py	/^LIM  = 2$/;"	v
+LoadCFG	CH10/PySims/ACSim/SPCSim.py	/^    def LoadCFG(self):$/;"	f	access:public
+LoadCFG	CH10/PySims/DevSim/DevSim.py	/^    def LoadCFG(self):$/;"	m	class:DevSim	access:public
+MAXCHAN	CH10/PySims/DevSim/DevSimDefs.py	/^MAXCHAN     = 3$/;"	v
+MAXCHARS	CH04/sine_print2.c	31;"	d	file:
+MAXEXT	CH13/bgansi.py	/^MAXEXT  = 30$/;"	v
+MAXLINES	CH04/sine_print2.c	30;"	d	file:
+MAXSCALE	CH10/PySims/SimLib/RetCodes.py	/^MAXSCALE            = -18       #: Maximum + output value exceeded$/;"	v
+MAXSCALE	CH12/RetCodes.py	/^MAXSCALE            = -18       #: Maximum + output value exceeded$/;"	v
+MAXSTR	CH04/sine_print2.c	32;"	d	file:
+MIDPNT	CH04/sine_print2.c	33;"	d	file:
+MINSCALE	CH10/PySims/SimLib/RetCodes.py	/^MINSCALE            = -19       #: Maximum - output value exceeded$/;"	v
+MINSCALE	CH12/RetCodes.py	/^MINSCALE            = -19       #: Maximum - output value exceeded$/;"	v
+MainFunc	CH03/subfuncs.py	/^def MainFunc():$/;"	f	access:public
+Method1	CH03/docstrings.py	/^    def Method1():$/;"	m	class:Class1	access:public
+Method2	CH03/docstrings.py	/^    def Method2():$/;"	m	class:Class1	access:public
+NET_FAIL	CH10/PySims/SimLib/RetCodes.py	/^NET_FAIL            = -32       #: Network error detected$/;"	v
+NET_FAIL	CH12/RetCodes.py	/^NET_FAIL            = -32       #: Network error detected$/;"	v
+NORM	CH10/PySims/ACSim/SPCSim.py	/^NORM = 0$/;"	v
+NO_CFG	CH10/PySims/SimLib/RetCodes.py	/^NO_CFG              = -54       #: Expected configuration data is not available$/;"	v
+NO_CFG	CH12/RetCodes.py	/^NO_CFG              = -54       #: Expected configuration data is not available$/;"	v
+NO_DATA	CH10/PySims/SimLib/RetCodes.py	/^NO_DATA             = -26       #: No data available from device$/;"	v
+NO_DATA	CH12/RetCodes.py	/^NO_DATA             = -26       #: No data available from device$/;"	v
+NO_ERR	CH10/PySims/SimLib/RetCodes.py	/^NO_ERR              = 0$/;"	v
+NO_ERR	CH12/RetCodes.py	/^NO_ERR              = 0$/;"	v
+NO_FILE	CH10/PySims/SimLib/RetCodes.py	/^NO_FILE             = -9        #: File reference is invalid$/;"	v
+NO_FILE	CH12/RetCodes.py	/^NO_FILE             = -9        #: File reference is invalid$/;"	v
+NO_INIT_POSSIBLE	CH10/PySims/SimLib/RetCodes.py	/^NO_INIT_POSSIBLE    = -27       #: Initialization is not possible$/;"	v
+NO_INIT_POSSIBLE	CH12/RetCodes.py	/^NO_INIT_POSSIBLE    = -27       #: Initialization is not possible$/;"	v
+NO_IO_AVAIL	CH10/PySims/SimLib/RetCodes.py	/^NO_IO_AVAIL         = -35       #: No I\/O available, all channels in use$/;"	v
+NO_IO_AVAIL	CH12/RetCodes.py	/^NO_IO_AVAIL         = -35       #: No I\/O available, all channels in use$/;"	v
+NO_LOG	CH10/PySims/SimLib/RetCodes.py	/^NO_LOG              = -55       #: Log is not active or not available$/;"	v
+NO_LOG	CH12/RetCodes.py	/^NO_LOG              = -55       #: Log is not active or not available$/;"	v
+NO_NAME	CH10/PySims/SimLib/RetCodes.py	/^NO_NAME             = -8        #: No file name supplied$/;"	v
+NO_NAME	CH12/RetCodes.py	/^NO_NAME             = -8        #: No file name supplied$/;"	v
+NO_PATH	CH10/PySims/SimLib/RetCodes.py	/^NO_PATH             = -7        #: Path could not be found$/;"	v
+NO_PATH	CH12/RetCodes.py	/^NO_PATH             = -7        #: Path could not be found$/;"	v
+NO_PORT	CH10/PySims/SimLib/RetCodes.py	/^NO_PORT             = -33       #: No communications port available$/;"	v
+NO_PORT	CH12/RetCodes.py	/^NO_PORT             = -33       #: No communications port available$/;"	v
+NO_RESP	CH10/PySims/SimLib/RetCodes.py	/^NO_RESP             = -25       #: Device is non-responsive$/;"	v
+NO_RESP	CH12/RetCodes.py	/^NO_RESP             = -25       #: Device is non-responsive$/;"	v
+NO_SRC	CH10/PySims/SimLib/RetCodes.py	/^NO_SRC              = -51       #: A source for the requested data was not found$/;"	v
+NO_SRC	CH12/RetCodes.py	/^NO_SRC              = -51       #: A source for the requested data was not found$/;"	v
+NO_TRIG	CH10/PySims/DevSim/DevSimDefs.py	/^NO_TRIG     = 0$/;"	v
+NULL_VALUE	CH10/PySims/SimLib/RetCodes.py	/^NULL_VALUE          = -52       #: Invalid data detected, null values not acceptable$/;"	v
+NULL_VALUE	CH12/RetCodes.py	/^NULL_VALUE          = -52       #: Invalid data detected, null values not acceptable$/;"	v
+OBJ_REF	CH10/PySims/SimLib/RetCodes.py	/^OBJ_REF             = -58       #: Unable to obtain object reference$/;"	v
+OBJ_REF	CH12/RetCodes.py	/^OBJ_REF             = -58       #: Unable to obtain object reference$/;"	v
+OFF	CH09/bangbang.py	/^OFF = 0$/;"	v
+OFF	CH10/PySims/ACSim/SPCSim.py	/^OFF  = 0$/;"	v
+OK	CH10/PySims/ACSim/SPCSim.py	/^OK   = 1$/;"	v
+ON	CH09/bangbang.py	/^ON  = 1$/;"	v
+ON	CH10/PySims/ACSim/SPCSim.py	/^ON   = 1$/;"	v
+OPEN_ERR	CH10/PySims/SimLib/RetCodes.py	/^OPEN_ERR            = -13       #: Error opening file$/;"	v
+OPEN_ERR	CH12/RetCodes.py	/^OPEN_ERR            = -13       #: Error opening file$/;"	v
+OP_ABORT	CH10/PySims/SimLib/RetCodes.py	/^OP_ABORT            = -59       #: Operation or action aborted by user$/;"	v
+OP_ABORT	CH12/RetCodes.py	/^OP_ABORT            = -59       #: Operation or action aborted by user$/;"	v
+OUTCHAN1	CH10/PySims/DevSim/DevSimDefs.py	/^OUTCHAN1    = 0$/;"	v
+OUTCHAN2	CH10/PySims/DevSim/DevSimDefs.py	/^OUTCHAN2    = 1$/;"	v
+OUTCHAN3	CH10/PySims/DevSim/DevSimDefs.py	/^OUTCHAN3    = 2$/;"	v
+OUTCHAN4	CH10/PySims/DevSim/DevSimDefs.py	/^OUTCHAN4    = 3$/;"	v
+OVERRANGE	CH10/PySims/SimLib/RetCodes.py	/^OVERRANGE           = -17       #: Over range error (+ or -)$/;"	v
+OVERRANGE	CH12/RetCodes.py	/^OVERRANGE           = -17       #: Over range error (+ or -)$/;"	v
+OnBitmapButton1Button	CH13/wxexample.py	/^    def OnBitmapButton1Button(self, event):$/;"	m	class:Frame1	access:public
+OnBitmapButton2Button	CH13/wxexample.py	/^    def OnBitmapButton2Button(self, event):$/;"	m	class:Frame1	access:public
+OnBitmapButton3Button	CH13/wxexample.py	/^    def OnBitmapButton3Button(self, event):$/;"	m	class:Frame1	access:public
+OnBitmapButton4Button	CH13/wxexample.py	/^    def OnBitmapButton4Button(self, event):$/;"	m	class:Frame1	access:public
+OnExitButtonButton	CH13/wxexample.py	/^    def OnExitButtonButton(self, event):$/;"	m	class:Frame1	access:public
+OnUpdtButtonButton	CH13/wxexample.py	/^    def OnUpdtButtonButton(self, event):$/;"	m	class:Frame1	access:public
+OpenDev	CH05/PDevAPI.c	/^static PyObject *OpenDev(PyObject *self, PyObject *args)$/;"	f	file:	signature:(PyObject *self, PyObject *args)
+P	CH09/propcontrol.py	/^P  = 0$/;"	v
+PARAMCNT	CH10/PySims/SimLib/RetCodes.py	/^PARAMCNT            = -50       #: The number of parameters given is not the expected number$/;"	v
+PARAMCNT	CH12/RetCodes.py	/^PARAMCNT            = -50       #: The number of parameters given is not the expected number$/;"	v
+PControl	CH09/propcontrol.py	/^def PControl():$/;"	f	access:public
+PDEV_ERR	CH05/PDev.h	20;"	d
+PDEV_OK	CH05/PDev.h	19;"	d
+PDevCfgReset	CH05/PDev.h	/^int PDevCfgReset(dev_handle handle);$/;"	p	signature:(dev_handle handle)
+PDevClose	CH05/PDev.h	/^int PDevClose(dev_handle handle);$/;"	p	signature:(dev_handle handle)
+PDevDIOCfg	CH05/PDev.h	/^int PDevDIOCfg(dev_handle handle, int out_pins);$/;"	p	signature:(dev_handle handle, int out_pins)
+PDevDIOReadBit	CH05/PDev.h	/^int PDevDIOReadBit(dev_handle handle, int port, int pin);$/;"	p	signature:(dev_handle handle, int port, int pin)
+PDevDIOReadPort	CH05/PDev.h	/^int PDevDIOReadPort(dev_handle handle, int port);$/;"	p	signature:(dev_handle handle, int port)
+PDevDIOWriteBit	CH05/PDev.h	/^int PDevDIOWriteBit(dev_handle handle, int port, int pin, int value);$/;"	p	signature:(dev_handle handle, int port, int pin, int value)
+PDevDIOWritePort	CH05/PDev.h	/^int PDevDIOWritePort(dev_handle handle, int port, int value);$/;"	p	signature:(dev_handle handle, int port, int value)
+PDevOpen	CH05/PDev.h	/^dev_handle PDevOpen(int unit_num);$/;"	p	signature:(int unit_num)
+PGMWrite	CH12/PGMWrite.py	/^def PGMWrite(imgsrc, imgname, filename, width, height, bitdepth=8):$/;"	f	access:public
+PID	CH09/PID.py	/^class PID:$/;"	c	inherits:
+PID	CH10/gnuplot/PID.py	/^class PID:$/;"	c	inherits:
+PID	CH10/gnuplot/PIDPlot.py	/^import PID$/;"	i
+PID	CH10/gnuplot/PIDPlot2.py	/^import PID$/;"	i
+PIDPlot	CH10/gnuplot/PIDPlot.py	/^def PIDPlot(Kp=1, Ki=0, Kd=0):$/;"	f	access:public
+PIDPlot	CH10/gnuplot/PIDPlot2.py	/^def PIDPlot(Kp=1, Ki=0, Kd=0):$/;"	f	access:public
+PIO_FAIL	CH10/PySims/SimLib/RetCodes.py	/^PIO_FAIL            = -29       #: Parallemt I\/O error detected$/;"	v
+PIO_FAIL	CH12/RetCodes.py	/^PIO_FAIL            = -29       #: Parallemt I\/O error detected$/;"	v
+PWR	CH10/PySims/ACSim/SPCSim.py	/^PWR  = 0$/;"	v
+RC	CH10/PySims/DevSim/DevSim.py	/^import  SimLib.RetCodes as RC$/;"	i
+RC	CH10/PySims/SimLib/FileUtils.py	/^import  RetCodes    as RC   # shared return code definitions$/;"	i
+RC	CH10/PySims/TestDevSim1.py	/^import  SimLib.RetCodes as RC$/;"	i
+RC	CH10/PySims/TestDevSim2.py	/^import  SimLib.RetCodes as RC$/;"	i
+RC	CH10/PySims/TestDevSim3.py	/^import  SimLib.RetCodes as RC$/;"	i
+RC	CH10/PySims/TestDevSim4.py	/^import  SimLib.RetCodes as RC$/;"	i
+RC	CH10/PySims/TestDevSim5.py	/^import  SimLib.RetCodes as RC$/;"	i
+RC	CH10/PySims/TestDevSim6.py	/^import  SimLib.RetCodes as RC$/;"	i
+RC	CH10/PySims/TestDevSim7.py	/^import  SimLib.RetCodes as RC$/;"	i
+RC	CH12/FileUtils.py	/^import  RetCodes    as RC   # shared return code definitions$/;"	i
+READ_ERR	CH10/PySims/SimLib/RetCodes.py	/^READ_ERR            = -12       #: Error reading from file$/;"	v
+READ_ERR	CH12/RetCodes.py	/^READ_ERR            = -12       #: Error reading from file$/;"	v
+ROWSTRT	CH13/bgansi.py	/^ROWSTRT = 7     # first row at 8th screen row$/;"	v
+ReadPin	CH05/PDevAPI.c	/^static PyObject *ReadPin(PyObject *self, PyObject *args)$/;"	f	file:	signature:(PyObject *self, PyObject *args)
+ReadPort	CH05/PDevAPI.c	/^static PyObject *ReadPort(PyObject *self, PyObject *args)$/;"	f	file:	signature:(PyObject *self, PyObject *args)
+Reset	CH10/PySims/SimLib/TimeUtils.py	/^    def Reset(self):$/;"	m	class:Timer	access:public
+Reset	CH12/TimeUtils.py	/^    def Reset(self):$/;"	m	class:Timer	access:public
+RstChan	CH10/PySims/ACSim/SPCSim.py	/^    def RstChan(self, cmdstrs):$/;"	m	class:SPCSim	access:public
+RunSim	CH10/PySims/ACSim/SPCSim.py	/^    def RunSim(self):$/;"	f	access:public
+SCALEDIV	CH04/sine_print2.c	34;"	d	file:
+SERIAL	CH10/PySims/ACSim/SPCSim.py	/^SERIAL = 1          # use serial port for command\/response I\/O$/;"	v
+SIO	CH13/SimpleANSI.py	/^SIO = 2$/;"	v
+SIO_FAIL	CH10/PySims/SimLib/RetCodes.py	/^SIO_FAIL            = -28       #: SIO error detected$/;"	v
+SIO_FAIL	CH12/RetCodes.py	/^SIO_FAIL            = -28       #: SIO error detected$/;"	v
+SKT	CH13/SimpleANSI.py	/^SKT = 1$/;"	v
+SPC	CH10/PySims/ACSim/SPCSim.py	/^def SPC(mode, port, mon):$/;"	f	access:public
+SPCSim	CH10/PySims/ACSim/SPCSim.py	/^class SPCSim:$/;"	c	inherits:
+SRCFILE1	CH10/PySims/DevSim/DevSimDefs.py	/^SRCFILE1    = 4$/;"	v
+SRCFILE2	CH10/PySims/DevSim/DevSimDefs.py	/^SRCFILE2    = 5$/;"	v
+SRCFILE3	CH10/PySims/DevSim/DevSimDefs.py	/^SRCFILE3    = 6$/;"	v
+SRCFILE4	CH10/PySims/DevSim/DevSimDefs.py	/^SRCFILE4    = 7$/;"	v
+SendResp	CH10/PySims/ACSim/SPCSim.py	/^    def SendResp(self, respval):$/;"	f	access:public
+SetAll	CH10/PySims/ACSim/SPCSim.py	/^    def SetAll(self, cmdstrs):$/;"	m	class:SPCSim	access:public
+SetKd	CH09/PID.py	/^    def SetKd(self, invar):$/;"	m	class:PID	access:public
+SetKd	CH10/gnuplot/PID.py	/^    def SetKd(self, invar):$/;"	m	class:PID	access:public
+SetKi	CH09/PID.py	/^    def SetKi(self, invar):$/;"	m	class:PID	access:public
+SetKi	CH10/gnuplot/PID.py	/^    def SetKi(self, invar):$/;"	m	class:PID	access:public
+SetKp	CH09/PID.py	/^    def SetKp(self, invar):$/;"	m	class:PID	access:public
+SetKp	CH10/gnuplot/PID.py	/^    def SetKp(self, invar):$/;"	m	class:PID	access:public
+SetLimit	CH10/PySims/ACSim/SPCSim.py	/^    def SetLimit(self, cmdstrs):$/;"	m	class:SPCSim	access:public
+SetOrder	CH10/PySims/ACSim/SPCSim.py	/^    def SetOrder(self, cmdstrs):$/;"	m	class:SPCSim	access:public
+SetPower	CH10/PySims/ACSim/SPCSim.py	/^    def SetPower(self, cmdstrs):$/;"	m	class:SPCSim	access:public
+SetPrevErr	CH09/PID.py	/^    def SetPrevErr(self, preverr):$/;"	m	class:PID	access:public
+SetPrevErr	CH10/gnuplot/PID.py	/^    def SetPrevErr(self, preverr):$/;"	m	class:PID	access:public
+SetSEM	CH10/PySims/ACSim/SPCSim.py	/^    def SetSEM(self, cmdstrs):$/;"	m	class:SPCSim	access:public
+SetSTM	CH10/PySims/ACSim/SPCSim.py	/^    def SetSTM(self, cmdstrs):$/;"	m	class:SPCSim	access:public
+SetSeq	CH10/PySims/ACSim/SPCSim.py	/^    def SetSeq(self, cmdstrs):$/;"	m	class:SPCSim	access:public
+SimLib	CH10/PySims/DevSim/DevSim.py	/^import  SimLib.AutoConvert as cvt$/;"	i
+SimLib	CH10/PySims/DevSim/DevSim.py	/^import  SimLib.FileUtils$/;"	i
+SimLib	CH10/PySims/DevSim/DevSim.py	/^import  SimLib.RetCodes as RC$/;"	i
+SimLib	CH10/PySims/TestDevSim1.py	/^import  SimLib.RetCodes as RC$/;"	i
+SimLib	CH10/PySims/TestDevSim2.py	/^import  SimLib.RetCodes as RC$/;"	i
+SimLib	CH10/PySims/TestDevSim3.py	/^import  SimLib.RetCodes as RC$/;"	i
+SimLib	CH10/PySims/TestDevSim4.py	/^import  SimLib.RetCodes as RC$/;"	i
+SimLib	CH10/PySims/TestDevSim5.py	/^import  SimLib.RetCodes as RC$/;"	i
+SimLib	CH10/PySims/TestDevSim6.py	/^import  SimLib.RetCodes as RC$/;"	i
+SimLib	CH10/PySims/TestDevSim7.py	/^import  SimLib.RetCodes as RC$/;"	i
+SimpleANSI	CH13/console6.py	/^import SimpleANSI$/;"	i
+StartDataSamples	CH11/AcqData.py	/^    def StartDataSamples(self, samplecnt):$/;"	m	class:AcqData	access:public
+SubFunc1	CH03/subfuncs.py	/^    def SubFunc1():$/;"	f	function:MainFunc	access:public
+SubFunc2	CH03/subfuncs.py	/^    def SubFunc2():$/;"	f	function:MainFunc	access:public
+SubFunc3	CH03/subfuncs.py	/^    def SubFunc3():$/;"	f	function:MainFunc	access:public
+SubSubFunc1	CH03/subfuncs.py	/^        def SubSubFunc1():$/;"	f	function:MainFunc.SubFunc3	access:public
+SubSubFunc2	CH03/subfuncs.py	/^        def SubSubFunc2():$/;"	f	function:MainFunc.SubFunc3	access:public
+TIMEOUT	CH10/PySims/SimLib/RetCodes.py	/^TIMEOUT             = -60       #: A timeout has occurred$/;"	v
+TIMEOUT	CH12/RetCodes.py	/^TIMEOUT             = -60       #: A timeout has occurred$/;"	v
+TimeUtils	CH10/PySims/SimLib/FileUtils.py	/^import  TimeUtils           # time and data utilities$/;"	i
+TimeUtils	CH12/FileUtils.py	/^import  TimeUtils           # time and data utilities$/;"	i
+Timer	CH10/PySims/SimLib/TimeUtils.py	/^class Timer:$/;"	c	inherits:
+Timer	CH12/TimeUtils.py	/^class Timer:$/;"	c	inherits:
+Trigger	CH11/AcqData.py	/^    def Trigger(self):$/;"	m	class:AcqData	access:public
+USB_FAIL	CH10/PySims/SimLib/RetCodes.py	/^USB_FAIL            = -31       #: USB error detected$/;"	v
+USB_FAIL	CH12/RetCodes.py	/^USB_FAIL            = -31       #: USB error detected$/;"	v
+VALPOS	CH13/bgansi.py	/^VALPOS  = 45    # column for value$/;"	v
+WRITE_ERR	CH10/PySims/SimLib/RetCodes.py	/^WRITE_ERR           = -11       #: Error writing to file$/;"	v
+WRITE_ERR	CH12/RetCodes.py	/^WRITE_ERR           = -11       #: Error writing to file$/;"	v
+WritePin	CH05/PDevAPI.c	/^static PyObject *WritePin(PyObject *self, PyObject *args)$/;"	f	file:	signature:(PyObject *self, PyObject *args)
+__anon1::channel	CH04/get_data.c	/^    int channel;$/;"	m	struct:__anon1	file:	access:public
+__anon1::input_v	CH04/get_data.c	/^    float input_v;$/;"	m	struct:__anon1	file:	access:public
+__anon1::unit_id	CH04/get_data.c	/^    int unit_id;$/;"	m	struct:__anon1	file:	access:public
+__conFlush	CH13/SimpleANSI.py	/^    def __conFlush(self):$/;"	m	class:ANSITerm	file:	access:private
+__conInput	CH13/SimpleANSI.py	/^    def __conInput(self):$/;"	m	class:ANSITerm	file:	access:private
+__conOutput	CH13/SimpleANSI.py	/^    def __conOutput(self, outstr):$/;"	m	class:ANSITerm	file:	access:private
+__cyclic	CH10/PySims/DevSim/DevSim.py	/^    def __cyclic(self, inchan):$/;"	m	class:DevSim	file:	access:private
+__doUserFunc	CH10/PySims/DevSim/DevSim.py	/^    def __doUserFunc(self, inchan, indata):$/;"	m	class:DevSim	file:	access:private
+__fileData	CH10/PySims/DevSim/DevSim.py	/^    def __fileData(self, inchan):$/;"	m	class:DevSim	file:	access:private
+__fileRead	CH10/PySims/DevSim/DevSim.py	/^    def __fileRead(self, inchan):$/;"	m	class:DevSim	file:	access:private
+__genCyclic	CH10/PySims/DevSim/DevSim.py	/^    def __genCyclic(self, inchan):$/;"	m	class:DevSim	file:	access:private
+__genPulse	CH10/PySims/DevSim/DevSim.py	/^    def __genPulse(self, cycliclvl):$/;"	m	class:DevSim	file:	access:private
+__genRamp	CH10/PySims/DevSim/DevSim.py	/^    def __genRamp(self, cycliclvl):$/;"	m	class:DevSim	file:	access:private
+__genSaw	CH10/PySims/DevSim/DevSim.py	/^    def __genSaw(self, cycliclvl):$/;"	m	class:DevSim	file:	access:private
+__genSine	CH10/PySims/DevSim/DevSim.py	/^    def __genSine(self, cycliclvl):$/;"	m	class:DevSim	file:	access:private
+__getCycData	CH10/PySims/DevSim/DevSim.py	/^    def __getCycData(self, inchan):$/;"	m	class:DevSim	file:	access:private
+__getRandom	CH10/PySims/DevSim/DevSim.py	/^    def __getRandom(self):$/;"	m	class:DevSim	file:	access:private
+__init__	CH09/PID.py	/^    def __init__(self):$/;"	m	class:PID	access:public
+__init__	CH10/PySims/ACSim/SPCSim.py	/^    def __init__(self, iomode=CONSOLE, sioport=None, monitor=False):$/;"	m	class:SPCSim	access:public
+__init__	CH10/PySims/DevSim/DevSim.py	/^    def __init__(self):$/;"	m	class:DevSim	access:public
+__init__	CH10/PySims/SimLib/FileUtils.py	/^    def __init__(self):$/;"	m	class:ASCIIDataRead	access:public
+__init__	CH10/PySims/SimLib/FileUtils.py	/^    def __init__(self):$/;"	m	class:ASCIIDataWrite	access:public
+__init__	CH10/PySims/SimLib/TimeUtils.py	/^    def __init__(self):$/;"	m	class:Timer	access:public
+__init__	CH10/gnuplot/PID.py	/^    def __init__(self):$/;"	m	class:PID	access:public
+__init__	CH11/AcqData.py	/^    def __init__(self, port_num, timeout):$/;"	m	class:AcqData	access:public
+__init__	CH12/FileUtils.py	/^    def __init__(self):$/;"	m	class:ASCIIDataRead	access:public
+__init__	CH12/FileUtils.py	/^    def __init__(self):$/;"	m	class:ASCIIDataWrite	access:public
+__init__	CH12/TimeUtils.py	/^    def __init__(self):$/;"	m	class:Timer	access:public
+__init__	CH13/SimpleANSI.py	/^    def __init__(self, ioport=None, porttype=CON):$/;"	m	class:ANSITerm	access:public
+__init__	CH13/tkdemo1.py	/^    def __init__(self, master=None):$/;"	m	class:demoGUI	access:public
+__init__	CH13/tkdemo2.py	/^    def __init__(self, master=None):$/;"	m	class:demoGUI	access:public
+__init__	CH13/wxexample.py	/^    def __init__(self, parent):$/;"	m	class:Frame1	access:public
+__run	CH10/PySims/DevSim/DevSim.py	/^    def __run(self):$/;"	m	class:DevSim	file:	access:private
+__scaleData	CH10/PySims/DevSim/DevSim.py	/^    def __scaleData(self, inval, scaleval):$/;"	m	class:DevSim	file:	access:private
+__simLoop	CH10/PySims/DevSim/DevSim.py	/^    def __simLoop(self):$/;"	m	class:DevSim	file:	access:private
+__sioInput	CH13/SimpleANSI.py	/^    def __sioInput(self):$/;"	m	class:ANSITerm	file:	access:private
+__sioOutput	CH13/SimpleANSI.py	/^    def __sioOutput(self, outstr):$/;"	m	class:ANSITerm	file:	access:private
+__sktInput	CH13/SimpleANSI.py	/^    def __sktInput(self):$/;"	m	class:ANSITerm	file:	access:private
+__sktOutput	CH13/SimpleANSI.py	/^    def __sktOutput(self, outstr):$/;"	m	class:ANSITerm	file:	access:private
+_fields_	CH12/ctypes_struct.py	/^     _fields_ = [ ('seq_num', ctypes.c_short),$/;"	v	class:DataRecord
+_fields_	CH12/ctypes_struct2.py	/^     _fields_ = [ ('seq_num', ctypes.c_short),$/;"	v	class:DataRecord
+_fields_	CH12/ctypes_struct_file.py	/^     _fields_ = [ ('seq_num', ctypes.c_short),$/;"	v	class:DataRecord
+_fields_	CH12/ctypes_struct_file2.py	/^     _fields_ = [ ('seq_num', ctypes.c_short),$/;"	v	class:DataRecord
+_fields_	CH12/pack_struct_file.py	/^     _fields_ = [ ('seq_num', ctypes.c_short),$/;"	v	class:DataRecord
+_get_data	CH11/AcqData.py	/^    def _get_data(self, numsamples):$/;"	m	class:AcqData	access:public
+_init_ctrls	CH13/wxexample.py	/^    def _init_ctrls(self, prnt):$/;"	m	class:Frame1	access:public
+aindata	CH13/console1.py	/^aindata   = [0.0, 0.0, 0.0, 0.0]$/;"	v
+aindata	CH13/console2.py	/^aindata   = [0.0, 0.0, 0.0, 0.0]$/;"	v
+aindata	CH13/console3.py	/^aindata   = [0.0, 0.0, 0.0, 0.0]$/;"	v
+aindata	CH13/console4.py	/^aindata   = [0.0, 0.0, 0.0, 0.0]$/;"	v
+aindata	CH13/console5.py	/^aindata   = [0.0, 0.0, 0.0, 0.0]$/;"	v
+ainstat	CH13/console1.py	/^ainstat   = ['ACTIVE','OFF','ACTIVE','OFF']$/;"	v
+ainstat	CH13/console2.py	/^ainstat   = ['OFF','OFF','OFF','OFF']$/;"	v
+ainstat	CH13/console3.py	/^ainstat   = ['OFF','OFF','OFF','OFF']$/;"	v
+ainstat	CH13/console4.py	/^ainstat   = ['OFF','OFF','OFF','OFF']$/;"	v
+ainstat	CH13/console5.py	/^ainstat   = ['OFF','OFF','OFF','OFF']$/;"	v
+alias	CH03/pgmrand.py	/^import random as rnd   # use import alias for convenience$/;"	i
+and	CH10/PySims/SimLib/FileUtils.py	/^import  TimeUtils           # time and data utilities$/;"	i
+and	CH12/FileUtils.py	/^import  TimeUtils           # time and data utilities$/;"	i
+app	CH13/tkdemo1.py	/^app = demoGUI()$/;"	v
+app	CH13/tkdemo2.py	/^app = demoGUI()$/;"	v
+app	CH13/wxexample.py	/^    app = wx.PySimpleApp()$/;"	v
+ask	CH03/getInfo.py	/^def ask():$/;"	f	access:public
+ask2	CH03/getInfo2.py	/^def ask2():$/;"	f	access:public
+binascii	CH12/pack_struct.py	/^import binascii$/;"	i
+binascii	CH12/pack_struct_file.py	/^import binascii$/;"	i
+binascii	CH12/pack_struct_obj.py	/^import binascii$/;"	i
+button1_Click	CH13/tkdemo1.py	/^    def button1_Click(self, event):$/;"	m	class:demoGUI	access:public
+button1_Click	CH13/tkdemo2.py	/^    def button1_Click(self, event):$/;"	m	class:demoGUI	access:public
+button2_Click	CH13/tkdemo1.py	/^    def button2_Click(self, event):$/;"	m	class:demoGUI	access:public
+button2_Click	CH13/tkdemo2.py	/^    def button2_Click(self, event):$/;"	m	class:demoGUI	access:public
+button3_Click	CH13/tkdemo2.py	/^    def button3_Click(self, event):$/;"	m	class:demoGUI	access:public
+button4_Click	CH13/tkdemo2.py	/^    def button4_Click(self, event):$/;"	m	class:demoGUI	access:public
+buttons	CH13/wxexample.py	/^import wx.lib.buttons$/;"	i
+chan	CH12/pack_struct.py	/^chan = 4$/;"	v
+chan	CH12/pack_struct_file.py	/^chan = 4$/;"	v
+chan	CH12/pack_struct_obj.py	/^chan = 4$/;"	v
+chanSet	CH10/PySims/ACSim/SPCSim.py	/^    def chanSet(self, chan, state, delay=False):$/;"	m	class:SPCSim	access:public
+channel	CH04/get_data.c	/^    int channel;$/;"	m	struct:__anon1	file:	access:public
+cinput	CH09/propcontrol.py	/^cinput = 1$/;"	v
+class	CH10/PySims/DevSim/DevSim.py	/^from    SimLib.FileUtils import ASCIIDataRead   # class import$/;"	i
+closeFile	CH10/PySims/SimLib/FileUtils.py	/^def closeFile(file_id):$/;"	f	access:public
+closeFile	CH12/FileUtils.py	/^def closeFile(file_id):$/;"	f	access:public
+closeInput	CH10/PySims/SimLib/FileUtils.py	/^    def closeInput(self):$/;"	m	class:ASCIIDataRead	access:public
+closeInput	CH12/FileUtils.py	/^    def closeInput(self):$/;"	m	class:ASCIIDataRead	access:public
+closeOutput	CH10/PySims/SimLib/FileUtils.py	/^    def closeOutput(self):$/;"	m	class:ASCIIDataWrite	access:public
+closeOutput	CH12/FileUtils.py	/^    def closeOutput(self):$/;"	m	class:ASCIIDataWrite	access:public
+clrDisp	CH13/console2.py	/^def clrDisp(numlines=50):$/;"	f	access:public
+clrDisp	CH13/console3.py	/^def clrDisp(numlines=50):$/;"	f	access:public
+clrDisp	CH13/console4.py	/^def clrDisp(numlines=50):$/;"	f	access:public
+clrDisp	CH13/console5.py	/^def clrDisp(numlines=50):$/;"	f	access:public
+clrEOL	CH13/SimpleANSI.py	/^    def clrEOL(self, row=None, col=None):$/;"	m	class:ANSITerm	access:public
+clrLine	CH13/SimpleANSI.py	/^    def clrLine(self, row=None):$/;"	m	class:ANSITerm	access:public
+clrScreen	CH13/SimpleANSI.py	/^    def clrScreen(self):$/;"	m	class:ANSITerm	access:public
+code	CH10/PySims/SimLib/FileUtils.py	/^import  RetCodes    as RC   # shared return code definitions$/;"	i
+code	CH12/FileUtils.py	/^import  RetCodes    as RC   # shared return code definitions$/;"	i
+colspan	CH12/readascii.py	/^        colspan = len(lineparts)$/;"	v
+colspan	CH12/readascii.py	/^colspan  = -1   # default span is all columns$/;"	v
+convenience	CH03/pgmrand.py	/^import random as rnd   # use import alias for convenience$/;"	i
+create	CH13/wxexample.py	/^def create(parent):$/;"	f	access:public
+createWidgets	CH13/tkdemo1.py	/^    def createWidgets(self):$/;"	m	class:demoGUI	access:public
+createWidgets	CH13/tkdemo2.py	/^    def createWidgets(self):$/;"	m	class:demoGUI	access:public
+ctypes	CH12/ctypes_struct.py	/^import ctypes$/;"	i
+ctypes	CH12/ctypes_struct2.py	/^import ctypes$/;"	i
+ctypes	CH12/ctypes_struct_file.py	/^import ctypes$/;"	i
+ctypes	CH12/ctypes_struct_file2.py	/^import ctypes$/;"	i
+ctypes	CH12/pack_struct_file.py	/^import ctypes$/;"	i
+currdate	CH13/console6.py	/^currdate = ""$/;"	v
+currdate	CH13/curses1.py	/^currdate = ""$/;"	v
+currdate	CH13/curses2.py	/^currdate = ""$/;"	v
+currtime	CH13/console6.py	/^currtime = ""$/;"	v
+currtime	CH13/curses1.py	/^currtime = ""$/;"	v
+currtime	CH13/curses2.py	/^currtime = ""$/;"	v
+curses	CH13/curses1.py	/^import curses$/;"	i
+curses	CH13/curses2.py	/^import curses$/;"	i
+cvt	CH10/PySims/ACSim/SPCSim.py	/^import AutoConvert as cvt$/;"	i
+cvt	CH10/PySims/DevSim/DevSim.py	/^import  SimLib.AutoConvert as cvt$/;"	i
+data	CH10/PySims/SimLib/FileUtils.py	/^import  TimeUtils           # time and data utilities$/;"	i
+data	CH12/FileUtils.py	/^import  TimeUtils           # time and data utilities$/;"	i
+data	CH14/read183dmm.py	/^            data = instr[4:len(instr)-1]$/;"	v
+data_avg	CH11/sampAvg.py	/^data_avg = 0$/;"	v
+data_sum	CH11/sampAvg.py	/^data_sum = 0$/;"	v
+data_val	CH12/pack_struct.py	/^data_val = 2.355$/;"	v
+data_val	CH12/pack_struct_file.py	/^data_val = 2.355$/;"	v
+data_val	CH12/pack_struct_obj.py	/^data_val = 2.355$/;"	v
+data_vals	CH13/console6.py	/^data_vals = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]$/;"	v
+data_vals	CH13/curses1.py	/^data_vals = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]$/;"	v
+data_vals	CH13/curses2.py	/^data_vals = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]$/;"	v
+datapoint	CH04/get_data.c	/^} datapoint;$/;"	t	typeref:struct:__anon1	file:
+datavals	CH12/PGMWrite.py	/^    datavals = []$/;"	v
+datavals	CH12/pack_struct_obj.py	/^datavals = (seq_num, chan, mode, data_val, err_msg)$/;"	v
+datetime	CH10/PySims/SimLib/TimeUtils.py	/^import  datetime$/;"	i
+datetime	CH12/TimeUtils.py	/^import  datetime$/;"	i
+datetime	CH13/console6.py	/^import datetime$/;"	i
+datetime	CH13/curses1.py	/^import datetime$/;"	i
+datetime	CH13/curses2.py	/^import datetime$/;"	i
+definitions	CH10/PySims/SimLib/FileUtils.py	/^import  RetCodes    as RC   # shared return code definitions$/;"	i
+definitions	CH12/FileUtils.py	/^import  RetCodes    as RC   # shared return code definitions$/;"	i
+delay_time	CH09/bangbang.py	/^delay_time = 0.1    # loop delay time$/;"	v
+demoGUI	CH13/tkdemo1.py	/^class demoGUI(Frame):$/;"	c	inherits:Frame
+demoGUI	CH13/tkdemo2.py	/^class demoGUI(Frame):$/;"	c	inherits:Frame
+dev_handle	CH05/PDev.h	/^typedef int dev_handle;$/;"	t
+dev_handle	CH05/PDevAPI.c	/^    int     dev_handle;$/;"	v
+device	CH09/bangbang.py	/^device     = 0$/;"	v
+discin	CH13/console1.py	/^discin    = [0,1,0,0,0,0,0,0]$/;"	v
+discin	CH13/console2.py	/^discin    = [0,0,0,0,0,0,0,0]$/;"	v
+discin	CH13/console3.py	/^discin    = [0,0,0,0,0,0,0,0]$/;"	v
+discin	CH13/console4.py	/^discin    = [0,0,0,0,0,0,0,0]$/;"	v
+discin	CH13/console5.py	/^discin    = [0,0,0,0,0,0,0,0]$/;"	v
+discstate	CH13/console1.py	/^discstate = ['OFF','OFF','OFF','OFF','OFF','OFF','OFF','OFF']$/;"	v
+discstate	CH13/console2.py	/^discstate = ['OFF','OFF','OFF','OFF','OFF','OFF','OFF','OFF']$/;"	v
+discstate	CH13/console3.py	/^discstate = ['OFF','OFF','OFF','OFF','OFF','OFF','OFF','OFF']$/;"	v
+discstate	CH13/console4.py	/^discstate = ['OFF','OFF','OFF','OFF','OFF','OFF','OFF','OFF']$/;"	v
+discstate	CH13/console5.py	/^discstate = ['OFF','OFF','OFF','OFF','OFF','OFF','OFF','OFF']$/;"	v
+dpoint	CH04/get_data.c	/^datapoint *dpoint[10];$/;"	v
+drawData	CH13/console2.py	/^def drawData():$/;"	f	access:public
+drawData	CH13/console3.py	/^def drawData():$/;"	f	access:public
+drawData	CH13/console4.py	/^def drawData():$/;"	f	access:public
+drawData	CH13/console5.py	/^def drawData():$/;"	f	access:public
+drec	CH12/ctypes_struct.py	/^drec = DataRecord()$/;"	v
+drec	CH12/ctypes_struct2.py	/^drec = DataRecord(1, 4, 0, 2.355, '030')$/;"	v
+drec	CH12/ctypes_struct_file.py	/^drec = DataRecord()$/;"	v
+drec	CH12/ctypes_struct_file2.py	/^drec = DataRecord()$/;"	v
+drec	CH12/pack_struct_file.py	/^drec = DataRecord()$/;"	v
+drec2	CH12/ctypes_struct_file.py	/^drec2 = DataRecord()$/;"	v
+drec2	CH12/ctypes_struct_file2.py	/^drec2 = [DataRecord() for q in range(0,10)]$/;"	v
+dumpCFG	CH10/PySims/ACSim/SPCSim.py	/^    def dumpCFG(self):$/;"	f	access:public
+err_codes	CH10/PySims/SimLib/RetCodes.py	/^err_codes = ["NO_ERR", "ACTIVE", "INACTIVE", "DISABLED", "DEV_ON", "DEV_OFF",$/;"	v
+err_codes	CH12/RetCodes.py	/^err_codes = ["NO_ERR", "ACTIVE", "INACTIVE", "DISABLED", "DEV_ON", "DEV_OFF",$/;"	v
+err_defs	CH10/PySims/SimLib/RetCodes.py	/^err_defs =  {"NO_ERR"            : "No error",$/;"	v
+err_defs	CH12/RetCodes.py	/^err_defs =  {"NO_ERR"            : "No error",$/;"	v
+err_msg	CH12/pack_struct.py	/^err_msg = '030'$/;"	v
+err_msg	CH12/pack_struct_file.py	/^err_msg = '030'$/;"	v
+err_msg	CH12/pack_struct_obj.py	/^err_msg = '030'$/;"	v
+errcnt	CH11/grabData.py	/^errcnt    = 0$/;"	v
+errcntmax	CH11/grabData.py	/^errcntmax = 9   # this will result in 10 counts before lockout$/;"	v
+exit_loop	CH13/console6.py	/^exit_loop = False$/;"	v
+f	CH10/gnuplot/gptest.py	/^f = os.popen("gnuplot", "w")$/;"	v
+fcode	CH14/read183dmm.py	/^            fcode = instr[0]$/;"	v
+fetch_data	CH14/read183dmm.py	/^                fetch_data = False$/;"	v
+fetch_data	CH14/read183dmm.py	/^        fetch_data = False$/;"	v
+fetch_data	CH14/read183dmm.py	/^fetch_data = True$/;"	v
+fimg	CH12/pgmtst.py	/^fimg = open("pgmtest.pgm","w")$/;"	v
+fin	CH10/PySims/SimLib/FileUtils.py	/^    fin  = ASCIIDataRead()$/;"	v
+fin	CH12/FileUtils.py	/^    fin  = ASCIIDataRead()$/;"	v
+fin	CH12/ctypes_struct_file.py	/^fin = open('bindata.dat', 'rb')$/;"	v
+fin	CH12/ctypes_struct_file2.py	/^fin = open('bindata.dat', 'rb')$/;"	v
+fin	CH12/pack_struct_file.py	/^fin = open('bindata.dat', 'rb')$/;"	v
+fin	CH12/readascii.py	/^    fin = open(fname, 'r')$/;"	v
+fname	CH12/readascii.py	/^fname    = ''   # Empty string as default input file name$/;"	v
+for	CH03/pgmrand.py	/^import random as rnd   # use import alias for convenience$/;"	i
+for	CH09/bangbang.py	/^import time     # needed for sleep$/;"	i
+fout	CH10/PySims/SimLib/FileUtils.py	/^    fout = ASCIIDataWrite()$/;"	v
+fout	CH12/FileUtils.py	/^    fout = ASCIIDataWrite()$/;"	v
+fout	CH12/ctypes_struct_file.py	/^fout = open('bindata.dat', 'wb')$/;"	v
+fout	CH12/ctypes_struct_file2.py	/^fout = open('bindata.dat', 'wb')$/;"	v
+fout	CH12/pack_struct_file.py	/^fout = open('bindata.dat','wb')$/;"	v
+frame	CH13/wxexample.py	/^    frame = create(None)$/;"	v
+funcutils	CH10/gnuplot/PIDPlot2.py	/^import Gnuplot, Gnuplot.funcutils$/;"	i
+genTrigger	CH10/PySims/DevSim/DevSim.py	/^    def genTrigger(self, inchan):$/;"	m	class:DevSim	access:public
+generateBars	CH13/bgansi.py	/^def generateBars():$/;"	f	access:public
+getCommand	CH13/console4.py	/^def getCommand():$/;"	f	access:public
+getCommand	CH13/console5.py	/^def getCommand():$/;"	f	access:public
+getCommand	CH13/console6.py	/^def getCommand():$/;"	f	access:public
+getCyclicLevel	CH10/PySims/DevSim/DevSim.py	/^    def getCyclicLevel(self, inchan):$/;"	m	class:DevSim	access:public
+getCyclicOffset	CH10/PySims/DevSim/DevSim.py	/^    def getCyclicOffset(self):$/;"	m	class:DevSim	access:public
+getCyclicRate	CH10/PySims/DevSim/DevSim.py	/^    def getCyclicRate(self, inchan):$/;"	m	class:DevSim	access:public
+getCyclicType	CH10/PySims/DevSim/DevSim.py	/^    def getCyclicType(self, inchan):$/;"	m	class:DevSim	access:public
+getData	CH10/PySims/SimLib/FileUtils.py	/^    def getData(self):$/;"	m	class:ASCIIDataRead	access:public
+getData	CH12/FileUtils.py	/^    def getData(self):$/;"	m	class:ASCIIDataRead	access:public
+getDataScale	CH10/PySims/DevSim/DevSim.py	/^    def getDataScale(self, outchan):$/;"	m	class:DevSim	access:public
+getDataVals	CH13/console6.py	/^def getDataVals():$/;"	f	access:public
+getDataVals	CH13/curses1.py	/^def getDataVals():$/;"	f	access:public
+getDataVals	CH13/curses2.py	/^def getDataVals():$/;"	f	access:public
+getDate	CH13/console6.py	/^def getDate():$/;"	f	access:public
+getDate	CH13/curses1.py	/^def getDate():$/;"	f	access:public
+getDate	CH13/curses2.py	/^def getDate():$/;"	f	access:public
+getFunction	CH10/PySims/DevSim/DevSim.py	/^    def getFunction(self, inchan):$/;"	m	class:DevSim	access:public
+getInputSrc	CH10/PySims/DevSim/DevSim.py	/^    def getInputSrc(self, inchan):$/;"	m	class:DevSim	access:public
+getOpt	CH10/PySims/ACSim/SPCSim.py	/^    def getOpt(self, cfgobj, section, option):$/;"	f	access:public
+getOpt	CH10/PySims/DevSim/DevSim.py	/^    def getOpt(self, cfgobj, section, option):$/;"	m	class:DevSim	access:public
+getOutputDest	CH10/PySims/DevSim/DevSim.py	/^    def getOutputDest(self, outchan):$/;"	m	class:DevSim	access:public
+getParamList	CH10/PySims/ACSim/SPCSim.py	/^    def getParamList(self, cmdstrs, pcnt):$/;"	m	class:SPCSim	access:public
+getParamValFloat	CH10/PySims/ACSim/SPCSim.py	/^    def getParamValFloat(self, cmdstrs, pidx):$/;"	m	class:SPCSim	access:public
+getParamValInt	CH10/PySims/ACSim/SPCSim.py	/^    def getParamValInt(self, cmdstrs, pidx):$/;"	m	class:SPCSim	access:public
+getRandScale	CH10/PySims/DevSim/DevSim.py	/^    def getRandScale(self, outchan):$/;"	m	class:DevSim	access:public
+getSimTime	CH10/PySims/DevSim/DevSim.py	/^    def getSimTime(self):$/;"	m	class:DevSim	access:public
+getTS	CH10/PySims/SimLib/TimeUtils.py	/^def getTS():$/;"	f	access:public
+getTS	CH12/TimeUtils.py	/^def getTS():$/;"	f	access:public
+getTime	CH13/console6.py	/^def getTime():$/;"	f	access:public
+getTime	CH13/curses1.py	/^def getTime():$/;"	f	access:public
+getTime	CH13/curses2.py	/^def getTime():$/;"	f	access:public
+getTrigMode	CH10/PySims/DevSim/DevSim.py	/^    def getTrigMode(self, inchan):$/;"	m	class:DevSim	access:public
+getinput	CH13/console4.py	/^getinput = threading.Thread(target=getCommand)$/;"	v
+getinput	CH13/console6.py	/^getinput = threading.Thread(target=getCommand)$/;"	v
+getopt	CH10/PySims/ACSim/SPCSim.py	/^import getopt$/;"	i
+getopt	CH12/readascii.py	/^import getopt$/;"	i
+getstr	CH14/read183dmm.py	/^                getstr = False$/;"	v
+getstr	CH14/read183dmm.py	/^    getstr = True$/;"	v
+gp	CH10/gnuplot/PIDPlot.py	/^gp = os.popen("gnuplot", "w")$/;"	v
+gp	CH10/gnuplot/PIDPlot2.py	/^gp = Gnuplot.Gnuplot()$/;"	v
+grabData	CH11/grabData.py	/^def grabData():$/;"	f	access:public
+hdrskip	CH12/readascii.py	/^hdrskip  = 0    # default header line skip is zero (no header lines)$/;"	v
+hdrstr	CH03/pgmrand.py	/^hdrstr = "P5\\n%d\\n%d\\n%d\\n" % (width, height, pxsize)$/;"	v
+hdrstr	CH12/pgmtst.py	/^hdrstr = "P5\\n%d\\n%d\\n%d\\n" % (width, height, pxsize)$/;"	v
+height	CH03/pgmrand.py	/^height = 256$/;"	v
+height	CH12/pgmtst.py	/^height = 256$/;"	v
+i	CH03/argshow.py	/^i = 1$/;"	v
+i	CH04/get_data.c	/^int i;$/;"	v
+import	CH03/pgmrand.py	/^import random as rnd   # use import alias for convenience$/;"	i
+import	CH10/PySims/DevSim/DevSim.py	/^from    SimLib.FileUtils import ASCIIDataRead   # class import$/;"	c	inherits:
+import	CH10/PySims/DevSim/DevSim.py	/^from    SimLib.FileUtils import ASCIIDataRead   # class import$/;"	i
+inchar	CH14/read183dmm.py	/^        inchar = sport.read(1)$/;"	v
+indexDown	CH13/SimpleANSI.py	/^    def indexDown(self):$/;"	m	class:ANSITerm	access:public
+indexUp	CH13/SimpleANSI.py	/^    def indexUp(self):$/;"	m	class:ANSITerm	access:public
+initButtons	CH13/wxexample.py	/^    def initButtons(self):$/;"	m	class:Frame1	access:public
+initData	CH13/console3.py	/^def initData():$/;"	f	access:public
+initData	CH13/console4.py	/^def initData():$/;"	f	access:public
+initData	CH13/console5.py	/^def initData():$/;"	f	access:public
+initMsg	CH10/PySims/ACSim/SPCSim.py	/^    def initMsg(self):$/;"	f	access:public
+input_v	CH04/get_data.c	/^    float input_v;$/;"	m	struct:__anon1	file:	access:public
+instr	CH13/SimpleANSI.py	/^    instr = term.readInput()$/;"	v
+instr	CH14/read183dmm.py	/^        instr = ""$/;"	v
+instr	CH14/read183dmm.py	/^instr = ""$/;"	v
+inval	CH14/u3ledblink.py	/^    inval = u3d.getFeedback(AINcmd)[0]$/;"	v
+kpval	CH10/gnuplot/PIDPlot.py	/^    kpval = 0.9 + (i * .1)$/;"	v
+kpval	CH10/gnuplot/PIDPlot2.py	/^    kpval = 0.9 + (i * .1)$/;"	v
+lib	CH13/wxexample.py	/^import wx.lib.buttons$/;"	i
+lineparts	CH12/readascii.py	/^    lineparts = line.split()$/;"	v
+main	CH04/c_switch.c	/^int main(void)$/;"	f	signature:(void)
+main	CH04/get_data.c	/^int main(void)$/;"	f	signature:(void)
+main	CH04/sine_print.c	/^int main()$/;"	f
+main	CH04/sine_print2.c	/^int main()$/;"	f
+mainScreen	CH13/console6.py	/^def mainScreen():$/;"	f	access:public
+mainScreen	CH13/curses1.py	/^def mainScreen(win):$/;"	f	access:public
+mainScreen	CH13/curses2.py	/^def mainScreen(win):$/;"	f	access:public
+mainloop	CH13/curses1.py	/^def mainloop(win):$/;"	f	access:public
+mainloop	CH13/curses2.py	/^def mainloop(win):$/;"	f	access:public
+math	CH10/PySims/DevSim/DevSim.py	/^import  math$/;"	i
+maxtries	CH14/read183dmm.py	/^maxtries = 5    # timeout = read timeout * maxtries$/;"	v
+mcode	CH14/read183dmm.py	/^            mcode = instr[1]$/;"	v
+mode	CH10/PySims/ACSim/SPCSim.py	/^                    mode = CONSOLE$/;"	v
+mode	CH10/PySims/ACSim/SPCSim.py	/^                    mode = int(opt_val)$/;"	v
+mode	CH10/PySims/ACSim/SPCSim.py	/^    mode = CONSOLE$/;"	v
+mode	CH12/pack_struct.py	/^mode = 0$/;"	v
+mode	CH12/pack_struct_file.py	/^mode = 0$/;"	v
+mode	CH12/pack_struct_obj.py	/^mode = 0$/;"	v
+mon	CH10/PySims/ACSim/SPCSim.py	/^                    mon = False$/;"	v
+mon	CH10/PySims/ACSim/SPCSim.py	/^                    mon = int(opt_val)$/;"	v
+mon	CH10/PySims/ACSim/SPCSim.py	/^    mon  = False$/;"	v
+moveBack	CH13/SimpleANSI.py	/^    def moveBack(self, count):$/;"	m	class:ANSITerm	access:public
+moveDown	CH13/SimpleANSI.py	/^    def moveDown(self, count):$/;"	m	class:ANSITerm	access:public
+moveFoward	CH13/SimpleANSI.py	/^    def moveFoward(self, count):$/;"	m	class:ANSITerm	access:public
+moveHome	CH13/SimpleANSI.py	/^    def moveHome(self):$/;"	m	class:ANSITerm	access:public
+moveNextline	CH13/SimpleANSI.py	/^    def moveNextline(self):$/;"	m	class:ANSITerm	access:public
+movePos	CH13/SimpleANSI.py	/^    def movePos(self, row, col):$/;"	m	class:ANSITerm	access:public
+moveUp	CH13/SimpleANSI.py	/^    def moveUp(self, count):$/;"	m	class:ANSITerm	access:public
+msglock	CH11/grabData.py	/^msglock   = False$/;"	v
+msvcrt	CH13/console5.py	/^import msvcrt$/;"	i
+needed	CH09/bangbang.py	/^import time     # needed for sleep$/;"	i
+openInput	CH10/PySims/SimLib/FileUtils.py	/^    def openInput(self, path, file_name):$/;"	m	class:ASCIIDataRead	access:public
+openInput	CH12/FileUtils.py	/^    def openInput(self, path, file_name):$/;"	m	class:ASCIIDataRead	access:public
+openOutput	CH10/PySims/SimLib/FileUtils.py	/^    def openOutput(self, path, file_name, reset_file=False):$/;"	m	class:ASCIIDataWrite	access:public
+openOutput	CH12/FileUtils.py	/^    def openOutput(self, path, file_name, reset_file=False):$/;"	m	class:ASCIIDataWrite	access:public
+openSubWindow	CH13/curses2.py	/^def openSubWindow(win):$/;"	f	access:public
+opt_codes	CH10/PySims/ACSim/SPCSim.py	/^    opt_codes   = "i:p:m:"$/;"	v
+os	CH10/PySims/SimLib/FileUtils.py	/^import  os$/;"	i
+os	CH10/gnuplot/PIDPlot.py	/^import os$/;"	i
+os	CH10/gnuplot/PIDPlot2.py	/^import os$/;"	i
+os	CH10/gnuplot/gptest.py	/^import os$/;"	i
+os	CH12/FileUtils.py	/^import  os$/;"	i
+os	CH13/console2.py	/^import os$/;"	i
+os	CH13/console3.py	/^import os$/;"	i
+os	CH13/console4.py	/^import os$/;"	i
+os	CH13/console5.py	/^import os$/;"	i
+out_port	CH05/PDevAPI.c	/^    int     out_port;$/;"	v
+out_value	CH05/PDevAPI.c	/^    int     out_value;$/;"	v
+outflush	CH13/bgansi.py	/^outflush = stdout.flush$/;"	v
+outpix	CH03/pgmrand.py	/^outpix = "".join(map(chr,pixels))$/;"	v
+outpix	CH12/pgmtst.py	/^outpix = "".join(map(chr,pixels))$/;"	v
+output	CH13/bgansi.py	/^output   = stdout.write$/;"	v
+outstr	CH03/pgmrand.py	/^outstr = hdrstr + outpix$/;"	v
+outstr	CH12/pgmtst.py	/^outstr = hdrstr + outpix$/;"	v
+pixels	CH03/pgmrand.py	/^pixels = []$/;"	v
+pixels	CH12/pgmtst.py	/^pixels = []$/;"	v
+pixval	CH03/pgmrand.py	/^            pixval = pxsize$/;"	v
+pixval	CH03/pgmrand.py	/^        pixval = 2**rnd.randint(0,8)$/;"	v
+pixval	CH12/pgmtst.py	/^            pixval = pxsize$/;"	v
+pixval	CH12/pgmtst.py	/^        pixval = int(255 * rnd.random())$/;"	v
+port	CH10/PySims/ACSim/SPCSim.py	/^                    port = None$/;"	v
+port	CH10/PySims/ACSim/SPCSim.py	/^                    port = opt_val$/;"	v
+port	CH10/PySims/ACSim/SPCSim.py	/^    port = None$/;"	v
+pxsize	CH03/pgmrand.py	/^pxsize = 255      # specify an 8 bpp image$/;"	v
+pxsize	CH12/pgmtst.py	/^pxsize = 255$/;"	v
+ran	CH13/bgansi.py	/^ran = random.random$/;"	v
+ran	CH13/console6.py	/^ran = random.random$/;"	v
+ran	CH13/curses1.py	/^ran = random.random$/;"	v
+ran	CH13/curses2.py	/^ran = random.random$/;"	v
+random	CH10/PySims/DevSim/DevSim.py	/^import  random$/;"	i
+random	CH13/bgansi.py	/^import random$/;"	i
+random	CH13/console6.py	/^import random$/;"	i
+random	CH13/curses1.py	/^import random$/;"	i
+random	CH13/curses2.py	/^import random$/;"	i
+rc	CH12/ctypes_struct_file2.py	/^        rc = fin.readinto(drec2[i])$/;"	v
+rcode	CH14/read183dmm.py	/^            rcode = instr[2]$/;"	v
+readData	CH10/PySims/DevSim/DevSim.py	/^    def readData(self, outchan, block=True, timeout=10.0):$/;"	m	class:DevSim	access:public
+readData	CH13/console3.py	/^def readData():$/;"	f	access:public
+readData	CH13/console4.py	/^def readData():$/;"	f	access:public
+readData	CH13/console5.py	/^def readData():$/;"	f	access:public
+readDataFields	CH10/PySims/SimLib/FileUtils.py	/^    def readDataFields(self):$/;"	m	class:ASCIIDataRead	access:public
+readDataFields	CH12/FileUtils.py	/^    def readDataFields(self):$/;"	m	class:ASCIIDataRead	access:public
+readDataRecord	CH10/PySims/SimLib/FileUtils.py	/^    def readDataRecord(self):$/;"	m	class:ASCIIDataRead	access:public
+readDataRecord	CH12/FileUtils.py	/^    def readDataRecord(self):$/;"	m	class:ASCIIDataRead	access:public
+readInput	CH13/SimpleANSI.py	/^    def readInput(self, reset=False):$/;"	m	class:ANSITerm	access:public
+resetDev	CH13/SimpleANSI.py	/^    def resetDev(self):$/;"	m	class:ANSITerm	access:public
+restorePos	CH13/SimpleANSI.py	/^    def restorePos(self):$/;"	m	class:ANSITerm	access:public
+return	CH10/PySims/SimLib/FileUtils.py	/^import  RetCodes    as RC   # shared return code definitions$/;"	i
+return	CH12/FileUtils.py	/^import  RetCodes    as RC   # shared return code definitions$/;"	i
+rinput	CH09/propcontrol.py	/^rinput = 0$/;"	v
+rnd	CH03/pgmrand.py	/^import random as rnd   # use import alias for convenience$/;"	i
+rnd	CH12/pgmtst.py	/^import random as rnd$/;"	i
+runTest	CH13/bgansi.py	/^def runTest():$/;"	f	access:public
+running	CH13/console4.py	/^running = True$/;"	v
+running	CH13/console5.py	/^running = True$/;"	v
+sampAvg	CH11/sampAvg.py	/^def sampAvg(data_val):$/;"	f	access:public
+samp_cnt	CH11/sampAvg.py	/^samp_cnt = 0$/;"	v
+savePos	CH13/SimpleANSI.py	/^    def savePos(self):$/;"	m	class:ANSITerm	access:public
+sendData	CH10/PySims/DevSim/DevSim.py	/^    def sendData(self, inchan, dataval):$/;"	m	class:DevSim	access:public
+seq_num	CH12/pack_struct.py	/^seq_num = 1$/;"	v
+seq_num	CH12/pack_struct_file.py	/^seq_num = 1$/;"	v
+seq_num	CH12/pack_struct_obj.py	/^seq_num = 1$/;"	v
+serial	CH10/PySims/ACSim/SPCSim.py	/^import serial$/;"	i
+serial	CH14/read183dmm.py	/^import serial$/;"	i
+setCyclicLevel	CH10/PySims/DevSim/DevSim.py	/^    def setCyclicLevel(self, inchan, level):$/;"	m	class:DevSim	access:public
+setCyclicOffset	CH10/PySims/DevSim/DevSim.py	/^    def setCyclicOffset(self, offset):$/;"	m	class:DevSim	access:public
+setCyclicRate	CH10/PySims/DevSim/DevSim.py	/^    def setCyclicRate(self, inchan, rate):$/;"	m	class:DevSim	access:public
+setCyclicType	CH10/PySims/DevSim/DevSim.py	/^    def setCyclicType(self, inchan, cyctype):$/;"	m	class:DevSim	access:public
+setDataFile	CH10/PySims/DevSim/DevSim.py	/^    def setDataFile(self, infile, path, filename, recycle=True):$/;"	m	class:DevSim	access:public
+setDataScale	CH10/PySims/DevSim/DevSim.py	/^    def setDataScale(self, outchan, scale):$/;"	m	class:DevSim	access:public
+setFunction	CH10/PySims/DevSim/DevSim.py	/^    def setFunction(self, inchan, funcstr=""):$/;"	m	class:DevSim	access:public
+setInputSrc	CH10/PySims/DevSim/DevSim.py	/^    def setInputSrc(self, inchan, source):$/;"	m	class:DevSim	access:public
+setOutputDest	CH10/PySims/DevSim/DevSim.py	/^    def setOutputDest(self, outchan, source):$/;"	m	class:DevSim	access:public
+setRandScale	CH10/PySims/DevSim/DevSim.py	/^    def setRandScale(self, outchan, scale):$/;"	m	class:DevSim	access:public
+setSimTime	CH10/PySims/DevSim/DevSim.py	/^    def setSimTime(self, rate):$/;"	m	class:DevSim	access:public
+setTriggerMode	CH10/PySims/DevSim/DevSim.py	/^    def setTriggerMode(self, inchan, mode):$/;"	m	class:DevSim	access:public
+shared	CH10/PySims/SimLib/FileUtils.py	/^import  RetCodes    as RC   # shared return code definitions$/;"	i
+shared	CH12/FileUtils.py	/^import  RetCodes    as RC   # shared return code definitions$/;"	i
+short_count	CH14/read183dmm.py	/^            short_count = 0$/;"	v
+short_count	CH14/read183dmm.py	/^short_count = 0$/;"	v
+sleep	CH09/bangbang.py	/^import time     # needed for sleep$/;"	i
+sobj	CH12/pack_struct_obj.py	/^sobj = struct.Struct('hhhd3s')$/;"	v
+sport	CH14/read183dmm.py	/^sport = serial.Serial()$/;"	v
+srec	CH12/pack_struct.py	/^srec = struct.pack('hhhd3s', seq_num, chan, mode, data_val, err_msg)$/;"	v
+srec	CH12/pack_struct_file.py	/^srec = struct.pack('hhhd3s', seq_num, chan, mode, data_val, err_msg)$/;"	v
+srec	CH12/pack_struct_obj.py	/^srec = sobj.pack(*datavals)$/;"	v
+startcol	CH12/readascii.py	/^startcol = 0    # default start is column zero (first)$/;"	v
+startup	CH13/curses1.py	/^def startup():$/;"	f	access:public
+startup	CH13/curses2.py	/^def startup():$/;"	f	access:public
+stdout	CH13/SimpleANSI.py	/^from sys import stdout$/;"	i
+stdout	CH13/bgansi.py	/^from sys import stdout$/;"	i
+struct	CH12/PGMWrite.py	/^import struct$/;"	i
+struct	CH12/pack_struct.py	/^import struct$/;"	i
+struct	CH12/pack_struct_file.py	/^import struct$/;"	i
+struct	CH12/pack_struct_obj.py	/^import struct$/;"	i
+sys	CH03/argshow.py	/^import sys$/;"	i
+sys	CH10/PySims/ACSim/SPCSim.py	/^import sys$/;"	i
+sys	CH12/readascii.py	/^import sys$/;"	i
+temp_sense	CH09/bangbang.py	/^temp_sense = 0$/;"	v
+term	CH13/SimpleANSI.py	/^    term = ANSITerm(None, 0)$/;"	v
+term	CH13/console6.py	/^term = SimpleANSI.ANSITerm(None, 0)$/;"	v
+testDevSim1	CH10/PySims/TestDevSim1.py	/^def testDevSim1():$/;"	f	access:public
+testDevSim2	CH10/PySims/TestDevSim2.py	/^def testDevSim2():$/;"	f	access:public
+testDevSim3	CH10/PySims/TestDevSim3.py	/^def testDevSim3():$/;"	f	access:public
+testDevSim4	CH10/PySims/TestDevSim4.py	/^def testDevSim4():$/;"	f	access:public
+testDevSim5	CH10/PySims/TestDevSim5.py	/^def testDevSim5():$/;"	f	access:public
+testDevSim6	CH10/PySims/TestDevSim6.py	/^def testDevSim6():$/;"	f	access:public
+testDevSim6	CH10/PySims/TestDevSim7.py	/^def testDevSim6():$/;"	f	access:public
+threading	CH10/PySims/DevSim/DevSim.py	/^import  threading$/;"	i
+threading	CH13/console4.py	/^import threading$/;"	i
+threading	CH13/console6.py	/^import threading$/;"	i
+time	CH09/PID.py	/^import time$/;"	i
+time	CH09/bangbang.py	/^import time     # needed for sleep$/;"	i
+time	CH10/PySims/ACSim/SPCSim.py	/^import time$/;"	i
+time	CH10/PySims/DevSim/DevSim.py	/^import  time$/;"	i
+time	CH10/PySims/SimLib/FileUtils.py	/^import  TimeUtils           # time and data utilities$/;"	i
+time	CH10/PySims/SimLib/TimeUtils.py	/^import  time$/;"	i
+time	CH10/PySims/TestDevSim1.py	/^import  time$/;"	i
+time	CH10/PySims/TestDevSim2.py	/^import  time$/;"	i
+time	CH10/PySims/TestDevSim3.py	/^import  time$/;"	i
+time	CH10/PySims/TestDevSim4.py	/^import  time$/;"	i
+time	CH10/PySims/TestDevSim5.py	/^import  time$/;"	i
+time	CH10/PySims/TestDevSim6.py	/^import  time$/;"	i
+time	CH10/PySims/TestDevSim7.py	/^import  time$/;"	i
+time	CH10/gnuplot/PID.py	/^import time$/;"	i
+time	CH10/gnuplot/PIDPlot.py	/^import time$/;"	i
+time	CH10/gnuplot/PIDPlot2.py	/^import time$/;"	i
+time	CH10/gnuplot/gptest.py	/^import time$/;"	i
+time	CH12/FileUtils.py	/^import  TimeUtils           # time and data utilities$/;"	i
+time	CH12/TimeUtils.py	/^import  time$/;"	i
+time	CH13/SimpleANSI.py	/^import time$/;"	i
+time	CH13/bgansi.py	/^import time$/;"	i
+time	CH13/console1.py	/^import time$/;"	i
+time	CH13/console2.py	/^import time$/;"	i
+time	CH13/console3.py	/^import time$/;"	i
+time	CH13/console4.py	/^import time$/;"	i
+time	CH13/console5.py	/^import time$/;"	i
+time	CH13/console6.py	/^import time$/;"	i
+time	CH13/curses1.py	/^import time$/;"	i
+time	CH13/curses2.py	/^import time$/;"	i
+time	CH13/tkdemo2.py	/^import time$/;"	i
+time	CH14/u3ledblink.py	/^import time$/;"	i
+timeit	CH10/gnuplot/PIDPlot.py	/^import timeit$/;"	i
+timeout_cnt	CH14/read183dmm.py	/^            timeout_cnt = 0     # reset timeout counter$/;"	v
+timeout_cnt	CH14/read183dmm.py	/^timeout_cnt = 0$/;"	v
+toggle	CH14/u3ledblink.py	/^        toggle = 0$/;"	v
+toggle	CH14/u3ledblink.py	/^        toggle = 1$/;"	v
+toggle	CH14/u3ledblink.py	/^toggle = 0$/;"	v
+traceback	CH13/curses1.py	/^import traceback$/;"	i
+traceback	CH13/curses2.py	/^import traceback$/;"	i
+u3	CH14/u3ledblink.py	/^import u3$/;"	i
+u3d	CH14/u3ledblink.py	/^u3d = u3.U3()$/;"	v
+unit_id	CH04/get_data.c	/^    int unit_id;$/;"	m	struct:__anon1	file:	access:public
+updateBar	CH13/bgansi.py	/^def updateBar(barnum, extent):$/;"	f	access:public
+updt_cnt1	CH13/console6.py	/^updt_cnt1 = 0$/;"	v
+updt_cnt1	CH13/curses1.py	/^updt_cnt1 = 0$/;"	v
+updt_cnt1	CH13/curses2.py	/^updt_cnt1 = 0$/;"	v
+updt_cnt2	CH13/console6.py	/^updt_cnt2 = 0$/;"	v
+updt_cnt2	CH13/curses1.py	/^updt_cnt2 = 0$/;"	v
+updt_cnt2	CH13/curses2.py	/^updt_cnt2 = 0$/;"	v
+usage	CH12/readascii.py	/^def usage():$/;"	f	access:public
+use	CH03/pgmrand.py	/^import random as rnd   # use import alias for convenience$/;"	i
+utilities	CH10/PySims/SimLib/FileUtils.py	/^import  TimeUtils           # time and data utilities$/;"	i
+utilities	CH12/FileUtils.py	/^import  TimeUtils           # time and data utilities$/;"	i
+var1	CH03/globals.py	/^var1 = 0$/;"	v
+var1	CH03/globals2.py	/^var1 = 0$/;"	v
+var2	CH03/globals.py	/^var2 = 1$/;"	v
+var2	CH03/globals2.py	/^var2 = 1$/;"	v
+width	CH03/pgmrand.py	/^width  = 256$/;"	v
+width	CH12/pgmtst.py	/^width  = 256$/;"	v
+writeData	CH10/PySims/SimLib/FileUtils.py	/^    def writeData(self, dataval, use_sn=False, use_ts=False):$/;"	m	class:ASCIIDataWrite	access:public
+writeData	CH12/FileUtils.py	/^    def writeData(self, dataval, use_sn=False, use_ts=False):$/;"	m	class:ASCIIDataWrite	access:public
+writeDataVals	CH13/console6.py	/^def writeDataVals():$/;"	f	access:public
+writeDataVals	CH13/curses1.py	/^def writeDataVals(win):$/;"	f	access:public
+writeDataVals	CH13/curses2.py	/^def writeDataVals(win):$/;"	f	access:public
+writeDateTime	CH13/console6.py	/^def writeDateTime():$/;"	f	access:public
+writeDateTime	CH13/curses1.py	/^def writeDateTime(win):$/;"	f	access:public
+writeDateTime	CH13/curses2.py	/^def writeDateTime(win):$/;"	f	access:public
+writeOutput	CH13/SimpleANSI.py	/^    def writeOutput(self, outstr):$/;"	m	class:ANSITerm	access:public
+wx	CH13/wxexample.py	/^import wx$/;"	i
+wx	CH13/wxexample.py	/^import wx.lib.buttons$/;"	i
+x	CH13/console3.py	/^x = 0$/;"	v
+x	CH13/console4.py	/^x = 0$/;"	v
+x	CH13/console5.py	/^x = 0$/;"	v

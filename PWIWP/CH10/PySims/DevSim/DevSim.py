@@ -1,3 +1,4 @@
+#coding=utf-8
 #-------------------------------------------------------------------------------
 # DevSim.py
 #-------------------------------------------------------------------------------
@@ -153,7 +154,7 @@ class DevSim():
         # the simulator is running. It is set using a parameter data file (an
         # INI file).
 
-        self.debug      = False                     #: debug message output control
+        self.debug      = True                     #: debug message output control
 
         #-----------------------------------------------------------------------
         # Simulator configuration load and startup
@@ -194,7 +195,7 @@ class DevSim():
         """
         return self.simtime
 
-
+    #设置输入源
     def setInputSrc(self, inchan, source):
         """ Select the data source for an input channel.
 
