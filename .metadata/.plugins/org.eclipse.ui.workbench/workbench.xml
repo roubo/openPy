@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="35" version="2.0">
+<workbench progressCount="32" version="2.0">
 <workbenchAdvisor/>
 <window height="745" maximized="true" width="1020" x="49" y="45">
 <fastViewData fastViewLocation="1024"/>
@@ -36,9 +36,9 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="PGMImage.py" partName="PGMImage" path="/home/roubo/openPy/PGMimage/PGMImage.py" title="PGMImage" tooltip="PGMimage/PGMImage.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PGMimage/PGMImage.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="PID.py" partName="PID" path="/home/roubo/openPy/PID/PID.py" title="PID" tooltip="PID/PID.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PID/PID.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="19" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -74,8 +74,8 @@
 </view>
 <view id="org.python.pydev.navigator.view" partName="PyDev Package Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
-<expanded IMemento.internal.id="/home/roubo/openPy/PGMimage"/>
-<selected IMemento.internal.id="/home/roubo/openPy/PGMimage/PGMImage.py"/>
+<expanded IMemento.internal.id="/home/roubo/openPy/PID"/>
+<selected IMemento.internal.id="/home/roubo/openPy/PID/PID.py"/>
 </viewState>
 </view>
 </views>
@@ -184,8 +184,8 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.python.pydev.navigator.view"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.ui.internal.introview"/>
 <view id="org.python.pydev.debug.pyunit.pyUnitView"/>
+<view id="org.eclipse.ui.internal.introview"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -231,6 +231,7 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/PyDevTest/runtest"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/PyDevTest/run.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/PGMimage/PGMImage.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/PID/PID.py"/>
 </editors>
 <item historyLabel="runtest" index="0">
 <position info="not_deleted" x="0" y="19"/>
@@ -244,8 +245,11 @@
 <item historyLabel="run" index="1">
 <position info="not_deleted" x="19" y="0"/>
 </item>
-<item active="true" historyLabel="PGMImage" index="2">
+<item historyLabel="PGMImage" index="2">
 <position info="not_deleted" x="2" y="0"/>
+</item>
+<item active="true" historyLabel="PID" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -264,6 +268,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="PID.py" tooltip="PID/PID.py">
+<persistable path="/PID/PID.py"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="PGMImage.py" tooltip="PGMimage/PGMImage.py">
 <persistable path="/PGMimage/PGMImage.py"/>
 </file>
