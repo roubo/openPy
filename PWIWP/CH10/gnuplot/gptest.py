@@ -31,7 +31,7 @@ for n in range(100):
 
 f.flush() 
 
-time.sleep(2)
+time.sleep(10)
 
 
 
