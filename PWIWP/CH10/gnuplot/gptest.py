@@ -26,12 +26,13 @@ print >> f, 'set ylabel "Output" font "arial,11"'
 
 for n in range(100):
     # plot sine output with zero line (the 0 term)
-    print >> f, 'plot sin(x * %i) * 10, 0' % (n)
+    #print >> f, 'plot sin(x * %i) * 10, 0' % (n) 
+    print >> f, 'plot %i	%i"' %(n),%(n)
     time.sleep(0.1)
 
 f.flush() 
 
-time.sleep(2)
+time.sleep(10)
 
 
 
