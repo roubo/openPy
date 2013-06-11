@@ -1,0 +1,64 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APP_BINARY	Makefile	/^APP_BINARY=litearry$/;"	m
+BIN	Makefile	/^BIN=\/usr\/local\/bin$/;"	m
+CC	Makefile	/^CC=gcc$/;"	m
+CPP	Makefile	/^CPP=g++$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $(CFLAGS)$/;"	m
+Data	litearry.c	/^char Data[512];$/;"	v
+FALSE	litearry.c	34;"	d	file:
+INSTALL	Makefile	/^INSTALL=install$/;"	m
+INSTALLROOT	Makefile	/^INSTALLROOT=$(PWD)$/;"	m
+NG	litearry.c	41;"	d	file:
+NOMAL	litearry.c	40;"	d	file:
+OBJECTS	Makefile	/^OBJECTS= litearry.o$/;"	m
+RGB888toRGB565	litearry.c	/^unsigned short RGB888toRGB565(unsigned char red, unsigned char green, unsigned char blue)$/;"	f	signature:(unsigned char red, unsigned char green, unsigned char blue)
+SDLFLAGS	Makefile	/^SDLFLAGS = $(shell sdl-config --cflags)$/;"	m
+SDLLIBS	Makefile	/^SDLLIBS = $(shell sdl-config --libs) $/;"	m
+SDL_VIDEO_Flags	litearry.c	/^static unsigned int SDL_VIDEO_Flags = SDL_ANYFORMAT | SDL_DOUBLEBUF | SDL_RESIZABLE;$/;"	v	file:
+TRUE	litearry.c	35;"	d	file:
+VERSION	Makefile	/^VERSION = 0.2.1$/;"	m
+VideoBuffer	litearry.c	/^typedef struct VideoBuffer$/;"	s	file:
+VideoBuffer	litearry.c	/^} VideoBuffer;$/;"	t	typeref:struct:VideoBuffer	file:
+VideoBuffer::length	litearry.c	/^	size_t length;$/;"	m	struct:VideoBuffer	file:	access:public
+VideoBuffer::offset	litearry.c	/^	size_t offset;$/;"	m	struct:VideoBuffer	file:	access:public
+VideoBuffer::start	litearry.c	/^	unsigned char *start;$/;"	m	struct:VideoBuffer	file:	access:public
+WORDLEN	litearry.c	36;"	d	file:
+YUYVToRGB888	litearry.c	/^int YUYVToRGB888(unsigned char *yuyv,unsigned char *rgb888,unsigned int width,unsigned int height)$/;"	f	signature:(unsigned char *yuyv,unsigned char *rgb888,unsigned int width,unsigned int height)
+buffers	litearry.c	/^VideoBuffer *buffers;$/;"	v
+convert_yuv_rgb_pixel	litearry.c	/^unsigned int convert_yuv_rgb_pixel(int y,int u,int v)$/;"	f	signature:(int y,int u,int v)
+fb	litearry.c	/^	int fb;$/;"	m	struct:fb_dev	file:	access:public
+fb	litearry.c	/^static int fb;$/;"	v	file:
+fb_bpp	litearry.c	/^	int fb_bpp;$/;"	m	struct:fb_dev	file:	access:public
+fb_dev	litearry.c	/^struct fb_dev$/;"	s	file:
+fb_dev::fb	litearry.c	/^	int fb;$/;"	m	struct:fb_dev	file:	access:public
+fb_dev::fb_bpp	litearry.c	/^	int fb_bpp;$/;"	m	struct:fb_dev	file:	access:public
+fb_dev::fb_gray	litearry.c	/^	int fb_gray;$/;"	m	struct:fb_dev	file:	access:public
+fb_dev::fb_height	litearry.c	/^	int fb_width, fb_height, fb_line_len, fb_size;$/;"	m	struct:fb_dev	file:	access:public
+fb_dev::fb_line_len	litearry.c	/^	int fb_width, fb_height, fb_line_len, fb_size;$/;"	m	struct:fb_dev	file:	access:public
+fb_dev::fb_mem	litearry.c	/^	unsigned char *fb_mem;	\/\/frame buffer mmap$/;"	m	struct:fb_dev	file:	access:public
+fb_dev::fb_size	litearry.c	/^	int fb_width, fb_height, fb_line_len, fb_size;$/;"	m	struct:fb_dev	file:	access:public
+fb_dev::fb_width	litearry.c	/^	int fb_width, fb_height, fb_line_len, fb_size;$/;"	m	struct:fb_dev	file:	access:public
+fb_gray	litearry.c	/^	int fb_gray;$/;"	m	struct:fb_dev	file:	access:public
+fb_height	litearry.c	/^	int fb_width, fb_height, fb_line_len, fb_size;$/;"	m	struct:fb_dev	file:	access:public
+fb_line_len	litearry.c	/^	int fb_width, fb_height, fb_line_len, fb_size;$/;"	m	struct:fb_dev	file:	access:public
+fb_mem	litearry.c	/^	unsigned char *fb_mem;	\/\/frame buffer mmap$/;"	m	struct:fb_dev	file:	access:public
+fb_munmap	litearry.c	/^int fb_munmap(void *start, size_t length)$/;"	f	signature:(void *start, size_t length)
+fb_pixel	litearry.c	/^int fb_pixel(void *fbmem, int width, int height, int x, int y, unsigned short color)$/;"	f	signature:(void *fbmem, int width, int height, int x, int y, unsigned short color)
+fb_set	litearry.c	/^int fb_set(int fd)$/;"	f	signature:(int fd)
+fb_size	litearry.c	/^	int fb_width, fb_height, fb_line_len, fb_size;$/;"	m	struct:fb_dev	file:	access:public
+fb_stat	litearry.c	/^int fb_stat(int fd)$/;"	f	signature:(int fd)
+fb_width	litearry.c	/^	int fb_width, fb_height, fb_line_len, fb_size;$/;"	m	struct:fb_dev	file:	access:public
+fbdev	litearry.c	/^} fbdev;$/;"	v	typeref:struct:fb_dev
+length	litearry.c	/^	size_t length;$/;"	m	struct:VideoBuffer	file:	access:public
+main	litearry.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+offset	litearry.c	/^	size_t offset;$/;"	m	struct:VideoBuffer	file:	access:public
+ptcur888	litearry.c	/^unsigned char *ptcur888;$/;"	v
+sdl_quit	litearry.c	/^char sdl_quit = 1;$/;"	v
+start	litearry.c	/^	unsigned char *start;$/;"	m	struct:VideoBuffer	file:	access:public
+video_fb_init_preview	litearry.c	/^int video_fb_init_preview()$/;"	f
+video_fd	litearry.c	/^static int video_fd;$/;"	v	file:

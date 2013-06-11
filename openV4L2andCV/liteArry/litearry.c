@@ -207,6 +207,35 @@ int YUYVToRGB888(unsigned char *yuyv,unsigned char *rgb888,unsigned int width,un
 	return 0;
 }
 
+/************************************************************
+ * 算法测试 灰度转化
+ ***********************************************************/
+int yuv2gray(unsigned char *yuyv,unsigned char *gray,unsigned int width,unsigned int height)
+{
+	int all = 0;
+	int count =0;
+	unsigned char y1;
+	unsigned char u;
+	unsigned char y2;
+	unsigned char v;
+	//printf("gray test\n");
+	while(all < width*height-2)
+	{
+		
+		y1 = *yuyv++;
+		u  = *yuyv++;
+		y2 = *yuyv++;
+		v  = *yuyv++;
+		gray[count++] = y1;
+		gray[count++] = 0x80;
+		gray[count++] = y2;
+		gray[count++] = 0x80;
+		all += 2;
+	}
+	return 0;
+}
+
+
 /**************************************************************
 为了能实现能在16位的LCD上显示，转换RGB888为RGB565
 **************************************************************/
@@ -490,9 +519,17 @@ int video_fb_init_preview()
 			unsigned char *ptcur=buffers[buf.index].start;
 			//YUYVToRGB888(ptcur,fbdev.fb_mem,640, 480);
 
+			//++++++++++++++++++++++++++++++++++++++++
+			//算法区
+			//+++++++++++++++++++++++++++++++++++++++++
+			unsigned char *pgray = NULL;
+			pgray = (unsigned char *)calloc(1,fmt.fmt.pix.width*fmt.fmt.pix.height*2*sizeof(unsigned char));
+			//memset(&pgray ,0,sizeof(fmt.fmt.pix.width*fmt.fmt.pix.height*4));
+			yuv2gray(ptcur,pgray,fmt.fmt.pix.width, fmt.fmt.pix.height);
+
 			//载入到SDL
 			SDL_LockYUVOverlay(overlay);
-			memcpy(p, ptcur,pscreen->w*(pscreen->h)*2);
+			memcpy(p, pgray,pscreen->w*(pscreen->h)*2);
 			SDL_UnlockYUVOverlay(overlay);
 			SDL_DisplayYUVOverlay(overlay, &drect);
 			status = (char *)calloc(1,20*sizeof(char));
