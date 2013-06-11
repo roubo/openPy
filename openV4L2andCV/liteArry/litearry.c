@@ -27,7 +27,9 @@ roubo_dai@san412.in
 //该型号仪器若需要拍摄保存图像文件，则需要JPEG库支持-----
 #include <jpeglib.h>
 #include <jerror.h>
-
+//为了在非嵌入式设备上使用，这里使用了SDL
+#include <X11/Xlib.h>
+#include <SDL/SDL.h>
 
 #define FALSE		0
 #define TRUE		1
@@ -42,8 +44,8 @@ roubo_dai@san412.in
 static int video_fd;
 static int fb;
 char Data[512];
-
-
+char sdl_quit = 1;
+static unsigned int SDL_VIDEO_Flags = SDL_ANYFORMAT | SDL_DOUBLEBUF | SDL_RESIZABLE;
 //用户空间视频缓冲区结构，用于MMap来自驱动程序的内存空间-----
 typedef struct VideoBuffer
 {
@@ -250,9 +252,23 @@ int video_fb_init_preview()
 	//-------------------------------------------
 	
 	int numBufs;
+
+	//--------------------------------------------
+	//SDL
+	SDL_Surface      *pscreen;
+	SDL_Overlay      *overlay;
+	SDL_Rect         drect;
+	SDL_Event        sdlevent;
+	SDL_mutex        *affmutex;
+	unsigned char    *p = NULL;
+	unsigned char    frmrate;
+	unsigned int     currtime;
+	unsigned int     lasttime;
+	char* status = NULL;
+
 	printf("USB Camera Test\n");
 
-	video_fd = open("/dev/video3", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
+	video_fd = open("/dev/video1", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
 	if (video_fd<0)
 	{
 		printf("open error\n");
@@ -288,6 +304,25 @@ int video_fb_init_preview()
 		return 2;
 	}
 	//-------------------------------------------------------//
+	
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//SDL 设置
+	if(SDL_Init(SDL_INIT_VIDEO) < 0)
+	{
+		printf("SDL Init failed.\n");
+		exit(1);
+	}
+	pscreen = SDL_SetVideoMode(fmt.fmt.pix.width, fmt.fmt.pix.height,0,SDL_VIDEO_Flags);
+	overlay = SDL_CreateYUVOverlay(fmt.fmt.pix.width, fmt.fmt.pix.height,SDL_YUY2_OVERLAY,pscreen);
+	p = (unsigned char *)overlay->pixels[0];
+	drect.x = 0;
+	drect.y = 0;
+	drect.w = pscreen->w;
+	drect.h = pscreen->h;
+	lasttime = SDL_GetTicks();
+	affmutex = SDL_CreateMutex();
+	//SDL 设置end
+	
 
 
 	//------------------------申请帧缓冲---------------------//
@@ -362,10 +397,9 @@ int video_fb_init_preview()
 		
 	}
 	//-------------------------------------------------------//
-
-	
+	int i=0;	
 	//一些关于fb设备或者没有用到的变量---------------------------
-	FILE * fd_y_file = 0;
+	/*FILE * fd_y_file = 0;
 	int a=0;
 	int k = 0;
 	int i=0;
@@ -394,10 +428,10 @@ int video_fb_init_preview()
 	//映射framebuffer的地址到用户空间----------------------------------
 	fbdev.fb_mem = mmap (NULL, fbdev.fb_size, PROT_READ|PROT_WRITE,MAP_SHARED,fb,0);
 	fbdev.fb = fb;
-	
+	*/
 		
 	//预览采集到的图像（如果有需要可以添加capture功能）-------------------
-	while (1)
+	while (sdl_quit)
 	{
 		
 		fd_set fds;//文件描述符集，准备使用Select机制
@@ -424,52 +458,71 @@ int video_fb_init_preview()
 			printf("select timeout. \n");
 			continue;
 		}		
-		while(1)		
+		while(sdl_quit)		
 		{
-			
-		 
-			//若是开启命令，则开始视频采集-------------------------------------			
-			if(key==1)
-			{	//开始获取FIFO中已经准备好的一帧数据-----------------------		
-				memset(&buf ,0,sizeof(buf));
-				buf.type=V4L2_BUF_TYPE_VIDEO_CAPTURE;
-				buf.memory=V4L2_MEMORY_MMAP;
-				//准备好的出列--------------------------------------------
-				ret1=ioctl (video_fd,VIDIOC_DQBUF,&buf);
-				if(ret1!=0)
+					 
+			//检测退出消息
+			while(SDL_PollEvent(&sdlevent))
+			{
+				if(sdlevent.type == SDL_QUIT)
 				{
-					stat=NG;					
-					printf("Lost the video \n");					
-					key=0;
-				}	
-	
-				//获取当前帧的用户空间首地址，用于格式转换------------------
-				unsigned char *ptcur=buffers[buf.index].start;
-				YUYVToRGB888(ptcur,fbdev.fb_mem,640, 480);		
-				//用完了的入列--------------------------------------------
-				ret1=ioctl (video_fd,VIDIOC_QBUF,&buf);
-				if(ret1!=0)
-				{
-					stat=NG;					
-					printf("Lost the video \n");					
-					key=0;
+					sdl_quit = 0;
+					break;
 				}
-			
+			}
+			currtime = SDL_GetTicks();
+			if(currtime - lasttime >0)
+				frmrate = 1000/(currtime-lasttime);
+			lasttime = currtime;
+
+			//开始获取FIFO中已经准备好的一帧数据-----------------------		
+			memset(&buf ,0,sizeof(buf));
+			buf.type=V4L2_BUF_TYPE_VIDEO_CAPTURE;
+			buf.memory=V4L2_MEMORY_MMAP;
+			//准备好的出列--------------------------------------------
+			ret1=ioctl (video_fd,VIDIOC_DQBUF,&buf);
+			if(ret1!=0)
+			{					
+				printf("Lost the video \n");					
 			}	
-		}	
-
-		fb_munmap(fbdev.fb_mem, fbdev.fb_size);	//释放framebuffer映射
-		close(fb);//关闭Framebuffer设备
-		for(i=0;i<req.count;i++)
-		{
-			if(-1==munmap(buffers[i].start,buffers[i].length))
-				printf("munmap error:%d \n",i);
-		}
-		close(video_fd);					
-
-			
-	}
 	
+			//获取当前帧的用户空间首地址，用于格式转换------------------
+			unsigned char *ptcur=buffers[buf.index].start;
+			//YUYVToRGB888(ptcur,fbdev.fb_mem,640, 480);
+
+			//载入到SDL
+			SDL_LockYUVOverlay(overlay);
+			memcpy(p, ptcur,pscreen->w*(pscreen->h)*2);
+			SDL_UnlockYUVOverlay(overlay);
+			SDL_DisplayYUVOverlay(overlay, &drect);
+			status = (char *)calloc(1,20*sizeof(char));
+			sprintf(status, "Fps:%d",frmrate);
+			SDL_WM_SetCaption(status, NULL);
+			SDL_Delay(10);
+
+			//用完了的入列--------------------------------------------
+			ret1=ioctl (video_fd,VIDIOC_QBUF,&buf);
+			if(ret1!=0)
+			{					
+				printf("Lost the video \n");					
+			}
+			
+		}	
+	}	
+
+	//fb_munmap(fbdev.fb_mem, fbdev.fb_size);	//释放framebuffer映射
+	//close(fb);//关闭Framebuffer设备
+	for(i=0;i<req.count;i++)
+	{
+		if(-1==munmap(buffers[i].start,buffers[i].length))
+			printf("munmap error:%d \n",i);
+	}
+	close(video_fd);					
+	SDL_DestroyMutex(affmutex);
+	SDL_FreeYUVOverlay(overlay);
+	free(status);
+	free(buffers);
+	SDL_Quit();
 	return 0;
 
 }
@@ -507,7 +560,8 @@ int main(int argc, char **argv)
 			break;
 		default:printf("unkown return .\n");
 			break;
-	}	
+	}
+	exit(1);	
 	}
 	return 0;
 }

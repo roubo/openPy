@@ -1,0 +1,1596 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADDRESSE	gui.c	36;"	d	file:
+APP_BINARY	Makefile	/^APP_BINARY=luvcview$/;"	m
+AVIF_COPYRIGHTED	avilib.c	397;"	d	file:
+AVIF_COPYRIGHTED	avilib.c	665;"	d	file:
+AVIF_HASINDEX	avilib.c	392;"	d	file:
+AVIF_HASINDEX	avilib.c	660;"	d	file:
+AVIF_ISINTERLEAVED	avilib.c	394;"	d	file:
+AVIF_ISINTERLEAVED	avilib.c	662;"	d	file:
+AVIF_MUSTUSEINDEX	avilib.c	393;"	d	file:
+AVIF_MUSTUSEINDEX	avilib.c	661;"	d	file:
+AVIF_TRUSTCKTYPE	avilib.c	395;"	d	file:
+AVIF_TRUSTCKTYPE	avilib.c	663;"	d	file:
+AVIF_WASCAPTUREFILE	avilib.c	396;"	d	file:
+AVIF_WASCAPTUREFILE	avilib.c	664;"	d	file:
+AVILIB_H	avilib.h	57;"	d
+AVISTREAMINFO	avilib.h	/^} AVISTREAMINFO;$/;"	t	typeref:struct:__anon15
+AVIStreamHeader	avilib.h	/^struct AVIStreamHeader {$/;"	s
+AVIStreamHeader::dwFlags	avilib.h	/^  long  dwFlags;$/;"	m	struct:AVIStreamHeader	access:public
+AVIStreamHeader::dwInitialFrames	avilib.h	/^  long  dwInitialFrames;$/;"	m	struct:AVIStreamHeader	access:public
+AVIStreamHeader::dwLength	avilib.h	/^  long  dwLength;$/;"	m	struct:AVIStreamHeader	access:public
+AVIStreamHeader::dwPriority	avilib.h	/^  long  dwPriority;$/;"	m	struct:AVIStreamHeader	access:public
+AVIStreamHeader::dwQuality	avilib.h	/^  long  dwQuality;$/;"	m	struct:AVIStreamHeader	access:public
+AVIStreamHeader::dwRate	avilib.h	/^  long  dwRate;$/;"	m	struct:AVIStreamHeader	access:public
+AVIStreamHeader::dwSampleSize	avilib.h	/^  long  dwSampleSize;$/;"	m	struct:AVIStreamHeader	access:public
+AVIStreamHeader::dwScale	avilib.h	/^  long  dwScale;$/;"	m	struct:AVIStreamHeader	access:public
+AVIStreamHeader::dwStart	avilib.h	/^  long  dwStart;$/;"	m	struct:AVIStreamHeader	access:public
+AVIStreamHeader::dwSuggestedBufferSize	avilib.h	/^  long  dwSuggestedBufferSize;$/;"	m	struct:AVIStreamHeader	access:public
+AVIStreamHeader::fccHandler	avilib.h	/^  long  fccHandler;$/;"	m	struct:AVIStreamHeader	access:public
+AVIStreamHeader::fccType	avilib.h	/^  long  fccType;$/;"	m	struct:AVIStreamHeader	access:public
+AVI_ERR_CLOSE	avilib.h	215;"	d
+AVI_ERR_NOT_PERM	avilib.h	219;"	d
+AVI_ERR_NO_AVI	avilib.h	225;"	d
+AVI_ERR_NO_HDRL	avilib.h	227;"	d
+AVI_ERR_NO_IDX	avilib.h	235;"	d
+AVI_ERR_NO_MEM	avilib.h	223;"	d
+AVI_ERR_NO_MOVI	avilib.h	230;"	d
+AVI_ERR_NO_VIDS	avilib.h	233;"	d
+AVI_ERR_OPEN	avilib.h	203;"	d
+AVI_ERR_READ	avilib.h	206;"	d
+AVI_ERR_SIZELIM	avilib.h	198;"	d
+AVI_ERR_WRITE	avilib.h	208;"	d
+AVI_ERR_WRITE_INDEX	avilib.h	211;"	d
+AVI_MAX_LEN	avilib.c	98;"	d	file:
+AVI_MAX_TRACKS	avilib.h	59;"	d
+AVI_MODE_READ	avilib.h	194;"	d
+AVI_MODE_WRITE	avilib.h	193;"	d
+AVI_append_audio	avilib.c	/^int AVI_append_audio(avi_t *AVI, char *data, long bytes)$/;"	f	signature:(avi_t *AVI, char *data, long bytes)
+AVI_append_audio	avilib.h	/^int  AVI_append_audio(avi_t *AVI, char *data, long bytes);$/;"	p	signature:(avi_t *AVI, char *data, long bytes)
+AVI_audio_bits	avilib.c	/^int AVI_audio_bits(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_audio_bits	avilib.h	/^int  AVI_audio_bits(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_audio_bytes	avilib.c	/^long AVI_audio_bytes(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_audio_bytes	avilib.h	/^long AVI_audio_bytes(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_audio_channels	avilib.c	/^int AVI_audio_channels(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_audio_channels	avilib.h	/^int  AVI_audio_channels(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_audio_chunks	avilib.c	/^long AVI_audio_chunks(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_audio_chunks	avilib.h	/^long AVI_audio_chunks(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_audio_codecf_offset	avilib.c	/^long AVI_audio_codecf_offset(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_audio_codecf_offset	avilib.h	/^long AVI_audio_codecf_offset(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_audio_codech_offset	avilib.c	/^long AVI_audio_codech_offset(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_audio_codech_offset	avilib.h	/^long AVI_audio_codech_offset(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_audio_format	avilib.c	/^int AVI_audio_format(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_audio_format	avilib.h	/^int  AVI_audio_format(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_audio_mp3rate	avilib.c	/^long AVI_audio_mp3rate(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_audio_mp3rate	avilib.h	/^long AVI_audio_mp3rate(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_audio_rate	avilib.c	/^long AVI_audio_rate(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_audio_rate	avilib.h	/^long AVI_audio_rate(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_audio_size	avilib.c	/^long AVI_audio_size(avi_t *AVI, long frame)$/;"	f	signature:(avi_t *AVI, long frame)
+AVI_audio_size	avilib.h	/^long AVI_audio_size(avi_t *AVI, long frame);$/;"	p	signature:(avi_t *AVI, long frame)
+AVI_audio_tracks	avilib.c	/^int AVI_audio_tracks(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_audio_tracks	avilib.h	/^int AVI_audio_tracks(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_bytes_remain	avilib.c	/^long AVI_bytes_remain(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_bytes_remain	avilib.h	/^long AVI_bytes_remain(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_bytes_written	avilib.c	/^long AVI_bytes_written(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_bytes_written	avilib.h	/^long AVI_bytes_written(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_close	avilib.c	/^int AVI_close(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_close	avilib.h	/^int  AVI_close(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_codec2str	avilib.h	/^char *AVI_codec2str(short cc);$/;"	p	signature:(short cc)
+AVI_dump	avilib.h	/^int AVI_dump(char *name, int mode);$/;"	p	signature:(char *name, int mode)
+AVI_dup_frame	avilib.c	/^int AVI_dup_frame(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_dup_frame	avilib.h	/^int  AVI_dup_frame(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_errno	avilib.c	/^long AVI_errno = 0;$/;"	v
+AVI_file_check	avilib.h	/^int AVI_file_check(char *import_file);$/;"	p	signature:(char *import_file)
+AVI_frame_rate	avilib.c	/^double AVI_frame_rate(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_frame_rate	avilib.h	/^double AVI_frame_rate(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_frame_size	avilib.c	/^long AVI_frame_size(avi_t *AVI, long frame)$/;"	f	signature:(avi_t *AVI, long frame)
+AVI_frame_size	avilib.h	/^long AVI_frame_size(avi_t *AVI, long frame);$/;"	p	signature:(avi_t *AVI, long frame)
+AVI_get_audio_track	avilib.c	/^int AVI_get_audio_track(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_get_audio_track	avilib.h	/^int AVI_get_audio_track(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_get_video_position	avilib.c	/^long AVI_get_video_position(avi_t *AVI, long frame)$/;"	f	signature:(avi_t *AVI, long frame)
+AVI_get_video_position	avilib.h	/^long AVI_get_video_position(avi_t *AVI, long frame);$/;"	p	signature:(avi_t *AVI, long frame)
+AVI_info	avilib.h	/^void AVI_info(avi_t *avifile);$/;"	p	signature:(avi_t *avifile)
+AVI_max_size	avilib.c	/^uint64_t AVI_max_size()$/;"	f
+AVI_max_size	avilib.h	/^uint64_t AVI_max_size(void);$/;"	p	signature:(void)
+AVI_max_video_chunk	avilib.c	/^long AVI_max_video_chunk(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_max_video_chunk	avilib.h	/^long AVI_max_video_chunk(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_open_fd	avilib.c	/^avi_t *AVI_open_fd(int fd, int getIndex)$/;"	f	signature:(int fd, int getIndex)
+AVI_open_fd	avilib.h	/^avi_t *AVI_open_fd(int fd, int getIndex);$/;"	p	signature:(int fd, int getIndex)
+AVI_open_input_file	avilib.c	/^avi_t *AVI_open_input_file(const char *filename, int getIndex)$/;"	f	signature:(const char *filename, int getIndex)
+AVI_open_input_file	avilib.h	/^avi_t *AVI_open_input_file(const char *filename, int getIndex);$/;"	p	signature:(const char *filename, int getIndex)
+AVI_open_output_file	avilib.c	/^avi_t* AVI_open_output_file(char * filename)$/;"	f	signature:(char * filename)
+AVI_open_output_file	avilib.h	/^avi_t* AVI_open_output_file(char * filename);$/;"	p	signature:(char * filename)
+AVI_print_error	avilib.c	/^void AVI_print_error(char *str)$/;"	f	signature:(char *str)
+AVI_print_error	avilib.h	/^void AVI_print_error(char *str);$/;"	p	signature:(char *str)
+AVI_read_audio	avilib.c	/^long AVI_read_audio(avi_t *AVI, char *audbuf, long bytes)$/;"	f	signature:(avi_t *AVI, char *audbuf, long bytes)
+AVI_read_audio	avilib.h	/^long AVI_read_audio(avi_t *AVI, char *audbuf, long bytes);$/;"	p	signature:(avi_t *AVI, char *audbuf, long bytes)
+AVI_read_audio_chunk	avilib.c	/^long AVI_read_audio_chunk(avi_t *AVI, char *audbuf)$/;"	f	signature:(avi_t *AVI, char *audbuf)
+AVI_read_audio_chunk	avilib.h	/^long AVI_read_audio_chunk(avi_t *AVI, char *audbuf);$/;"	p	signature:(avi_t *AVI, char *audbuf)
+AVI_read_data	avilib.c	/^int AVI_read_data(avi_t *AVI, char *vidbuf, long max_vidbuf,$/;"	f	signature:(avi_t *AVI, char *vidbuf, long max_vidbuf, char *audbuf, long max_audbuf, long *len)
+AVI_read_data	avilib.h	/^int  AVI_read_data(avi_t *AVI, char *vidbuf, long max_vidbuf,$/;"	p	signature:(avi_t *AVI, char *vidbuf, long max_vidbuf, char *audbuf, long max_audbuf, long *len)
+AVI_read_frame	avilib.c	/^long AVI_read_frame(avi_t *AVI, char *vidbuf, int *keyframe)$/;"	f	signature:(avi_t *AVI, char *vidbuf, int *keyframe)
+AVI_read_frame	avilib.h	/^long AVI_read_frame(avi_t *AVI, char *vidbuf, int *keyframe);$/;"	p	signature:(avi_t *AVI, char *vidbuf, int *keyframe)
+AVI_scan	avilib.h	/^int AVI_scan(char *name);$/;"	p	signature:(char *name)
+AVI_seek_start	avilib.c	/^int AVI_seek_start(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_seek_start	avilib.h	/^int  AVI_seek_start(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_set_audio	avilib.c	/^void AVI_set_audio(avi_t *AVI, int channels, long rate, int bits, int format, long mp3rate)$/;"	f	signature:(avi_t *AVI, int channels, long rate, int bits, int format, long mp3rate)
+AVI_set_audio	avilib.h	/^void AVI_set_audio(avi_t *AVI, int channels, long rate, int bits, int format, long mp3rate);$/;"	p	signature:(avi_t *AVI, int channels, long rate, int bits, int format, long mp3rate)
+AVI_set_audio_bitrate	avilib.c	/^int AVI_set_audio_bitrate(avi_t *AVI, long bitrate)$/;"	f	signature:(avi_t *AVI, long bitrate)
+AVI_set_audio_bitrate	avilib.h	/^int  AVI_set_audio_bitrate(avi_t *AVI, long bitrate);$/;"	p	signature:(avi_t *AVI, long bitrate)
+AVI_set_audio_position	avilib.c	/^int AVI_set_audio_position(avi_t *AVI, long byte)$/;"	f	signature:(avi_t *AVI, long byte)
+AVI_set_audio_position	avilib.h	/^int  AVI_set_audio_position(avi_t *AVI, long byte);$/;"	p	signature:(avi_t *AVI, long byte)
+AVI_set_audio_track	avilib.c	/^int AVI_set_audio_track(avi_t *AVI, int track)$/;"	f	signature:(avi_t *AVI, int track)
+AVI_set_audio_track	avilib.h	/^int AVI_set_audio_track(avi_t *AVI, int track);$/;"	p	signature:(avi_t *AVI, int track)
+AVI_set_video	avilib.c	/^void AVI_set_video(avi_t *AVI, int width, int height, double fps, char *compressor)$/;"	f	signature:(avi_t *AVI, int width, int height, double fps, char *compressor)
+AVI_set_video	avilib.h	/^void AVI_set_video(avi_t *AVI, int width, int height, double fps, char *compressor);$/;"	p	signature:(avi_t *AVI, int width, int height, double fps, char *compressor)
+AVI_set_video_position	avilib.c	/^int AVI_set_video_position(avi_t *AVI, long frame)$/;"	f	signature:(avi_t *AVI, long frame)
+AVI_set_video_position	avilib.h	/^int  AVI_set_video_position(avi_t *AVI, long frame);$/;"	p	signature:(avi_t *AVI, long frame)
+AVI_strerror	avilib.c	/^char *AVI_strerror()$/;"	f
+AVI_strerror	avilib.h	/^char *AVI_strerror(void);$/;"	p	signature:(void)
+AVI_syserror	avilib.h	/^char *AVI_syserror(void);$/;"	p	signature:(void)
+AVI_video_codecf_offset	avilib.c	/^long  AVI_video_codecf_offset(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_video_codecf_offset	avilib.h	/^long AVI_video_codecf_offset(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_video_codech_offset	avilib.c	/^long  AVI_video_codech_offset(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_video_codech_offset	avilib.h	/^long AVI_video_codech_offset(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_video_compressor	avilib.c	/^char* AVI_video_compressor(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_video_compressor	avilib.h	/^char* AVI_video_compressor(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_video_frames	avilib.c	/^long AVI_video_frames(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_video_frames	avilib.h	/^long AVI_video_frames(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_video_height	avilib.c	/^int  AVI_video_height(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_video_height	avilib.h	/^int  AVI_video_height(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_video_width	avilib.c	/^int  AVI_video_width(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+AVI_video_width	avilib.h	/^int  AVI_video_width(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+AVI_write_audio	avilib.c	/^int AVI_write_audio(avi_t *AVI, char *data, long bytes)$/;"	f	signature:(avi_t *AVI, char *data, long bytes)
+AVI_write_audio	avilib.h	/^int  AVI_write_audio(avi_t *AVI, char *data, long bytes);$/;"	p	signature:(avi_t *AVI, char *data, long bytes)
+AVI_write_frame	avilib.c	/^int AVI_write_frame(avi_t *AVI, char *data, long bytes, int keyframe)$/;"	f	signature:(avi_t *AVI, char *data, long bytes, int keyframe)
+AVI_write_frame	avilib.h	/^int  AVI_write_frame(avi_t *AVI, char *data, long bytes, int keyframe);$/;"	p	signature:(avi_t *AVI, char *data, long bytes, int keyframe)
+A_BALANCE_DOWN	luvcview.c	/^    A_BALANCE_DOWN,$/;"	e	enum:action_gui	file:
+A_BALANCE_OFF	luvcview.c	/^    A_BALANCE_OFF,$/;"	e	enum:action_gui	file:
+A_BALANCE_ON	luvcview.c	/^    A_BALANCE_ON,$/;"	e	enum:action_gui	file:
+A_BALANCE_UP	luvcview.c	/^    A_BALANCE_UP,$/;"	e	enum:action_gui	file:
+A_BRIGHTNESS_DOWN	luvcview.c	/^    A_BRIGHTNESS_DOWN,$/;"	e	enum:action_gui	file:
+A_BRIGHTNESS_UP	luvcview.c	/^    A_BRIGHTNESS_UP,$/;"	e	enum:action_gui	file:
+A_CAPTURE_FRAME	luvcview.c	/^    A_CAPTURE_FRAME,$/;"	e	enum:action_gui	file:
+A_CAPTURE_FRAMESTREAM	luvcview.c	/^    A_CAPTURE_FRAMESTREAM,$/;"	e	enum:action_gui	file:
+A_CAPTURE_STREAM	luvcview.c	/^    A_CAPTURE_STREAM,$/;"	e	enum:action_gui	file:
+A_CONTRAST_DOWN	luvcview.c	/^    A_CONTRAST_DOWN,$/;"	e	enum:action_gui	file:
+A_CONTRAST_UP	luvcview.c	/^    A_CONTRAST_UP,$/;"	e	enum:action_gui	file:
+A_EXPOSURE_DOWN	luvcview.c	/^    A_EXPOSURE_DOWN,$/;"	e	enum:action_gui	file:
+A_EXPOSURE_OFF	luvcview.c	/^    A_EXPOSURE_OFF,$/;"	e	enum:action_gui	file:
+A_EXPOSURE_ON	luvcview.c	/^    A_EXPOSURE_ON,$/;"	e	enum:action_gui	file:
+A_EXPOSURE_UP	luvcview.c	/^    A_EXPOSURE_UP,$/;"	e	enum:action_gui	file:
+A_GAIN_DOWN	luvcview.c	/^    A_GAIN_DOWN,$/;"	e	enum:action_gui	file:
+A_GAIN_UP	luvcview.c	/^    A_GAIN_UP,$/;"	e	enum:action_gui	file:
+A_GAMMA_DOWN	luvcview.c	/^    A_GAMMA_DOWN,$/;"	e	enum:action_gui	file:
+A_GAMMA_UP	luvcview.c	/^    A_GAMMA_UP,$/;"	e	enum:action_gui	file:
+A_LAST	luvcview.c	/^    A_LAST$/;"	e	enum:action_gui	file:
+A_LOAD	luvcview.c	/^    A_LOAD,$/;"	e	enum:action_gui	file:
+A_NOT1_DOWN	luvcview.c	/^    A_NOT1_DOWN,$/;"	e	enum:action_gui	file:
+A_PAN_DOWN	luvcview.c	/^    A_PAN_DOWN,$/;"	e	enum:action_gui	file:
+A_PAN_RESET	luvcview.c	/^    A_PAN_RESET,$/;"	e	enum:action_gui	file:
+A_PAN_UP	luvcview.c	/^    A_PAN_UP,$/;"	e	enum:action_gui	file:
+A_QUIT	luvcview.c	/^    A_QUIT,$/;"	e	enum:action_gui	file:
+A_RECORD_TOGGLE	luvcview.c	/^    A_RECORD_TOGGLE,$/;"	e	enum:action_gui	file:
+A_RESET	luvcview.c	/^    A_RESET,$/;"	e	enum:action_gui	file:
+A_SATURATION_DOWN	luvcview.c	/^    A_SATURATION_DOWN,$/;"	e	enum:action_gui	file:
+A_SATURATION_UP	luvcview.c	/^    A_SATURATION_UP,$/;"	e	enum:action_gui	file:
+A_SAVE	luvcview.c	/^    A_SAVE,$/;"	e	enum:action_gui	file:
+A_SCREENSHOT	luvcview.c	/^    A_SCREENSHOT,$/;"	e	enum:action_gui	file:
+A_SHARPNESS_DOWN	luvcview.c	/^    A_SHARPNESS_DOWN,$/;"	e	enum:action_gui	file:
+A_SHARPNESS_UP	luvcview.c	/^    A_SHARPNESS_UP,$/;"	e	enum:action_gui	file:
+A_SWITCH_LIGHTFREQFILT	luvcview.c	/^    A_SWITCH_LIGHTFREQFILT,$/;"	e	enum:action_gui	file:
+A_TILT_DOWN	luvcview.c	/^    A_TILT_DOWN,$/;"	e	enum:action_gui	file:
+A_TILT_RESET	luvcview.c	/^    A_TILT_RESET,$/;"	e	enum:action_gui	file:
+A_TILT_UP	luvcview.c	/^    A_TILT_UP,$/;"	e	enum:action_gui	file:
+A_VIDEO	luvcview.c	/^    A_VIDEO,$/;"	e	enum:action_gui	file:
+BIN	Makefile	/^BIN=\/usr\/local\/bin$/;"	m
+BITMAPINFOHEADER_avilib	avilib.h	/^} BITMAPINFOHEADER_avilib;$/;"	t	typeref:struct:__anon13
+BUTTHEIGHT	button.h	25;"	d
+BUTTWIDTH	button.h	24;"	d
+B_FROMYU	color.c	/^B_FROMYU(unsigned char y, unsigned char u)$/;"	f	signature:(unsigned char y, unsigned char u)
+B_FROMYU	color.h	/^B_FROMYU(unsigned char y, unsigned char u);$/;"	p	signature:(unsigned char y, unsigned char u)
+Bcoef	color.c	83;"	d	file:
+C22	utils.c	798;"	d	file:
+CC	Makefile	/^CC=gcc$/;"	m
+CLIP	color.h	50;"	d
+COMPONENT_CONNECTOR	uvcvideo.h	181;"	d
+COMPOSITE_CONNECTOR	uvcvideo.h	179;"	d
+CPP	Makefile	/^CPP=g++$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $(CFLAGS)$/;"	m
+CS_CONFIGURATION	uvcvideo.h	50;"	d
+CS_DEVICE	uvcvideo.h	49;"	d
+CS_ENDPOINT	uvcvideo.h	53;"	d
+CS_INTERFACE	uvcvideo.h	52;"	d
+CS_STRING	uvcvideo.h	51;"	d
+CS_UNDEFINED	uvcvideo.h	48;"	d
+CT_AE_MODE_CONTROL	uvcvideo.h	112;"	d
+CT_AE_PRIORITY_CONTROL	uvcvideo.h	113;"	d
+CT_CONTROL_UNDEFINED	uvcvideo.h	110;"	d
+CT_EXPOSURE_TIME_ABSOLUTE_CONTROL	uvcvideo.h	114;"	d
+CT_EXPOSURE_TIME_RELATIVE_CONTROL	uvcvideo.h	115;"	d
+CT_FOCUS_ABSOLUTE_CONTROL	uvcvideo.h	116;"	d
+CT_FOCUS_AUTO_CONTROL	uvcvideo.h	118;"	d
+CT_FOCUS_RELATIVE_CONTROL	uvcvideo.h	117;"	d
+CT_IRIS_ABSOLUTE_CONTROL	uvcvideo.h	119;"	d
+CT_IRIS_RELATIVE_CONTROL	uvcvideo.h	120;"	d
+CT_PANTILT_ABSOLUTE_CONTROL	uvcvideo.h	123;"	d
+CT_PANTILT_RELATIVE_CONTROL	uvcvideo.h	124;"	d
+CT_PRIVACY_CONTROL	uvcvideo.h	127;"	d
+CT_ROLL_ABSOLUTE_CONTROL	uvcvideo.h	125;"	d
+CT_ROLL_RELATIVE_CONTROL	uvcvideo.h	126;"	d
+CT_SCANNING_MODE_CONTROL	uvcvideo.h	111;"	d
+CT_ZOOM_ABSOLUTE_CONTROL	uvcvideo.h	121;"	d
+CT_ZOOM_RELATIVE_CONTROL	uvcvideo.h	122;"	d
+CoefBu	color.c	90;"	d	file:
+CoefGu	color.c	88;"	d	file:
+CoefGv	color.c	89;"	d	file:
+CoefRv	color.c	87;"	d	file:
+DECBITS	utils.c	87;"	d	file:
+DEC_REC	utils.c	686;"	d	file:
+DHT_SIZE	huffman.h	2;"	d
+DHT_SIZE	v4l2uvc.h	39;"	d
+DRIVER_VERSION_NUMBER	uvcvideo.h	224;"	d
+EP_ENDPOINT	uvcvideo.h	83;"	d
+EP_GENERAL	uvcvideo.h	82;"	d
+EP_INTERRUPT	uvcvideo.h	84;"	d
+EP_UNDEFINED	uvcvideo.h	81;"	d
+ERR_BAD_TABLES	utils.h	37;"	d
+ERR_BAD_WIDTH_OR_HEIGHT	utils.h	28;"	d
+ERR_DEPTH_MISMATCH	utils.h	38;"	d
+ERR_EXIT	avilib.c	1088;"	d	file:
+ERR_HEIGHT_MISMATCH	utils.h	26;"	d
+ERR_ILLEGAL_HV	utils.h	30;"	d
+ERR_NOT_8BIT	utils.h	25;"	d
+ERR_NOT_SEQUENTIAL_DCT	utils.h	34;"	d
+ERR_NOT_YCBCR_221111	utils.h	32;"	d
+ERR_NO_EOI	utils.h	36;"	d
+ERR_NO_SOI	utils.h	24;"	d
+ERR_QUANT_TABLE_SELECTOR	utils.h	31;"	d
+ERR_TOO_MANY_COMPPS	utils.h	29;"	d
+ERR_UNKNOWN_CID_IN_SCAN	utils.h	33;"	d
+ERR_WIDTH_MISMATCH	utils.h	27;"	d
+ERR_WRONG_MARKER	utils.h	35;"	d
+EXTERNAL_VENDOR_SPECIFIC	uvcvideo.h	178;"	d
+FIXED	luvcview.c	51;"	d	file:
+FIXED_BITS	luvcview.c	52;"	d	file:
+FOUR_TWO_TWO	utils.c	988;"	d	file:
+FRAME_RATE_SCALE	avilib.c	52;"	d	file:
+FROM_FIXED	luvcview.c	54;"	d	file:
+GETBITS	utils.c	639;"	d	file:
+GET_CUR	uvcvideo.h	89;"	d
+GET_DEF	uvcvideo.h	95;"	d
+GET_INFO	uvcvideo.h	94;"	d
+GET_LEN	uvcvideo.h	93;"	d
+GET_MAX	uvcvideo.h	91;"	d
+GET_MIN	uvcvideo.h	90;"	d
+GET_RES	uvcvideo.h	92;"	d
+GUI_keytoaction	luvcview.c	/^action_gui GUI_keytoaction(SDLKey key)$/;"	f	signature:(SDLKey key)
+GUI_keytoaction	luvcview.c	/^action_gui GUI_keytoaction(SDLKey key);$/;"	p	file:	signature:(SDLKey key)
+GUI_whichbutton	luvcview.c	/^GUI_whichbutton(int x, int y, SDL_Surface * pscreen, struct vdIn *videoIn)$/;"	f	signature:(int x, int y, SDL_Surface * pscreen, struct vdIn *videoIn)
+GUI_whichbutton	luvcview.c	/^GUI_whichbutton(int x, int y, SDL_Surface * pscreen, struct vdIn *videoIn);$/;"	p	file:	signature:(int x, int y, SDL_Surface * pscreen, struct vdIn *videoIn)
+G_FROMYUV	color.c	/^G_FROMYUV(unsigned char y, unsigned char u, unsigned char v)$/;"	f	signature:(unsigned char y, unsigned char u, unsigned char v)
+G_FROMYUV	color.h	/^G_FROMYUV(unsigned char y, unsigned char u, unsigned char v);$/;"	p	signature:(unsigned char y, unsigned char u, unsigned char v)
+Gcoef	color.c	82;"	d	file:
+HEADERBYTES	avilib.c	93;"	d	file:
+HEADERFRAME1	v4l2uvc.c	462;"	d	file:
+IBM_FORMAT_ADPCM	avilib.h	257;"	d
+IBM_FORMAT_ALAW	avilib.h	256;"	d
+IBM_FORMAT_MULAW	avilib.h	255;"	d
+IC4	utils.c	799;"	d	file:
+IFIX	utils.c	39;"	d	file:
+IMULT	utils.c	794;"	d	file:
+INCPANTILT	luvcview.c	56;"	d	file:
+INFO_LIST	avilib.c	43;"	d	file:
+INSTALL	Makefile	/^INSTALL=install$/;"	m
+INSTALLROOT	Makefile	/^INSTALLROOT=$(PWD)$/;"	m
+ISHIFT	utils.c	37;"	d	file:
+ITOINT	utils.c	795;"	d	file:
+ITT_CAMERA	uvcvideo.h	170;"	d
+ITT_MEDIA_TRANSPORT_INPUT	uvcvideo.h	171;"	d
+ITT_VENDOR_SPECIFIC	uvcvideo.h	169;"	d
+JPEGHuffmanTable	huffman.h	/^const unsigned char JPEGHuffmanTable[JPG_HUFFMAN_TABLE_LENGTH]$/;"	v
+JPG_HUFFMAN_TABLE_LENGTH	huffman.h	50;"	d
+LEBI_DCL	utils.c	635;"	d	file:
+LEBI_GET	utils.c	636;"	d	file:
+LEBI_PUT	utils.c	637;"	d	file:
+LXU_MOTOR_PANTILT_RELATIVE_CONTROL	uvcvideo.h	150;"	d
+LXU_MOTOR_PANTILT_RESET_CONTROL	uvcvideo.h	151;"	d
+LutBu	color.c	/^static int *LutBu = NULL;$/;"	v	file:
+LutGu	color.c	/^static int *LutGu = NULL;$/;"	v	file:
+LutGv	color.c	/^static int *LutGv = NULL;$/;"	v	file:
+LutRv	color.c	/^static int *LutRv = NULL;$/;"	v	file:
+LutUb	color.c	/^static int *LutUb = NULL;;$/;"	v	file:
+LutUbY	color.c	/^static int *LutUbY = NULL;;$/;"	v	file:
+LutVr	color.c	/^static int *LutVr = NULL;;$/;"	v	file:
+LutVrY	color.c	/^static int *LutVrY = NULL;;$/;"	v	file:
+LutYb	color.c	/^static int *LutYb = NULL;;$/;"	v	file:
+LutYg	color.c	/^static int *LutYg = NULL;;$/;"	v	file:
+LutYr	color.c	/^static int *LutYr = NULL;$/;"	v	file:
+MAXCOMP	utils.c	155;"	d	file:
+MAX_INFO_STRLEN	avilib.c	49;"	d	file:
+M_APP0	utils.c	124;"	d	file:
+M_BADHUFF	utils.c	46;"	d	file:
+M_COM	utils.c	132;"	d	file:
+M_DHT	utils.c	127;"	d	file:
+M_DQT	utils.c	125;"	d	file:
+M_DRI	utils.c	128;"	d	file:
+M_EOF	utils.c	47;"	d	file:
+M_EOI	utils.c	131;"	d	file:
+M_RST0	utils.c	130;"	d	file:
+M_SOF0	utils.c	126;"	d	file:
+M_SOI	utils.c	123;"	d	file:
+M_SOS	utils.c	129;"	d	file:
+MyYUV422	color.h	/^typedef struct MyYUV422 {$/;"	s
+MyYUV422	color.h	/^} MyYUV422;$/;"	t	typeref:struct:MyYUV422
+MyYUV422::u	color.h	/^	unsigned char u;$/;"	m	struct:MyYUV422	access:public
+MyYUV422::v	color.h	/^	unsigned char v;$/;"	m	struct:MyYUV422	access:public
+MyYUV422::y0	color.h	/^	unsigned char y0;$/;"	m	struct:MyYUV422	access:public
+MyYUV422::y1	color.h	/^	unsigned char y1;$/;"	m	struct:MyYUV422	access:public
+MyYUV444	color.h	/^typedef struct MyYUV444 {$/;"	s
+MyYUV444	color.h	/^} MyYUV444;$/;"	t	typeref:struct:MyYUV444
+MyYUV444::u	color.h	/^	unsigned char u;$/;"	m	struct:MyYUV444	access:public
+MyYUV444::v	color.h	/^	unsigned char v;$/;"	m	struct:MyYUV444	access:public
+MyYUV444::y	color.h	/^	unsigned char y;$/;"	m	struct:MyYUV444	access:public
+Myrgb16	color.h	/^typedef struct Myrgb16 {$/;"	s
+Myrgb16	color.h	/^} Myrgb16;$/;"	t	typeref:struct:Myrgb16
+Myrgb16::blue	color.h	/^	unsigned short blue:5;$/;"	m	struct:Myrgb16	access:public
+Myrgb16::green	color.h	/^	unsigned short green:6;$/;"	m	struct:Myrgb16	access:public
+Myrgb16::red	color.h	/^	unsigned short red:5;$/;"	m	struct:Myrgb16	access:public
+Myrgb24	color.h	/^typedef struct Myrgb24 {$/;"	s
+Myrgb24	color.h	/^} Myrgb24;$/;"	t	typeref:struct:Myrgb24
+Myrgb24::blue	color.h	/^	unsigned char blue;$/;"	m	struct:Myrgb24	access:public
+Myrgb24::green	color.h	/^	unsigned char green;$/;"	m	struct:Myrgb24	access:public
+Myrgb24::red	color.h	/^	unsigned char red;$/;"	m	struct:Myrgb24	access:public
+Myrgb32	color.h	/^typedef struct Myrgb32 {$/;"	s
+Myrgb32	color.h	/^} Myrgb32;$/;"	t	typeref:struct:Myrgb32
+Myrgb32::alpha	color.h	/^	unsigned char alpha;$/;"	m	struct:Myrgb32	access:public
+Myrgb32::blue	color.h	/^	unsigned char blue;$/;"	m	struct:Myrgb32	access:public
+Myrgb32::green	color.h	/^	unsigned char green;$/;"	m	struct:Myrgb32	access:public
+Myrgb32::red	color.h	/^	unsigned char red;$/;"	m	struct:Myrgb32	access:public
+NB_BUFFER	v4l2uvc.h	38;"	d
+OBJECTS	Makefile	/^OBJECTS= luvcview.o color.o utils.o v4l2uvc.o gui.o avilib.o$/;"	m
+OTT_DISPLAY	uvcvideo.h	175;"	d
+OTT_MEDIA_TRANSPORT_OUTPUT	uvcvideo.h	176;"	d
+OTT_VENDOR_SPECIFIC	uvcvideo.h	174;"	d
+OUT4CC	avilib.c	335;"	d	file:
+OUTLONG	avilib.c	338;"	d	file:
+OUTSHRT	avilib.c	341;"	d	file:
+PACKRGB16	color.h	74;"	d
+PAD_EVEN	avilib.c	100;"	d	file:
+PC_PROTOCOL_UNDEFINED	uvcvideo.h	46;"	d
+PREC	utils.c	105;"	d	file:
+PREC	utils.c	106;"	d	file:
+PU_ANALOG_LOCK_STATUS_CONTROL	uvcvideo.h	148;"	d
+PU_ANALOG_VIDEO_STANDARD_CONTROL	uvcvideo.h	147;"	d
+PU_BACKLIGHT_COMPENSATION_CONTROL	uvcvideo.h	131;"	d
+PU_BRIGHTNESS_CONTROL	uvcvideo.h	132;"	d
+PU_CONTRAST_CONTROL	uvcvideo.h	133;"	d
+PU_CONTROL_UNDEFINED	uvcvideo.h	130;"	d
+PU_DIGITAL_MULTIPLIER_CONTROL	uvcvideo.h	144;"	d
+PU_DIGITAL_MULTIPLIER_LIMIT_CONTROL	uvcvideo.h	145;"	d
+PU_GAIN_CONTROL	uvcvideo.h	134;"	d
+PU_GAMMA_CONTROL	uvcvideo.h	139;"	d
+PU_HUE_AUTO_CONTROL	uvcvideo.h	146;"	d
+PU_HUE_CONTROL	uvcvideo.h	136;"	d
+PU_POWER_LINE_FREQUENCY_CONTROL	uvcvideo.h	135;"	d
+PU_SATURATION_CONTROL	uvcvideo.h	137;"	d
+PU_SHARPNESS_CONTROL	uvcvideo.h	138;"	d
+PU_WHITE_BALANCE_COMPONENT_AUTO_CONTROL	uvcvideo.h	143;"	d
+PU_WHITE_BALANCE_COMPONENT_CONTROL	uvcvideo.h	142;"	d
+PU_WHITE_BALANCE_TEMPERATURE_AUTO_CONTROL	uvcvideo.h	141;"	d
+PU_WHITE_BALANCE_TEMPERATURE_CONTROL	uvcvideo.h	140;"	d
+Pyuv422torgb24	utils.c	/^Pyuv422torgb24(unsigned char * input_ptr, unsigned char * output_ptr, unsigned int image_width, unsigned int image_height)$/;"	f	signature:(unsigned char * input_ptr, unsigned char * output_ptr, unsigned int image_width, unsigned int image_height)
+RC_UNDEFINED	uvcvideo.h	87;"	d
+RGB24_TO_Y	color.c	/^RGB24_TO_Y(unsigned char r, unsigned char g, unsigned char b)$/;"	f	signature:(unsigned char r, unsigned char g, unsigned char b)
+RGB24_TO_Y	color.h	/^RGB24_TO_Y(unsigned char r, unsigned char g, unsigned char b);$/;"	p	signature:(unsigned char r, unsigned char g, unsigned char b)
+R_FROMYV	color.c	/^R_FROMYV(unsigned char y, unsigned char v)$/;"	f	signature:(unsigned char y, unsigned char v)
+R_FROMYV	color.h	/^R_FROMYV(unsigned char y, unsigned char v);$/;"	p	signature:(unsigned char y, unsigned char v)
+Rcoef	color.c	81;"	d	file:
+S22	utils.c	797;"	d	file:
+SC_UNDEFINED	uvcvideo.h	41;"	d
+SC_VIDEOCONTROL	uvcvideo.h	42;"	d
+SC_VIDEOSTREAMING	uvcvideo.h	43;"	d
+SC_VIDEO_INTERFACE_COLLECTION	uvcvideo.h	44;"	d
+SDLFLAGS	Makefile	/^SDLFLAGS = $(shell sdl-config --cflags)$/;"	m
+SDLLIBS	Makefile	/^SDLLIBS = $(shell sdl-config --libs) $/;"	m
+SDL_VIDEO_Flags	luvcview.c	/^static Uint32 SDL_VIDEO_Flags =$/;"	v	file:
+SET_CUR	uvcvideo.h	88;"	d
+SU_CONTROL_UNDEFINED	uvcvideo.h	106;"	d
+SU_INPUT_SELECT_CONTROL	uvcvideo.h	107;"	d
+SVIDEO_CONNECTOR	uvcvideo.h	180;"	d
+S_IRGRP	avilib.c	213;"	d	file:
+S_IROTH	avilib.c	217;"	d	file:
+S_IRUSR	avilib.c	209;"	d	file:
+S_IRWXG	avilib.c	212;"	d	file:
+S_IRWXO	avilib.c	216;"	d	file:
+S_IRWXU	avilib.c	208;"	d	file:
+S_IWGRP	avilib.c	214;"	d	file:
+S_IWOTH	avilib.c	218;"	d	file:
+S_IWUSR	avilib.c	210;"	d	file:
+S_IXGRP	avilib.c	215;"	d	file:
+S_IXOTH	avilib.c	219;"	d	file:
+S_IXUSR	avilib.c	211;"	d	file:
+TE_CONTROL_UNDEFINED	uvcvideo.h	103;"	d
+TO_FIXED	luvcview.c	53;"	d	file:
+TT_STREAMING	uvcvideo.h	166;"	d
+TT_VENDOR_SPECIFIC	uvcvideo.h	165;"	d
+U0	gui.c	/^    unsigned char U0;$/;"	m	struct:YUYV	file:	access:public
+UNGETBITS	utils.c	645;"	d	file:
+UNPACK16	color.h	75;"	d
+UVC_BUF_STATE_ACTIVE	uvcvideo.h	/^	UVC_BUF_STATE_ACTIVE     = 2,$/;"	e	enum:uvc_buffer_state
+UVC_BUF_STATE_DONE	uvcvideo.h	/^	UVC_BUF_STATE_DONE       = 3,$/;"	e	enum:uvc_buffer_state
+UVC_BUF_STATE_ERROR	uvcvideo.h	/^	UVC_BUF_STATE_ERROR      = 4,$/;"	e	enum:uvc_buffer_state
+UVC_BUF_STATE_IDLE	uvcvideo.h	/^	UVC_BUF_STATE_IDLE       = 0,$/;"	e	enum:uvc_buffer_state
+UVC_BUF_STATE_QUEUED	uvcvideo.h	/^	UVC_BUF_STATE_QUEUED     = 1,$/;"	e	enum:uvc_buffer_state
+UVC_CTRL_DATA_TYPE_BITMASK	uvcvideo.h	/^	UVC_CTRL_DATA_TYPE_BITMASK,$/;"	e	enum:uvc_control_data_type
+UVC_CTRL_DATA_TYPE_BOOLEAN	uvcvideo.h	/^        UVC_CTRL_DATA_TYPE_BOOLEAN,$/;"	e	enum:uvc_control_data_type
+UVC_CTRL_DATA_TYPE_ENUM	uvcvideo.h	/^        UVC_CTRL_DATA_TYPE_ENUM,$/;"	e	enum:uvc_control_data_type
+UVC_CTRL_DATA_TYPE_RAW	uvcvideo.h	/^        UVC_CTRL_DATA_TYPE_RAW = 0,$/;"	e	enum:uvc_control_data_type
+UVC_CTRL_DATA_TYPE_SIGNED	uvcvideo.h	/^        UVC_CTRL_DATA_TYPE_SIGNED,$/;"	e	enum:uvc_control_data_type
+UVC_CTRL_DATA_TYPE_UNSIGNED	uvcvideo.h	/^        UVC_CTRL_DATA_TYPE_UNSIGNED,$/;"	e	enum:uvc_control_data_type
+UVC_CTRL_TIMEOUT	uvcvideo.h	235;"	d
+UVC_DEV_DISCONNECTED	uvcvideo.h	/^	UVC_DEV_DISCONNECTED = 1,$/;"	e	enum:uvc_device_state
+UVC_ENTITY_IS_ITERM	uvcvideo.h	185;"	d
+UVC_ENTITY_IS_OTERM	uvcvideo.h	186;"	d
+UVC_ENTITY_IS_TERM	uvcvideo.h	184;"	d
+UVC_ENTITY_IS_UNIT	uvcvideo.h	183;"	d
+UVC_GUID_ARGS	uvcvideo.h	591;"	d
+UVC_GUID_FORMAT	uvcvideo.h	590;"	d
+UVC_GUID_FORMAT_MJPEG	uvcvideo.h	212;"	d
+UVC_GUID_FORMAT_NV12	uvcvideo.h	216;"	d
+UVC_GUID_FORMAT_YUY2	uvcvideo.h	214;"	d
+UVC_GUID_LOGITECH_DEV_INFO	uvcvideo.h	208;"	d
+UVC_GUID_LOGITECH_MOTOR	uvcvideo.h	206;"	d
+UVC_GUID_LOGITECH_XU1	uvcvideo.h	200;"	d
+UVC_GUID_LOGITECH_XU2	uvcvideo.h	202;"	d
+UVC_GUID_LOGITECH_XU3	uvcvideo.h	204;"	d
+UVC_GUID_UVC_CAMERA	uvcvideo.h	191;"	d
+UVC_GUID_UVC_OUTPUT	uvcvideo.h	193;"	d
+UVC_GUID_UVC_PROCESSING	uvcvideo.h	195;"	d
+UVC_GUID_UVC_SELECTOR	uvcvideo.h	197;"	d
+UVC_HANDLE_ACTIVE	uvcvideo.h	/^	UVC_HANDLE_ACTIVE	= 1,$/;"	e	enum:uvc_handle_state
+UVC_HANDLE_PASSIVE	uvcvideo.h	/^	UVC_HANDLE_PASSIVE	= 0,$/;"	e	enum:uvc_handle_state
+UVC_MAX_FRAME_SIZE	uvcvideo.h	231;"	d
+UVC_MAX_ISO_PACKETS	uvcvideo.h	229;"	d
+UVC_MAX_VIDEO_BUFFERS	uvcvideo.h	233;"	d
+UVC_QUIRK_STATUS_INTERVAL	uvcvideo.h	238;"	d
+UVC_STREAM_INTERRUPT	uvcvideo.h	/^	UVC_STREAM_INTERRUPT = 1,$/;"	e	enum:uvc_stream_state
+UVC_STREAM_OFF	uvcvideo.h	/^	UVC_STREAM_OFF = 0,$/;"	e	enum:uvc_stream_state
+UVC_STREAM_ON	uvcvideo.h	/^	UVC_STREAM_ON = 2,$/;"	e	enum:uvc_stream_state
+UVC_TRACE_CALLS	uvcvideo.h	575;"	d
+UVC_TRACE_CAPTURE	uvcvideo.h	574;"	d
+UVC_TRACE_CONTROL	uvcvideo.h	572;"	d
+UVC_TRACE_DESCR	uvcvideo.h	571;"	d
+UVC_TRACE_FORMAT	uvcvideo.h	573;"	d
+UVC_TRACE_FRAME	uvcvideo.h	577;"	d
+UVC_TRACE_IOCTL	uvcvideo.h	576;"	d
+UVC_TRACE_PROBE	uvcvideo.h	570;"	d
+UVC_URBS	uvcvideo.h	227;"	d
+Ubcoef	color.c	85;"	d	file:
+UfromRGB	color.h	71;"	d
+V4L2_CID_BACKLIGHT_COMPENSATION	uvcvideo.h	14;"	d
+V4L2_CID_BASE	uvc_compat.h	39;"	d
+V4L2_CID_BASE	uvc_compat.h	40;"	d
+V4L2_CID_EXPOSURE_ABSOLUTE	uvcvideo.h	28;"	d
+V4L2_CID_EXPOSURE_AUTO	uvcvideo.h	27;"	d
+V4L2_CID_FOCUS_ABSOLUTE	uvcvideo.h	20;"	d
+V4L2_CID_FOCUS_AUTO	uvcvideo.h	19;"	d
+V4L2_CID_FOCUS_RELATIVE	uvcvideo.h	21;"	d
+V4L2_CID_HUE_AUTO	uvcvideo.h	17;"	d
+V4L2_CID_PANTILT_RESET	uvcvideo.h	25;"	d
+V4L2_CID_PAN_RELATIVE	uvcvideo.h	23;"	d
+V4L2_CID_POWER_LINE_FREQUENCY	uvcvideo.h	15;"	d
+V4L2_CID_PRIVATE_LAST	uvcvideo.h	33;"	d
+V4L2_CID_SHARPNESS	uvcvideo.h	16;"	d
+V4L2_CID_TILT_RELATIVE	uvcvideo.h	24;"	d
+V4L2_CID_USER_BASE	uvc_compat.h	41;"	d
+V4L2_CID_USER_CLASS	uvc_compat.h	42;"	d
+V4L2_CID_WHITE_BALANCE_TEMPERATURE	uvcvideo.h	31;"	d
+V4L2_CID_WHITE_BALANCE_TEMPERATURE_AUTO	uvcvideo.h	30;"	d
+V4L2_CTRL_CLASS_MPEG	uvc_compat.h	32;"	d
+V4L2_CTRL_CLASS_USER	uvc_compat.h	31;"	d
+V4L2_CTRL_DRIVER_PRIV	uvc_compat.h	36;"	d
+V4L2_CTRL_ID2CLASS	uvc_compat.h	35;"	d
+V4L2_CTRL_ID_MASK	uvc_compat.h	34;"	d
+V4L2_FRMIVAL_TYPE_CONTINUOUS	uvc_compat.h	/^	V4L2_FRMIVAL_TYPE_CONTINUOUS	= 2,$/;"	e	enum:v4l2_frmivaltypes
+V4L2_FRMIVAL_TYPE_DISCRETE	uvc_compat.h	/^	V4L2_FRMIVAL_TYPE_DISCRETE	= 1,$/;"	e	enum:v4l2_frmivaltypes
+V4L2_FRMIVAL_TYPE_STEPWISE	uvc_compat.h	/^	V4L2_FRMIVAL_TYPE_STEPWISE	= 3,$/;"	e	enum:v4l2_frmivaltypes
+V4L2_FRMSIZE_TYPE_CONTINUOUS	uvc_compat.h	/^	V4L2_FRMSIZE_TYPE_CONTINUOUS	= 2,$/;"	e	enum:v4l2_frmsizetypes
+V4L2_FRMSIZE_TYPE_DISCRETE	uvc_compat.h	/^	V4L2_FRMSIZE_TYPE_DISCRETE	= 1,$/;"	e	enum:v4l2_frmsizetypes
+V4L2_FRMSIZE_TYPE_STEPWISE	uvc_compat.h	/^	V4L2_FRMSIZE_TYPE_STEPWISE	= 3,$/;"	e	enum:v4l2_frmsizetypes
+VC_CONTROL_UNDEFINED	uvcvideo.h	98;"	d
+VC_DESCRIPTOR_UNDEFINED	uvcvideo.h	56;"	d
+VC_EXTENSION_UNIT	uvcvideo.h	62;"	d
+VC_HEADER	uvcvideo.h	57;"	d
+VC_INPUT_TERMINAL	uvcvideo.h	58;"	d
+VC_OUTPUT_TERMINAL	uvcvideo.h	59;"	d
+VC_PROCESSING_UNIT	uvcvideo.h	61;"	d
+VC_REQUEST_ERROR_CODE_CONTROL	uvcvideo.h	100;"	d
+VC_SELECTOR_UNIT	uvcvideo.h	60;"	d
+VC_VIDEO_POWER_MODE_CONTROL	uvcvideo.h	99;"	d
+VERSION	Makefile	/^VERSION = 0.2.1$/;"	m
+VIDIOC_ENUM_FRAMEINTERVALS	uvc_compat.h	124;"	d
+VIDIOC_ENUM_FRAMESIZES	uvc_compat.h	123;"	d
+VIDIOC_G_EXT_CTRLS	uvc_compat.h	44;"	d
+VIDIOC_S_EXT_CTRLS	uvc_compat.h	45;"	d
+VIDIOC_TRY_EXT_CTRLS	uvc_compat.h	46;"	d
+VS_COLORFORMAT	uvcvideo.h	75;"	d
+VS_COMMIT_CONTROL	uvcvideo.h	156;"	d
+VS_CONTROL_UNDEFINED	uvcvideo.h	154;"	d
+VS_FORMAT_DV	uvcvideo.h	74;"	d
+VS_FORMAT_FRAME_BASED	uvcvideo.h	76;"	d
+VS_FORMAT_MJPEG	uvcvideo.h	71;"	d
+VS_FORMAT_MPEG2TS	uvcvideo.h	73;"	d
+VS_FORMAT_STREAM_BASED	uvcvideo.h	78;"	d
+VS_FORMAT_UNCOMPRESSED	uvcvideo.h	69;"	d
+VS_FRAME_FRAME_BASED	uvcvideo.h	77;"	d
+VS_FRAME_MJPEG	uvcvideo.h	72;"	d
+VS_FRAME_UNCOMPRESSED	uvcvideo.h	70;"	d
+VS_GENERATE_KEY_FRAME_CONTROL	uvcvideo.h	161;"	d
+VS_INPUT_HEADER	uvcvideo.h	66;"	d
+VS_OUTPUT_HEADER	uvcvideo.h	67;"	d
+VS_PROBE_CONTROL	uvcvideo.h	155;"	d
+VS_STILL_COMMIT_CONTROL	uvcvideo.h	158;"	d
+VS_STILL_IMAGE_FRAME	uvcvideo.h	68;"	d
+VS_STILL_IMAGE_TRIGGER_CONTROL	uvcvideo.h	159;"	d
+VS_STILL_PROBE_CONTROL	uvcvideo.h	157;"	d
+VS_STREAM_ERROR_CODE_CONTROL	uvcvideo.h	160;"	d
+VS_SYNC_DELAY_CONTROL	uvcvideo.h	163;"	d
+VS_UNDEFINED	uvcvideo.h	65;"	d
+VS_UPDATE_FRAME_SEGMENT_CONTROL	uvcvideo.h	162;"	d
+VfromRGB	color.h	72;"	d
+Vrcoef	color.c	84;"	d	file:
+WAVEFORMATEX_avilib	avilib.h	/^} WAVEFORMATEX_avilib;$/;"	t	typeref:struct:__anon14
+WAVE_FORMAT_ADPCM	avilib.h	244;"	d
+WAVE_FORMAT_ALAW	avilib.h	246;"	d
+WAVE_FORMAT_DIGIFIX	avilib.h	251;"	d
+WAVE_FORMAT_DIGISTD	avilib.h	250;"	d
+WAVE_FORMAT_DSP_TRUESPEECH	avilib.h	253;"	d
+WAVE_FORMAT_DVI_ADPCM	avilib.h	249;"	d
+WAVE_FORMAT_GSM610	avilib.h	254;"	d
+WAVE_FORMAT_IBM_CVSD	avilib.h	245;"	d
+WAVE_FORMAT_MULAW	avilib.h	247;"	d
+WAVE_FORMAT_OKI_ADPCM	avilib.h	248;"	d
+WAVE_FORMAT_PCM	avilib.h	243;"	d
+WAVE_FORMAT_UNKNOWN	avilib.h	242;"	d
+WAVE_FORMAT_YAMAHA_ADPCM	avilib.h	252;"	d
+Y0	gui.c	/^    unsigned char Y0;$/;"	m	struct:YUYV	file:	access:public
+YB_TO_U	color.c	/^YB_TO_U(unsigned char b, unsigned char y)$/;"	f	signature:(unsigned char b, unsigned char y)
+YB_TO_U	color.h	/^YB_TO_U(unsigned char b, unsigned char y);$/;"	p	signature:(unsigned char b, unsigned char y)
+YR_TO_V	color.c	/^YR_TO_V(unsigned char r, unsigned char y)$/;"	f	signature:(unsigned char r, unsigned char y)
+YR_TO_V	color.h	/^YR_TO_V(unsigned char r, unsigned char y);$/;"	p	signature:(unsigned char r, unsigned char y)
+YUYV	gui.c	/^typedef struct YUYV {$/;"	s	file:
+YUYV	gui.c	/^} YUYV;$/;"	t	typeref:struct:YUYV	file:
+YUYV::U0	gui.c	/^    unsigned char U0;$/;"	m	struct:YUYV	file:	access:public
+YUYV::Y0	gui.c	/^    unsigned char Y0;$/;"	m	struct:YUYV	file:	access:public
+YUYVbutt	gui.c	/^unsigned char *YUYVbutt = NULL;$/;"	v
+YUYVbuttOrg	button.h	/^unsigned char *YUYVbuttOrg = NULL;$/;"	v
+YfromRGB	color.h	70;"	d
+_USB_VIDEO_H_	uvcvideo.h	2;"	d
+_UVC_COMPAT_H	uvc_compat.h	2;"	d
+__P	utils.c	42;"	d	file:
+__anon11::key	avilib.h	/^  off_t key;$/;"	m	struct:__anon11	access:public
+__anon11::len	avilib.h	/^  off_t len;$/;"	m	struct:__anon11	access:public
+__anon11::pos	avilib.h	/^  off_t pos;$/;"	m	struct:__anon11	access:public
+__anon12::len	avilib.h	/^   off_t len;$/;"	m	struct:__anon12	access:public
+__anon12::pos	avilib.h	/^   off_t pos;$/;"	m	struct:__anon12	access:public
+__anon12::tot	avilib.h	/^   off_t tot;$/;"	m	struct:__anon12	access:public
+__anon13::bi_bit_count	avilib.h	/^  uint16_t  bi_bit_count;$/;"	m	struct:__anon13	access:public
+__anon13::bi_clr_important	avilib.h	/^  uint32_t  bi_clr_important;$/;"	m	struct:__anon13	access:public
+__anon13::bi_clr_used	avilib.h	/^  uint32_t  bi_clr_used;$/;"	m	struct:__anon13	access:public
+__anon13::bi_compression	avilib.h	/^  uint32_t  bi_compression;$/;"	m	struct:__anon13	access:public
+__anon13::bi_height	avilib.h	/^  uint32_t  bi_height;$/;"	m	struct:__anon13	access:public
+__anon13::bi_planes	avilib.h	/^  uint16_t  bi_planes;$/;"	m	struct:__anon13	access:public
+__anon13::bi_size	avilib.h	/^  uint32_t  bi_size;$/;"	m	struct:__anon13	access:public
+__anon13::bi_size_image	avilib.h	/^  uint32_t  bi_size_image;$/;"	m	struct:__anon13	access:public
+__anon13::bi_width	avilib.h	/^  uint32_t  bi_width;$/;"	m	struct:__anon13	access:public
+__anon13::bi_x_pels_per_meter	avilib.h	/^  uint32_t  bi_x_pels_per_meter;$/;"	m	struct:__anon13	access:public
+__anon13::bi_y_pels_per_meter	avilib.h	/^  uint32_t  bi_y_pels_per_meter;$/;"	m	struct:__anon13	access:public
+__anon14::cb_size	avilib.h	/^  uint16_t  cb_size;$/;"	m	struct:__anon14	access:public
+__anon14::n_avg_bytes_per_sec	avilib.h	/^  uint32_t  n_avg_bytes_per_sec;$/;"	m	struct:__anon14	access:public
+__anon14::n_block_align	avilib.h	/^  uint16_t  n_block_align;$/;"	m	struct:__anon14	access:public
+__anon14::n_channels	avilib.h	/^  uint16_t  n_channels;$/;"	m	struct:__anon14	access:public
+__anon14::n_samples_per_sec	avilib.h	/^  uint32_t  n_samples_per_sec;$/;"	m	struct:__anon14	access:public
+__anon14::w_bits_per_sample	avilib.h	/^  uint16_t  w_bits_per_sample;$/;"	m	struct:__anon14	access:public
+__anon14::w_format_tag	avilib.h	/^  uint16_t  w_format_tag;$/;"	m	struct:__anon14	access:public
+__anon15::dw_bottom	avilib.h	/^  uint32_t dw_bottom;$/;"	m	struct:__anon15	access:public
+__anon15::dw_caps	avilib.h	/^  uint32_t dw_caps; $/;"	m	struct:__anon15	access:public
+__anon15::dw_edit_count	avilib.h	/^  uint32_t dw_edit_count;$/;"	m	struct:__anon15	access:public
+__anon15::dw_flags	avilib.h	/^  uint32_t dw_flags; $/;"	m	struct:__anon15	access:public
+__anon15::dw_format_change_count	avilib.h	/^  uint32_t dw_format_change_count;$/;"	m	struct:__anon15	access:public
+__anon15::dw_initial_frames	avilib.h	/^  uint32_t dw_initial_frames;$/;"	m	struct:__anon15	access:public
+__anon15::dw_left	avilib.h	/^  uint32_t dw_left;$/;"	m	struct:__anon15	access:public
+__anon15::dw_length	avilib.h	/^  uint32_t dw_length;$/;"	m	struct:__anon15	access:public
+__anon15::dw_quality	avilib.h	/^  uint32_t dw_quality;$/;"	m	struct:__anon15	access:public
+__anon15::dw_rate	avilib.h	/^  uint32_t dw_rate;$/;"	m	struct:__anon15	access:public
+__anon15::dw_right	avilib.h	/^  uint32_t dw_right;$/;"	m	struct:__anon15	access:public
+__anon15::dw_sample_size	avilib.h	/^  uint32_t dw_sample_size;$/;"	m	struct:__anon15	access:public
+__anon15::dw_scale	avilib.h	/^  uint32_t dw_scale;$/;"	m	struct:__anon15	access:public
+__anon15::dw_start	avilib.h	/^  uint32_t dw_start;$/;"	m	struct:__anon15	access:public
+__anon15::dw_suggested_buffer_size	avilib.h	/^  uint32_t dw_suggested_buffer_size;$/;"	m	struct:__anon15	access:public
+__anon15::dw_top	avilib.h	/^  uint32_t dw_top;$/;"	m	struct:__anon15	access:public
+__anon15::fcc_handler	avilib.h	/^  uint32_t fcc_handler; $/;"	m	struct:__anon15	access:public
+__anon15::fcc_type	avilib.h	/^  uint32_t fcc_type; $/;"	m	struct:__anon15	access:public
+__anon15::sz_name	avilib.h	/^  char     sz_name[64];$/;"	m	struct:__anon15	access:public
+__anon15::w_language	avilib.h	/^  uint16_t w_language;$/;"	m	struct:__anon15	access:public
+__anon15::w_priority	avilib.h	/^  uint16_t w_priority;$/;"	m	struct:__anon15	access:public
+__anon16::anum	avilib.h	/^  int anum;            \/\/ total number of audio tracks $/;"	m	struct:__anon16	access:public
+__anon16::aptr	avilib.h	/^  int aptr;            \/\/ current audio working track $/;"	m	struct:__anon16	access:public
+__anon16::bitmap_info_header	avilib.h	/^  BITMAPINFOHEADER_avilib *bitmap_info_header;$/;"	m	struct:__anon16	access:public
+__anon16::compressor	avilib.h	/^  char   compressor[8];     \/* Type of compressor, 4 bytes + padding for 0 byte *\/$/;"	m	struct:__anon16	access:public
+__anon16::compressor2	avilib.h	/^  char   compressor2[8];     \/* Type of compressor, 4 bytes + padding for 0 byte *\/$/;"	m	struct:__anon16	access:public
+__anon16::fdes	avilib.h	/^  long   fdes;              \/* File descriptor of AVI file *\/$/;"	m	struct:__anon16	access:public
+__anon16::fps	avilib.h	/^  double fps;               \/* Frames per second *\/$/;"	m	struct:__anon16	access:public
+__anon16::height	avilib.h	/^  long   height;            \/* Height of a video frame *\/$/;"	m	struct:__anon16	access:public
+__anon16::idx	avilib.h	/^  unsigned char (*idx)[16]; \/* index entries (AVI idx1 tag) *\/$/;"	m	struct:__anon16	access:public
+__anon16::last_len	avilib.h	/^  unsigned long last_len;          \/* Length of last frame written *\/$/;"	m	struct:__anon16	access:public
+__anon16::last_pos	avilib.h	/^  off_t last_pos;          \/* Position of last frame written *\/$/;"	m	struct:__anon16	access:public
+__anon16::max_idx	avilib.h	/^  long   max_idx;           \/* number of index entries actually allocated *\/$/;"	m	struct:__anon16	access:public
+__anon16::max_len	avilib.h	/^  unsigned long max_len;    \/* maximum video chunk present *\/$/;"	m	struct:__anon16	access:public
+__anon16::mode	avilib.h	/^  long   mode;              \/* 0 for reading, 1 for writing *\/$/;"	m	struct:__anon16	access:public
+__anon16::movi_start	avilib.h	/^  off_t movi_start;$/;"	m	struct:__anon16	access:public
+__anon16::must_use_index	avilib.h	/^  int must_use_index;              \/* Flag if frames are duplicated *\/$/;"	m	struct:__anon16	access:public
+__anon16::n_idx	avilib.h	/^  long   n_idx;             \/* number of index entries actually filled *\/$/;"	m	struct:__anon16	access:public
+__anon16::pos	avilib.h	/^  off_t pos;        \/* position in file *\/$/;"	m	struct:__anon16	access:public
+__anon16::track	avilib.h	/^  track_t track[AVI_MAX_TRACKS];  \/\/ up to AVI_MAX_TRACKS audio tracks supported$/;"	m	struct:__anon16	access:public
+__anon16::v_codecf_off	avilib.h	/^  off_t v_codecf_off;       \/* absolut offset of video codec (strf) info *\/ $/;"	m	struct:__anon16	access:public
+__anon16::v_codech_off	avilib.h	/^  off_t v_codech_off;       \/* absolut offset of video codec (strh) info *\/ $/;"	m	struct:__anon16	access:public
+__anon16::video_frames	avilib.h	/^  long   video_frames;      \/* Number of video frames *\/$/;"	m	struct:__anon16	access:public
+__anon16::video_index	avilib.h	/^  video_index_entry *video_index;$/;"	m	struct:__anon16	access:public
+__anon16::video_pos	avilib.h	/^  long   video_pos;         \/* Number of next frame to be read$/;"	m	struct:__anon16	access:public
+__anon16::video_strn	avilib.h	/^  long   video_strn;        \/* Video stream number *\/$/;"	m	struct:__anon16	access:public
+__anon16::video_tag	avilib.h	/^  char   video_tag[4];      \/* Tag of video data *\/$/;"	m	struct:__anon16	access:public
+__anon16::wave_format_ex	avilib.h	/^  WAVEFORMATEX_avilib *wave_format_ex[AVI_MAX_TRACKS];$/;"	m	struct:__anon16	access:public
+__anon16::width	avilib.h	/^  long   width;             \/* Width  of a video frame *\/$/;"	m	struct:__anon16	access:public
+__uvc_ctrl_commit	uvcvideo.h	/^extern int __uvc_ctrl_commit(struct uvc_video_device *video, int rollback);$/;"	p	signature:(struct uvc_video_device *video, int rollback)
+a_bits	avilib.h	/^    long   a_bits;            \/* bits per audio sample *\/$/;"	m	struct:track_s	access:public
+a_chans	avilib.h	/^    long   a_chans;           \/* Audio channels, 0 for no audio *\/$/;"	m	struct:track_s	access:public
+a_codecf_off	avilib.h	/^    off_t a_codecf_off;       \/* absolut offset of audio codec information *\/ $/;"	m	struct:track_s	access:public
+a_codech_off	avilib.h	/^    off_t a_codech_off;       \/* absolut offset of audio codec information *\/ $/;"	m	struct:track_s	access:public
+a_fmt	avilib.h	/^    long   a_fmt;             \/* Audio format, see #defines below *\/$/;"	m	struct:track_s	access:public
+a_rate	avilib.h	/^    long   a_rate;            \/* Rate in Hz *\/$/;"	m	struct:track_s	access:public
+aaidct	utils.c	/^static PREC aaidct[8] = {$/;"	v	file:
+act_title	luvcview.c	/^typedef struct act_title {$/;"	s	file:
+act_title	luvcview.c	/^} act_title;$/;"	t	typeref:struct:act_title	file:
+act_title::action	luvcview.c	/^	action_gui action;$/;"	m	struct:act_title	file:	access:public
+act_title::title	luvcview.c	/^	char * title;$/;"	m	struct:act_title	file:	access:public
+action	luvcview.c	/^	action_gui action;$/;"	m	struct:act_title	file:	access:public
+action	luvcview.c	/^    action_gui action;$/;"	m	struct:key_action_t	file:	access:public
+action_gui	luvcview.c	/^typedef enum action_gui {$/;"	g	file:
+action_gui	luvcview.c	/^} action_gui;$/;"	t	typeref:enum:action_gui	file:
+active	uvcvideo.h	/^	atomic_t active;$/;"	m	struct:uvc_video_device	access:public
+affmutex	luvcview.c	/^    SDL_mutex *affmutex;$/;"	m	struct:pt_data	file:	access:public
+alpha	color.h	/^	unsigned char alpha;$/;"	m	struct:Myrgb32	access:public
+anum	avilib.h	/^  int anum;            \/\/ total number of audio tracks $/;"	m	struct:__anon16	access:public
+aptr	avilib.h	/^  int aptr;            \/\/ current audio working track $/;"	m	struct:__anon16	access:public
+audio_bytes	avilib.h	/^    off_t  audio_bytes;       \/* Total number of bytes of audio data *\/$/;"	m	struct:track_s	access:public
+audio_chunks	avilib.h	/^    long   audio_chunks;      \/* Chunks of audio data in the file *\/$/;"	m	struct:track_s	access:public
+audio_index	avilib.h	/^    audio_index_entry *audio_index;$/;"	m	struct:track_s	access:public
+audio_index_entry	avilib.h	/^} audio_index_entry;$/;"	t	typeref:struct:__anon12
+audio_posb	avilib.h	/^    long   audio_posb;        \/* Audio position: byte within chunk *\/$/;"	m	struct:track_s	access:public
+audio_posc	avilib.h	/^    long   audio_posc;        \/* Audio position: chunk *\/$/;"	m	struct:track_s	access:public
+audio_strn	avilib.h	/^    long   audio_strn;        \/* Audio stream number *\/$/;"	m	struct:track_s	access:public
+audio_tag	avilib.h	/^    char   audio_tag[4];      \/* Tag of audio data *\/$/;"	m	struct:track_s	access:public
+avi_add_chunk	avilib.c	/^static int avi_add_chunk(avi_t *AVI, unsigned char *tag, unsigned char *data, int length)$/;"	f	file:	signature:(avi_t *AVI, unsigned char *tag, unsigned char *data, int length)
+avi_add_index_entry	avilib.c	/^static int avi_add_index_entry(avi_t *AVI, unsigned char *tag, long flags, unsigned long pos, unsigned long len)$/;"	f	file:	signature:(avi_t *AVI, unsigned char *tag, long flags, unsigned long pos, unsigned long len)
+avi_close_output_file	avilib.c	/^static int avi_close_output_file(avi_t *AVI)$/;"	f	file:	signature:(avi_t *AVI)
+avi_errors	avilib.c	/^char *(avi_errors[]) =$/;"	v
+avi_parse_input_file	avilib.c	/^int avi_parse_input_file(avi_t *AVI, int getIndex)$/;"	f	signature:(avi_t *AVI, int getIndex)
+avi_parse_input_file	avilib.h	/^int avi_parse_input_file(avi_t *AVI, int getIndex);$/;"	p	signature:(avi_t *AVI, int getIndex)
+avi_read	avilib.c	/^static size_t avi_read(int fd, char *buf, size_t len)$/;"	f	file:	signature:(int fd, char *buf, size_t len)
+avi_sampsize	avilib.c	/^static int avi_sampsize(avi_t *AVI, int j)$/;"	f	file:	signature:(avi_t *AVI, int j)
+avi_t	avilib.h	/^} avi_t;$/;"	t	typeref:struct:__anon16
+avi_update_header	avilib.c	/^int avi_update_header(avi_t *AVI)$/;"	f	signature:(avi_t *AVI)
+avi_update_header	avilib.h	/^int avi_update_header(avi_t *AVI);$/;"	p	signature:(avi_t *AVI)
+avi_write	avilib.c	/^static size_t avi_write (int fd, char *buf, size_t len)$/;"	f	file:	signature:(int fd, char *buf, size_t len)
+avi_write_data	avilib.c	/^static int avi_write_data(avi_t *AVI, char *data, unsigned long length, int audio, int keyframe)$/;"	f	file:	signature:(avi_t *AVI, char *data, unsigned long length, int audio, int keyframe)
+avifile	v4l2uvc.h	/^    avi_t *avifile;$/;"	m	struct:vdIn	access:public
+avifilename	v4l2uvc.h	/^    char *avifilename;$/;"	m	struct:vdIn	access:public
+bControlSize	uvcvideo.h	/^			__u8  bControlSize;$/;"	m	struct:uvc_entity::__anon4::__anon5	access:public
+bControlSize	uvcvideo.h	/^			__u8  bControlSize;$/;"	m	struct:uvc_entity::__anon4::__anon7	access:public
+bControlSize	uvcvideo.h	/^		        __u8  bControlSize;$/;"	m	struct:uvc_entity::__anon4::__anon9	access:public
+bControlSize	uvcvideo.h	/^	__u8 bControlSize;$/;"	m	struct:uvc_input_header	access:public
+bEndpointAddress	uvcvideo.h	/^	__u8 bEndpointAddress;$/;"	m	struct:uvc_input_header	access:public
+bFormatIndex	uvcvideo.h	/^	__u8  bFormatIndex;$/;"	m	struct:uvc_streaming_control	access:public
+bFrameIndex	uvcvideo.h	/^	__u8  bFrameIndex;$/;"	m	struct:uvc_frame	access:public
+bFrameIndex	uvcvideo.h	/^	__u8  bFrameIndex;$/;"	m	struct:uvc_streaming_control	access:public
+bFrameIntervalType	uvcvideo.h	/^	__u8  bFrameIntervalType;$/;"	m	struct:uvc_frame	access:public
+bMaxVersion	uvcvideo.h	/^	__u8  bMaxVersion;$/;"	m	struct:uvc_streaming_control	access:public
+bMinVersion	uvcvideo.h	/^	__u8  bMinVersion;$/;"	m	struct:uvc_streaming_control	access:public
+bNrInPins	uvcvideo.h	/^			__u8  bNrInPins;$/;"	m	struct:uvc_entity::__anon4::__anon8	access:public
+bNrInPins	uvcvideo.h	/^		        __u8  bNrInPins;$/;"	m	struct:uvc_entity::__anon4::__anon9	access:public
+bNumControls	uvcvideo.h	/^		        __u8  bNumControls;$/;"	m	struct:uvc_entity::__anon4::__anon9	access:public
+bNumFormats	uvcvideo.h	/^	__u8 bNumFormats;$/;"	m	struct:uvc_input_header	access:public
+bPreferedVersion	uvcvideo.h	/^	__u8  bPreferedVersion;$/;"	m	struct:uvc_streaming_control	access:public
+bSourceID	uvcvideo.h	/^			__u8  bSourceID;$/;"	m	struct:uvc_entity::__anon4::__anon6	access:public
+bSourceID	uvcvideo.h	/^			__u8  bSourceID;$/;"	m	struct:uvc_entity::__anon4::__anon7	access:public
+bStillCaptureMethod	uvcvideo.h	/^	__u8 bStillCaptureMethod;$/;"	m	struct:uvc_input_header	access:public
+bTerminalLink	uvcvideo.h	/^	__u8 bTerminalLink;$/;"	m	struct:uvc_input_header	access:public
+bTriggerSupport	uvcvideo.h	/^	__u8 bTriggerSupport;$/;"	m	struct:uvc_input_header	access:public
+bTriggerUsage	uvcvideo.h	/^	__u8 bTriggerUsage;$/;"	m	struct:uvc_input_header	access:public
+baSourceID	uvcvideo.h	/^			__u8  *baSourceID;$/;"	m	struct:uvc_entity::__anon4::__anon8	access:public
+baSourceID	uvcvideo.h	/^		        __u8  *baSourceID;$/;"	m	struct:uvc_entity::__anon4::__anon9	access:public
+bi_bit_count	avilib.h	/^  uint16_t  bi_bit_count;$/;"	m	struct:__anon13	access:public
+bi_clr_important	avilib.h	/^  uint32_t  bi_clr_important;$/;"	m	struct:__anon13	access:public
+bi_clr_used	avilib.h	/^  uint32_t  bi_clr_used;$/;"	m	struct:__anon13	access:public
+bi_compression	avilib.h	/^  uint32_t  bi_compression;$/;"	m	struct:__anon13	access:public
+bi_height	avilib.h	/^  uint32_t  bi_height;$/;"	m	struct:__anon13	access:public
+bi_planes	avilib.h	/^  uint16_t  bi_planes;$/;"	m	struct:__anon13	access:public
+bi_size	avilib.h	/^  uint32_t  bi_size;$/;"	m	struct:__anon13	access:public
+bi_size_image	avilib.h	/^  uint32_t  bi_size_image;$/;"	m	struct:__anon13	access:public
+bi_width	avilib.h	/^  uint32_t  bi_width;$/;"	m	struct:__anon13	access:public
+bi_x_pels_per_meter	avilib.h	/^  uint32_t  bi_x_pels_per_meter;$/;"	m	struct:__anon13	access:public
+bi_y_pels_per_meter	avilib.h	/^  uint32_t  bi_y_pels_per_meter;$/;"	m	struct:__anon13	access:public
+bitmap_info_header	avilib.h	/^  BITMAPINFOHEADER_avilib *bitmap_info_header;$/;"	m	struct:__anon16	access:public
+bits	utils.c	/^    unsigned int bits;$/;"	m	struct:in	file:	access:public
+blue	color.h	/^	unsigned char blue;$/;"	m	struct:Myrgb24	access:public
+blue	color.h	/^	unsigned char blue;$/;"	m	struct:Myrgb32	access:public
+blue	color.h	/^	unsigned short blue:5;$/;"	m	struct:Myrgb16	access:public
+bmCapabilities	uvcvideo.h	/^	__u8  bmCapabilities;$/;"	m	struct:uvc_frame	access:public
+bmControls	uvcvideo.h	/^			__u8  *bmControls;$/;"	m	struct:uvc_entity::__anon4::__anon5	access:public
+bmControls	uvcvideo.h	/^			__u8  *bmControls;$/;"	m	struct:uvc_entity::__anon4::__anon7	access:public
+bmControls	uvcvideo.h	/^		        __u8  *bmControls;$/;"	m	struct:uvc_entity::__anon4::__anon9	access:public
+bmControlsType	uvcvideo.h	/^		        __u8  *bmControlsType;$/;"	m	struct:uvc_entity::__anon4::__anon9	access:public
+bmFramingInfo	uvcvideo.h	/^	__u8  bmFramingInfo;$/;"	m	struct:uvc_streaming_control	access:public
+bmHint	uvcvideo.h	/^	__u16 bmHint;$/;"	m	struct:uvc_streaming_control	access:public
+bmInfo	uvcvideo.h	/^	__u8 bmInfo;$/;"	m	struct:uvc_input_header	access:public
+bmVideoStandards	uvcvideo.h	/^			__u8  bmVideoStandards;$/;"	m	struct:uvc_entity::__anon4::__anon7	access:public
+bmaControls	uvcvideo.h	/^	__u8 *bmaControls;$/;"	m	struct:uvc_input_header	access:public
+bouttons	button.h	/^static unsigned char bouttons[]={$/;"	v
+bpp	uvcvideo.h	/^	__u8 bpp;$/;"	m	struct:uvc_format	access:public
+buf	uvcvideo.h	/^	struct v4l2_buffer buf;$/;"	m	struct:uvc_buffer	typeref:struct:uvc_buffer::v4l2_buffer	access:public
+buf	v4l2uvc.h	/^    struct v4l2_buffer buf;$/;"	m	struct:vdIn	typeref:struct:vdIn::v4l2_buffer	access:public
+buffer	uvcvideo.h	/^	struct uvc_buffer buffer[UVC_MAX_VIDEO_BUFFERS];$/;"	m	struct:uvc_video_queue	typeref:struct:uvc_video_queue::uvc_buffer	access:public
+bytesWritten	v4l2uvc.h	/^    unsigned int bytesWritten;$/;"	m	struct:vdIn	access:public
+camera	uvcvideo.h	/^		} camera;$/;"	m	union:uvc_entity::__anon4	typeref:struct:uvc_entity::__anon4::__anon5	access:public
+cap	v4l2uvc.h	/^    struct v4l2_capability cap;$/;"	m	struct:vdIn	typeref:struct:vdIn::v4l2_capability	access:public
+captureFile	v4l2uvc.h	/^    FILE *captureFile;$/;"	m	struct:vdIn	access:public
+cb_size	avilib.h	/^  uint16_t  cb_size;$/;"	m	struct:__anon14	access:public
+check_videoIn	v4l2uvc.c	/^int check_videoIn(struct vdIn *vd, char *device)$/;"	f	signature:(struct vdIn *vd, char *device)
+chunk_struct	avilib.h	/^struct chunk_struct $/;"	s
+chunk_struct::id	avilib.h	/^	unsigned char id[4];$/;"	m	struct:chunk_struct	access:public
+chunk_struct::len	avilib.h	/^	uint32_t len;$/;"	m	struct:chunk_struct	access:public
+cid	utils.c	/^    int cid;			\/* component id *\/$/;"	m	struct:scan	file:	access:public
+cid	utils.c	/^    int cid;$/;"	m	struct:comp	file:	access:public
+clock_frequency	uvcvideo.h	/^	__u32 clock_frequency;$/;"	m	struct:uvc_device	access:public
+close_v4l2	v4l2uvc.c	/^int close_v4l2(struct vdIn *vd)$/;"	f	signature:(struct vdIn *vd)
+close_v4l2	v4l2uvc.h	/^int close_v4l2(struct vdIn *vd);$/;"	p	signature:(struct vdIn *vd)
+colorspace	uvcvideo.h	/^	__u8 colorspace;$/;"	m	struct:uvc_format	access:public
+common	avilib.h	/^	struct common_struct common;$/;"	m	struct:wave_header	typeref:struct:wave_header::common_struct	access:public
+common_struct	avilib.h	/^struct common_struct $/;"	s
+common_struct::dwAvgBytesPerSec	avilib.h	/^	uint32_t dwAvgBytesPerSec;$/;"	m	struct:common_struct	access:public
+common_struct::dwSamplesPerSec	avilib.h	/^	uint32_t dwSamplesPerSec;$/;"	m	struct:common_struct	access:public
+common_struct::wBitsPerSample	avilib.h	/^	uint16_t wBitsPerSample;  \/* Only for PCM *\/$/;"	m	struct:common_struct	access:public
+common_struct::wBlockAlign	avilib.h	/^	uint16_t wBlockAlign;$/;"	m	struct:common_struct	access:public
+common_struct::wChannels	avilib.h	/^	uint16_t wChannels;$/;"	m	struct:common_struct	access:public
+common_struct::wFormatTag	avilib.h	/^	uint16_t wFormatTag;$/;"	m	struct:common_struct	access:public
+comp	utils.c	/^struct comp {$/;"	s	file:
+comp::cid	utils.c	/^    int cid;$/;"	m	struct:comp	file:	access:public
+comp::hv	utils.c	/^    int hv;$/;"	m	struct:comp	file:	access:public
+comp::tq	utils.c	/^    int tq;$/;"	m	struct:comp	file:	access:public
+compressor	avilib.h	/^  char   compressor[8];     \/* Type of compressor, 4 bytes + padding for 0 byte *\/$/;"	m	struct:__anon16	access:public
+compressor2	avilib.h	/^  char   compressor2[8];     \/* Type of compressor, 4 bytes + padding for 0 byte *\/$/;"	m	struct:__anon16	access:public
+comps	utils.c	/^static struct comp comps[MAXCOMP];$/;"	v	typeref:struct:comp	file:
+controls	uvc_compat.h	/^	struct v4l2_ext_control *controls;$/;"	m	struct:v4l2_ext_controls	typeref:struct:v4l2_ext_controls::v4l2_ext_control	access:public
+controls	uvcvideo.h	/^	struct list_head controls;	\/* struct uvc_control_info list *\/$/;"	m	struct:uvc_driver	typeref:struct:uvc_driver::list_head	access:public
+controls	uvcvideo.h	/^	struct uvc_control *controls;$/;"	m	struct:uvc_entity	typeref:struct:uvc_entity::uvc_control	access:public
+count	uvc_compat.h	/^	__u32 count;$/;"	m	struct:v4l2_ext_controls	access:public
+count	uvcvideo.h	/^	unsigned int count;$/;"	m	struct:uvc_video_queue	access:public
+creatButt	gui.c	/^int creatButt(int width, int height)$/;"	f	signature:(int width, int height)
+creatButt	gui.h	/^int creatButt(int width, int height);$/;"	p	signature:(int width, int height)
+ctrl	uvcvideo.h	/^	struct uvc_control_info *ctrl;$/;"	m	struct:uvc_control_mapping	typeref:struct:uvc_control_mapping::uvc_control_info	access:public
+ctrl	uvcvideo.h	/^	struct uvc_streaming_control ctrl;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_streaming_control	access:public
+ctrl_class	uvc_compat.h	/^	__u32 ctrl_class;$/;"	m	struct:v4l2_ext_controls	access:public
+ctrl_mutex	uvcvideo.h	/^	struct mutex ctrl_mutex;	\/* protects controls and devices lists *\/$/;"	m	struct:uvc_driver	typeref:struct:uvc_driver::mutex	access:public
+ctrl_mutex	uvcvideo.h	/^	struct mutex ctrl_mutex;$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::mutex	access:public
+cur_format	uvcvideo.h	/^	struct uvc_format *cur_format;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_format	access:public
+cur_frame	uvcvideo.h	/^	struct uvc_frame *cur_frame;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_frame	access:public
+data	avilib.h	/^	struct chunk_struct  data;$/;"	m	struct:wave_header	typeref:struct:wave_header::chunk_struct	access:public
+data	utils.c	/^    void *data;$/;"	m	struct:in	file:	access:public
+data	uvcvideo.h	/^	__u8 *data;$/;"	m	struct:uvc_control	access:public
+data_type	uvcvideo.h	/^	enum uvc_control_data_type data_type;$/;"	m	struct:uvc_control_mapping	typeref:enum:uvc_control_mapping::uvc_control_data_type	access:public
+datap	utils.c	/^static unsigned char *datap;$/;"	v	file:
+dc	utils.c	/^    int dc;			\/* old dc value *\/$/;"	m	struct:scan	file:	access:public
+dcts	utils.c	/^    int dcts[6 * 64 + 16];$/;"	m	struct:jpeg_decdata	file:	access:public
+debug	v4l2uvc.c	/^static int debug = 0;$/;"	v	file:
+dec_checkmarker	utils.c	/^static int dec_checkmarker(void)$/;"	f	file:	signature:(void)
+dec_huffac	utils.c	174;"	d	file:
+dec_huffdc	utils.c	173;"	d	file:
+dec_hufftbl	utils.c	/^struct dec_hufftbl {$/;"	s	file:
+dec_hufftbl::llvals	utils.c	/^    unsigned int llvals[1 << DECBITS];$/;"	m	struct:dec_hufftbl	file:	access:public
+dec_hufftbl::maxcode	utils.c	/^    int maxcode[17];$/;"	m	struct:dec_hufftbl	file:	access:public
+dec_hufftbl::valptr	utils.c	/^    int valptr[16];$/;"	m	struct:dec_hufftbl	file:	access:public
+dec_hufftbl::vals	utils.c	/^    unsigned char vals[256];$/;"	m	struct:dec_hufftbl	file:	access:public
+dec_initscans	utils.c	/^static void dec_initscans(void)$/;"	f	file:	signature:(void)
+dec_makehuff	utils.c	/^static void dec_makehuff$/;"	p	file:	signature:(struct dec_hufftbl *, int *, unsigned char *)
+dec_makehuff	utils.c	/^static void dec_makehuff(hu, hufflen, huffvals)$/;"	f	file:
+dec_readmarker	utils.c	/^static int dec_readmarker __P((struct in *));$/;"	p	file:	signature:(struct in *)
+dec_readmarker	utils.c	/^static int dec_readmarker(in)$/;"	f	file:
+dec_rec2	utils.c	/^static int dec_rec2$/;"	p	file:	signature:(struct in *, struct dec_hufftbl *, int *, int, int)
+dec_rec2	utils.c	/^static int dec_rec2(in, hu, runp, c, i)$/;"	f	file:
+decode_mcus	utils.c	/^static void decode_mcus$/;"	p	file:	signature:(struct in *, int *, int, struct scan *, int *)
+decode_mcus	utils.c	/^static void decode_mcus(in, dct, n, sc, maxp)$/;"	f	file:
+destroyButt	gui.c	/^int destroyButt(void)$/;"	f	signature:(void)
+destroyButt	gui.h	/^int destroyButt(void);$/;"	p	signature:(void)
+dev	uvcvideo.h	/^	struct uvc_device *dev;$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::uvc_device	access:public
+device	uvcvideo.h	/^	struct uvc_video_device *device;$/;"	m	struct:uvc_fh	typeref:struct:uvc_fh::uvc_video_device	access:public
+devices	uvcvideo.h	/^        struct list_head devices;	\/* struct uvc_device list *\/$/;"	m	struct:uvc_driver	typeref:struct:uvc_driver::list_head	access:public
+dht_data	huffman.h	/^static unsigned char dht_data[DHT_SIZE] = {$/;"	v
+dhuff	utils.c	/^    struct dec_hufftbl *dhuff;$/;"	m	union:hufftblp	typeref:struct:hufftblp::dec_hufftbl	file:	access:public
+dhuff	utils.c	/^static struct dec_hufftbl dhuff[4];$/;"	v	typeref:struct:dec_hufftbl	file:
+dirty	uvcvideo.h	/^	__u8 dirty : 1,$/;"	m	struct:uvc_control	access:public
+discrete	uvc_compat.h	/^		struct v4l2_fract		discrete;$/;"	m	union:v4l2_frmivalenum::__anon3	typeref:struct:v4l2_frmivalenum::__anon3::v4l2_fract	access:public
+discrete	uvc_compat.h	/^		struct v4l2_frmsize_discrete	discrete;$/;"	m	union:v4l2_frmsizeenum::__anon2	typeref:struct:v4l2_frmsizeenum::__anon2::v4l2_frmsize_discrete	access:public
+dquant	utils.c	/^    int dquant[3][64];$/;"	m	struct:jpeg_decdata	file:	access:public
+drect	luvcview.c	/^    SDL_Rect *drect;$/;"	m	struct:pt_data	file:	access:public
+dri	utils.c	/^    int dri;			\/* restart interval *\/$/;"	m	struct:jpginfo	file:	access:public
+driver	uvcvideo.h	/^        struct usb_driver driver;$/;"	m	struct:uvc_driver	typeref:struct:uvc_driver::usb_driver	access:public
+dscans	utils.c	/^static struct scan dscans[MAXCOMP];$/;"	v	typeref:struct:scan	file:
+dwAvgBytesPerSec	avilib.h	/^	uint32_t dwAvgBytesPerSec;$/;"	m	struct:common_struct	access:public
+dwClockFrequency	uvcvideo.h	/^	__u32 dwClockFrequency;$/;"	m	struct:uvc_streaming_control	access:public
+dwDefaultFrameInterval	uvcvideo.h	/^	__u32 dwDefaultFrameInterval;$/;"	m	struct:uvc_frame	access:public
+dwFlags	avilib.h	/^  long  dwFlags;$/;"	m	struct:AVIStreamHeader	access:public
+dwFrameInterval	uvcvideo.h	/^	__u32 *dwFrameInterval;$/;"	m	struct:uvc_frame	access:public
+dwFrameInterval	uvcvideo.h	/^	__u32 dwFrameInterval;$/;"	m	struct:uvc_streaming_control	access:public
+dwInitialFrames	avilib.h	/^  long  dwInitialFrames;$/;"	m	struct:AVIStreamHeader	access:public
+dwLength	avilib.h	/^  long  dwLength;$/;"	m	struct:AVIStreamHeader	access:public
+dwMaxBitRate	uvcvideo.h	/^	__u32 dwMaxBitRate;$/;"	m	struct:uvc_frame	access:public
+dwMaxPayloadTransferSize	uvcvideo.h	/^	__u32 dwMaxPayloadTransferSize;$/;"	m	struct:uvc_streaming_control	access:public
+dwMaxVideoFrameBufferSize	uvcvideo.h	/^	__u32 dwMaxVideoFrameBufferSize;$/;"	m	struct:uvc_frame	access:public
+dwMaxVideoFrameSize	uvcvideo.h	/^	__u32 dwMaxVideoFrameSize;$/;"	m	struct:uvc_streaming_control	access:public
+dwMinBitRate	uvcvideo.h	/^	__u32 dwMinBitRate;$/;"	m	struct:uvc_frame	access:public
+dwPriority	avilib.h	/^  long  dwPriority;$/;"	m	struct:AVIStreamHeader	access:public
+dwQuality	avilib.h	/^  long  dwQuality;$/;"	m	struct:AVIStreamHeader	access:public
+dwRate	avilib.h	/^  long  dwRate;$/;"	m	struct:AVIStreamHeader	access:public
+dwSampleSize	avilib.h	/^  long  dwSampleSize;$/;"	m	struct:AVIStreamHeader	access:public
+dwSamplesPerSec	avilib.h	/^	uint32_t dwSamplesPerSec;$/;"	m	struct:common_struct	access:public
+dwScale	avilib.h	/^  long  dwScale;$/;"	m	struct:AVIStreamHeader	access:public
+dwStart	avilib.h	/^  long  dwStart;$/;"	m	struct:AVIStreamHeader	access:public
+dwSuggestedBufferSize	avilib.h	/^  long  dwSuggestedBufferSize;$/;"	m	struct:AVIStreamHeader	access:public
+dw_bottom	avilib.h	/^  uint32_t dw_bottom;$/;"	m	struct:__anon15	access:public
+dw_caps	avilib.h	/^  uint32_t dw_caps; $/;"	m	struct:__anon15	access:public
+dw_edit_count	avilib.h	/^  uint32_t dw_edit_count;$/;"	m	struct:__anon15	access:public
+dw_flags	avilib.h	/^  uint32_t dw_flags; $/;"	m	struct:__anon15	access:public
+dw_format_change_count	avilib.h	/^  uint32_t dw_format_change_count;$/;"	m	struct:__anon15	access:public
+dw_initial_frames	avilib.h	/^  uint32_t dw_initial_frames;$/;"	m	struct:__anon15	access:public
+dw_left	avilib.h	/^  uint32_t dw_left;$/;"	m	struct:__anon15	access:public
+dw_length	avilib.h	/^  uint32_t dw_length;$/;"	m	struct:__anon15	access:public
+dw_quality	avilib.h	/^  uint32_t dw_quality;$/;"	m	struct:__anon15	access:public
+dw_rate	avilib.h	/^  uint32_t dw_rate;$/;"	m	struct:__anon15	access:public
+dw_right	avilib.h	/^  uint32_t dw_right;$/;"	m	struct:__anon15	access:public
+dw_sample_size	avilib.h	/^  uint32_t dw_sample_size;$/;"	m	struct:__anon15	access:public
+dw_scale	avilib.h	/^  uint32_t dw_scale;$/;"	m	struct:__anon15	access:public
+dw_start	avilib.h	/^  uint32_t dw_start;$/;"	m	struct:__anon15	access:public
+dw_suggested_buffer_size	avilib.h	/^  uint32_t dw_suggested_buffer_size;$/;"	m	struct:__anon15	access:public
+dw_top	avilib.h	/^  uint32_t dw_top;$/;"	m	struct:__anon15	access:public
+ehuff	utils.c	/^    struct enc_hufftbl *ehuff;$/;"	m	union:hufftblp	typeref:struct:hufftblp::enc_hufftbl	file:	access:public
+entities	uvcvideo.h	/^	struct list_head entities;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::list_head	access:public
+entity	uvcvideo.h	/^	__u8 entity[16];$/;"	m	struct:uvc_control_info	access:public
+entity	uvcvideo.h	/^	__u8 entity[16];$/;"	m	struct:uvc_control_mapping	access:public
+entity	uvcvideo.h	/^	struct uvc_entity *entity;$/;"	m	struct:uvc_control	typeref:struct:uvc_control::uvc_entity	access:public
+enum_controls	v4l2uvc.c	/^int enum_controls(int vd) \/\/struct vdIn *vd)$/;"	f	signature:(int vd)
+enum_controls	v4l2uvc.h	/^int enum_controls(int vd);$/;"	p	signature:(int vd)
+enum_frame_formats	v4l2uvc.c	/^int enum_frame_formats(int dev)$/;"	f	signature:(int dev)
+enum_frame_formats	v4l2uvc.h	/^int enum_frame_formats(int dev);$/;"	p	signature:(int dev)
+enum_frame_intervals	v4l2uvc.c	/^int enum_frame_intervals(int dev, __u32 pixfmt, __u32 width, __u32 height)$/;"	f	signature:(int dev, __u32 pixfmt, __u32 width, __u32 height)
+enum_frame_intervals	v4l2uvc.h	/^int enum_frame_intervals(int dev, __u32 pixfmt, __u32 width, __u32 height);$/;"	p	signature:(int dev, __u32 pixfmt, __u32 width, __u32 height)
+enum_frame_sizes	v4l2uvc.c	/^int enum_frame_sizes(int dev, __u32 pixfmt)$/;"	f	signature:(int dev, __u32 pixfmt)
+enum_frame_sizes	v4l2uvc.h	/^int enum_frame_sizes(int dev, __u32 pixfmt);$/;"	p	signature:(int dev, __u32 pixfmt)
+error_idx	uvc_compat.h	/^	__u32 error_idx;$/;"	m	struct:v4l2_ext_controls	access:public
+error_string	avilib.c	/^static char error_string[4096];$/;"	v	file:
+eventThread	luvcview.c	/^static int eventThread(void *data)$/;"	f	file:	signature:(void *data)
+eventThread	luvcview.c	/^static int eventThread(void *data);$/;"	p	file:	signature:(void *data)
+extension	uvcvideo.h	/^		} extension;$/;"	m	union:uvc_entity::__anon4	typeref:struct:uvc_entity::__anon4::__anon9	access:public
+extension	uvcvideo.h	/^	struct uvc_entity *extension[8];$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::uvc_entity	access:public
+fcc	uvcvideo.h	/^	__u32 fcc;$/;"	m	struct:uvc_format	access:public
+fcc	uvcvideo.h	/^	__u32 fcc;$/;"	m	struct:uvc_format_desc	access:public
+fccHandler	avilib.h	/^  long  fccHandler;$/;"	m	struct:AVIStreamHeader	access:public
+fccType	avilib.h	/^  long  fccType;$/;"	m	struct:AVIStreamHeader	access:public
+fcc_handler	avilib.h	/^  uint32_t fcc_handler; $/;"	m	struct:__anon15	access:public
+fcc_type	avilib.h	/^  uint32_t fcc_type; $/;"	m	struct:__anon15	access:public
+fd	v4l2uvc.h	/^    int fd;$/;"	m	struct:vdIn	access:public
+fdes	avilib.h	/^  long   fdes;              \/* File descriptor of AVI file *\/$/;"	m	struct:__anon16	access:public
+fileCounter	v4l2uvc.h	/^    unsigned int fileCounter;$/;"	m	struct:vdIn	access:public
+fillbits	utils.c	/^static int fillbits __P((struct in *, int, unsigned int));$/;"	p	file:	signature:(struct in *, int, unsigned int)
+fillbits	utils.c	/^static int fillbits(in, le, bi)$/;"	f	file:
+flags	uvcvideo.h	/^	__u32 flags;$/;"	m	struct:uvc_format	access:public
+flags	uvcvideo.h	/^	__u8 flags;$/;"	m	struct:uvc_control_info	access:public
+fmt	v4l2uvc.h	/^    struct v4l2_format fmt;$/;"	m	struct:vdIn	typeref:struct:vdIn::v4l2_format	access:public
+format	avilib.h	/^	struct chunk_struct  format;$/;"	m	struct:wave_header	typeref:struct:wave_header::chunk_struct	access:public
+format	uvcvideo.h	/^	struct uvc_format *format;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_format	access:public
+formatIn	v4l2uvc.h	/^    int formatIn;$/;"	m	struct:vdIn	access:public
+formatOut	v4l2uvc.h	/^    int formatOut;$/;"	m	struct:vdIn	access:public
+fps	avilib.h	/^  double fps;               \/* Frames per second *\/$/;"	m	struct:__anon16	access:public
+fps	v4l2uvc.h	/^    int fps;$/;"	m	struct:vdIn	access:public
+frame	uvcvideo.h	/^	struct uvc_frame *frame;$/;"	m	struct:uvc_format	typeref:struct:uvc_format::uvc_frame	access:public
+framebuffer	v4l2uvc.h	/^    unsigned char *framebuffer;$/;"	m	struct:vdIn	access:public
+framecount	v4l2uvc.h	/^    int framecount;$/;"	m	struct:vdIn	access:public
+framesWritten	v4l2uvc.h	/^    unsigned int framesWritten;$/;"	m	struct:vdIn	access:public
+framesizeIn	v4l2uvc.h	/^    int framesizeIn;$/;"	m	struct:vdIn	access:public
+freeLut	color.c	/^void freeLut(void){$/;"	f	signature:(void)
+freeLut	color.h	/^void freeLut(void);$/;"	p	signature:(void)
+frmrate	luvcview.c	/^    unsigned char frmrate;$/;"	m	struct:pt_data	file:	access:public
+ftopict	utils.c	/^typedef void (*ftopict) ( int *out, unsigned char *pic, int width) ;$/;"	t	file:
+ftruncate	avilib.c	31;"	d	file:
+func	utils.c	/^    int (*func) __P((void *));$/;"	m	struct:in	file:	access:public
+getPict	v4l2uvc.h	/^    int getPict;$/;"	m	struct:vdIn	access:public
+getPictureName	utils.c	/^ getPictureName (char *Picture, int fmt)$/;"	f	file:	signature:(char *Picture, int fmt)
+get_picture	utils.c	/^get_picture(unsigned char *buf,int size)$/;"	f	signature:(unsigned char *buf,int size)
+get_picture	utils.h	/^get_picture(unsigned char *buf,int size);$/;"	p	signature:(unsigned char *buf,int size)
+get_pictureYV2	utils.c	/^get_pictureYV2(unsigned char *buf,int width,int height)$/;"	f	signature:(unsigned char *buf,int width,int height)
+get_pictureYV2	utils.h	/^get_pictureYV2(unsigned char *buf,int width,int height);$/;"	p	signature:(unsigned char *buf,int width,int height)
+getbyte	utils.c	/^static int getbyte(void)$/;"	f	file:	signature:(void)
+getword	utils.c	/^static int getword(void)$/;"	f	file:	signature:(void)
+grabmethod	v4l2uvc.h	/^    int grabmethod;$/;"	m	struct:vdIn	access:public
+green	color.h	/^	unsigned char green;$/;"	m	struct:Myrgb24	access:public
+green	color.h	/^	unsigned char green;$/;"	m	struct:Myrgb32	access:public
+green	color.h	/^	unsigned short green:6;$/;"	m	struct:Myrgb16	access:public
+guid	uvcvideo.h	/^	__u8 guid[16];$/;"	m	struct:uvc_format_desc	access:public
+guidExtensionCode	uvcvideo.h	/^		        __u8  guidExtensionCode[16];$/;"	m	struct:uvc_entity::__anon4::__anon9	access:public
+height	avilib.h	/^  long   height;            \/* Height of a video frame *\/$/;"	m	struct:__anon16	access:public
+height	uvc_compat.h	/^	__u32			height;		\/* Frame height *\/$/;"	m	struct:v4l2_frmivalenum	access:public
+height	uvc_compat.h	/^	__u32			height;		\/* Frame height [pixel] *\/$/;"	m	struct:v4l2_frmsize_discrete	access:public
+height	v4l2uvc.h	/^    int height;$/;"	m	struct:vdIn	access:public
+huac	utils.c	/^    union hufftblp huac;$/;"	m	struct:scan	typeref:union:scan::hufftblp	file:	access:public
+hudc	utils.c	/^    union hufftblp hudc;$/;"	m	struct:scan	typeref:union:scan::hufftblp	file:	access:public
+huffman_init	utils.c	/^static int huffman_init(void)$/;"	f	file:	signature:(void)
+huffman_init	utils.c	/^static int huffman_init(void);$/;"	p	file:	signature:(void)
+hufftblp	utils.c	/^union hufftblp {$/;"	u	file:
+hufftblp::dhuff	utils.c	/^    struct dec_hufftbl *dhuff;$/;"	m	union:hufftblp	typeref:struct:hufftblp::dec_hufftbl	file:	access:public
+hufftblp::ehuff	utils.c	/^    struct enc_hufftbl *ehuff;$/;"	m	union:hufftblp	typeref:struct:hufftblp::enc_hufftbl	file:	access:public
+hv	utils.c	/^    int hv;			\/* horiz\/vert, copied from comp *\/$/;"	m	struct:scan	file:	access:public
+hv	utils.c	/^    int hv;$/;"	m	struct:comp	file:	access:public
+id	avilib.h	/^	unsigned char id[4];$/;"	m	struct:chunk_struct	access:public
+id	avilib.h	/^  unsigned char id[4];   \/* RIFF *\/$/;"	m	struct:riff_struct	access:public
+id	uvc_compat.h	/^	__u32 id;$/;"	m	struct:v4l2_ext_control	access:public
+id	uvcvideo.h	/^	__u32 id;$/;"	m	struct:uvc_control_mapping	access:public
+id	uvcvideo.h	/^	__u8 id;$/;"	m	struct:uvc_entity	access:public
+id_str	avilib.c	/^static char id_str[MAX_INFO_STRLEN];$/;"	v	file:
+idct	utils.c	/^inline static void idct(int *in, int *out, int *quant, long off, int max)$/;"	f	file:	signature:(int *in, int *out, int *quant, long off, int max)
+idct	utils.c	/^inline static void idct(int *in, int *out, int *quant, long off, int max);$/;"	p	file:	signature:(int *in, int *out, int *quant, long off, int max)
+idctqtab	utils.c	/^static void idctqtab __P((unsigned char *, PREC *));$/;"	p	file:	signature:(unsigned char *, PREC *)
+idctqtab	utils.c	/^static void idctqtab(qin, qout)$/;"	f	file:
+idx	avilib.h	/^  unsigned char (*idx)[16]; \/* index entries (AVI idx1 tag) *\/$/;"	m	struct:__anon16	access:public
+in	utils.c	/^static struct in in;$/;"	v	typeref:struct:in	file:
+in	utils.c	/^struct in {$/;"	s	file:
+in::bits	utils.c	/^    unsigned int bits;$/;"	m	struct:in	file:	access:public
+in::data	utils.c	/^    void *data;$/;"	m	struct:in	file:	access:public
+in::func	utils.c	/^    int (*func) __P((void *));$/;"	m	struct:in	file:	access:public
+in::left	utils.c	/^    int left;$/;"	m	struct:in	file:	access:public
+in::marker	utils.c	/^    int marker;$/;"	m	struct:in	file:	access:public
+in::p	utils.c	/^    unsigned char *p;$/;"	m	struct:in	file:	access:public
+index	uvc_compat.h	/^	__u32			index;		\/* Frame format index *\/$/;"	m	struct:v4l2_frmivalenum	access:public
+index	uvc_compat.h	/^	__u32			index;		\/* Frame size number *\/$/;"	m	struct:v4l2_frmsizeenum	access:public
+index	uvcvideo.h	/^	__u32 index;$/;"	m	struct:uvc_menu_info	access:public
+index	uvcvideo.h	/^	__u8 index;	\/* Used to match the uvc_control entry with a uvc_control_info. *\/$/;"	m	struct:uvc_control	access:public
+index	uvcvideo.h	/^	__u8 index;$/;"	m	struct:uvc_control_info	access:public
+index	uvcvideo.h	/^	__u8 index;$/;"	m	struct:uvc_format	access:public
+info	utils.c	/^static struct jpginfo info;$/;"	v	typeref:struct:jpginfo	file:
+info	uvcvideo.h	/^	struct uvc_control_info *info;$/;"	m	struct:uvc_control	typeref:struct:uvc_control::uvc_control_info	access:public
+initLut	color.c	/^void initLut(void)$/;"	f	signature:(void)
+initLut	color.h	/^void initLut(void);$/;"	p	signature:(void)
+init_v4l2	v4l2uvc.c	/^static int init_v4l2(struct vdIn *vd)$/;"	f	file:	signature:(struct vdIn *vd)
+init_v4l2	v4l2uvc.c	/^static int init_v4l2(struct vdIn *vd);$/;"	p	file:	signature:(struct vdIn *vd)
+init_videoIn	v4l2uvc.c	/^init_videoIn(struct vdIn *vd, char *device, int width, int height, int fps,$/;"	f	signature:(struct vdIn *vd, char *device, int width, int height, int fps, int format, int grabmethod, char *avifilename)
+init_videoIn	v4l2uvc.h	/^init_videoIn(struct vdIn *vd, char *device, int width, int height, int fps,$/;"	p	signature:(struct vdIn *vd, char *device, int width, int height, int fps, int format, int grabmethod, char *avifilename)
+input	uvcvideo.h	/^		struct uvc_input_header input;$/;"	m	union:uvc_streaming::__anon10	typeref:struct:uvc_streaming::__anon10::uvc_input_header	access:public
+int_ep	uvcvideo.h	/^	struct usb_host_endpoint *int_ep;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::usb_host_endpoint	access:public
+int_urb	uvcvideo.h	/^	struct urb *int_urb;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::urb	access:public
+intf	uvcvideo.h	/^	struct usb_interface *intf;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::usb_interface	access:public
+intf	uvcvideo.h	/^	struct usb_interface *intf;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::usb_interface	access:public
+intfnum	uvcvideo.h	/^	int intfnum;$/;"	m	struct:uvc_device	access:public
+intfnum	uvcvideo.h	/^	int intfnum;$/;"	m	struct:uvc_streaming	access:public
+irqlock	uvcvideo.h	/^	spinlock_t irqlock;$/;"	m	struct:uvc_video_queue	access:public
+irqqueue	uvcvideo.h	/^	struct list_head irqqueue;$/;"	m	struct:uvc_video_queue	typeref:struct:uvc_video_queue::list_head	access:public
+is_huffman	utils.c	/^int is_huffman(unsigned char *buf);$/;"	p	file:	signature:(unsigned char *buf)
+is_huffman	utils.c	/^is_huffman(unsigned char *buf)$/;"	f	signature:(unsigned char *buf)
+isstreaming	v4l2uvc.h	/^    int isstreaming;$/;"	m	struct:vdIn	access:public
+isv4l2Control	v4l2uvc.c	/^static int isv4l2Control(struct vdIn *vd, int control,$/;"	f	file:	signature:(struct vdIn *vd, int control, struct v4l2_queryctrl *queryctrl)
+iterm	uvcvideo.h	/^	struct uvc_entity *iterm;$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::uvc_entity	access:public
+jpeg_decdata	utils.c	/^struct jpeg_decdata {$/;"	s	file:
+jpeg_decdata::dcts	utils.c	/^    int dcts[6 * 64 + 16];$/;"	m	struct:jpeg_decdata	file:	access:public
+jpeg_decdata::dquant	utils.c	/^    int dquant[3][64];$/;"	m	struct:jpeg_decdata	file:	access:public
+jpeg_decdata::out	utils.c	/^    int out[64 * 6];$/;"	m	struct:jpeg_decdata	file:	access:public
+jpeg_decode	utils.c	/^int jpeg_decode(unsigned char **pic, unsigned char *buf, int *width,$/;"	f	signature:(unsigned char **pic, unsigned char *buf, int *width, int *height)
+jpeg_decode	utils.h	/^int jpeg_decode(unsigned char **pic, unsigned char *buf, int *width,$/;"	p	signature:(unsigned char **pic, unsigned char *buf, int *width, int *height)
+jpginfo	utils.c	/^struct jpginfo {$/;"	s	file:
+jpginfo::dri	utils.c	/^    int dri;			\/* restart interval *\/$/;"	m	struct:jpginfo	file:	access:public
+jpginfo::nc	utils.c	/^    int nc;			\/* number of components *\/$/;"	m	struct:jpginfo	file:	access:public
+jpginfo::nm	utils.c	/^    int nm;			\/* mcus til next marker *\/$/;"	m	struct:jpginfo	file:	access:public
+jpginfo::ns	utils.c	/^    int ns;			\/* number of scans *\/$/;"	m	struct:jpginfo	file:	access:public
+jpginfo::rm	utils.c	/^    int rm;			\/* next restart marker *\/$/;"	m	struct:jpginfo	file:	access:public
+key	avilib.h	/^  off_t key;$/;"	m	struct:__anon11	access:public
+key	luvcview.c	/^    SDLKey key;$/;"	m	struct:key_action_t	file:	access:public
+key_action_t	luvcview.c	/^typedef struct key_action_t {$/;"	s	file:
+key_action_t	luvcview.c	/^} key_action_t;$/;"	t	typeref:struct:key_action_t	file:
+key_action_t::action	luvcview.c	/^    action_gui action;$/;"	m	struct:key_action_t	file:	access:public
+key_action_t::key	luvcview.c	/^    SDLKey key;$/;"	m	struct:key_action_t	file:	access:public
+keyaction	luvcview.c	/^key_action_t keyaction[] = {$/;"	v
+kref	uvcvideo.h	/^	struct kref kref;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::kref	access:public
+last_fid	uvcvideo.h	/^	__u8 last_fid;$/;"	m	struct:uvc_video_queue	access:public
+last_len	avilib.h	/^  unsigned long last_len;          \/* Length of last frame written *\/$/;"	m	struct:__anon16	access:public
+last_pos	avilib.h	/^  off_t last_pos;          \/* Position of last frame written *\/$/;"	m	struct:__anon16	access:public
+left	utils.c	/^    int left;$/;"	m	struct:in	file:	access:public
+len	avilib.h	/^	uint32_t len;$/;"	m	struct:chunk_struct	access:public
+len	avilib.h	/^   off_t len;$/;"	m	struct:__anon12	access:public
+len	avilib.h	/^  off_t len;$/;"	m	struct:__anon11	access:public
+len	avilib.h	/^  uint32_t len;$/;"	m	struct:riff_struct	access:public
+list	uvcvideo.h	/^	struct list_head list;$/;"	m	struct:uvc_control_info	typeref:struct:uvc_control_info::list_head	access:public
+list	uvcvideo.h	/^	struct list_head list;$/;"	m	struct:uvc_control_mapping	typeref:struct:uvc_control_mapping::list_head	access:public
+list	uvcvideo.h	/^	struct list_head list;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::list_head	access:public
+list	uvcvideo.h	/^	struct list_head list;$/;"	m	struct:uvc_entity	typeref:struct:uvc_entity::list_head	access:public
+list	uvcvideo.h	/^	struct list_head list;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::list_head	access:public
+llvals	utils.c	/^    unsigned int llvals[1 << DECBITS];$/;"	m	struct:dec_hufftbl	file:	access:public
+load_controls	v4l2uvc.c	/^int load_controls(int vd) \/\/struct vdIn *vd)$/;"	f	signature:(int vd)
+load_controls	v4l2uvc.h	/^int load_controls(int vd);$/;"	p	signature:(int vd)
+loaded	uvcvideo.h	/^	     loaded : 1;$/;"	m	struct:uvc_control	access:public
+long2str	avilib.c	/^static void long2str(unsigned char *dst, int n)$/;"	f	file:	signature:(unsigned char *dst, int n)
+main	luvcview.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+mainqueue	uvcvideo.h	/^	struct list_head mainqueue;$/;"	m	struct:uvc_video_queue	typeref:struct:uvc_video_queue::list_head	access:public
+mappings	uvcvideo.h	/^	struct list_head mappings;$/;"	m	struct:uvc_control_info	typeref:struct:uvc_control_info::list_head	access:public
+marker	utils.c	/^    int marker;$/;"	m	struct:in	file:	access:public
+max	uvc_compat.h	/^	struct v4l2_fract	max;		\/* Maximum frame interval [s] *\/$/;"	m	struct:v4l2_frmival_stepwise	typeref:struct:v4l2_frmival_stepwise::v4l2_fract	access:public
+max_height	uvc_compat.h	/^	__u32			max_height;	\/* Maximum frame height [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise	access:public
+max_idx	avilib.h	/^  long   max_idx;           \/* number of index entries actually allocated *\/$/;"	m	struct:__anon16	access:public
+max_len	avilib.h	/^  unsigned long max_len;    \/* maximum video chunk present *\/$/;"	m	struct:__anon16	access:public
+max_width	uvc_compat.h	/^	__u32			max_width;	\/* Maximum frame width [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise	access:public
+maxcode	utils.c	/^    int maxcode[17];$/;"	m	struct:dec_hufftbl	file:	access:public
+maxpsize	uvcvideo.h	/^	__u16 maxpsize;$/;"	m	struct:uvc_streaming	access:public
+mem	uvcvideo.h	/^	void *mem;$/;"	m	struct:uvc_video_queue	access:public
+mem	v4l2uvc.h	/^    void *mem[NB_BUFFER];$/;"	m	struct:vdIn	access:public
+menu_count	uvcvideo.h	/^	__u32 menu_count;$/;"	m	struct:uvc_control_mapping	access:public
+menu_info	uvcvideo.h	/^	struct uvc_menu_info *menu_info;$/;"	m	struct:uvc_control_mapping	typeref:struct:uvc_control_mapping::uvc_menu_info	access:public
+min	uvc_compat.h	/^	struct v4l2_fract	min;		\/* Minimum frame interval [s] *\/$/;"	m	struct:v4l2_frmival_stepwise	typeref:struct:v4l2_frmival_stepwise::v4l2_fract	access:public
+min_height	uvc_compat.h	/^	__u32			min_height;	\/* Minimum frame height [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise	access:public
+min_width	uvc_compat.h	/^	__u32			min_width;	\/* Minimum frame width [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise	access:public
+mode	avilib.h	/^  long   mode;              \/* 0 for reading, 1 for writing *\/$/;"	m	struct:__anon16	access:public
+movi_start	avilib.h	/^  off_t movi_start;$/;"	m	struct:__anon16	access:public
+mp3rate	avilib.h	/^    long   mp3rate;           \/* mp3 bitrate kbs*\/$/;"	m	struct:track_s	access:public
+must_use_index	avilib.h	/^  int must_use_index;              \/* Flag if frames are duplicated *\/$/;"	m	struct:__anon16	access:public
+mutex	uvcvideo.h	/^	struct mutex mutex;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::mutex	access:public
+mutex	uvcvideo.h	/^	struct mutex mutex;$/;"	m	struct:uvc_video_queue	typeref:struct:uvc_video_queue::mutex	access:public
+n_avg_bytes_per_sec	avilib.h	/^  uint32_t  n_avg_bytes_per_sec;$/;"	m	struct:__anon14	access:public
+n_block_align	avilib.h	/^  uint16_t  n_block_align;$/;"	m	struct:__anon14	access:public
+n_channels	avilib.h	/^  uint16_t  n_channels;$/;"	m	struct:__anon14	access:public
+n_idx	avilib.h	/^  long   n_idx;             \/* number of index entries actually filled *\/$/;"	m	struct:__anon16	access:public
+n_samples_per_sec	avilib.h	/^  uint32_t  n_samples_per_sec;$/;"	m	struct:__anon14	access:public
+name	uvcvideo.h	/^	__u8 name[32];$/;"	m	struct:uvc_control_mapping	access:public
+name	uvcvideo.h	/^	__u8 name[32];$/;"	m	struct:uvc_menu_info	access:public
+name	uvcvideo.h	/^	char name[32];$/;"	m	struct:uvc_format	access:public
+name	uvcvideo.h	/^	char name[64];$/;"	m	struct:uvc_entity	access:public
+nc	utils.c	/^    int nc;			\/* number of components *\/$/;"	m	struct:jpginfo	file:	access:public
+ncontrols	uvcvideo.h	/^	unsigned int ncontrols;$/;"	m	struct:uvc_entity	access:public
+next	utils.c	/^    int next;			\/* when to switch to next scan *\/$/;"	m	struct:scan	file:	access:public
+nformats	uvcvideo.h	/^	unsigned int nformats;$/;"	m	struct:uvc_streaming	access:public
+nframes	uvcvideo.h	/^	unsigned int nframes;$/;"	m	struct:uvc_format	access:public
+nm	utils.c	/^    int nm;			\/* mcus til next marker *\/$/;"	m	struct:jpginfo	file:	access:public
+ns	utils.c	/^    int ns;			\/* number of scans *\/$/;"	m	struct:jpginfo	file:	access:public
+num_avi_errors	avilib.c	/^static int num_avi_errors = sizeof(avi_errors)\/sizeof(char*);$/;"	v	file:
+offset	uvcvideo.h	/^	__u8 offset;$/;"	m	struct:uvc_control_mapping	access:public
+open_mutex	uvcvideo.h	/^	struct mutex open_mutex;	\/* protects from open\/disconnect race *\/$/;"	m	struct:uvc_driver	typeref:struct:uvc_driver::mutex	access:public
+oterm	uvcvideo.h	/^	struct uvc_entity *oterm;$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::uvc_entity	access:public
+out	utils.c	/^    int out[64 * 6];$/;"	m	struct:jpeg_decdata	file:	access:public
+output	uvcvideo.h	/^		struct uvc_output_header output;$/;"	m	union:uvc_streaming::__anon10	typeref:struct:uvc_streaming::__anon10::uvc_output_header	access:public
+output	uvcvideo.h	/^		} output;$/;"	m	union:uvc_entity::__anon4	typeref:struct:uvc_entity::__anon4::__anon6	access:public
+p	utils.c	/^    unsigned char *p;$/;"	m	struct:in	file:	access:public
+pictName	v4l2uvc.h	/^    char *pictName;$/;"	m	struct:vdIn	access:public
+pixel_format	uvc_compat.h	/^	__u32			pixel_format;	\/* Pixel format *\/$/;"	m	struct:v4l2_frmivalenum	access:public
+pixel_format	uvc_compat.h	/^	__u32			pixel_format;	\/* Pixel format *\/$/;"	m	struct:v4l2_frmsizeenum	access:public
+pos	avilib.h	/^   off_t pos;$/;"	m	struct:__anon12	access:public
+pos	avilib.h	/^  off_t pos;        \/* position in file *\/$/;"	m	struct:__anon16	access:public
+pos	avilib.h	/^  off_t pos;$/;"	m	struct:__anon11	access:public
+processing	uvcvideo.h	/^		} processing;$/;"	m	union:uvc_entity::__anon4	typeref:struct:uvc_entity::__anon4::__anon7	access:public
+processing	uvcvideo.h	/^	struct uvc_entity *processing;$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::uvc_entity	access:public
+pt_data	luvcview.c	/^struct pt_data {$/;"	s	file:
+pt_data::affmutex	luvcview.c	/^    SDL_mutex *affmutex;$/;"	m	struct:pt_data	file:	access:public
+pt_data::drect	luvcview.c	/^    SDL_Rect *drect;$/;"	m	struct:pt_data	file:	access:public
+pt_data::frmrate	luvcview.c	/^    unsigned char frmrate;$/;"	m	struct:pt_data	file:	access:public
+pt_data::ptscreen	luvcview.c	/^    SDL_Surface **ptscreen;$/;"	m	struct:pt_data	file:	access:public
+pt_data::ptsdlevent	luvcview.c	/^    SDL_Event *ptsdlevent;$/;"	m	struct:pt_data	file:	access:public
+pt_data::ptvideoIn	luvcview.c	/^    struct vdIn *ptvideoIn;$/;"	m	struct:pt_data	typeref:struct:pt_data::vdIn	file:	access:public
+ptdata	luvcview.c	/^} ptdata;$/;"	v	typeref:struct:pt_data
+ptscreen	luvcview.c	/^    SDL_Surface **ptscreen;$/;"	m	struct:pt_data	file:	access:public
+ptsdlevent	luvcview.c	/^    SDL_Event *ptsdlevent;$/;"	m	struct:pt_data	file:	access:public
+ptvideoIn	luvcview.c	/^    struct vdIn *ptvideoIn;$/;"	m	struct:pt_data	typeref:struct:pt_data::vdIn	file:	access:public
+quant	utils.c	/^static unsigned char quant[4][64];$/;"	v	file:
+queue	uvcvideo.h	/^	struct list_head queue;$/;"	m	struct:uvc_buffer	typeref:struct:uvc_buffer::list_head	access:public
+queue	uvcvideo.h	/^	struct uvc_video_queue queue;$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::uvc_video_queue	access:public
+quirks	uvcvideo.h	/^	__u32 quirks;$/;"	m	struct:uvc_device	access:public
+rawFrameCapture	v4l2uvc.h	/^    int rawFrameCapture;$/;"	m	struct:vdIn	access:public
+rb	v4l2uvc.h	/^    struct v4l2_requestbuffers rb;$/;"	m	struct:vdIn	typeref:struct:vdIn::v4l2_requestbuffers	access:public
+readtables	utils.c	/^static int readtables(int till, int *isDHT)$/;"	f	file:	signature:(int till, int *isDHT)
+recordstart	v4l2uvc.h	/^    int recordstart;$/;"	m	struct:vdIn	access:public
+recordtime	v4l2uvc.h	/^    int recordtime;$/;"	m	struct:vdIn	access:public
+red	color.h	/^	unsigned char red;$/;"	m	struct:Myrgb24	access:public
+red	color.h	/^	unsigned char red;$/;"	m	struct:Myrgb32	access:public
+red	color.h	/^	unsigned short red:5;$/;"	m	struct:Myrgb16	access:public
+reserved	uvc_compat.h	/^		void *reserved;$/;"	m	union:v4l2_ext_control::__anon1	access:public
+reserved	uvc_compat.h	/^	__u32	reserved[2];			\/* Reserved space for future use *\/$/;"	m	struct:v4l2_frmivalenum	access:public
+reserved	uvc_compat.h	/^	__u32   reserved[2];			\/* Reserved space for future use *\/$/;"	m	struct:v4l2_frmsizeenum	access:public
+reserved	uvc_compat.h	/^	__u32 reserved[2];$/;"	m	struct:v4l2_ext_controls	access:public
+reserved2	uvc_compat.h	/^	__u32 reserved2[2];$/;"	m	struct:v4l2_ext_control	access:public
+resize	gui.c	/^static int resize(unsigned char *INbuff, unsigned char *OUTbuff,$/;"	f	file:	signature:(unsigned char *INbuff, unsigned char *OUTbuff, int Owidth, int Oheight, int width, int height)
+rfsBytesWritten	v4l2uvc.h	/^    unsigned int rfsBytesWritten;$/;"	m	struct:vdIn	access:public
+rfsFramesWritten	v4l2uvc.h	/^    unsigned int rfsFramesWritten;$/;"	m	struct:vdIn	access:public
+riff	avilib.h	/^	struct riff_struct   riff;$/;"	m	struct:wave_header	typeref:struct:wave_header::riff_struct	access:public
+riff_struct	avilib.h	/^struct riff_struct $/;"	s
+riff_struct::id	avilib.h	/^  unsigned char id[4];   \/* RIFF *\/$/;"	m	struct:riff_struct	access:public
+riff_struct::len	avilib.h	/^  uint32_t len;$/;"	m	struct:riff_struct	access:public
+riff_struct::wave_id	avilib.h	/^  unsigned char wave_id[4]; \/* WAVE *\/$/;"	m	struct:riff_struct	access:public
+rm	utils.c	/^    int rm;			\/* next restart marker *\/$/;"	m	struct:jpginfo	file:	access:public
+save_controls	v4l2uvc.c	/^int save_controls(int vd)$/;"	f	signature:(int vd)
+save_controls	v4l2uvc.h	/^int save_controls(int vd);$/;"	p	signature:(int vd)
+scan	utils.c	/^struct scan {$/;"	s	file:
+scan::cid	utils.c	/^    int cid;			\/* component id *\/$/;"	m	struct:scan	file:	access:public
+scan::dc	utils.c	/^    int dc;			\/* old dc value *\/$/;"	m	struct:scan	file:	access:public
+scan::huac	utils.c	/^    union hufftblp huac;$/;"	m	struct:scan	typeref:union:scan::hufftblp	file:	access:public
+scan::hudc	utils.c	/^    union hufftblp hudc;$/;"	m	struct:scan	typeref:union:scan::hufftblp	file:	access:public
+scan::hv	utils.c	/^    int hv;			\/* horiz\/vert, copied from comp *\/$/;"	m	struct:scan	file:	access:public
+scan::next	utils.c	/^    int next;			\/* when to switch to next scan *\/$/;"	m	struct:scan	file:	access:public
+scan::tq	utils.c	/^    int tq;			\/* quant tbl, copied from comp *\/$/;"	m	struct:scan	file:	access:public
+selector	uvcvideo.h	/^		} selector;$/;"	m	union:uvc_entity::__anon4	typeref:struct:uvc_entity::__anon4::__anon8	access:public
+selector	uvcvideo.h	/^	__u8 selector;$/;"	m	struct:uvc_control_info	access:public
+selector	uvcvideo.h	/^	__u8 selector;$/;"	m	struct:uvc_control_mapping	access:public
+sequence	uvcvideo.h	/^	__u32 sequence;$/;"	m	struct:uvc_video_queue	access:public
+setinput	utils.c	/^static void setinput __P((struct in *, unsigned char *));$/;"	p	file:	signature:(struct in *, unsigned char *)
+setinput	utils.c	/^static void setinput(in, p)$/;"	f	file:
+signalquit	v4l2uvc.h	/^    int signalquit;$/;"	m	struct:vdIn	access:public
+size	uvcvideo.h	/^	__u8 size;$/;"	m	struct:uvc_control_info	access:public
+size	uvcvideo.h	/^	__u8 size;$/;"	m	struct:uvc_control_mapping	access:public
+size	uvcvideo.h	/^	unsigned int size;$/;"	m	struct:uvc_buffer	access:public
+ssize_t	avilib.c	/^typedef int ssize_t;$/;"	t	file:
+state	uvcvideo.h	/^	enum uvc_buffer_state state;$/;"	m	struct:uvc_buffer	typeref:enum:uvc_buffer::uvc_buffer_state	access:public
+state	uvcvideo.h	/^	enum uvc_device_state state;$/;"	m	struct:uvc_device	typeref:enum:uvc_device::uvc_device_state	access:public
+state	uvcvideo.h	/^	enum uvc_handle_state state;$/;"	m	struct:uvc_fh	typeref:enum:uvc_fh::uvc_handle_state	access:public
+status	uvcvideo.h	/^	__u8 status[16];$/;"	m	struct:uvc_device	access:public
+status	v4l2uvc.h	/^    char *status;$/;"	m	struct:vdIn	access:public
+step	uvc_compat.h	/^	struct v4l2_fract	step;		\/* Frame interval step size [s] *\/$/;"	m	struct:v4l2_frmival_stepwise	typeref:struct:v4l2_frmival_stepwise::v4l2_fract	access:public
+step_height	uvc_compat.h	/^	__u32			step_height;	\/* Frame height step size [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise	access:public
+step_width	uvc_compat.h	/^	__u32			step_width;	\/* Frame width step size [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise	access:public
+stepwise	uvc_compat.h	/^		struct v4l2_frmival_stepwise	stepwise;$/;"	m	union:v4l2_frmivalenum::__anon3	typeref:struct:v4l2_frmivalenum::__anon3::v4l2_frmival_stepwise	access:public
+stepwise	uvc_compat.h	/^		struct v4l2_frmsize_stepwise	stepwise;$/;"	m	union:v4l2_frmsizeenum::__anon2	typeref:struct:v4l2_frmsizeenum::__anon2::v4l2_frmsize_stepwise	access:public
+str2ulong	avilib.c	/^static unsigned long str2ulong(unsigned char *str)$/;"	f	file:	signature:(unsigned char *str)
+str2ushort	avilib.c	/^static unsigned long str2ushort(unsigned char *str)$/;"	f	file:	signature:(unsigned char *str)
+stream	uvcvideo.h	/^	enum uvc_stream_state stream;$/;"	m	struct:uvc_video_device	typeref:enum:uvc_video_device::uvc_stream_state	access:public
+stream	uvcvideo.h	/^	struct list_head stream;$/;"	m	struct:uvc_buffer	typeref:struct:uvc_buffer::list_head	access:public
+streaming	uvcvideo.h	/^	struct list_head streaming;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::list_head	access:public
+streaming	uvcvideo.h	/^	struct uvc_streaming *streaming;$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::uvc_streaming	access:public
+streaming	uvcvideo.h	/^	unsigned int streaming;$/;"	m	struct:uvc_video_queue	access:public
+strncasecmp	avilib.c	32;"	d	file:
+sz_name	avilib.h	/^  char     sz_name[64];$/;"	m	struct:__anon15	access:public
+title	luvcview.c	/^	char * title;$/;"	m	struct:act_title	file:	access:public
+title_act	luvcview.c	/^act_title title_act[A_LAST] ={$/;"	v
+tmpbuffer	v4l2uvc.h	/^    unsigned char *tmpbuffer;$/;"	m	struct:vdIn	access:public
+toggleAvi	v4l2uvc.h	/^    int toggleAvi;$/;"	m	struct:vdIn	access:public
+tot	avilib.h	/^   off_t tot;$/;"	m	struct:__anon12	access:public
+tq	utils.c	/^    int tq;			\/* quant tbl, copied from comp *\/$/;"	m	struct:scan	file:	access:public
+tq	utils.c	/^    int tq;$/;"	m	struct:comp	file:	access:public
+track	avilib.h	/^  track_t track[AVI_MAX_TRACKS];  \/\/ up to AVI_MAX_TRACKS audio tracks supported$/;"	m	struct:__anon16	access:public
+track_s	avilib.h	/^typedef struct track_s$/;"	s
+track_s::a_bits	avilib.h	/^    long   a_bits;            \/* bits per audio sample *\/$/;"	m	struct:track_s	access:public
+track_s::a_chans	avilib.h	/^    long   a_chans;           \/* Audio channels, 0 for no audio *\/$/;"	m	struct:track_s	access:public
+track_s::a_codecf_off	avilib.h	/^    off_t a_codecf_off;       \/* absolut offset of audio codec information *\/ $/;"	m	struct:track_s	access:public
+track_s::a_codech_off	avilib.h	/^    off_t a_codech_off;       \/* absolut offset of audio codec information *\/ $/;"	m	struct:track_s	access:public
+track_s::a_fmt	avilib.h	/^    long   a_fmt;             \/* Audio format, see #defines below *\/$/;"	m	struct:track_s	access:public
+track_s::a_rate	avilib.h	/^    long   a_rate;            \/* Rate in Hz *\/$/;"	m	struct:track_s	access:public
+track_s::audio_bytes	avilib.h	/^    off_t  audio_bytes;       \/* Total number of bytes of audio data *\/$/;"	m	struct:track_s	access:public
+track_s::audio_chunks	avilib.h	/^    long   audio_chunks;      \/* Chunks of audio data in the file *\/$/;"	m	struct:track_s	access:public
+track_s::audio_index	avilib.h	/^    audio_index_entry *audio_index;$/;"	m	struct:track_s	access:public
+track_s::audio_posb	avilib.h	/^    long   audio_posb;        \/* Audio position: byte within chunk *\/$/;"	m	struct:track_s	access:public
+track_s::audio_posc	avilib.h	/^    long   audio_posc;        \/* Audio position: chunk *\/$/;"	m	struct:track_s	access:public
+track_s::audio_strn	avilib.h	/^    long   audio_strn;        \/* Audio stream number *\/$/;"	m	struct:track_s	access:public
+track_s::audio_tag	avilib.h	/^    char   audio_tag[4];      \/* Tag of audio data *\/$/;"	m	struct:track_s	access:public
+track_s::mp3rate	avilib.h	/^    long   mp3rate;           \/* mp3 bitrate kbs*\/$/;"	m	struct:track_s	access:public
+track_t	avilib.h	/^} track_t;$/;"	t	typeref:struct:track_s
+type	uvc_compat.h	/^	__u32			type;		\/* Frame interval type the device supports. *\/$/;"	m	struct:v4l2_frmivalenum	access:public
+type	uvc_compat.h	/^	__u32			type;		\/* Frame size type the device supports. *\/$/;"	m	struct:v4l2_frmsizeenum	access:public
+type	uvcvideo.h	/^	__u16 type;$/;"	m	struct:uvc_entity	access:public
+type	uvcvideo.h	/^	__u8 type;$/;"	m	struct:uvc_format	access:public
+u	color.h	/^	unsigned char u;$/;"	m	struct:MyYUV422	access:public
+u	color.h	/^	unsigned char u;$/;"	m	struct:MyYUV444	access:public
+udev	uvcvideo.h	/^	struct usb_device *udev;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::usb_device	access:public
+uint16_t	avilib.h	42;"	d
+uint32_t	avilib.h	40;"	d
+uint64_t	avilib.h	43;"	d
+uint8_t	avilib.h	41;"	d
+urb	uvcvideo.h	/^	struct urb *urb[UVC_URBS];$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::urb	access:public
+urb_buffer	uvcvideo.h	/^	char *urb_buffer[UVC_URBS];$/;"	m	struct:uvc_video_device	access:public
+uvcGrab	v4l2uvc.c	/^int uvcGrab(struct vdIn *vd)$/;"	f	signature:(struct vdIn *vd)
+uvcGrab	v4l2uvc.h	/^int uvcGrab(struct vdIn *vd);$/;"	p	signature:(struct vdIn *vd)
+uvc_alloc_buffers	uvcvideo.h	/^extern int uvc_alloc_buffers(struct uvc_video_queue *queue,$/;"	p	signature:(struct uvc_video_queue *queue, unsigned int nbuffers, unsigned int buflength)
+uvc_buffer	uvcvideo.h	/^struct uvc_buffer {$/;"	s
+uvc_buffer::buf	uvcvideo.h	/^	struct v4l2_buffer buf;$/;"	m	struct:uvc_buffer	typeref:struct:uvc_buffer::v4l2_buffer	access:public
+uvc_buffer::queue	uvcvideo.h	/^	struct list_head queue;$/;"	m	struct:uvc_buffer	typeref:struct:uvc_buffer::list_head	access:public
+uvc_buffer::size	uvcvideo.h	/^	unsigned int size;$/;"	m	struct:uvc_buffer	access:public
+uvc_buffer::state	uvcvideo.h	/^	enum uvc_buffer_state state;$/;"	m	struct:uvc_buffer	typeref:enum:uvc_buffer::uvc_buffer_state	access:public
+uvc_buffer::stream	uvcvideo.h	/^	struct list_head stream;$/;"	m	struct:uvc_buffer	typeref:struct:uvc_buffer::list_head	access:public
+uvc_buffer::vma_use_count	uvcvideo.h	/^	unsigned long vma_use_count;$/;"	m	struct:uvc_buffer	access:public
+uvc_buffer::wait	uvcvideo.h	/^	wait_queue_head_t wait;$/;"	m	struct:uvc_buffer	access:public
+uvc_buffer_state	uvcvideo.h	/^enum uvc_buffer_state {$/;"	g
+uvc_control	uvcvideo.h	/^struct uvc_control {$/;"	s
+uvc_control::data	uvcvideo.h	/^	__u8 *data;$/;"	m	struct:uvc_control	access:public
+uvc_control::dirty	uvcvideo.h	/^	__u8 dirty : 1,$/;"	m	struct:uvc_control	access:public
+uvc_control::entity	uvcvideo.h	/^	struct uvc_entity *entity;$/;"	m	struct:uvc_control	typeref:struct:uvc_control::uvc_entity	access:public
+uvc_control::index	uvcvideo.h	/^	__u8 index;	\/* Used to match the uvc_control entry with a uvc_control_info. *\/$/;"	m	struct:uvc_control	access:public
+uvc_control::info	uvcvideo.h	/^	struct uvc_control_info *info;$/;"	m	struct:uvc_control	typeref:struct:uvc_control::uvc_control_info	access:public
+uvc_control::loaded	uvcvideo.h	/^	     loaded : 1;$/;"	m	struct:uvc_control	access:public
+uvc_control_data_type	uvcvideo.h	/^enum uvc_control_data_type {$/;"	g
+uvc_control_info	uvcvideo.h	/^struct uvc_control_info {$/;"	s
+uvc_control_info::entity	uvcvideo.h	/^	__u8 entity[16];$/;"	m	struct:uvc_control_info	access:public
+uvc_control_info::flags	uvcvideo.h	/^	__u8 flags;$/;"	m	struct:uvc_control_info	access:public
+uvc_control_info::index	uvcvideo.h	/^	__u8 index;$/;"	m	struct:uvc_control_info	access:public
+uvc_control_info::list	uvcvideo.h	/^	struct list_head list;$/;"	m	struct:uvc_control_info	typeref:struct:uvc_control_info::list_head	access:public
+uvc_control_info::mappings	uvcvideo.h	/^	struct list_head mappings;$/;"	m	struct:uvc_control_info	typeref:struct:uvc_control_info::list_head	access:public
+uvc_control_info::selector	uvcvideo.h	/^	__u8 selector;$/;"	m	struct:uvc_control_info	access:public
+uvc_control_info::size	uvcvideo.h	/^	__u8 size;$/;"	m	struct:uvc_control_info	access:public
+uvc_control_mapping	uvcvideo.h	/^struct uvc_control_mapping {$/;"	s
+uvc_control_mapping::ctrl	uvcvideo.h	/^	struct uvc_control_info *ctrl;$/;"	m	struct:uvc_control_mapping	typeref:struct:uvc_control_mapping::uvc_control_info	access:public
+uvc_control_mapping::data_type	uvcvideo.h	/^	enum uvc_control_data_type data_type;$/;"	m	struct:uvc_control_mapping	typeref:enum:uvc_control_mapping::uvc_control_data_type	access:public
+uvc_control_mapping::entity	uvcvideo.h	/^	__u8 entity[16];$/;"	m	struct:uvc_control_mapping	access:public
+uvc_control_mapping::id	uvcvideo.h	/^	__u32 id;$/;"	m	struct:uvc_control_mapping	access:public
+uvc_control_mapping::list	uvcvideo.h	/^	struct list_head list;$/;"	m	struct:uvc_control_mapping	typeref:struct:uvc_control_mapping::list_head	access:public
+uvc_control_mapping::menu_count	uvcvideo.h	/^	__u32 menu_count;$/;"	m	struct:uvc_control_mapping	access:public
+uvc_control_mapping::menu_info	uvcvideo.h	/^	struct uvc_menu_info *menu_info;$/;"	m	struct:uvc_control_mapping	typeref:struct:uvc_control_mapping::uvc_menu_info	access:public
+uvc_control_mapping::name	uvcvideo.h	/^	__u8 name[32];$/;"	m	struct:uvc_control_mapping	access:public
+uvc_control_mapping::offset	uvcvideo.h	/^	__u8 offset;$/;"	m	struct:uvc_control_mapping	access:public
+uvc_control_mapping::selector	uvcvideo.h	/^	__u8 selector;$/;"	m	struct:uvc_control_mapping	access:public
+uvc_control_mapping::size	uvcvideo.h	/^	__u8 size;$/;"	m	struct:uvc_control_mapping	access:public
+uvc_control_mapping::v4l2_type	uvcvideo.h	/^	enum v4l2_ctrl_type v4l2_type;$/;"	m	struct:uvc_control_mapping	typeref:enum:uvc_control_mapping::v4l2_ctrl_type	access:public
+uvc_ctrl_add_info	uvcvideo.h	/^extern void uvc_ctrl_add_info(struct uvc_control_info *info);$/;"	p	signature:(struct uvc_control_info *info)
+uvc_ctrl_begin	uvcvideo.h	/^extern int uvc_ctrl_begin(struct uvc_video_device *video);$/;"	p	signature:(struct uvc_video_device *video)
+uvc_ctrl_cleanup_device	uvcvideo.h	/^extern void uvc_ctrl_cleanup_device(struct uvc_device *dev);$/;"	p	signature:(struct uvc_device *dev)
+uvc_ctrl_commit	uvcvideo.h	/^static inline int uvc_ctrl_commit(struct uvc_video_device *video)$/;"	f	signature:(struct uvc_video_device *video)
+uvc_ctrl_get	uvcvideo.h	/^extern int uvc_ctrl_get(struct uvc_video_device *video,$/;"	p	signature:(struct uvc_video_device *video, struct v4l2_ext_control *xctrl)
+uvc_ctrl_init	uvcvideo.h	/^extern void uvc_ctrl_init(void);$/;"	p	signature:(void)
+uvc_ctrl_init_device	uvcvideo.h	/^extern int uvc_ctrl_init_device(struct uvc_device *dev);$/;"	p	signature:(struct uvc_device *dev)
+uvc_ctrl_rollback	uvcvideo.h	/^static inline int uvc_ctrl_rollback(struct uvc_video_device *video)$/;"	f	signature:(struct uvc_video_device *video)
+uvc_ctrl_set	uvcvideo.h	/^extern int uvc_ctrl_set(struct uvc_video_device *video,$/;"	p	signature:(struct uvc_video_device *video, struct v4l2_ext_control *xctrl)
+uvc_delete	uvcvideo.h	/^extern void uvc_delete(struct kref *kref);$/;"	p	signature:(struct kref *kref)
+uvc_dequeue_buffer	uvcvideo.h	/^extern int uvc_dequeue_buffer(struct uvc_video_queue *queue,$/;"	p	signature:(struct uvc_video_queue *queue, struct v4l2_buffer *v4l2_buf, int nonblocking)
+uvc_device	uvcvideo.h	/^struct uvc_device {$/;"	s
+uvc_device::clock_frequency	uvcvideo.h	/^	__u32 clock_frequency;$/;"	m	struct:uvc_device	access:public
+uvc_device::entities	uvcvideo.h	/^	struct list_head entities;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::list_head	access:public
+uvc_device::int_ep	uvcvideo.h	/^	struct usb_host_endpoint *int_ep;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::usb_host_endpoint	access:public
+uvc_device::int_urb	uvcvideo.h	/^	struct urb *int_urb;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::urb	access:public
+uvc_device::intf	uvcvideo.h	/^	struct usb_interface *intf;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::usb_interface	access:public
+uvc_device::intfnum	uvcvideo.h	/^	int intfnum;$/;"	m	struct:uvc_device	access:public
+uvc_device::kref	uvcvideo.h	/^	struct kref kref;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::kref	access:public
+uvc_device::list	uvcvideo.h	/^	struct list_head list;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::list_head	access:public
+uvc_device::quirks	uvcvideo.h	/^	__u32 quirks;$/;"	m	struct:uvc_device	access:public
+uvc_device::state	uvcvideo.h	/^	enum uvc_device_state state;$/;"	m	struct:uvc_device	typeref:enum:uvc_device::uvc_device_state	access:public
+uvc_device::status	uvcvideo.h	/^	__u8 status[16];$/;"	m	struct:uvc_device	access:public
+uvc_device::streaming	uvcvideo.h	/^	struct list_head streaming;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::list_head	access:public
+uvc_device::udev	uvcvideo.h	/^	struct usb_device *udev;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::usb_device	access:public
+uvc_device::uvc_version	uvcvideo.h	/^	__u16 uvc_version;$/;"	m	struct:uvc_device	access:public
+uvc_device::video	uvcvideo.h	/^	struct uvc_video_device video;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::uvc_video_device	access:public
+uvc_device_state	uvcvideo.h	/^enum uvc_device_state {$/;"	g
+uvc_driver	uvcvideo.h	/^struct uvc_driver {$/;"	s
+uvc_driver::controls	uvcvideo.h	/^	struct list_head controls;	\/* struct uvc_control_info list *\/$/;"	m	struct:uvc_driver	typeref:struct:uvc_driver::list_head	access:public
+uvc_driver::ctrl_mutex	uvcvideo.h	/^	struct mutex ctrl_mutex;	\/* protects controls and devices lists *\/$/;"	m	struct:uvc_driver	typeref:struct:uvc_driver::mutex	access:public
+uvc_driver::devices	uvcvideo.h	/^        struct list_head devices;	\/* struct uvc_device list *\/$/;"	m	struct:uvc_driver	typeref:struct:uvc_driver::list_head	access:public
+uvc_driver::driver	uvcvideo.h	/^        struct usb_driver driver;$/;"	m	struct:uvc_driver	typeref:struct:uvc_driver::usb_driver	access:public
+uvc_driver::open_mutex	uvcvideo.h	/^	struct mutex open_mutex;	\/* protects from open\/disconnect race *\/$/;"	m	struct:uvc_driver	typeref:struct:uvc_driver::mutex	access:public
+uvc_entity	uvcvideo.h	/^struct uvc_entity {$/;"	s
+uvc_entity::__anon4::__anon5::bControlSize	uvcvideo.h	/^			__u8  bControlSize;$/;"	m	struct:uvc_entity::__anon4::__anon5	access:public
+uvc_entity::__anon4::__anon5::bmControls	uvcvideo.h	/^			__u8  *bmControls;$/;"	m	struct:uvc_entity::__anon4::__anon5	access:public
+uvc_entity::__anon4::__anon5::wObjectiveFocalLengthMax	uvcvideo.h	/^			__u16 wObjectiveFocalLengthMax;$/;"	m	struct:uvc_entity::__anon4::__anon5	access:public
+uvc_entity::__anon4::__anon5::wObjectiveFocalLengthMin	uvcvideo.h	/^			__u16 wObjectiveFocalLengthMin;$/;"	m	struct:uvc_entity::__anon4::__anon5	access:public
+uvc_entity::__anon4::__anon5::wOcularFocalLength	uvcvideo.h	/^			__u16 wOcularFocalLength;$/;"	m	struct:uvc_entity::__anon4::__anon5	access:public
+uvc_entity::__anon4::__anon6::bSourceID	uvcvideo.h	/^			__u8  bSourceID;$/;"	m	struct:uvc_entity::__anon4::__anon6	access:public
+uvc_entity::__anon4::__anon7::bControlSize	uvcvideo.h	/^			__u8  bControlSize;$/;"	m	struct:uvc_entity::__anon4::__anon7	access:public
+uvc_entity::__anon4::__anon7::bSourceID	uvcvideo.h	/^			__u8  bSourceID;$/;"	m	struct:uvc_entity::__anon4::__anon7	access:public
+uvc_entity::__anon4::__anon7::bmControls	uvcvideo.h	/^			__u8  *bmControls;$/;"	m	struct:uvc_entity::__anon4::__anon7	access:public
+uvc_entity::__anon4::__anon7::bmVideoStandards	uvcvideo.h	/^			__u8  bmVideoStandards;$/;"	m	struct:uvc_entity::__anon4::__anon7	access:public
+uvc_entity::__anon4::__anon7::wMaxMultiplier	uvcvideo.h	/^			__u16 wMaxMultiplier;$/;"	m	struct:uvc_entity::__anon4::__anon7	access:public
+uvc_entity::__anon4::__anon8::bNrInPins	uvcvideo.h	/^			__u8  bNrInPins;$/;"	m	struct:uvc_entity::__anon4::__anon8	access:public
+uvc_entity::__anon4::__anon8::baSourceID	uvcvideo.h	/^			__u8  *baSourceID;$/;"	m	struct:uvc_entity::__anon4::__anon8	access:public
+uvc_entity::__anon4::__anon9::bControlSize	uvcvideo.h	/^		        __u8  bControlSize;$/;"	m	struct:uvc_entity::__anon4::__anon9	access:public
+uvc_entity::__anon4::__anon9::bNrInPins	uvcvideo.h	/^		        __u8  bNrInPins;$/;"	m	struct:uvc_entity::__anon4::__anon9	access:public
+uvc_entity::__anon4::__anon9::bNumControls	uvcvideo.h	/^		        __u8  bNumControls;$/;"	m	struct:uvc_entity::__anon4::__anon9	access:public
+uvc_entity::__anon4::__anon9::baSourceID	uvcvideo.h	/^		        __u8  *baSourceID;$/;"	m	struct:uvc_entity::__anon4::__anon9	access:public
+uvc_entity::__anon4::__anon9::bmControls	uvcvideo.h	/^		        __u8  *bmControls;$/;"	m	struct:uvc_entity::__anon4::__anon9	access:public
+uvc_entity::__anon4::__anon9::bmControlsType	uvcvideo.h	/^		        __u8  *bmControlsType;$/;"	m	struct:uvc_entity::__anon4::__anon9	access:public
+uvc_entity::__anon4::__anon9::guidExtensionCode	uvcvideo.h	/^		        __u8  guidExtensionCode[16];$/;"	m	struct:uvc_entity::__anon4::__anon9	access:public
+uvc_entity::__anon4::camera	uvcvideo.h	/^		} camera;$/;"	m	union:uvc_entity::__anon4	typeref:struct:uvc_entity::__anon4::__anon5	access:public
+uvc_entity::__anon4::extension	uvcvideo.h	/^		} extension;$/;"	m	union:uvc_entity::__anon4	typeref:struct:uvc_entity::__anon4::__anon9	access:public
+uvc_entity::__anon4::output	uvcvideo.h	/^		} output;$/;"	m	union:uvc_entity::__anon4	typeref:struct:uvc_entity::__anon4::__anon6	access:public
+uvc_entity::__anon4::processing	uvcvideo.h	/^		} processing;$/;"	m	union:uvc_entity::__anon4	typeref:struct:uvc_entity::__anon4::__anon7	access:public
+uvc_entity::__anon4::selector	uvcvideo.h	/^		} selector;$/;"	m	union:uvc_entity::__anon4	typeref:struct:uvc_entity::__anon4::__anon8	access:public
+uvc_entity::controls	uvcvideo.h	/^	struct uvc_control *controls;$/;"	m	struct:uvc_entity	typeref:struct:uvc_entity::uvc_control	access:public
+uvc_entity::id	uvcvideo.h	/^	__u8 id;$/;"	m	struct:uvc_entity	access:public
+uvc_entity::list	uvcvideo.h	/^	struct list_head list;$/;"	m	struct:uvc_entity	typeref:struct:uvc_entity::list_head	access:public
+uvc_entity::name	uvcvideo.h	/^	char name[64];$/;"	m	struct:uvc_entity	access:public
+uvc_entity::ncontrols	uvcvideo.h	/^	unsigned int ncontrols;$/;"	m	struct:uvc_entity	access:public
+uvc_entity::type	uvcvideo.h	/^	__u16 type;$/;"	m	struct:uvc_entity	access:public
+uvc_fh	uvcvideo.h	/^struct uvc_fh {$/;"	s
+uvc_fh::device	uvcvideo.h	/^	struct uvc_video_device *device;$/;"	m	struct:uvc_fh	typeref:struct:uvc_fh::uvc_video_device	access:public
+uvc_fh::state	uvcvideo.h	/^	enum uvc_handle_state state;$/;"	m	struct:uvc_fh	typeref:enum:uvc_fh::uvc_handle_state	access:public
+uvc_find_control	uvcvideo.h	/^extern struct uvc_control *uvc_find_control(struct uvc_video_device *video,$/;"	p	signature:(struct uvc_video_device *video, __u32 v4l2_id, struct uvc_control_mapping **mapping)
+uvc_find_endpoint	uvcvideo.h	/^extern struct usb_host_endpoint *uvc_find_endpoint($/;"	p	signature:( struct usb_host_interface *alts, __u8 epaddr)
+uvc_format	uvcvideo.h	/^struct uvc_format {$/;"	s
+uvc_format::bpp	uvcvideo.h	/^	__u8 bpp;$/;"	m	struct:uvc_format	access:public
+uvc_format::colorspace	uvcvideo.h	/^	__u8 colorspace;$/;"	m	struct:uvc_format	access:public
+uvc_format::fcc	uvcvideo.h	/^	__u32 fcc;$/;"	m	struct:uvc_format	access:public
+uvc_format::flags	uvcvideo.h	/^	__u32 flags;$/;"	m	struct:uvc_format	access:public
+uvc_format::frame	uvcvideo.h	/^	struct uvc_frame *frame;$/;"	m	struct:uvc_format	typeref:struct:uvc_format::uvc_frame	access:public
+uvc_format::index	uvcvideo.h	/^	__u8 index;$/;"	m	struct:uvc_format	access:public
+uvc_format::name	uvcvideo.h	/^	char name[32];$/;"	m	struct:uvc_format	access:public
+uvc_format::nframes	uvcvideo.h	/^	unsigned int nframes;$/;"	m	struct:uvc_format	access:public
+uvc_format::type	uvcvideo.h	/^	__u8 type;$/;"	m	struct:uvc_format	access:public
+uvc_format_desc	uvcvideo.h	/^struct uvc_format_desc {$/;"	s
+uvc_format_desc::fcc	uvcvideo.h	/^	__u32 fcc;$/;"	m	struct:uvc_format_desc	access:public
+uvc_format_desc::guid	uvcvideo.h	/^	__u8 guid[16];$/;"	m	struct:uvc_format_desc	access:public
+uvc_fraction_to_interval	uvcvideo.h	/^extern uint32_t uvc_fraction_to_interval(uint32_t numerator,$/;"	p	signature:(uint32_t numerator, uint32_t denominator)
+uvc_frame	uvcvideo.h	/^struct uvc_frame {$/;"	s
+uvc_frame::bFrameIndex	uvcvideo.h	/^	__u8  bFrameIndex;$/;"	m	struct:uvc_frame	access:public
+uvc_frame::bFrameIntervalType	uvcvideo.h	/^	__u8  bFrameIntervalType;$/;"	m	struct:uvc_frame	access:public
+uvc_frame::bmCapabilities	uvcvideo.h	/^	__u8  bmCapabilities;$/;"	m	struct:uvc_frame	access:public
+uvc_frame::dwDefaultFrameInterval	uvcvideo.h	/^	__u32 dwDefaultFrameInterval;$/;"	m	struct:uvc_frame	access:public
+uvc_frame::dwFrameInterval	uvcvideo.h	/^	__u32 *dwFrameInterval;$/;"	m	struct:uvc_frame	access:public
+uvc_frame::dwMaxBitRate	uvcvideo.h	/^	__u32 dwMaxBitRate;$/;"	m	struct:uvc_frame	access:public
+uvc_frame::dwMaxVideoFrameBufferSize	uvcvideo.h	/^	__u32 dwMaxVideoFrameBufferSize;$/;"	m	struct:uvc_frame	access:public
+uvc_frame::dwMinBitRate	uvcvideo.h	/^	__u32 dwMinBitRate;$/;"	m	struct:uvc_frame	access:public
+uvc_frame::wHeight	uvcvideo.h	/^	__u16 wHeight;$/;"	m	struct:uvc_frame	access:public
+uvc_frame::wWidth	uvcvideo.h	/^	__u16 wWidth;$/;"	m	struct:uvc_frame	access:public
+uvc_free_buffers	uvcvideo.h	/^extern int uvc_free_buffers(struct uvc_video_queue *queue);$/;"	p	signature:(struct uvc_video_queue *queue)
+uvc_handle_state	uvcvideo.h	/^enum uvc_handle_state {$/;"	g
+uvc_init_status	uvcvideo.h	/^extern int uvc_init_status(struct uvc_device *dev);$/;"	p	signature:(struct uvc_device *dev)
+uvc_input_header	uvcvideo.h	/^struct uvc_input_header {$/;"	s
+uvc_input_header::bControlSize	uvcvideo.h	/^	__u8 bControlSize;$/;"	m	struct:uvc_input_header	access:public
+uvc_input_header::bEndpointAddress	uvcvideo.h	/^	__u8 bEndpointAddress;$/;"	m	struct:uvc_input_header	access:public
+uvc_input_header::bNumFormats	uvcvideo.h	/^	__u8 bNumFormats;$/;"	m	struct:uvc_input_header	access:public
+uvc_input_header::bStillCaptureMethod	uvcvideo.h	/^	__u8 bStillCaptureMethod;$/;"	m	struct:uvc_input_header	access:public
+uvc_input_header::bTerminalLink	uvcvideo.h	/^	__u8 bTerminalLink;$/;"	m	struct:uvc_input_header	access:public
+uvc_input_header::bTriggerSupport	uvcvideo.h	/^	__u8 bTriggerSupport;$/;"	m	struct:uvc_input_header	access:public
+uvc_input_header::bTriggerUsage	uvcvideo.h	/^	__u8 bTriggerUsage;$/;"	m	struct:uvc_input_header	access:public
+uvc_input_header::bmInfo	uvcvideo.h	/^	__u8 bmInfo;$/;"	m	struct:uvc_input_header	access:public
+uvc_input_header::bmaControls	uvcvideo.h	/^	__u8 *bmaControls;$/;"	m	struct:uvc_input_header	access:public
+uvc_menu_info	uvcvideo.h	/^struct uvc_menu_info {$/;"	s
+uvc_menu_info::index	uvcvideo.h	/^	__u32 index;$/;"	m	struct:uvc_menu_info	access:public
+uvc_menu_info::name	uvcvideo.h	/^	__u8 name[32];$/;"	m	struct:uvc_menu_info	access:public
+uvc_output_header	uvcvideo.h	/^struct uvc_output_header {$/;"	s
+uvc_printk	uvcvideo.h	587;"	d
+uvc_probe_video	uvcvideo.h	/^extern int uvc_probe_video(struct uvc_video_device *video,$/;"	p	signature:(struct uvc_video_device *video, struct uvc_streaming_control *probe)
+uvc_query_buffer	uvcvideo.h	/^extern void uvc_query_buffer(struct uvc_buffer *buf,$/;"	p	signature:(struct uvc_buffer *buf, struct v4l2_buffer *v4l2_buf)
+uvc_query_ctrl	uvcvideo.h	/^extern int uvc_query_ctrl(struct uvc_device *dev, __u8 query, __u8 unit,$/;"	p	signature:(struct uvc_device *dev, __u8 query, __u8 unit, __u8 intfnum, __u8 cs, void *data, __u16 size)
+uvc_query_v4l2_ctrl	uvcvideo.h	/^extern int uvc_query_v4l2_ctrl(struct uvc_video_device *video,$/;"	p	signature:(struct uvc_video_device *video, struct v4l2_queryctrl *v4l2_ctrl)
+uvc_queue_buffer	uvcvideo.h	/^extern int uvc_queue_buffer(struct uvc_video_queue *queue,$/;"	p	signature:(struct uvc_video_queue *queue, struct v4l2_buffer *v4l2_buf)
+uvc_queue_cancel	uvcvideo.h	/^extern void uvc_queue_cancel(struct uvc_video_queue *queue);$/;"	p	signature:(struct uvc_video_queue *queue)
+uvc_queue_enable	uvcvideo.h	/^extern int uvc_queue_enable(struct uvc_video_queue *queue, int enable);$/;"	p	signature:(struct uvc_video_queue *queue, int enable)
+uvc_queue_init	uvcvideo.h	/^extern void uvc_queue_init(struct uvc_video_queue *queue);$/;"	p	signature:(struct uvc_video_queue *queue)
+uvc_queue_next_buffer	uvcvideo.h	/^extern struct uvc_buffer *uvc_queue_next_buffer(struct uvc_video_queue *queue,$/;"	p	signature:(struct uvc_video_queue *queue, struct uvc_buffer *buf)
+uvc_set_video_ctrl	uvcvideo.h	/^extern int uvc_set_video_ctrl(struct uvc_video_device *video,$/;"	p	signature:(struct uvc_video_device *video, struct uvc_streaming_control *ctrl, int probe)
+uvc_simplify_fraction	uvcvideo.h	/^extern void uvc_simplify_fraction(uint32_t *numerator, uint32_t *denominator,$/;"	p	signature:(uint32_t *numerator, uint32_t *denominator, unsigned int n_terms, unsigned int threshold)
+uvc_stream_state	uvcvideo.h	/^enum uvc_stream_state {$/;"	g
+uvc_streaming	uvcvideo.h	/^struct uvc_streaming {$/;"	s
+uvc_streaming::__anon10::input	uvcvideo.h	/^		struct uvc_input_header input;$/;"	m	union:uvc_streaming::__anon10	typeref:struct:uvc_streaming::__anon10::uvc_input_header	access:public
+uvc_streaming::__anon10::output	uvcvideo.h	/^		struct uvc_output_header output;$/;"	m	union:uvc_streaming::__anon10	typeref:struct:uvc_streaming::__anon10::uvc_output_header	access:public
+uvc_streaming::ctrl	uvcvideo.h	/^	struct uvc_streaming_control ctrl;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_streaming_control	access:public
+uvc_streaming::cur_format	uvcvideo.h	/^	struct uvc_format *cur_format;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_format	access:public
+uvc_streaming::cur_frame	uvcvideo.h	/^	struct uvc_frame *cur_frame;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_frame	access:public
+uvc_streaming::format	uvcvideo.h	/^	struct uvc_format *format;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_format	access:public
+uvc_streaming::intf	uvcvideo.h	/^	struct usb_interface *intf;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::usb_interface	access:public
+uvc_streaming::intfnum	uvcvideo.h	/^	int intfnum;$/;"	m	struct:uvc_streaming	access:public
+uvc_streaming::list	uvcvideo.h	/^	struct list_head list;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::list_head	access:public
+uvc_streaming::maxpsize	uvcvideo.h	/^	__u16 maxpsize;$/;"	m	struct:uvc_streaming	access:public
+uvc_streaming::mutex	uvcvideo.h	/^	struct mutex mutex;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::mutex	access:public
+uvc_streaming::nformats	uvcvideo.h	/^	unsigned int nformats;$/;"	m	struct:uvc_streaming	access:public
+uvc_streaming_control	uvcvideo.h	/^struct uvc_streaming_control {$/;"	s
+uvc_streaming_control::bFormatIndex	uvcvideo.h	/^	__u8  bFormatIndex;$/;"	m	struct:uvc_streaming_control	access:public
+uvc_streaming_control::bFrameIndex	uvcvideo.h	/^	__u8  bFrameIndex;$/;"	m	struct:uvc_streaming_control	access:public
+uvc_streaming_control::bMaxVersion	uvcvideo.h	/^	__u8  bMaxVersion;$/;"	m	struct:uvc_streaming_control	access:public
+uvc_streaming_control::bMinVersion	uvcvideo.h	/^	__u8  bMinVersion;$/;"	m	struct:uvc_streaming_control	access:public
+uvc_streaming_control::bPreferedVersion	uvcvideo.h	/^	__u8  bPreferedVersion;$/;"	m	struct:uvc_streaming_control	access:public
+uvc_streaming_control::bmFramingInfo	uvcvideo.h	/^	__u8  bmFramingInfo;$/;"	m	struct:uvc_streaming_control	access:public
+uvc_streaming_control::bmHint	uvcvideo.h	/^	__u16 bmHint;$/;"	m	struct:uvc_streaming_control	access:public
+uvc_streaming_control::dwClockFrequency	uvcvideo.h	/^	__u32 dwClockFrequency;$/;"	m	struct:uvc_streaming_control	access:public
+uvc_streaming_control::dwFrameInterval	uvcvideo.h	/^	__u32 dwFrameInterval;$/;"	m	struct:uvc_streaming_control	access:public
+uvc_streaming_control::dwMaxPayloadTransferSize	uvcvideo.h	/^	__u32 dwMaxPayloadTransferSize;$/;"	m	struct:uvc_streaming_control	access:public
+uvc_streaming_control::dwMaxVideoFrameSize	uvcvideo.h	/^	__u32 dwMaxVideoFrameSize;$/;"	m	struct:uvc_streaming_control	access:public
+uvc_streaming_control::wCompQuality	uvcvideo.h	/^	__u16 wCompQuality;$/;"	m	struct:uvc_streaming_control	access:public
+uvc_streaming_control::wCompWindowSize	uvcvideo.h	/^	__u16 wCompWindowSize;$/;"	m	struct:uvc_streaming_control	access:public
+uvc_streaming_control::wDelay	uvcvideo.h	/^	__u16 wDelay;$/;"	m	struct:uvc_streaming_control	access:public
+uvc_streaming_control::wKeyFrameRate	uvcvideo.h	/^	__u16 wKeyFrameRate;$/;"	m	struct:uvc_streaming_control	access:public
+uvc_streaming_control::wPFrameRate	uvcvideo.h	/^	__u16 wPFrameRate;$/;"	m	struct:uvc_streaming_control	access:public
+uvc_trace	uvcvideo.h	581;"	d
+uvc_version	uvcvideo.h	/^	__u16 uvc_version;$/;"	m	struct:uvc_device	access:public
+uvc_video_device	uvcvideo.h	/^struct uvc_video_device {$/;"	s
+uvc_video_device::active	uvcvideo.h	/^	atomic_t active;$/;"	m	struct:uvc_video_device	access:public
+uvc_video_device::ctrl_mutex	uvcvideo.h	/^	struct mutex ctrl_mutex;$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::mutex	access:public
+uvc_video_device::dev	uvcvideo.h	/^	struct uvc_device *dev;$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::uvc_device	access:public
+uvc_video_device::extension	uvcvideo.h	/^	struct uvc_entity *extension[8];$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::uvc_entity	access:public
+uvc_video_device::iterm	uvcvideo.h	/^	struct uvc_entity *iterm;$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::uvc_entity	access:public
+uvc_video_device::oterm	uvcvideo.h	/^	struct uvc_entity *oterm;$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::uvc_entity	access:public
+uvc_video_device::processing	uvcvideo.h	/^	struct uvc_entity *processing;$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::uvc_entity	access:public
+uvc_video_device::queue	uvcvideo.h	/^	struct uvc_video_queue queue;$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::uvc_video_queue	access:public
+uvc_video_device::stream	uvcvideo.h	/^	enum uvc_stream_state stream;$/;"	m	struct:uvc_video_device	typeref:enum:uvc_video_device::uvc_stream_state	access:public
+uvc_video_device::streaming	uvcvideo.h	/^	struct uvc_streaming *streaming;$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::uvc_streaming	access:public
+uvc_video_device::urb	uvcvideo.h	/^	struct urb *urb[UVC_URBS];$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::urb	access:public
+uvc_video_device::urb_buffer	uvcvideo.h	/^	char *urb_buffer[UVC_URBS];$/;"	m	struct:uvc_video_device	access:public
+uvc_video_device::vdev	uvcvideo.h	/^	struct video_device *vdev;$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::video_device	access:public
+uvc_video_enable	uvcvideo.h	/^extern int uvc_video_enable(struct uvc_video_device *video, int enable);$/;"	p	signature:(struct uvc_video_device *video, int enable)
+uvc_video_init	uvcvideo.h	/^extern int uvc_video_init(struct uvc_video_device *video);$/;"	p	signature:(struct uvc_video_device *video)
+uvc_video_queue	uvcvideo.h	/^struct uvc_video_queue {$/;"	s
+uvc_video_queue::buffer	uvcvideo.h	/^	struct uvc_buffer buffer[UVC_MAX_VIDEO_BUFFERS];$/;"	m	struct:uvc_video_queue	typeref:struct:uvc_video_queue::uvc_buffer	access:public
+uvc_video_queue::count	uvcvideo.h	/^	unsigned int count;$/;"	m	struct:uvc_video_queue	access:public
+uvc_video_queue::irqlock	uvcvideo.h	/^	spinlock_t irqlock;$/;"	m	struct:uvc_video_queue	access:public
+uvc_video_queue::irqqueue	uvcvideo.h	/^	struct list_head irqqueue;$/;"	m	struct:uvc_video_queue	typeref:struct:uvc_video_queue::list_head	access:public
+uvc_video_queue::last_fid	uvcvideo.h	/^	__u8 last_fid;$/;"	m	struct:uvc_video_queue	access:public
+uvc_video_queue::mainqueue	uvcvideo.h	/^	struct list_head mainqueue;$/;"	m	struct:uvc_video_queue	typeref:struct:uvc_video_queue::list_head	access:public
+uvc_video_queue::mem	uvcvideo.h	/^	void *mem;$/;"	m	struct:uvc_video_queue	access:public
+uvc_video_queue::mutex	uvcvideo.h	/^	struct mutex mutex;$/;"	m	struct:uvc_video_queue	typeref:struct:uvc_video_queue::mutex	access:public
+uvc_video_queue::sequence	uvcvideo.h	/^	__u32 sequence;$/;"	m	struct:uvc_video_queue	access:public
+uvc_video_queue::streaming	uvcvideo.h	/^	unsigned int streaming;$/;"	m	struct:uvc_video_queue	access:public
+v	color.h	/^	unsigned char v;$/;"	m	struct:MyYUV422	access:public
+v	color.h	/^	unsigned char v;$/;"	m	struct:MyYUV444	access:public
+v4L2UpDownPan	v4l2uvc.c	/^int v4L2UpDownPan(struct vdIn *vd, short inc)$/;"	f	signature:(struct vdIn *vd, short inc)
+v4L2UpDownPan	v4l2uvc.h	/^int v4L2UpDownPan(struct vdIn *vd, short inc);$/;"	p	signature:(struct vdIn *vd, short inc)
+v4L2UpDownPanTilt	v4l2uvc.c	/^int v4L2UpDownPanTilt(struct vdIn *vd, short inc_p, short inc_t) {$/;"	f	signature:(struct vdIn *vd, short inc_p, short inc_t)
+v4L2UpDownPanTilt	v4l2uvc.h	/^int v4L2UpDownPanTilt(struct vdIn *vd, short inc_p, short inc_t);$/;"	p	signature:(struct vdIn *vd, short inc_p, short inc_t)
+v4L2UpDownTilt	v4l2uvc.c	/^int v4L2UpDownTilt(struct vdIn *vd, short inc)$/;"	f	signature:(struct vdIn *vd, short inc)
+v4L2UpDownTilt	v4l2uvc.h	/^int v4L2UpDownTilt(struct vdIn *vd,short inc);$/;"	p	signature:(struct vdIn *vd,short inc)
+v4l2DownControl	v4l2uvc.c	/^int v4l2DownControl(struct vdIn *vd, int control)$/;"	f	signature:(struct vdIn *vd, int control)
+v4l2DownControl	v4l2uvc.h	/^int v4l2DownControl(struct vdIn *vd, int control);$/;"	p	signature:(struct vdIn *vd, int control)
+v4l2GetControl	v4l2uvc.c	/^int v4l2GetControl(struct vdIn *vd, int control)$/;"	f	signature:(struct vdIn *vd, int control)
+v4l2GetControl	v4l2uvc.h	/^int v4l2GetControl(struct vdIn *vd, int control);$/;"	p	signature:(struct vdIn *vd, int control)
+v4l2ResetControl	v4l2uvc.c	/^int v4l2ResetControl(struct vdIn *vd, int control)$/;"	f	signature:(struct vdIn *vd, int control)
+v4l2ResetControl	v4l2uvc.h	/^int v4l2ResetControl(struct vdIn *vd, int control);$/;"	p	signature:(struct vdIn *vd, int control)
+v4l2ResetPanTilt	v4l2uvc.c	/^int v4l2ResetPanTilt(struct vdIn *vd,int pantilt)$/;"	f	signature:(struct vdIn *vd,int pantilt)
+v4l2ResetPanTilt	v4l2uvc.h	/^int v4l2ResetPanTilt(struct vdIn *vd,int pantilt);$/;"	p	signature:(struct vdIn *vd,int pantilt)
+v4l2SetControl	v4l2uvc.c	/^int v4l2SetControl(struct vdIn *vd, int control, int value)$/;"	f	signature:(struct vdIn *vd, int control, int value)
+v4l2SetControl	v4l2uvc.h	/^int v4l2SetControl(struct vdIn *vd, int control, int value);$/;"	p	signature:(struct vdIn *vd, int control, int value)
+v4l2SetLightFrequencyFilter	v4l2uvc.c	/^int v4l2SetLightFrequencyFilter(struct vdIn *vd, int flt) $/;"	f	signature:(struct vdIn *vd, int flt)
+v4l2SetLightFrequencyFilter	v4l2uvc.h	/^int v4l2SetLightFrequencyFilter(struct vdIn *vd,int flt);$/;"	p	signature:(struct vdIn *vd,int flt)
+v4l2ToggleControl	v4l2uvc.c	/^int v4l2ToggleControl(struct vdIn *vd, int control)$/;"	f	signature:(struct vdIn *vd, int control)
+v4l2ToggleControl	v4l2uvc.h	/^int v4l2ToggleControl(struct vdIn *vd, int control);$/;"	p	signature:(struct vdIn *vd, int control)
+v4l2UpControl	v4l2uvc.c	/^int v4l2UpControl(struct vdIn *vd, int control)$/;"	f	signature:(struct vdIn *vd, int control)
+v4l2UpControl	v4l2uvc.h	/^int v4l2UpControl(struct vdIn *vd, int control);$/;"	p	signature:(struct vdIn *vd, int control)
+v4l2_ext_control	uvc_compat.h	/^struct v4l2_ext_control$/;"	s
+v4l2_ext_control::__anon1::reserved	uvc_compat.h	/^		void *reserved;$/;"	m	union:v4l2_ext_control::__anon1	access:public
+v4l2_ext_control::__anon1::value	uvc_compat.h	/^		__s32 value;$/;"	m	union:v4l2_ext_control::__anon1	access:public
+v4l2_ext_control::__anon1::value64	uvc_compat.h	/^		__s64 value64;$/;"	m	union:v4l2_ext_control::__anon1	access:public
+v4l2_ext_control::id	uvc_compat.h	/^	__u32 id;$/;"	m	struct:v4l2_ext_control	access:public
+v4l2_ext_control::reserved2	uvc_compat.h	/^	__u32 reserved2[2];$/;"	m	struct:v4l2_ext_control	access:public
+v4l2_ext_controls	uvc_compat.h	/^struct v4l2_ext_controls$/;"	s
+v4l2_ext_controls::controls	uvc_compat.h	/^	struct v4l2_ext_control *controls;$/;"	m	struct:v4l2_ext_controls	typeref:struct:v4l2_ext_controls::v4l2_ext_control	access:public
+v4l2_ext_controls::count	uvc_compat.h	/^	__u32 count;$/;"	m	struct:v4l2_ext_controls	access:public
+v4l2_ext_controls::ctrl_class	uvc_compat.h	/^	__u32 ctrl_class;$/;"	m	struct:v4l2_ext_controls	access:public
+v4l2_ext_controls::error_idx	uvc_compat.h	/^	__u32 error_idx;$/;"	m	struct:v4l2_ext_controls	access:public
+v4l2_ext_controls::reserved	uvc_compat.h	/^	__u32 reserved[2];$/;"	m	struct:v4l2_ext_controls	access:public
+v4l2_frmival_stepwise	uvc_compat.h	/^struct v4l2_frmival_stepwise$/;"	s
+v4l2_frmival_stepwise::max	uvc_compat.h	/^	struct v4l2_fract	max;		\/* Maximum frame interval [s] *\/$/;"	m	struct:v4l2_frmival_stepwise	typeref:struct:v4l2_frmival_stepwise::v4l2_fract	access:public
+v4l2_frmival_stepwise::min	uvc_compat.h	/^	struct v4l2_fract	min;		\/* Minimum frame interval [s] *\/$/;"	m	struct:v4l2_frmival_stepwise	typeref:struct:v4l2_frmival_stepwise::v4l2_fract	access:public
+v4l2_frmival_stepwise::step	uvc_compat.h	/^	struct v4l2_fract	step;		\/* Frame interval step size [s] *\/$/;"	m	struct:v4l2_frmival_stepwise	typeref:struct:v4l2_frmival_stepwise::v4l2_fract	access:public
+v4l2_frmivalenum	uvc_compat.h	/^struct v4l2_frmivalenum$/;"	s
+v4l2_frmivalenum::__anon3::discrete	uvc_compat.h	/^		struct v4l2_fract		discrete;$/;"	m	union:v4l2_frmivalenum::__anon3	typeref:struct:v4l2_frmivalenum::__anon3::v4l2_fract	access:public
+v4l2_frmivalenum::__anon3::stepwise	uvc_compat.h	/^		struct v4l2_frmival_stepwise	stepwise;$/;"	m	union:v4l2_frmivalenum::__anon3	typeref:struct:v4l2_frmivalenum::__anon3::v4l2_frmival_stepwise	access:public
+v4l2_frmivalenum::height	uvc_compat.h	/^	__u32			height;		\/* Frame height *\/$/;"	m	struct:v4l2_frmivalenum	access:public
+v4l2_frmivalenum::index	uvc_compat.h	/^	__u32			index;		\/* Frame format index *\/$/;"	m	struct:v4l2_frmivalenum	access:public
+v4l2_frmivalenum::pixel_format	uvc_compat.h	/^	__u32			pixel_format;	\/* Pixel format *\/$/;"	m	struct:v4l2_frmivalenum	access:public
+v4l2_frmivalenum::reserved	uvc_compat.h	/^	__u32	reserved[2];			\/* Reserved space for future use *\/$/;"	m	struct:v4l2_frmivalenum	access:public
+v4l2_frmivalenum::type	uvc_compat.h	/^	__u32			type;		\/* Frame interval type the device supports. *\/$/;"	m	struct:v4l2_frmivalenum	access:public
+v4l2_frmivalenum::width	uvc_compat.h	/^	__u32			width;		\/* Frame width *\/$/;"	m	struct:v4l2_frmivalenum	access:public
+v4l2_frmivaltypes	uvc_compat.h	/^enum v4l2_frmivaltypes$/;"	g
+v4l2_frmsize_discrete	uvc_compat.h	/^struct v4l2_frmsize_discrete$/;"	s
+v4l2_frmsize_discrete::height	uvc_compat.h	/^	__u32			height;		\/* Frame height [pixel] *\/$/;"	m	struct:v4l2_frmsize_discrete	access:public
+v4l2_frmsize_discrete::width	uvc_compat.h	/^	__u32			width;		\/* Frame width [pixel] *\/$/;"	m	struct:v4l2_frmsize_discrete	access:public
+v4l2_frmsize_stepwise	uvc_compat.h	/^struct v4l2_frmsize_stepwise$/;"	s
+v4l2_frmsize_stepwise::max_height	uvc_compat.h	/^	__u32			max_height;	\/* Maximum frame height [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise	access:public
+v4l2_frmsize_stepwise::max_width	uvc_compat.h	/^	__u32			max_width;	\/* Maximum frame width [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise	access:public
+v4l2_frmsize_stepwise::min_height	uvc_compat.h	/^	__u32			min_height;	\/* Minimum frame height [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise	access:public
+v4l2_frmsize_stepwise::min_width	uvc_compat.h	/^	__u32			min_width;	\/* Minimum frame width [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise	access:public
+v4l2_frmsize_stepwise::step_height	uvc_compat.h	/^	__u32			step_height;	\/* Frame height step size [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise	access:public
+v4l2_frmsize_stepwise::step_width	uvc_compat.h	/^	__u32			step_width;	\/* Frame width step size [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise	access:public
+v4l2_frmsizeenum	uvc_compat.h	/^struct v4l2_frmsizeenum$/;"	s
+v4l2_frmsizeenum::__anon2::discrete	uvc_compat.h	/^		struct v4l2_frmsize_discrete	discrete;$/;"	m	union:v4l2_frmsizeenum::__anon2	typeref:struct:v4l2_frmsizeenum::__anon2::v4l2_frmsize_discrete	access:public
+v4l2_frmsizeenum::__anon2::stepwise	uvc_compat.h	/^		struct v4l2_frmsize_stepwise	stepwise;$/;"	m	union:v4l2_frmsizeenum::__anon2	typeref:struct:v4l2_frmsizeenum::__anon2::v4l2_frmsize_stepwise	access:public
+v4l2_frmsizeenum::index	uvc_compat.h	/^	__u32			index;		\/* Frame size number *\/$/;"	m	struct:v4l2_frmsizeenum	access:public
+v4l2_frmsizeenum::pixel_format	uvc_compat.h	/^	__u32			pixel_format;	\/* Pixel format *\/$/;"	m	struct:v4l2_frmsizeenum	access:public
+v4l2_frmsizeenum::reserved	uvc_compat.h	/^	__u32   reserved[2];			\/* Reserved space for future use *\/$/;"	m	struct:v4l2_frmsizeenum	access:public
+v4l2_frmsizeenum::type	uvc_compat.h	/^	__u32			type;		\/* Frame size type the device supports. *\/$/;"	m	struct:v4l2_frmsizeenum	access:public
+v4l2_frmsizetypes	uvc_compat.h	/^enum v4l2_frmsizetypes$/;"	g
+v4l2_type	uvcvideo.h	/^	enum v4l2_ctrl_type v4l2_type;$/;"	m	struct:uvc_control_mapping	typeref:enum:uvc_control_mapping::v4l2_ctrl_type	access:public
+v_codecf_off	avilib.h	/^  off_t v_codecf_off;       \/* absolut offset of video codec (strf) info *\/ $/;"	m	struct:__anon16	access:public
+v_codech_off	avilib.h	/^  off_t v_codech_off;       \/* absolut offset of video codec (strh) info *\/ $/;"	m	struct:__anon16	access:public
+valptr	utils.c	/^    int valptr[16];$/;"	m	struct:dec_hufftbl	file:	access:public
+vals	utils.c	/^    unsigned char vals[256];$/;"	m	struct:dec_hufftbl	file:	access:public
+value	uvc_compat.h	/^		__s32 value;$/;"	m	union:v4l2_ext_control::__anon1	access:public
+value64	uvc_compat.h	/^		__s64 value64;$/;"	m	union:v4l2_ext_control::__anon1	access:public
+vdIn	v4l2uvc.h	/^struct vdIn {$/;"	s
+vdIn::avifile	v4l2uvc.h	/^    avi_t *avifile;$/;"	m	struct:vdIn	access:public
+vdIn::avifilename	v4l2uvc.h	/^    char *avifilename;$/;"	m	struct:vdIn	access:public
+vdIn::buf	v4l2uvc.h	/^    struct v4l2_buffer buf;$/;"	m	struct:vdIn	typeref:struct:vdIn::v4l2_buffer	access:public
+vdIn::bytesWritten	v4l2uvc.h	/^    unsigned int bytesWritten;$/;"	m	struct:vdIn	access:public
+vdIn::cap	v4l2uvc.h	/^    struct v4l2_capability cap;$/;"	m	struct:vdIn	typeref:struct:vdIn::v4l2_capability	access:public
+vdIn::captureFile	v4l2uvc.h	/^    FILE *captureFile;$/;"	m	struct:vdIn	access:public
+vdIn::fd	v4l2uvc.h	/^    int fd;$/;"	m	struct:vdIn	access:public
+vdIn::fileCounter	v4l2uvc.h	/^    unsigned int fileCounter;$/;"	m	struct:vdIn	access:public
+vdIn::fmt	v4l2uvc.h	/^    struct v4l2_format fmt;$/;"	m	struct:vdIn	typeref:struct:vdIn::v4l2_format	access:public
+vdIn::formatIn	v4l2uvc.h	/^    int formatIn;$/;"	m	struct:vdIn	access:public
+vdIn::formatOut	v4l2uvc.h	/^    int formatOut;$/;"	m	struct:vdIn	access:public
+vdIn::fps	v4l2uvc.h	/^    int fps;$/;"	m	struct:vdIn	access:public
+vdIn::framebuffer	v4l2uvc.h	/^    unsigned char *framebuffer;$/;"	m	struct:vdIn	access:public
+vdIn::framecount	v4l2uvc.h	/^    int framecount;$/;"	m	struct:vdIn	access:public
+vdIn::framesWritten	v4l2uvc.h	/^    unsigned int framesWritten;$/;"	m	struct:vdIn	access:public
+vdIn::framesizeIn	v4l2uvc.h	/^    int framesizeIn;$/;"	m	struct:vdIn	access:public
+vdIn::getPict	v4l2uvc.h	/^    int getPict;$/;"	m	struct:vdIn	access:public
+vdIn::grabmethod	v4l2uvc.h	/^    int grabmethod;$/;"	m	struct:vdIn	access:public
+vdIn::height	v4l2uvc.h	/^    int height;$/;"	m	struct:vdIn	access:public
+vdIn::isstreaming	v4l2uvc.h	/^    int isstreaming;$/;"	m	struct:vdIn	access:public
+vdIn::mem	v4l2uvc.h	/^    void *mem[NB_BUFFER];$/;"	m	struct:vdIn	access:public
+vdIn::pictName	v4l2uvc.h	/^    char *pictName;$/;"	m	struct:vdIn	access:public
+vdIn::rawFrameCapture	v4l2uvc.h	/^    int rawFrameCapture;$/;"	m	struct:vdIn	access:public
+vdIn::rb	v4l2uvc.h	/^    struct v4l2_requestbuffers rb;$/;"	m	struct:vdIn	typeref:struct:vdIn::v4l2_requestbuffers	access:public
+vdIn::recordstart	v4l2uvc.h	/^    int recordstart;$/;"	m	struct:vdIn	access:public
+vdIn::recordtime	v4l2uvc.h	/^    int recordtime;$/;"	m	struct:vdIn	access:public
+vdIn::rfsBytesWritten	v4l2uvc.h	/^    unsigned int rfsBytesWritten;$/;"	m	struct:vdIn	access:public
+vdIn::rfsFramesWritten	v4l2uvc.h	/^    unsigned int rfsFramesWritten;$/;"	m	struct:vdIn	access:public
+vdIn::signalquit	v4l2uvc.h	/^    int signalquit;$/;"	m	struct:vdIn	access:public
+vdIn::status	v4l2uvc.h	/^    char *status;$/;"	m	struct:vdIn	access:public
+vdIn::tmpbuffer	v4l2uvc.h	/^    unsigned char *tmpbuffer;$/;"	m	struct:vdIn	access:public
+vdIn::toggleAvi	v4l2uvc.h	/^    int toggleAvi;$/;"	m	struct:vdIn	access:public
+vdIn::videodevice	v4l2uvc.h	/^    char *videodevice;$/;"	m	struct:vdIn	access:public
+vdIn::width	v4l2uvc.h	/^    int width;$/;"	m	struct:vdIn	access:public
+vdev	uvcvideo.h	/^	struct video_device *vdev;$/;"	m	struct:uvc_video_device	typeref:struct:uvc_video_device::video_device	access:public
+version	luvcview.c	/^static const char version[] = VERSION;$/;"	v	file:
+video	uvcvideo.h	/^	struct uvc_video_device video;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::uvc_video_device	access:public
+videoIn	luvcview.c	/^struct vdIn *videoIn;$/;"	v	typeref:struct:vdIn
+video_disable	v4l2uvc.c	/^static int video_disable(struct vdIn *vd)$/;"	f	file:	signature:(struct vdIn *vd)
+video_enable	v4l2uvc.c	/^static int video_enable(struct vdIn *vd)$/;"	f	file:	signature:(struct vdIn *vd)
+video_frames	avilib.h	/^  long   video_frames;      \/* Number of video frames *\/$/;"	m	struct:__anon16	access:public
+video_index	avilib.h	/^  video_index_entry *video_index;$/;"	m	struct:__anon16	access:public
+video_index_entry	avilib.h	/^} video_index_entry;$/;"	t	typeref:struct:__anon11
+video_pos	avilib.h	/^  long   video_pos;         \/* Number of next frame to be read$/;"	m	struct:__anon16	access:public
+video_strn	avilib.h	/^  long   video_strn;        \/* Video stream number *\/$/;"	m	struct:__anon16	access:public
+video_tag	avilib.h	/^  char   video_tag[4];      \/* Tag of video data *\/$/;"	m	struct:__anon16	access:public
+videodevice	v4l2uvc.h	/^    char *videodevice;$/;"	m	struct:vdIn	access:public
+vma_use_count	uvcvideo.h	/^	unsigned long vma_use_count;$/;"	m	struct:uvc_buffer	access:public
+wBitsPerSample	avilib.h	/^	uint16_t wBitsPerSample;  \/* Only for PCM *\/$/;"	m	struct:common_struct	access:public
+wBlockAlign	avilib.h	/^	uint16_t wBlockAlign;$/;"	m	struct:common_struct	access:public
+wChannels	avilib.h	/^	uint16_t wChannels;$/;"	m	struct:common_struct	access:public
+wCompQuality	uvcvideo.h	/^	__u16 wCompQuality;$/;"	m	struct:uvc_streaming_control	access:public
+wCompWindowSize	uvcvideo.h	/^	__u16 wCompWindowSize;$/;"	m	struct:uvc_streaming_control	access:public
+wDelay	uvcvideo.h	/^	__u16 wDelay;$/;"	m	struct:uvc_streaming_control	access:public
+wFormatTag	avilib.h	/^	uint16_t wFormatTag;$/;"	m	struct:common_struct	access:public
+wHeight	uvcvideo.h	/^	__u16 wHeight;$/;"	m	struct:uvc_frame	access:public
+wKeyFrameRate	uvcvideo.h	/^	__u16 wKeyFrameRate;$/;"	m	struct:uvc_streaming_control	access:public
+wMaxMultiplier	uvcvideo.h	/^			__u16 wMaxMultiplier;$/;"	m	struct:uvc_entity::__anon4::__anon7	access:public
+wObjectiveFocalLengthMax	uvcvideo.h	/^			__u16 wObjectiveFocalLengthMax;$/;"	m	struct:uvc_entity::__anon4::__anon5	access:public
+wObjectiveFocalLengthMin	uvcvideo.h	/^			__u16 wObjectiveFocalLengthMin;$/;"	m	struct:uvc_entity::__anon4::__anon5	access:public
+wOcularFocalLength	uvcvideo.h	/^			__u16 wOcularFocalLength;$/;"	m	struct:uvc_entity::__anon4::__anon5	access:public
+wPFrameRate	uvcvideo.h	/^	__u16 wPFrameRate;$/;"	m	struct:uvc_streaming_control	access:public
+wWidth	uvcvideo.h	/^	__u16 wWidth;$/;"	m	struct:uvc_frame	access:public
+w_bits_per_sample	avilib.h	/^  uint16_t  w_bits_per_sample;$/;"	m	struct:__anon14	access:public
+w_format_tag	avilib.h	/^  uint16_t  w_format_tag;$/;"	m	struct:__anon14	access:public
+w_language	avilib.h	/^  uint16_t w_language;$/;"	m	struct:__anon15	access:public
+w_priority	avilib.h	/^  uint16_t w_priority;$/;"	m	struct:__anon15	access:public
+wait	uvcvideo.h	/^	wait_queue_head_t wait;$/;"	m	struct:uvc_buffer	access:public
+wave_format_ex	avilib.h	/^  WAVEFORMATEX_avilib *wave_format_ex[AVI_MAX_TRACKS];$/;"	m	struct:__anon16	access:public
+wave_header	avilib.h	/^struct wave_header $/;"	s
+wave_header::common	avilib.h	/^	struct common_struct common;$/;"	m	struct:wave_header	typeref:struct:wave_header::common_struct	access:public
+wave_header::data	avilib.h	/^	struct chunk_struct  data;$/;"	m	struct:wave_header	typeref:struct:wave_header::chunk_struct	access:public
+wave_header::format	avilib.h	/^	struct chunk_struct  format;$/;"	m	struct:wave_header	typeref:struct:wave_header::chunk_struct	access:public
+wave_header::riff	avilib.h	/^	struct riff_struct   riff;$/;"	m	struct:wave_header	typeref:struct:wave_header::riff_struct	access:public
+wave_id	avilib.h	/^  unsigned char wave_id[4]; \/* WAVE *\/$/;"	m	struct:riff_struct	access:public
+width	avilib.h	/^  long   width;             \/* Width  of a video frame *\/$/;"	m	struct:__anon16	access:public
+width	uvc_compat.h	/^	__u32			width;		\/* Frame width *\/$/;"	m	struct:v4l2_frmivalenum	access:public
+width	uvc_compat.h	/^	__u32			width;		\/* Frame width [pixel] *\/$/;"	m	struct:v4l2_frmsize_discrete	access:public
+width	v4l2uvc.h	/^    int width;$/;"	m	struct:vdIn	access:public
+y	color.h	/^	unsigned char y;$/;"	m	struct:MyYUV444	access:public
+y0	color.h	/^	unsigned char y0;$/;"	m	struct:MyYUV422	access:public
+y1	color.h	/^	unsigned char y1;$/;"	m	struct:MyYUV422	access:public
+yuv400pto422	utils.c	/^static void yuv400pto422(int * out,unsigned char *pic,int width)$/;"	f	file:	signature:(int * out,unsigned char *pic,int width)
+yuv400pto422	utils.c	/^static void yuv400pto422(int * out,unsigned char *pic,int width);$/;"	p	file:	signature:(int * out,unsigned char *pic,int width)
+yuv420pto422	utils.c	/^static void yuv420pto422(int * out,unsigned char *pic,int width)$/;"	f	file:	signature:(int * out,unsigned char *pic,int width)
+yuv420pto422	utils.c	/^static void yuv420pto422(int * out,unsigned char *pic,int width);$/;"	p	file:	signature:(int * out,unsigned char *pic,int width)
+yuv422pto422	utils.c	/^static void yuv422pto422(int * out,unsigned char *pic,int width)$/;"	f	file:	signature:(int * out,unsigned char *pic,int width)
+yuv422pto422	utils.c	/^static void yuv422pto422(int * out,unsigned char *pic,int width);$/;"	p	file:	signature:(int * out,unsigned char *pic,int width)
+yuv444pto422	utils.c	/^static void yuv444pto422(int * out,unsigned char *pic,int width)$/;"	f	file:	signature:(int * out,unsigned char *pic,int width)
+yuv444pto422	utils.c	/^static void yuv444pto422(int * out,unsigned char *pic,int width);$/;"	p	file:	signature:(int * out,unsigned char *pic,int width)
+zig	utils.c	/^static unsigned char zig[64] = {$/;"	v	file:
+zig2	utils.c	/^static unsigned char zig2[64] = {$/;"	v	file:
