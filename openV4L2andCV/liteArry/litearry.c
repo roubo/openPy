@@ -25,8 +25,8 @@ roubo_dai@san412.in
 #include <malloc.h>
 #include <linux/fb.h>
 //该型号仪器若需要拍摄保存图像文件，则需要JPEG库支持-----
-#include <jpeglib.h>
-#include <jerror.h>
+//#include <jpeglib.h>
+//#include <jerror.h>
 //为了在非嵌入式设备上使用，这里使用了SDL
 #include <X11/Xlib.h>
 #include <SDL/SDL.h>
@@ -297,7 +297,7 @@ int video_fb_init_preview()
 
 	printf("USB Camera Test\n");
 
-	video_fd = open("/dev/video1", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
+	video_fd = open("/dev/video0", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
 	if (video_fd<0)
 	{
 		printf("open error\n");
