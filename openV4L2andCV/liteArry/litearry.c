@@ -523,7 +523,7 @@ int video_fb_init_preview()
 			//算法区
 			//+++++++++++++++++++++++++++++++++++++++++
 			unsigned char *pgray = NULL;
-			pgray = (unsigned char *)calloc(1,fmt.fmt.pix.width*fmt.fmt.pix.height*2*sizeof(unsigned char));
+			pgray = (unsigned char *)calloc(1,fmt.fmt.pix.width*fmt.fmt.pix.height*2*sizeof(unsigned char));//避免被识别为段错误
 			//memset(&pgray ,0,sizeof(fmt.fmt.pix.width*fmt.fmt.pix.height*4));
 			yuv2gray(ptcur,pgray,fmt.fmt.pix.width, fmt.fmt.pix.height);
 
@@ -598,7 +598,7 @@ int main(int argc, char **argv)
 		default:printf("unkown return .\n");
 			break;
 	}
-	exit(1);	
+	exit(1);//去除quit时进入死循环	
 	}
 	return 0;
 }
