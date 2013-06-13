@@ -27,7 +27,7 @@ def detectObjects(image):
     cascade = cv.Load(
         '/usr/share/opencv-2.4.5/data/haarcascades/haarcascade_frontalface_default.xml',storage)
     faces = cv.HaarDetectObjects(grayscale, cascade, storage, 1.1, 2,
-        cv.CV_HAAR_DO_CANNY_PRUNING, (20,20))
+        cv.CV_HAAR_DO_CANNY_PRUNING, (50,50))
 
     result = []
     for f in faces:
@@ -49,7 +49,7 @@ def process(infile, outfile):
     if faces:
         draw = ImageDraw.Draw(im)
         for f in faces:
-            draw.rectangle(f, outline=(255, 0, 255))
+            draw.rectangle(f, outline=(255, 0, 0))
 
         im.save(outfile, "JPEG", quality=100)
     else:
