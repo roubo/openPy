@@ -379,8 +379,9 @@ int video_fb_init_preview()
 	
 	//openCV 设置
 	CvMemStorage*  storage = cvCreateMemStorage(0);
-	IplImage*      img     = cvCreateImageHeader(cvSize(fmt.fmt.pix.width,fmt.fmt.pix.height), IPL_DEPTH_8U, 3);
-	IplImage*      img1    = cvCreateImage(cvSize(fmt.fmt.pix.width,fmt.fmt.pix.height), IPL_DEPTH_8U, 1);
+	IplImage*      img     = cvCreateImageHeader(cvSize(fmt.fmt.pix.width,fmt.fmt.pix.height), IPL_DEPTH_8U, 3);//image头，未开辟数据空间
+	IplImage*      imggray = cvCreateImage(cvSize(fmt.fmt.pix.width,fmt.fmt.pix.height), IPL_DEPTH_8U, 1);//image，开辟数据空间
+
 
 	//openCV 设置 end
 
@@ -560,6 +561,21 @@ int video_fb_init_preview()
 			pRGB = (unsigned char *)calloc(1,fmt.fmt.pix.width*fmt.fmt.pix.height*4*sizeof(unsigned char));
 			YUYVToRGB888(ptcur, pRGB, fmt.fmt.pix.width, fmt.fmt.pix.height);
 			
+			//opencv 检测人脸
+			cvSetData(img, pRGB, fmt.fmt.pix.width*3);//将pRGB数据装入img中
+			cvCvtColor(img, imggray, CV_RGB2GRAY);//将img灰度转换到imggray,供opencv检测使用
+			CvHaarClassifierCascade *cascade=(CvHaarClassifierCascade*)cvLoad("/usr/share/opencv-2.4.5/data/haarcascades/haarcascade_frontalface_alt2.xml", storage);
+			cvClearMemStorage(storage);
+			CvSeq* objects = cvHaarDetectObjects(imggray, cascade, storage, 1.1, 2, 0, cvSize(30,30));
+			
+			//opencv 标记人脸
+			CvScalar colors[] = {{{255,0,0}},{{0,0,0}}};
+			for(int faces=0; faces < (objects ? objects->total:0); faces++)
+			{
+				CvRect* r = (CvRect *)cvGetSeqElem(objects,faces);
+				cvRectangle(img, cvPoint(r.x, r.y), cvPoint(r.x+r.width, r.y+r.height),colors[0] );//原始图像上加框
+			}
+
 			//yuv载入到SDL
 			SDL_LockYUVOverlay(overlay);
 			memcpy(p, pgray,pscreen->w*(pscreen->h)*2);
