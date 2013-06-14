@@ -1,0 +1,132 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFFER_NUM	video.c	27;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -Werror -Wcast-align -g$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS =$/;"	m
+OPT_H	opt.h	3;"	d
+SCREEN_H	screen.h	3;"	d
+SWCOBJECT	Makefile	/^SWCOBJECT = swc.o opt.o video.o screen.o$/;"	m
+VIDEO_H	video.h	3;"	d
+amask	screen.h	/^  unsigned int amask;$/;"	m	struct:rgb_surface	access:public
+bmask	screen.h	/^  unsigned int bmask;$/;"	m	struct:rgb_surface	access:public
+bpp	screen.h	/^  int bpp;$/;"	m	struct:rgb_surface	access:public
+bpp	screen.h	/^  int bpp;$/;"	m	struct:screen	access:public
+buf	video.h	/^  } *buf;$/;"	m	struct:buffer	typeref:struct:buffer::__anon1	access:public
+buffer	video.h	/^  struct buffer buffer;        \/* 视频缓冲 *\/$/;"	m	struct:video	typeref:struct:video::buffer	access:public
+buffer	video.h	/^struct buffer {$/;"	s
+buffer::__anon1::length	video.h	/^    size_t length;$/;"	m	struct:buffer::__anon1	access:public
+buffer::__anon1::start	video.h	/^    void *start;$/;"	m	struct:buffer::__anon1	access:public
+buffer::buf	video.h	/^  } *buf;$/;"	m	struct:buffer	typeref:struct:buffer::__anon1	access:public
+buffer::query	video.h	/^  struct v4l2_buffer query;      \/* 获取 *\/$/;"	m	struct:buffer	typeref:struct:buffer::v4l2_buffer	access:public
+buffer::req	video.h	/^  struct v4l2_requestbuffers req; \/* 请求 *\/$/;"	m	struct:buffer	typeref:struct:buffer::v4l2_requestbuffers	access:public
+buffer_dequeue	video.c	/^buffer_dequeue(int index)$/;"	f	signature:(int index)
+buffer_dequeue	video.h	/^void buffer_dequeue(int index);$/;"	p	signature:(int index)
+buffer_enqueue	video.c	/^buffer_enqueue(int index)$/;"	f	signature:(int index)
+buffer_enqueue	video.h	/^void buffer_enqueue(int index);$/;"	p	signature:(int index)
+buffer_free	video.c	/^buffer_free()$/;"	f	file:
+buffer_free	video.c	/^static void buffer_free();$/;"	p	file:
+buffer_init	video.c	/^buffer_init()$/;"	f	file:
+buffer_init	video.c	/^static void buffer_init();$/;"	p	file:
+buffer_mmap	video.c	/^buffer_mmap(int index)$/;"	f	file:	signature:(int index)
+buffer_mmap	video.c	/^static void buffer_mmap(int index);$/;"	p	file:	signature:(int index)
+buffer_request	video.c	/^buffer_request()$/;"	f	file:
+buffer_request	video.c	/^static void buffer_request();$/;"	p	file:
+clamp	screen.c	/^clamp(double x)$/;"	f	file:	signature:(double x)
+clamp	screen.c	/^static int clamp(double x);$/;"	p	file:	signature:(double x)
+create_rgb_surface	screen.c	/^create_rgb_surface()$/;"	f	file:
+create_rgb_surface	screen.c	/^static void create_rgb_surface();$/;"	p	file:
+display	screen.h	/^  SDL_Surface *display;$/;"	m	struct:screen	access:public
+event	screen.h	/^  SDL_Event event;$/;"	m	struct:screen	access:public
+fd	video.h	/^  int fd;$/;"	m	struct:video	access:public
+format	video.h	/^  struct v4l2_format format;    \/* 视频帧格式 *\/$/;"	m	struct:video	typeref:struct:video::v4l2_format	access:public
+gmask	screen.h	/^  unsigned int gmask;$/;"	m	struct:rgb_surface	access:public
+height	opt.h	/^  int height;$/;"	m	struct:options	access:public
+height	screen.h	/^  int height;$/;"	m	struct:rgb_surface	access:public
+height	screen.h	/^  int height;$/;"	m	struct:screen	access:public
+length	video.h	/^    size_t length;$/;"	m	struct:buffer::__anon1	access:public
+main	swc.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+opt	opt.c	/^struct options opt;$/;"	v	typeref:struct:options
+options	opt.h	/^struct options {$/;"	s
+options::height	opt.h	/^  int height;$/;"	m	struct:options	access:public
+options::verbose	opt.h	/^  int verbose;$/;"	m	struct:options	access:public
+options::width	opt.h	/^  int width;$/;"	m	struct:options	access:public
+options_deal	opt.c	/^options_deal(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+options_deal	opt.h	/^void options_deal(int argc, char *argv[]);$/;"	p	signature:(int argc, char *argv[])
+options_init	opt.c	/^options_init()$/;"	f
+options_init	opt.h	/^void options_init();$/;"	p	signature:()
+pitch	screen.h	/^  int pitch;$/;"	m	struct:rgb_surface	access:public
+pixels	screen.h	/^  unsigned char *pixels;$/;"	m	struct:rgb_surface	access:public
+pixels_num	screen.h	/^  int pixels_num;$/;"	m	struct:rgb_surface	access:public
+query	video.h	/^  struct v4l2_buffer query;      \/* 获取 *\/$/;"	m	struct:buffer	typeref:struct:buffer::v4l2_buffer	access:public
+req	video.h	/^  struct v4l2_requestbuffers req; \/* 请求 *\/$/;"	m	struct:buffer	typeref:struct:buffer::v4l2_requestbuffers	access:public
+rgb	screen.h	/^  struct rgb_surface rgb;$/;"	m	struct:screen	typeref:struct:screen::rgb_surface	access:public
+rgb_surface	screen.h	/^struct rgb_surface {$/;"	s
+rgb_surface::amask	screen.h	/^  unsigned int amask;$/;"	m	struct:rgb_surface	access:public
+rgb_surface::bmask	screen.h	/^  unsigned int bmask;$/;"	m	struct:rgb_surface	access:public
+rgb_surface::bpp	screen.h	/^  int bpp;$/;"	m	struct:rgb_surface	access:public
+rgb_surface::gmask	screen.h	/^  unsigned int gmask;$/;"	m	struct:rgb_surface	access:public
+rgb_surface::height	screen.h	/^  int height;$/;"	m	struct:rgb_surface	access:public
+rgb_surface::pitch	screen.h	/^  int pitch;$/;"	m	struct:rgb_surface	access:public
+rgb_surface::pixels	screen.h	/^  unsigned char *pixels;$/;"	m	struct:rgb_surface	access:public
+rgb_surface::pixels_num	screen.h	/^  int pixels_num;$/;"	m	struct:rgb_surface	access:public
+rgb_surface::rmask	screen.h	/^  unsigned int rmask;$/;"	m	struct:rgb_surface	access:public
+rgb_surface::surface	screen.h	/^  SDL_Surface *surface;$/;"	m	struct:rgb_surface	access:public
+rgb_surface::width	screen.h	/^  int width;$/;"	m	struct:rgb_surface	access:public
+rmask	screen.h	/^  unsigned int rmask;$/;"	m	struct:rgb_surface	access:public
+running	screen.h	/^  int running;$/;"	m	struct:screen	access:public
+screen	screen.c	/^struct screen screen;$/;"	v	typeref:struct:screen
+screen	screen.h	/^struct screen {$/;"	s
+screen::bpp	screen.h	/^  int bpp;$/;"	m	struct:screen	access:public
+screen::display	screen.h	/^  SDL_Surface *display;$/;"	m	struct:screen	access:public
+screen::event	screen.h	/^  SDL_Event event;$/;"	m	struct:screen	access:public
+screen::height	screen.h	/^  int height;$/;"	m	struct:screen	access:public
+screen::rgb	screen.h	/^  struct rgb_surface rgb;$/;"	m	struct:screen	typeref:struct:screen::rgb_surface	access:public
+screen::running	screen.h	/^  int running;$/;"	m	struct:screen	access:public
+screen::width	screen.h	/^  int width;$/;"	m	struct:screen	access:public
+screen_init	screen.c	/^screen_init()$/;"	f
+screen_init	screen.h	/^void screen_init();$/;"	p	signature:()
+screen_mainloop	screen.c	/^screen_mainloop()$/;"	f
+screen_mainloop	screen.h	/^void screen_mainloop();$/;"	p	signature:()
+screen_quit	screen.c	/^screen_quit()$/;"	f
+screen_quit	screen.h	/^void screen_quit();$/;"	p	signature:()
+sdl_init	screen.c	/^sdl_init()$/;"	f	file:
+sdl_init	screen.c	/^static void sdl_init();$/;"	p	file:
+show_usage	opt.c	/^show_usage()$/;"	f	file:
+show_usage	opt.c	/^static void show_usage();$/;"	p	file:
+start	video.h	/^    void *start;$/;"	m	struct:buffer::__anon1	access:public
+stream_flag	video.c	/^static int stream_flag = V4L2_BUF_TYPE_VIDEO_CAPTURE;$/;"	v	file:
+surface	screen.h	/^  SDL_Surface *surface;$/;"	m	struct:rgb_surface	access:public
+update_rgb_pixels	screen.c	/^static void update_rgb_pixels(const void *start);$/;"	p	file:	signature:(const void *start)
+update_rgb_pixels	screen.c	/^update_rgb_pixels(const void *start)$/;"	f	file:	signature:(const void *start)
+update_rgb_surface	screen.c	/^static void update_rgb_surface(int index);$/;"	p	file:	signature:(int index)
+update_rgb_surface	screen.c	/^update_rgb_surface(int index)$/;"	f	file:	signature:(int index)
+verbose	opt.h	/^  int verbose;$/;"	m	struct:options	access:public
+video	video.c	/^struct video video;$/;"	v	typeref:struct:video
+video	video.h	/^struct video {$/;"	s
+video::buffer	video.h	/^  struct buffer buffer;        \/* 视频缓冲 *\/$/;"	m	struct:video	typeref:struct:video::buffer	access:public
+video::fd	video.h	/^  int fd;$/;"	m	struct:video	access:public
+video::format	video.h	/^  struct v4l2_format format;    \/* 视频帧格式 *\/$/;"	m	struct:video	typeref:struct:video::v4l2_format	access:public
+video_close	video.c	/^static void video_close();$/;"	p	file:
+video_close	video.c	/^video_close()$/;"	f	file:
+video_init	video.c	/^video_init()$/;"	f
+video_init	video.h	/^void video_init();$/;"	p	signature:()
+video_open	video.c	/^static void video_open();$/;"	p	file:
+video_open	video.c	/^video_open()$/;"	f	file:
+video_quit	video.c	/^video_quit()$/;"	f
+video_quit	video.h	/^void video_quit();$/;"	p	signature:()
+video_set_format	video.c	/^static void video_set_format();$/;"	p	file:
+video_set_format	video.c	/^video_set_format()$/;"	f	file:
+video_streamoff	video.c	/^static void video_streamoff();$/;"	p	file:
+video_streamoff	video.c	/^video_streamoff()$/;"	f	file:
+video_streamon	video.c	/^static void video_streamon();$/;"	p	file:
+video_streamon	video.c	/^video_streamon()$/;"	f	file:
+width	opt.h	/^  int width;$/;"	m	struct:options	access:public
+width	screen.h	/^  int width;$/;"	m	struct:rgb_surface	access:public
+width	screen.h	/^  int width;$/;"	m	struct:screen	access:public
+yuv2rgb	screen.c	/^static void yuv2rgb(unsigned char Y,$/;"	p	file:	signature:(unsigned char Y, unsigned char Cb, unsigned char Cr, int *ER, int *EG, int *EB)
+yuv2rgb	screen.c	/^yuv2rgb(unsigned char Y,$/;"	f	file:	signature:(unsigned char Y, unsigned char Cb, unsigned char Cr, int *ER, int *EG, int *EB)

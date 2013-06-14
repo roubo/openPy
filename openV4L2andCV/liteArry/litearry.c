@@ -31,6 +31,9 @@ roubo_dai@san412.in
 #include <X11/Xlib.h>
 #include <SDL/SDL.h>
 
+//opencv >2
+#include "opencv.h"
+
 #define FALSE		0
 #define TRUE		1
 #define WORDLEN		32
@@ -46,6 +49,10 @@ static int fb;
 char Data[512];
 char sdl_quit = 1;
 static unsigned int SDL_VIDEO_Flags = SDL_ANYFORMAT | SDL_DOUBLEBUF | SDL_RESIZABLE;
+
+
+
+
 //用户空间视频缓冲区结构，用于MMap来自驱动程序的内存空间-----
 typedef struct VideoBuffer
 {
@@ -120,10 +127,7 @@ int fb_set(int fd)
 }
 
 /************************************************************
-YUYV格式转换为RGB888格式，实现可以在24bit LCD上显示
-函数：
-1/ convert_yuv_rgb_pixel:单个像素点格式转换
-2/ YUYVToRGB888:格式转换的同时，将地址转移
+YUYV格式转换为RGB888：
 *************************************************************/
 unsigned int convert_yuv_rgb_pixel(int y,int u,int v)
 {
@@ -155,10 +159,10 @@ unsigned int convert_yuv_rgb_pixel(int y,int u,int v)
 
 /*************************************************************************
 参数说明：  
-  yuyv:元数据首地址。
-  rgb888:24位fb设备地址。
-  width:视频宽度。
-  height:视频高度。
+  yuyv   :元数据首地址。
+  rgb888 :24位
+  width  :视频宽度。
+  height :视频高度。
 *************************************************************************/
 int YUYVToRGB888(unsigned char *yuyv,unsigned char *rgb888,unsigned int width,unsigned int height)
 {
@@ -175,10 +179,7 @@ int YUYVToRGB888(unsigned char *yuyv,unsigned char *rgb888,unsigned int width,un
 		u =(pixel_16&0x0000ff00)>>8;
 		y1=(pixel_16&0x00ff0000)>>16;
 		v =(pixel_16&0xff000000)>>24;
-		//printf("y0: %d \n",y0);
-		//printf("u: %d \n",u);
-		//printf("y1: %d \n",y1);
-		//printf("v: %d \n",v);
+		
 		pixel32=convert_yuv_rgb_pixel(y0,u,v);
 		pixel_24[0]=(pixel32&0x000000ff);
 		pixel_24[1]=(pixel32&0x0000ff00)>>8;
@@ -187,10 +188,8 @@ int YUYVToRGB888(unsigned char *yuyv,unsigned char *rgb888,unsigned int width,un
 		rgb888[out++]=pixel_24[2];//r1		
 		rgb888[out++]=pixel_24[1];//g1
 		rgb888[out++]=pixel_24[0];//b1
-		//rgb888[out++]=0;//NULL
-		//printf("r: %d \n",pixel_24[0]);
-		//printf("g: %d \n",pixel_24[1]);
-		//printf("b: %d \n",pixel_24[2]);
+		
+
 		pixel32=convert_yuv_rgb_pixel(y1,u,v);
 		pixel_24[0]=(pixel32&0x000000ff);
 		pixel_24[1]=(pixel32&0x0000ff00)>>8;
@@ -199,10 +198,8 @@ int YUYVToRGB888(unsigned char *yuyv,unsigned char *rgb888,unsigned int width,un
 		rgb888[out++]=pixel_24[2];//r2
 		rgb888[out++]=pixel_24[1];//g2
 		rgb888[out++]=pixel_24[0];//b2
-		//rgb888[out++]=0;//NULL
-		//printf("r: %d \n",pixel_24[0]);
-		//printf("g: %d \n",pixel_24[1]);
-		//printf("b: %d \n",pixel_24[2]);	
+		
+
 	}
 	return 0;
 }
@@ -248,6 +245,7 @@ unsigned short RGB888toRGB565(unsigned char red, unsigned char green, unsigned c
 	return (unsigned short) (R | G | B);
 }
 
+
 //显示一个像素点的图像到framebuffer上，与上面函数可以对应使用（未使用）-------
 int fb_pixel(void *fbmem, int width, int height, int x, int y, unsigned short color)
 {
@@ -283,7 +281,7 @@ int video_fb_init_preview()
 	int numBufs;
 
 	//--------------------------------------------
-	//SDL
+	//SDL yuv
 	SDL_Surface      *pscreen;
 	SDL_Overlay      *overlay;
 	SDL_Rect         drect;
@@ -295,6 +293,18 @@ int video_fb_init_preview()
 	unsigned int     lasttime;
 	char* status = NULL;
 
+	//SDL RGB
+	unsigned int     rmask;
+	unsigned int     gmask;
+	unsigned int     bmask;
+	unsigned int     amask;	
+	int              bpp;
+	int 		 pitch;
+	int 		 pixels_num;
+	unsigned char    *pixels;
+	unsigned char    *p_RGB = NULL;	
+	SDL_Surface      *pscreen_RGB;
+	SDL_Surface      *display_RGB;
 	printf("USB Camera Test\n");
 
 	video_fd = open("/dev/video1", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
@@ -335,7 +345,7 @@ int video_fb_init_preview()
 	//-------------------------------------------------------//
 	
 	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
-	//SDL 设置
+	//SDL 设置:YUV输出
 	if(SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
 		printf("SDL Init failed.\n");
@@ -348,11 +358,31 @@ int video_fb_init_preview()
 	drect.y = 0;
 	drect.w = pscreen->w;
 	drect.h = pscreen->h;
+	//SDL 设置:RGB输出
+	pscreen = SDL_SetVideoMode(fmt.fmt.pix.width, fmt.fmt.pix.height, 32, SDL_SWSURFACE | SDL_DOUBLEBUF);
+	rmask = 0x000000ff;
+	gmask = 0x0000ff00;
+	bmask = 0x00ff0000;
+	amask = 0xff000000;
+	bpp   = 32;
+	pitch = fmt.fmt.pix.width*4;
+	pixels_num = fmt.fmt.pix.width*fmt.fmt.pix.height*4;
+	pixels = (unsigned char *)malloc(pixels_num);
+	memset(pixels, 0, pixels_num);
+	p_RGB = (unsigned char *)pixels;
+	pscreen_RGB = SDL_CreateRGBSurfaceFrom(pixels, fmt.fmt.pix.width, fmt.fmt.pix.height, bpp, pitch, rmask, gmask, bmask, amask);
+
+	
 	lasttime = SDL_GetTicks();
 	affmutex = SDL_CreateMutex();
 	//SDL 设置end
 	
+	//openCV 设置
+	CvMemStorage*  storage = cvCreateMemStorage(0);
+	IplImage*      img     = cvCreateImageHeader(cvSize(fmt.fmt.pix.width,fmt.fmt.pix.height), IPL_DEPTH_8U, 3);
+	IplImage*      img1    = cvCreateImage(cvSize(fmt.fmt.pix.width,fmt.fmt.pix.height), IPL_DEPTH_8U, 1);
 
+	//openCV 设置 end
 
 	//------------------------申请帧缓冲---------------------//
 	struct v4l2_requestbuffers req;
@@ -517,26 +547,36 @@ int video_fb_init_preview()
 	
 			//获取当前帧的用户空间首地址，用于格式转换------------------
 			unsigned char *ptcur=buffers[buf.index].start;
-			//YUYVToRGB888(ptcur,fbdev.fb_mem,640, 480);
-
 			//++++++++++++++++++++++++++++++++++++++++
 			//算法区
 			//+++++++++++++++++++++++++++++++++++++++++
+			//灰度变换
 			unsigned char *pgray = NULL;
 			pgray = (unsigned char *)calloc(1,fmt.fmt.pix.width*fmt.fmt.pix.height*2*sizeof(unsigned char));//避免被识别为段错误
-			//memset(&pgray ,0,sizeof(fmt.fmt.pix.width*fmt.fmt.pix.height*4));
 			yuv2gray(ptcur,pgray,fmt.fmt.pix.width, fmt.fmt.pix.height);
-
-			//载入到SDL
+			
+			//YUV向RGB（32bit）转换
+			unsigned char *pRGB = NULL;
+			pRGB = (unsigned char *)calloc(1,fmt.fmt.pix.width*fmt.fmt.pix.height*4*sizeof(unsigned char));
+			YUYVToRGB888(ptcur, pRGB, fmt.fmt.pix.width, fmt.fmt.pix.height);
+			
+			//yuv载入到SDL
 			SDL_LockYUVOverlay(overlay);
 			memcpy(p, pgray,pscreen->w*(pscreen->h)*2);
 			SDL_UnlockYUVOverlay(overlay);
 			SDL_DisplayYUVOverlay(overlay, &drect);
+
+
+			//RGB载入到SDL
+			memcpy(pixels, pgray, pscreen_RGB->w*(pscreen_RGB->h)*4);
+			SDL_BlitSurface(pscreen_RGB, NULL, display_RGB, NULL);
+			SDL_Flip(display_RGB);
+
+			//统计帧率
 			status = (char *)calloc(1,20*sizeof(char));
 			sprintf(status, "Fps:%d",frmrate);
 			SDL_WM_SetCaption(status, NULL);
 			SDL_Delay(10);
-
 			//用完了的入列--------------------------------------------
 			ret1=ioctl (video_fd,VIDIOC_QBUF,&buf);
 			if(ret1!=0)
