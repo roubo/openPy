@@ -345,11 +345,11 @@ int video_fb_init_preview()
 	//-------------------------------------------------------//
 	
 	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
-	if(SDL_Init(SDL_INIT_VIDEO) < 0)
-	{
-		printf("SDL Init failed.\n");
-		exit(1);
-	}
+	//if(SDL_Init(SDL_INIT_VIDEO) < 0)
+	//{
+	//	printf("SDL Init failed.\n");
+	//	exit(1);
+	//}
 	
 	//SDL 设置:YUV输出
 	/*
@@ -363,7 +363,7 @@ int video_fb_init_preview()
 	*/
 
 	//SDL 设置:RGB输出
-	pscreen = SDL_SetVideoMode(fmt.fmt.pix.width, fmt.fmt.pix.height, 24, SDL_SWSURFACE | SDL_DOUBLEBUF);
+	//pscreen = SDL_SetVideoMode(fmt.fmt.pix.width, fmt.fmt.pix.height, 24, SDL_SWSURFACE | SDL_DOUBLEBUF);
 	rmask = 0x000000ff;
 	gmask = 0x0000ff00;
 	bmask = 0x00ff0000;
@@ -374,19 +374,21 @@ int video_fb_init_preview()
 	pixels = (unsigned char *)malloc(pixels_num);
 	memset(pixels, 0, pixels_num);
 	p_RGB = (unsigned char *)pixels;
-	pscreen_RGB = SDL_CreateRGBSurfaceFrom(pixels, fmt.fmt.pix.width, fmt.fmt.pix.height, bpp, pitch, rmask, gmask, bmask, amask);
+	//pscreen_RGB = SDL_CreateRGBSurfaceFrom(pixels, fmt.fmt.pix.width, fmt.fmt.pix.height, bpp, pitch, rmask, gmask, bmask, amask);
 
 	
-	lasttime = SDL_GetTicks();
-	affmutex = SDL_CreateMutex();
+	//lasttime = SDL_GetTicks();
+	//affmutex = SDL_CreateMutex();
 	//SDL 设置end
 	
 	//openCV 设置
 	CvMemStorage*  storage = cvCreateMemStorage(0);
 	IplImage*      img     = cvCreateImageHeader(cvSize(fmt.fmt.pix.width,fmt.fmt.pix.height), IPL_DEPTH_8U, 3);//image头，未开辟数据空间
 	IplImage*      imggray = cvCreateImage(cvSize(fmt.fmt.pix.width,fmt.fmt.pix.height), IPL_DEPTH_8U, 1);//image，开辟数据空间
+	cvNamedWindow("image", 1);
 
-
+	unsigned char *pRGB = NULL;
+	pRGB = (unsigned char *)calloc(1,fmt.fmt.pix.width*fmt.fmt.pix.height*3*sizeof(unsigned char));
 	//openCV 设置 end
 
 	//------------------------申请帧缓冲---------------------//
@@ -563,8 +565,6 @@ int video_fb_init_preview()
 			*/
 
 			//YUV向RGB（24bit）转换
-			unsigned char *pRGB = NULL;
-			pRGB = (unsigned char *)calloc(1,fmt.fmt.pix.width*fmt.fmt.pix.height*3*sizeof(unsigned char));
 			YUYVToRGB888(ptcur, pRGB, fmt.fmt.pix.width, fmt.fmt.pix.height);
 			
 			//opencv 检测人脸
@@ -584,6 +584,29 @@ int video_fb_init_preview()
 			}
 			
 
+			//调整opencv img图像数据
+			/*CvScalar s;
+			int imgi=0,imgj=0,sdlcount=0;
+			for(imgi=0;imgi<img->height;imgi++)
+			{
+				for(imgj=0; imgj<img->width; imgj++)
+				{
+					s=cvGet2D(img,imgi,imgj);
+					pRGB[sdlcount++]=0xff;//s.val[0];//B
+					pRGB[sdlcount++]=0xff;//s.val[1];//G
+					pRGB[sdlcount++]=0xff;//s.val[2];//R
+					//cvSet2D(img,imgi,imgj,s);
+				}
+			}
+			*/
+			//opencv 显示图像	
+			cvShowImage("image", img);
+			char c = cvWaitKey(1);
+			printf("%d\n",c);
+			if(c==27)
+				sdl_quit=0;
+			
+			
 			//yuv载入到SDL
 			/*
 			SDL_LockYUVOverlay(overlay);
@@ -593,15 +616,15 @@ int video_fb_init_preview()
 			*/
 
 			//RGB载入到SDL
-			memcpy(pixels, img->imageData, pscreen_RGB->w*(pscreen_RGB->h)*3);
-			SDL_BlitSurface(pscreen_RGB, NULL, display_RGB, NULL);
-			SDL_Flip(display_RGB);
+			//memcpy(pixels, pRGB, pscreen_RGB->w*(pscreen_RGB->h)*3);
+			//SDL_BlitSurface(pscreen_RGB, NULL, display_RGB, NULL);
+			//SDL_Flip(display_RGB);
 
 			//统计帧率
-			status = (char *)calloc(1,20*sizeof(char));
-			sprintf(status, "Fps:%d",frmrate);
-			SDL_WM_SetCaption(status, NULL);
-			SDL_Delay(10);
+			//status = (char *)calloc(1,20*sizeof(char));
+			//sprintf(status, "Fps:%d",frmrate);
+			//SDL_WM_SetCaption(status, NULL);
+			//SDL_Delay(10);
 			//用完了的入列--------------------------------------------
 			ret1=ioctl (video_fd,VIDIOC_QBUF,&buf);
 			if(ret1!=0)
@@ -619,6 +642,8 @@ int video_fb_init_preview()
 		if(-1==munmap(buffers[i].start,buffers[i].length))
 			printf("munmap error:%d \n",i);
 	}
+
+	cvDestroyWindow("image");
 	close(video_fd);					
 	SDL_DestroyMutex(affmutex);
 	//SDL_FreeYUVOverlay(overlay);
