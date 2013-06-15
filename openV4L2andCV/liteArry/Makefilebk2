@@ -11,8 +11,6 @@ APP_BINARY=litearry
 BIN=/usr/local/bin
 SDLLIBS = $(shell sdl-config --libs) 
 SDLFLAGS = $(shell sdl-config --cflags)
-CVLIBS = $(shell pkg-config --libs opencv)
-CVFLAGS = $(shell pkg-config --cflags opencv)
 #LIBX11FLAGS= -I/usr/X11R6/include -L/usr/X11R6/lib
 VERSION = 0.2.1
 
@@ -24,7 +22,7 @@ VERSION = 0.2.1
 #           -Wno-unused
 #           -Wunused
 
-CFLAGS += -I$(SDLFLAGS) $(WARNINGS) $(CVFLAGS)
+CFLAGS += -I$(SDLFLAGS) $(WARNINGS)
 CPPFLAGS = $(CFLAGS)
 
 OBJECTS= litearry.o
@@ -41,10 +39,7 @@ litearry:	$(OBJECTS)
 	$(CC)	$(CFLAGS) $(OBJECTS) $(X11_LIB) $(XPM_LIB)\
 		$(MATH_LIB) \
 		$(SDLLIBS)\
-		$(CVLIBS)\
-		-lm\
 		-o $(APP_BINARY)
-			
 	chmod 755 $(APP_BINARY)
 
 

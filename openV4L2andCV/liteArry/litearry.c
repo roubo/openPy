@@ -32,7 +32,7 @@ roubo_dai@san412.in
 #include <SDL/SDL.h>
 
 //opencv >2
-#include "opencv.h"
+#include "opencv/cv.h"
 
 #define FALSE		0
 #define TRUE		1
@@ -307,7 +307,7 @@ int video_fb_init_preview()
 	SDL_Surface      *display_RGB;
 	printf("USB Camera Test\n");
 
-	video_fd = open("/dev/video1", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
+	video_fd = open("/dev/video0", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
 	if (video_fd<0)
 	{
 		printf("open error\n");
@@ -345,28 +345,32 @@ int video_fb_init_preview()
 	//-------------------------------------------------------//
 	
 	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
-	//SDL 设置:YUV输出
 	if(SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
 		printf("SDL Init failed.\n");
 		exit(1);
 	}
-	pscreen = SDL_SetVideoMode(fmt.fmt.pix.width, fmt.fmt.pix.height,0,SDL_VIDEO_Flags);
+	
+	//SDL 设置:YUV输出
+	/*
+ 	pscreen = SDL_SetVideoMode(fmt.fmt.pix.width, fmt.fmt.pix.height,0,SDL_VIDEO_Flags);
 	overlay = SDL_CreateYUVOverlay(fmt.fmt.pix.width, fmt.fmt.pix.height,SDL_YUY2_OVERLAY,pscreen);
 	p = (unsigned char *)overlay->pixels[0];
 	drect.x = 0;
 	drect.y = 0;
 	drect.w = pscreen->w;
 	drect.h = pscreen->h;
+	*/
+
 	//SDL 设置:RGB输出
-	pscreen = SDL_SetVideoMode(fmt.fmt.pix.width, fmt.fmt.pix.height, 32, SDL_SWSURFACE | SDL_DOUBLEBUF);
+	pscreen = SDL_SetVideoMode(fmt.fmt.pix.width, fmt.fmt.pix.height, 24, SDL_SWSURFACE | SDL_DOUBLEBUF);
 	rmask = 0x000000ff;
 	gmask = 0x0000ff00;
 	bmask = 0x00ff0000;
-	amask = 0xff000000;
-	bpp   = 32;
-	pitch = fmt.fmt.pix.width*4;
-	pixels_num = fmt.fmt.pix.width*fmt.fmt.pix.height*4;
+	amask = 0x00000000;
+	bpp   = 24;
+	pitch = fmt.fmt.pix.width*3;
+	pixels_num = fmt.fmt.pix.width*fmt.fmt.pix.height*3;
 	pixels = (unsigned char *)malloc(pixels_num);
 	memset(pixels, 0, pixels_num);
 	p_RGB = (unsigned char *)pixels;
@@ -552,39 +556,44 @@ int video_fb_init_preview()
 			//算法区
 			//+++++++++++++++++++++++++++++++++++++++++
 			//灰度变换
+			/*
 			unsigned char *pgray = NULL;
 			pgray = (unsigned char *)calloc(1,fmt.fmt.pix.width*fmt.fmt.pix.height*2*sizeof(unsigned char));//避免被识别为段错误
 			yuv2gray(ptcur,pgray,fmt.fmt.pix.width, fmt.fmt.pix.height);
-			
-			//YUV向RGB（32bit）转换
+			*/
+
+			//YUV向RGB（24bit）转换
 			unsigned char *pRGB = NULL;
-			pRGB = (unsigned char *)calloc(1,fmt.fmt.pix.width*fmt.fmt.pix.height*4*sizeof(unsigned char));
+			pRGB = (unsigned char *)calloc(1,fmt.fmt.pix.width*fmt.fmt.pix.height*3*sizeof(unsigned char));
 			YUYVToRGB888(ptcur, pRGB, fmt.fmt.pix.width, fmt.fmt.pix.height);
 			
 			//opencv 检测人脸
 			cvSetData(img, pRGB, fmt.fmt.pix.width*3);//将pRGB数据装入img中
 			cvCvtColor(img, imggray, CV_RGB2GRAY);//将img灰度转换到imggray,供opencv检测使用
-			CvHaarClassifierCascade *cascade=(CvHaarClassifierCascade*)cvLoad("/usr/share/opencv-2.4.5/data/haarcascades/haarcascade_frontalface_alt2.xml", storage);
+			CvHaarClassifierCascade *cascade=(CvHaarClassifierCascade*)cvLoad("/usr/share/opencv-2.4.5/data/haarcascades/haarcascade_frontalface_alt2.xml", storage,0,0);
 			cvClearMemStorage(storage);
-			CvSeq* objects = cvHaarDetectObjects(imggray, cascade, storage, 1.1, 2, 0, cvSize(30,30));
+			CvSeq* objects = cvHaarDetectObjects(imggray, cascade, storage, 1.1, 2, 0, cvSize(30,30),cvSize(30,30));
 			
 			//opencv 标记人脸
 			CvScalar colors[] = {{{255,0,0}},{{0,0,0}}};
-			for(int faces=0; faces < (objects ? objects->total:0); faces++)
+			int faces=0;
+			for(faces=0; faces < (objects ? objects->total:0); faces++)
 			{
 				CvRect* r = (CvRect *)cvGetSeqElem(objects,faces);
-				cvRectangle(img, cvPoint(r.x, r.y), cvPoint(r.x+r.width, r.y+r.height),colors[0] );//原始图像上加框
+				cvRectangle(img, cvPoint(r->x, r->y), cvPoint(r->x+r->width, r->y+r->height),colors[0],2,8,0 );//原始图像上加框
 			}
+			
 
 			//yuv载入到SDL
+			/*
 			SDL_LockYUVOverlay(overlay);
 			memcpy(p, pgray,pscreen->w*(pscreen->h)*2);
 			SDL_UnlockYUVOverlay(overlay);
 			SDL_DisplayYUVOverlay(overlay, &drect);
-
+			*/
 
 			//RGB载入到SDL
-			memcpy(pixels, pgray, pscreen_RGB->w*(pscreen_RGB->h)*4);
+			memcpy(pixels, img->imageData, pscreen_RGB->w*(pscreen_RGB->h)*3);
 			SDL_BlitSurface(pscreen_RGB, NULL, display_RGB, NULL);
 			SDL_Flip(display_RGB);
 
@@ -612,9 +621,12 @@ int video_fb_init_preview()
 	}
 	close(video_fd);					
 	SDL_DestroyMutex(affmutex);
-	SDL_FreeYUVOverlay(overlay);
+	//SDL_FreeYUVOverlay(overlay);
+	cvReleaseImage(&img);
+	cvReleaseImage(&imggray);
 	free(status);
 	free(buffers);
+	//free(pRGB);
 	SDL_Quit();
 	return 0;
 
