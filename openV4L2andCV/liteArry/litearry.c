@@ -572,6 +572,7 @@ int video_fb_init_preview()
 			cvCvtColor(img, imggray, CV_RGB2GRAY);//将img灰度转换到imggray,供opencv检测使用
 			CvHaarClassifierCascade *cascade=(CvHaarClassifierCascade*)cvLoad("/usr/share/opencv-2.4.5/data/haarcascades/haarcascade_frontalface_alt2.xml", storage,0,0);
 			cvClearMemStorage(storage);
+			cvEqualizeHist(imggray, imggray);
 			CvSeq* objects = cvHaarDetectObjects(imggray, cascade, storage, 1.1, 2, 0, cvSize(30,30),cvSize(30,30));
 			
 			//opencv 标记人脸
