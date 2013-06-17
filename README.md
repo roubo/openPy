@@ -38,3 +38,11 @@ roubo_dai@san412.in
 11. Python+opencv的照片人脸检测：openV4L2andCV/opencvpy/facedect.py
 
 12. C+v4l2+opencv的视频人脸检测：openV4L2andCV/liteArry
+
+13. 无限期项目，智能系统rouboSyS：rouboSyS
+
+项目升级，rouboSyS
+-------------------
+除顶层目录rouboSyS以外，所有目录都为测试目录。
+
+rouboSyS的README由其自身的wiki目录维护。
