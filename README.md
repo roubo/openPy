@@ -15,9 +15,9 @@ roubo_dai@san412.in
 代码调试和想法实现
 -------------------
 
-1、试运行程序 PyDevTest/run.py
+1.试运行程序 PyDevTest/run.py
 
-2、随机图片生成程序 PGMimage/PGMImage.py
+2.随机图片生成程序 PGMimage/PGMImage.py
 
 3. 模拟PID算法并配合gnuplot显示曲线 PID/PID.py
 
