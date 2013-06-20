@@ -2,7 +2,7 @@
 /* config.h.in.  Generated from configure.in by autoheader.  */
 
 /* CPU, vendor, and operating system */
-#define CPU_VENDOR_OS "i686-pc-linux-gnu"
+#define CPU_VENDOR_OS "x86_64-unknown-linux-gnu"
 
 /* Define to 1 if <netdb.h> defines struct addrinfo */
 #define HAVE_ADDRINFO_STRUCT 1
@@ -311,7 +311,7 @@
 /* #undef ssize_t */
 
 /* scalar type */
-/* #undef t_scalar_t */
+#define t_scalar_t int32_t
 
 /* unsigned scalar type */
 /* #undef t_uscalar_t */
