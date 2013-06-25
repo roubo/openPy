@@ -32,6 +32,8 @@ roubo_dai@san412.in
 
 #include <Python.h>
 
+//由于只对Python开放方法接口，所以所有变量和函数都应该是保持静态的
+
 #define FALSE		0
 #define TRUE		1
 #define WORDLEN		32
