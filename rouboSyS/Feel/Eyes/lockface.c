@@ -16,7 +16,6 @@ roubo_dai@san412.in
 #include <time.h>
 #include <unistd.h>
 #include"pthread.h"
-
 #include <sys/ioctl.h> 
 #include <stdint.h>
 #include <asm/types.h>
@@ -24,15 +23,14 @@ roubo_dai@san412.in
 #include <sys/mman.h>
 #include <malloc.h>
 #include <linux/fb.h>
-//该型号仪器若需要拍摄保存图像文件，则需要JPEG库支持-----
 //#include <jpeglib.h>
 //#include <jerror.h>
 //为了在非嵌入式设备上使用，这里使用了SDL
 #include <X11/Xlib.h>
 #include <SDL/SDL.h>
-
-//opencv >2
 #include "opencv/cv.h"
+
+#include <Python.h>
 
 #define FALSE		0
 #define TRUE		1
@@ -272,7 +270,7 @@ int video_fb_init_preview()
 	char buff[512];
 	int nread=0;
 	int FrameDone=0;//一帧数据结束标志
-	int FrameCount=0;//记录帧长度
+	int FrameCosunt=0;//记录帧长度
 	int j=0;
 	int key=0;//开关标志
 	int stat=0;//视频设备状态标志

@@ -4,6 +4,7 @@ openPy
 Python codes during learn it
 -----------------------------
 Python 测试代码和自主开发
+重要的rouboSyS系统所在
 -------------------------
 roubo_dai@san412.in
 
