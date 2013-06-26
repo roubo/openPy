@@ -2,6 +2,9 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2013-06-17T15:43:04+08:00
 
+1.将有一个机制，通过执行机构执行独立的计算序列。
+
+2.为架构添加分布系统特征。
 ====== YAGNI ======
 Created 星期一 17 六月 2013
 
