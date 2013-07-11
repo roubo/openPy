@@ -1,0 +1,2 @@
+<s> work mode </s>
+<s> rest mode </s>

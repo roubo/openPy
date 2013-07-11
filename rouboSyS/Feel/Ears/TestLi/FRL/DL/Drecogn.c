@@ -117,7 +117,7 @@ static void recognize_from_mic()
 		if(hyp)
 		{
 			sscanf(hyp,"%s",word);
-			if(strcmp(word, "再见") == 0)
+			if(strcmp(word, "bye") == 0)
 			{
 				printf("Yes, GoodBye.\n");
 				fflush(stdout);
@@ -142,15 +142,36 @@ int main(int argc,char **argv)
 	//-lm       语言模型
 	//-dict     字典文件
 	//MODELDIR  模型所在目录 宏定义
-	config = cmd_ln_init(NULL, ps_args(),TRUE, 
-			"-hmm", "/home/roubo/CSRsphinx/zh/zh_broadcastnews_ptm256_8000/",
+	config = cmd_ln_init(NULL, ps_args(),TRUE,
+			//模型en
+			/*"-hmm", "/home/roubo/CSRsphinx/en/hhmbraodcastnews_16K/",
+                          "-lm",  "/home/roubo/CSRsphinx/en/WSJ20K_trigram_lm/tcb20onp.Z.DMP",
+                          "-dict","/home/roubo/CSRsphinx/en/cmudict.hub4.06d.dict",
+                       NULL);*/
+			//模型en
+			/* "-hmm", "/home/roubo/CSRsphinx/en/hhmhub4opensrc/",
+                         "-lm",  "/home/roubo/CSRsphinx/en/HUB4_trigram_lm/language_model.arpaformat.DMP",
+                         "-dict","/home/roubo/CSRsphinx/en/cmudict.hub4.06d.dict",
+                       NULL);*/
+			//模型zh
+			/*"-hmm", "/home/roubo/CSRsphinx/zh/zh_broadcastnews_ptm256_8000/",
 			"-lm",  "/home/roubo/CSRsphinx/zh/zh_broadcastnews_64000_utf8.DMP",
 			"-dict","/home/roubo/CSRsphinx/zh/zh_broadcastnews_utf8.dic",
-			NULL);
+			NULL);*/
+			//自带模型en
 			/*"-hmm", "/usr/local/share/pocketsphinx/model/hmm/en_US/hub4wsj_sc_8k",
 			"-lm",  "/usr/local/share/pocketsphinx/model/lm/en/turtle.DMP",
 			"-dict","/usr/local/share/pocketsphinx/model/lm/en/turtle.dic",
-			NULL);*/
+			NULL);i*/
+			//自带模型zh
+			/*"-hmm", "/usr/local/share/pocketsphinx/model/hmm/zh/tdt_sc_8k/",
+                          "-lm",  "/home/roubo/openPy/rouboSyS/Feel/Ears/TestLi/AC/EarTrain/data/zh/arctic.DMP",
+                         "-dict","/usr/local/share/pocketsphinx/model/lm/zh_CN/mandarin_notone.dic",
+                        NULL);*/
+			"-hmm", "/usr/local/share/pocketsphinx/model/hmm/en_US/hub4wsj_sc_8k",
+                         "-lm",  "/home/roubo/dix/3582.lm",
+                         "-dict","/home/roubo/dix/3582.dic",
+                         NULL);
 	if(config == NULL)
 		return 1;
 	
