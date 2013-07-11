@@ -15,17 +15,19 @@ echo "rouboSyS: Ears train script."
 
 # 训练文本和一些过渡文件
 TrainTxt="./data/zh/arctic.txt"
-Tmpvocabulary="./data/zh/arctic.tmp.vocab"
-Tmpidngram="./data/zh/arctic.tmp.idngram"
-Tmparpa="./data/zh/arctic.tmp.arpa"
+Tmpvocabulary="./data/zh/arctic.vocab"
+Tmpidngram="./data/zh/arctic.idngram"
+Tmpbinary="./data/zh/arctic.binlm"
+Tmparpa="./data/zh/arctic.arpa"
 Tmpdmp="./data/zh/arctic.DMP"
 
 # 生成词汇表vocabulary文件
-text2wfreq < $TrainTxt | wfreq2vocab > $Tmpvocabulary
+text2wfreq -hash 1000000 -verbosity 2  < $TrainTxt | wfreq2vocab > $Tmpvocabulary
 
 # 生成arpa格式的语言模型
 text2idngram -vocab $Tmpvocabulary -idngram $Tmpidngram < $TrainTxt
-idngram2lm -vocab_type 0 -idngram $Tmpidngram -vocab $Tmpvocabulary -arpa $Tmparpa
+idngram2lm -vocab_type 0 -idngram $Tmpidngram -vocab $Tmpvocabulary -binary $Tmpbinary
+binlm2arpa -binary $Tmpbinary -arpa $Tmparpa
 
 # 生成DMP类型的语言模型
 sphinx_lm_convert -i $Tmparpa -o $Tmpdmp

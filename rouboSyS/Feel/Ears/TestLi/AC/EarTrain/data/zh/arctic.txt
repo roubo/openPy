@@ -1,2 +1,2 @@
-<s> work mode </s>
-<s> rest mode </s>
+<s> 休息 模式 </s>
+<s> 工作 模式 </s>

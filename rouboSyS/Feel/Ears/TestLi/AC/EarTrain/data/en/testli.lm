@@ -1,0 +1,38 @@
+Language model created by QuickLM on Wed Jul 10 09:52:19 EDT 2013
+Copyright (c) 1996-2000
+Carnegie Mellon University and Alexander I. Rudnicky
+
+This model based on a corpus of 2 sentences and 5 words
+The (fixed) discount mass is 0.5
+
+\data\
+ngram 1=5
+ngram 2=7
+ngram 3=7
+
+\1-grams:
+-0.7782 </s> -0.2218
+-0.7782 <s> -0.1761
+-1.0792 MODE -0.2218
+-1.3802 REST -0.2632
+-1.3802 WORK -0.2632
+
+\2-grams:
+-0.6021 </s> </s> -0.3010
+-0.6021 <s> <s> -0.1761
+-0.9031 <s> REST 0.0000
+-0.9031 <s> WORK 0.0000
+-0.3010 MODE </s> -0.1761
+-0.3010 REST MODE 0.0000
+-0.3010 WORK MODE 0.0000
+
+\3-grams:
+-0.6021 <s> <s> REST
+-0.6021 <s> <s> WORK
+-0.3010 <s> REST MODE
+-0.3010 <s> WORK MODE
+-0.3010 MODE </s> </s>
+-0.3010 REST MODE </s>
+-0.3010 WORK MODE </s>
+
+\end\

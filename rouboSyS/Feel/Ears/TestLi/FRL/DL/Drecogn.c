@@ -169,8 +169,8 @@ int main(int argc,char **argv)
                          "-dict","/usr/local/share/pocketsphinx/model/lm/zh_CN/mandarin_notone.dic",
                         NULL);*/
 			"-hmm", "/usr/local/share/pocketsphinx/model/hmm/en_US/hub4wsj_sc_8k",
-                         "-lm",  "/home/roubo/dix/3582.lm",
-                         "-dict","/home/roubo/dix/3582.dic",
+                         "-lm",  "/home/roubo/openPy/rouboSyS/Feel/Ears/TestLi/AC/EarTrain/data/en/testli.lm",
+                         "-dict","/home/roubo/openPy/rouboSyS/Feel/Ears/TestLi/AC/EarTrain/data/en/testli.dic",
                          NULL);
 	if(config == NULL)
 		return 1;
