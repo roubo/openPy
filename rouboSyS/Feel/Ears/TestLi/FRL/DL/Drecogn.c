@@ -117,11 +117,18 @@ static void recognize_from_mic()
 		if(hyp)
 		{
 			sscanf(hyp,"%s",word);
-			if(strcmp(word, "bye") == 0)
+			if(strcmp(word, "REST") == 0)
 			{
-				printf("Yes, GoodBye.\n");
+				printf("Yes, rest mode.\n");
 				fflush(stdout);
-				break;
+				//break;
+				exit(2);
+			}
+			if(strcmp(word, "WORK") == 0)
+			{
+				printf("Yes,work mode.\n");
+				fflush(stdout);
+				exit(3);
 			}
 		}
 		//重启音频设备

@@ -1,0 +1,8 @@
+#!/usr/bin/expect
+set timeout 10
+spawn ssh -qTfnN -D 7070 roubo@216.194.70.6
+expect "*password:"
+send "junjian11\n"
+sleep 10
+expect eof
+
