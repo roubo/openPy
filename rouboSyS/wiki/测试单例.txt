@@ -62,3 +62,56 @@ rouboSyS智能系统不应该是一个单一的系统，但也不应该偏离“
 1）Drecogn监听识别进程（自主运行，shell脚本封装）；
 2）通讯和同步进程；
 3）待命的任务脚本进程。
+
+6、测试单例代码树
+.
+├── Ears
+│   └── TestLi
+│       ├── AC 辅助控制
+│       │   ├── EarTrain 语音训练
+│       │   │   ├── data
+│       │   │   │   ├── en
+│       │   │   │   │   ├── testli.dic
+│       │   │   │   │   └── testli.lm
+│       │   │   │   └── zh
+│       │   │   │       ├── arctic.arpa
+│       │   │   │       ├── arctic.binlm
+│       │   │   │       ├── arctic.dic
+│       │   │   │       ├── arctic.DMP
+│       │   │   │       ├── arctic.fileids
+│       │   │   │       ├── arctic.idngram
+│       │   │   │       ├── arctic.tmp.arpa
+│       │   │   │       ├── arctic.tmp.idngram
+│       │   │   │       ├── arctic.tmp.vocab
+│       │   │   │       ├── arctic.transcription
+│       │   │   │       ├── arctic.txt
+│       │   │   │       └── arctic.vocab
+│       │   │   └── eartrain.sh
+│       │   └── README.txt
+│       ├── FOS  功能命令集
+│       │   ├── order_Drecogn_commumication
+│       │   ├── order_Drecogn.sh
+│       │   ├── order_Restmode.sh
+│       │   ├── order_Workmode.sh
+│       │   ├── README.txt
+│       │   └── WorkmodeSets
+│       │       ├── GIT.sh
+│       │       ├── SSH-D
+│       │       └── workready.sh
+│       ├── FRL 传感识别层
+│       │   ├── DL
+│       │   │   ├── Drecogn
+│       │   │   ├── Drecogn.c
+│       │   │   ├── Drecogn.o
+│       │   │   ├── Makefile
+│       │   │   └── order_Drecogn_commumication
+│       │   ├── README.txt
+│       │   └── SL
+│       │       ├── a.out
+│       │       ├── Makefile
+│       │       ├── Srecogn
+│       │       ├── Srecogn.c
+│       │       └── Srecogn.o
+│       └── MC 主协调控制
+│           └── MainCtl.sh
+

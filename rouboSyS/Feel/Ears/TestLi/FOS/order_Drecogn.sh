@@ -6,5 +6,5 @@
 # San412.
 #######################################
 rouboSySDIR="~/openPy/rouboSyS/"
-~/openPy/rouboSyS/Feel/Ears/TestLi/FRL/DL/Drecogn 
-echo $? > ~/openPy/rouboSyS/Feel/Ears/TestLi/FOS/order_Drecogn_commumication
+~/WorkSpace/openPy/rouboSyS/Feel/Ears/TestLi/FRL/DL/Drecogn 
+echo $? > ~/WorkSpace/openPy/rouboSyS/Feel/Ears/TestLi/FOS/order_Drecogn_commumication

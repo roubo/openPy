@@ -9,7 +9,7 @@
 # 校园网认证客户端 命令行版 认证不成功
 
 # 启动QQ
-qq2012 > /dev/null 2>&1 &
+qq2012 > /dev/null  &
 
 # 打开一些默认网站
 chromium-browser ym.163.com https://github.com/roubo
@@ -25,13 +25,16 @@ fi
 
 
 # 翻墙
-expect ~/openPy/rouboSyS/Feel/Ears/TestLi/FOS/WorkmodeSets/SSH-D
+expect ~/WorkSpace/openPy/rouboSyS/Feel/Ears/TestLi/FOS/WorkmodeSets/SSH-D
 
 # 打开火狐浏览器 和youtobe.com
 firefox www.youtube.com & 
+
+#conky
+ conky -c ~/.conkycolors/conkyrc &
 
 # 打开rouboSyS工作平台
 gnome-terminal 
 
 # 更新代码
-gnome-terminal -e ~/openPy/rouboSyS/Feel/Ears/TestLi/FOS/WorkmodeSets/GIT.sh
+gnome-terminal -e ~/WorkSpace/openPy/rouboSyS/Feel/Ears/TestLi/FOS/WorkmodeSets/GIT.sh
