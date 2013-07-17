@@ -307,7 +307,7 @@ int video_fb_init_preview()
 	SDL_Surface      *display_RGB;
 	printf("USB Camera Test\n");
 
-	video_fd = open("/dev/video1", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
+	video_fd = open("/dev/video0", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
 	if (video_fd<0)
 	{
 		printf("open error\n");
@@ -570,7 +570,7 @@ int video_fb_init_preview()
 			//opencv 检测人脸
 			cvSetData(img, pRGB, fmt.fmt.pix.width*3);//将pRGB数据装入img中
 			cvCvtColor(img, imggray, CV_RGB2GRAY);//将img灰度转换到imggray,供opencv检测使用
-			CvHaarClassifierCascade *cascade=(CvHaarClassifierCascade*)cvLoad("/usr/share/opencv-2.4.5/data/haarcascades/haarcascade_frontalface_alt2.xml", storage,0,0);
+			CvHaarClassifierCascade *cascade=(CvHaarClassifierCascade*)cvLoad("/usr/share/opencv-2.4.6.1/data/haarcascades/haarcascade_frontalface_alt2.xml", storage,0,0);
 			cvClearMemStorage(storage);
 			cvEqualizeHist(imggray, imggray);
 			CvSeq* objects = cvHaarDetectObjects(imggray, cascade, storage, 1.1, 2, 0, cvSize(30,30),cvSize(30,30));

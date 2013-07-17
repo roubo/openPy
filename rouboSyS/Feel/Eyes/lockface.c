@@ -15,7 +15,7 @@ roubo_dai@san412.in
 #include <string.h>
 #include <time.h>
 #include <unistd.h>
-#include"pthread.h"
+#include "pthread.h"
 #include <sys/ioctl.h> 
 #include <stdint.h>
 #include <asm/types.h>
@@ -23,34 +23,23 @@ roubo_dai@san412.in
 #include <sys/mman.h>
 #include <malloc.h>
 #include <linux/fb.h>
-//#include <jpeglib.h>
-//#include <jerror.h>
 //为了在非嵌入式设备上使用，这里使用了SDL
 #include <X11/Xlib.h>
 #include <SDL/SDL.h>
 #include "opencv/cv.h"
 
-#include <Python.h>
-
-//由于只对Python开放方法接口，所以所有变量和函数都应该是保持静态的
 
 #define FALSE		0
 #define TRUE		1
-#define WORDLEN		32
-
-
-//视频设备状态-------------------------------------------
-#define NOMAL   0
-#define NG      1
 
 
 static int video_fd;
 static int fb;
 char Data[512];
+
+//只使用了SDL的消息机制，可以剔除
 char sdl_quit = 1;
 static unsigned int SDL_VIDEO_Flags = SDL_ANYFORMAT | SDL_DOUBLEBUF | SDL_RESIZABLE;
-
-
 
 
 //用户空间视频缓冲区结构，用于MMap来自驱动程序的内存空间-----
@@ -234,7 +223,7 @@ int yuv2gray(unsigned char *yuyv,unsigned char *gray,unsigned int width,unsigned
 
 
 /**************************************************************
-为了能实现能在16位的LCD上显示，转换RGB888为RGB565
+嵌入式设备上使用，为了能实现能在16位的LCD上显示，转换RGB888为RGB565
 **************************************************************/
 unsigned short RGB888toRGB565(unsigned char red, unsigned char green, unsigned char blue)
 {
@@ -246,7 +235,9 @@ unsigned short RGB888toRGB565(unsigned char red, unsigned char green, unsigned c
 }
 
 
-//显示一个像素点的图像到framebuffer上，与上面函数可以对应使用（未使用）-------
+/**************************************************************
+嵌入式设备上使用， 显示一个像素点的图像到framebuffer上，与上面函数可以对应使用
+**************************************************************/
 int fb_pixel(void *fbmem, int width, int height, int x, int y, unsigned short color)
 {
 	if ((x > width) || (y > height))
@@ -265,7 +256,9 @@ int fb_munmap(void *start, size_t length)
 }
 
 
-//视频设备和显示设备初始化和预览函数（加设备状态检测）--------------------------------
+/*************************************************************
+  视频设备和显示设备初始化，预览函数
+*************************************************************/
 int video_fb_init_preview()
 {
 	//串口相关变量-------------------------------
@@ -323,65 +316,73 @@ int video_fb_init_preview()
 	while((ret0 = ioctl(video_fd,VIDIOC_ENUM_FMT,&fmt0) == 0))
 	{
 		fmt0.index++;
-		printf("%d> pixelformat =%c%c%c%c,description =%s\n",fmt0.index,fmt0.pixelformat&0xff,(fmt0.pixelformat>>8)&0xff,(fmt0.pixelformat>>16)&0xff,(fmt0.pixelformat>>24)&0xff,fmt0.description);
+		printf("%d> pixelformat =%c%c%c%c,description =%s\n",
+			fmt0.index,fmt0.pixelformat&0xff,
+			(fmt0.pixelformat>>8)&0xff,
+			(fmt0.pixelformat>>16)&0xff,
+			(fmt0.pixelformat>>24)&0xff,
+			fmt0.description);
 	}
 	/**************************END***************************/
 	
 	//---------------------设置获取视频的格式----------------//
 	struct v4l2_format fmt;	
 	memset( &fmt, 0, sizeof(fmt));
-	fmt.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;	//视频数据流类型，永远都V4L2_BUF_TYPE_VIDEO_CAPTURE
-	fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_YUYV;//视频源的格式为JPEG或YUN4:2:2或RGB
-	fmt.fmt.pix.width = 640;//设置视频宽度
-	fmt.fmt.pix.height = 480;//设置视频高度
+	fmt.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;	     //视频数据流类型，永远都V4L2_BUF_TYPE_VIDEO_CAPTURE
+	fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_YUYV; //视频源的格式为JPEG或YUN4:2:2或RGB
+	fmt.fmt.pix.width = 640;                     //设置视频宽度
+	fmt.fmt.pix.height = 480;                    //设置视频高度
 	//fmt.fmt.pix.field=V4L2_FIELD_INTERLACED;
 	//fmt.fmt.pix.colorspace=8;
 	//printf("color: %d \n",fmt.fmt.pix.colorspace);
-	if (ioctl(video_fd, VIDIOC_S_FMT, &fmt) < 0)//使配置生效
+	if (ioctl(video_fd, VIDIOC_S_FMT, &fmt) < 0) //使配置生效
 	{
 		printf("set format failed\n");
 		return 2;
 	}
 	//-------------------------------------------------------//
 	
-	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
-	//if(SDL_Init(SDL_INIT_VIDEO) < 0)
-	//{
-	//	printf("SDL Init failed.\n");
-	//	exit(1);
-	//}
-	
+	//++++++++++++++++++++++++SDL初始化和设置start+++++++++++++++++++++++++++++++
+	/*if(SDL_Init(SDL_INIT_VIDEO) < 0)
+	{
+		printf("SDL Init failed.\n");
+		exit(1);
+	}
 	//SDL 设置:YUV输出
-	/*
- 	pscreen = SDL_SetVideoMode(fmt.fmt.pix.width, fmt.fmt.pix.height,0,SDL_VIDEO_Flags);
+	pscreen = SDL_SetVideoMode(fmt.fmt.pix.width, fmt.fmt.pix.height,0,SDL_VIDEO_Flags);
 	overlay = SDL_CreateYUVOverlay(fmt.fmt.pix.width, fmt.fmt.pix.height,SDL_YUY2_OVERLAY,pscreen);
 	p = (unsigned char *)overlay->pixels[0];
 	drect.x = 0;
 	drect.y = 0;
 	drect.w = pscreen->w;
 	drect.h = pscreen->h;
-	*/
 
 	//SDL 设置:RGB输出
 	//pscreen = SDL_SetVideoMode(fmt.fmt.pix.width, fmt.fmt.pix.height, 24, SDL_SWSURFACE | SDL_DOUBLEBUF);
-	rmask = 0x000000ff;
-	gmask = 0x0000ff00;
-	bmask = 0x00ff0000;
-	amask = 0x00000000;
-	bpp   = 24;
+	//rmask = 0x000000ff;
+	//gmask = 0x0000ff00;
+	//bmask = 0x00ff0000;
+	//amask = 0x00000000;
+	//bpp   = 24;
 	pitch = fmt.fmt.pix.width*3;
 	pixels_num = fmt.fmt.pix.width*fmt.fmt.pix.height*3;
 	pixels = (unsigned char *)malloc(pixels_num);
 	memset(pixels, 0, pixels_num);
 	p_RGB = (unsigned char *)pixels;
-	//pscreen_RGB = SDL_CreateRGBSurfaceFrom(pixels, fmt.fmt.pix.width, fmt.fmt.pix.height, bpp, pitch, rmask, gmask, bmask, amask);
-
-	
+	//pscreen_RGB = SDL_CreateRGBSurfaceFrom(pixels, 
+					//fmt.fmt.pix.width, 
+					//fmt.fmt.pix.height, 
+					//bpp, 
+					//pitch, 
+					//rmask, 
+					//gmask, 
+					//bmask, 
+					//amask);
 	//lasttime = SDL_GetTicks();
-	//affmutex = SDL_CreateMutex();
-	//SDL 设置end
+	//affmutex = SDL_CreateMutex();*/
+	//++++++++++++++++++++++++SDL初始化和设置end+++++++++++++++++++++++++++++++
 	
-	//openCV 设置
+	//++++++++++++++++++++++++openCV设置start+++++++++++++++++++++++++++++++
 	CvMemStorage*  storage = cvCreateMemStorage(0);
 	IplImage*      img     = cvCreateImageHeader(cvSize(fmt.fmt.pix.width,fmt.fmt.pix.height), IPL_DEPTH_8U, 3);//image头，未开辟数据空间
 	IplImage*      imggray = cvCreateImage(cvSize(fmt.fmt.pix.width,fmt.fmt.pix.height), IPL_DEPTH_8U, 1);//image，开辟数据空间
@@ -389,22 +390,22 @@ int video_fb_init_preview()
 
 	unsigned char *pRGB = NULL;
 	pRGB = (unsigned char *)calloc(1,fmt.fmt.pix.width*fmt.fmt.pix.height*3*sizeof(unsigned char));
-	//openCV 设置 end
+	//++++++++++++++++++++++++openCV设置end+++++++++++++++++++++++++++++++++
 
-	//------------------------申请帧缓冲---------------------//
+	//++++++++++++++++++++++++向video设备驱动申请帧缓冲start+++++++++++++++++
 	struct v4l2_requestbuffers req;
 	memset(&req, 0, sizeof (req));
-	req.count = 3;	//缓存数量，即可保存的图片数量
-	req.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;	//数据流类型，永远都是V4L2_BUF_TYPE_VIDEO_CAPTURE
-	req.memory = V4L2_MEMORY_MMAP;	//存储类型：V4L2_MEMORY_MMAP或V4L2_MEMORY_USERPTR
-	if (ioctl(video_fd, VIDIOC_REQBUFS, &req) == -1)//使配置生效
+	req.count = 3;	                                   //缓存数量，即可保存的图片数量
+	req.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;	           //数据流类型，永远都是V4L2_BUF_TYPE_VIDEO_CAPTURE
+	req.memory = V4L2_MEMORY_MMAP;	                   //存储类型：V4L2_MEMORY_MMAP或V4L2_MEMORY_USERPTR
+	if (ioctl(video_fd, VIDIOC_REQBUFS, &req) == -1)   //使配置生效
 	{
 		perror("request buffer error \n");
 		return 2;
 	}
-	//-------------------------------------------------------//
+	//++++++++++++++++++++++++向video设备驱动申请帧缓冲end+++++++++++++++++
 	
-	//--------将VIDIOC_REQBUFS获取内存转为物理空间-------------//
+	//+++++++++++++++将VIDIOC_REQBUFS获取内存转为物理空间start+++++++++++++
 	buffers = calloc(req.count, sizeof(VideoBuffer));	
 	//printf("sizeof(VideoBuffer) is %d\n", sizeof(VideoBuffer));
 	struct v4l2_buffer buf;
@@ -412,10 +413,11 @@ int video_fb_init_preview()
 	{
 		memset( &buf, 0, sizeof(buf));
 		buf.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;	
+		
 		//存储类型：V4L2_MEMORY_MMAP（内存映射）或V4L2_MEMORY_USERPTR（用户指针）
 		buf.memory = V4L2_MEMORY_MMAP;
 		buf.index = numBufs;
-		if (ioctl(video_fd, VIDIOC_QUERYBUF, &buf) < 0)//使配置生效
+		if (ioctl(video_fd, VIDIOC_QUERYBUF, &buf) < 0)        //使配置生效
 		{
 			printf("VIDIOC_QUERYBUF error\n");
 			return 2;
@@ -423,6 +425,7 @@ int video_fb_init_preview()
 		//printf("buf len is %d\n", sizeof(buf));
 		buffers[numBufs].length = buf.length;
 		buffers[numBufs].offset = (size_t) buf.m.offset;
+		
 		//使用mmap函数将申请的缓存地址转换应用程序的绝对地址------
 		buffers[numBufs].start = mmap(NULL, buf.length, PROT_READ | PROT_WRITE,
 			MAP_SHARED, video_fd, buf.m.offset);	
@@ -431,16 +434,16 @@ int video_fb_init_preview()
 			perror("buffers error\n");
 			return 2;
 		}
-		if (ioctl(video_fd, VIDIOC_QBUF, &buf) < 0)//放入缓存队列
+		if (ioctl(video_fd, VIDIOC_QBUF, &buf) < 0)           //放入缓存队列
 		{
 			printf("VIDIOC_QBUF error\n");
 			return 2;
 		}
 
 	}
-	//-------------------------------------------------------//
+	//+++++++++++++++将VIDIOC_REQBUFS获取内存转为物理空间end+++++++++++++
 	
-	//----------------------开始视频显示----------------------//
+	//++++++++++++++++++++++++++++++打开视频流start+++++++++++++++++++++++++
 	enum v4l2_buf_type type;
 	type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
 	if (ioctl(video_fd, VIDIOC_STREAMON, &type) < 0)
@@ -448,7 +451,7 @@ int video_fb_init_preview()
 		printf("VIDIOC_STREAMON error\n");
 		return 2;
 	}
-	//-------------------------------------------------------//
+	//++++++++++++++++++++++++++++++打开视频流end+++++++++++++++++++++++++
 	
 	//---------------------读取视频源格式---------------------//	
 	fmt.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;				
@@ -463,7 +466,10 @@ int video_fb_init_preview()
 		
 	}
 	//-------------------------------------------------------//
+	
 	int i=0;	
+
+	//++++++++++++++++++++++++直接使用FB设备显示结果start++++++++++++++++++++++++++++++
 	//一些关于fb设备或者没有用到的变量---------------------------
 	/*FILE * fd_y_file = 0;
 	int a=0;
@@ -495,6 +501,7 @@ int video_fb_init_preview()
 	fbdev.fb_mem = mmap (NULL, fbdev.fb_size, PROT_READ|PROT_WRITE,MAP_SHARED,fb,0);
 	fbdev.fb = fb;
 	*/
+	//++++++++++++++++++++++++直接使用FB设备显示结果end++++++++++++++++++++++++++++++
 		
 	//预览采集到的图像（如果有需要可以添加capture功能）-------------------
 	while (sdl_quit)
@@ -503,12 +510,12 @@ int video_fb_init_preview()
 		fd_set fds;//文件描述符集，准备使用Select机制
 		struct timeval tv;
 		int ret1;
-		
+		//++++++++++++++++++++IO select start++++++++++++++++++++++++++
 		FD_ZERO(&fds);//清空文件描述符集
 		FD_SET(video_fd,&fds);//将视频设备文件的描述符放入集合中
 		
 		//消息等待超时,可以完全阻塞-------------------------------
-		tv.tv_sec =2;
+		tv.tv_sec =5;
 		tv.tv_usec=0;
 		//等待视频设备准备好--------------------------------------
 		ret1=select(video_fd+1,&fds,NULL,NULL,&tv);
@@ -523,7 +530,9 @@ int video_fb_init_preview()
 		{
 			printf("select timeout. \n");
 			continue;
-		}		
+		}
+		//++++++++++++++++++++IO select end++++++++++++++++++++++++++
+	
 		while(sdl_quit)		
 		{
 					 
@@ -551,9 +560,12 @@ int video_fb_init_preview()
 			{					
 				printf("Lost the video \n");					
 			}	
+			//从FIFO中数据获取完成------------------------------------
+
 	
 			//获取当前帧的用户空间首地址，用于格式转换------------------
 			unsigned char *ptcur=buffers[buf.index].start;
+			
 			//++++++++++++++++++++++++++++++++++++++++
 			//算法区
 			//+++++++++++++++++++++++++++++++++++++++++
@@ -563,28 +575,24 @@ int video_fb_init_preview()
 			pgray = (unsigned char *)calloc(1,fmt.fmt.pix.width*fmt.fmt.pix.height*2*sizeof(unsigned char));//避免被识别为段错误
 			yuv2gray(ptcur,pgray,fmt.fmt.pix.width, fmt.fmt.pix.height);
 			*/
-
 			//YUV向RGB（24bit）转换
 			YUYVToRGB888(ptcur, pRGB, fmt.fmt.pix.width, fmt.fmt.pix.height);
-			
 			//opencv 检测人脸
-			cvSetData(img, pRGB, fmt.fmt.pix.width*3);//将pRGB数据装入img中
-			cvCvtColor(img, imggray, CV_RGB2GRAY);//将img灰度转换到imggray,供opencv检测使用
-			CvHaarClassifierCascade *cascade=(CvHaarClassifierCascade*)cvLoad("/usr/share/opencv-2.4.5/data/haarcascades/haarcascade_frontalface_alt2.xml", storage,0,0);
+			cvSetData(img, pRGB, fmt.fmt.pix.width*3);     //将pRGB数据装入img中
+			cvCvtColor(img, imggray, CV_RGB2GRAY);         //将img灰度转换到imggray,供opencv检测使用
+			CvHaarClassifierCascade *cascade=(CvHaarClassifierCascade*)cvLoad("/usr/share/opencv/haarcascades/haarcascade_frontalface_alt.xml", storage,0,0);
 			cvClearMemStorage(storage);
 			cvEqualizeHist(imggray, imggray);
-			CvSeq* objects = cvHaarDetectObjects(imggray, cascade, storage, 1.1, 2, 0, cvSize(30,30),cvSize(30,30));
-			
+			CvSeq* objects = cvHaarDetectObjects(imggray, cascade, storage, 1.1, 2, 0, cvSize(10,10),cvSize(10,10));
 			//opencv 标记人脸
 			CvScalar colors[] = {{{255,0,0}},{{0,0,0}}};
 			int faces=0;
+			printf("%d\n",objects->total);
 			for(faces=0; faces < (objects ? objects->total:0); faces++)
 			{
 				CvRect* r = (CvRect *)cvGetSeqElem(objects,faces);
-				cvRectangle(img, cvPoint(r->x, r->y), cvPoint(r->x+r->width, r->y+r->height),colors[0],2,8,0 );//原始图像上加框
+				cvRectangle(img, cvPoint(r->x, r->y), cvPoint(r->x+r->width, r->y+r->height),colors[0],2,8,0 );
 			}
-			
-
 			//调整opencv img图像数据
 			/*CvScalar s;
 			int imgi=0,imgj=0,sdlcount=0;
@@ -602,12 +610,10 @@ int video_fb_init_preview()
 			*/
 			//opencv 显示图像	
 			cvShowImage("image", img);
-			char c = cvWaitKey(1);
-			printf("%d\n",c);
-			if(c==27)
+			if(cvWaitKey(2)>0)
 				sdl_quit=0;
 			
-			
+			//+++++++++++++++++++++++SDL显示start+++++++++++++++++++++++++++++++
 			//yuv载入到SDL
 			/*
 			SDL_LockYUVOverlay(overlay);
@@ -626,6 +632,8 @@ int video_fb_init_preview()
 			//sprintf(status, "Fps:%d",frmrate);
 			//SDL_WM_SetCaption(status, NULL);
 			//SDL_Delay(10);
+			//++++++++++++++++++++++SDL显示end++++++++++++++++++++++++++++++
+
 			//用完了的入列--------------------------------------------
 			ret1=ioctl (video_fd,VIDIOC_QBUF,&buf);
 			if(ret1!=0)
@@ -637,7 +645,7 @@ int video_fb_init_preview()
 	}	
 
 	//fb_munmap(fbdev.fb_mem, fbdev.fb_size);	//释放framebuffer映射
-	//close(fb);//关闭Framebuffer设备
+	//close(fb);                                    //关闭Framebuffer设备
 	for(i=0;i<req.count;i++)
 	{
 		if(-1==munmap(buffers[i].start,buffers[i].length))
@@ -652,7 +660,6 @@ int video_fb_init_preview()
 	cvReleaseImage(&imggray);
 	free(status);
 	free(buffers);
-	//free(pRGB);
 	SDL_Quit();
 	return 0;
 
@@ -680,7 +687,7 @@ int main(int argc, char **argv)
 			printf("clean level 2.\n");
 			break;
 		case 3: fb_munmap(fbdev.fb_mem, fbdev.fb_size);	//释放framebuffer映射
-			close(fb);//关闭Framebuffer设备
+			close(fb);                              //关闭Framebuffer设备
 			for(i=0;i<3;i++)
 			{
 				if(-1==munmap(buffers[i].start,buffers[i].length))
@@ -692,7 +699,7 @@ int main(int argc, char **argv)
 		default:printf("unkown return .\n");
 			break;
 	}
-	exit(1);//去除quit时进入死循环	
+	exit(1);                                              //去除quit时进入死循环	
 	}
 	return 0;
 }

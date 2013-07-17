@@ -26,7 +26,7 @@ def detectObjects(image):
 
     cascade = cv.Load(
        # '/usr/share/opencv-2.4.5/data/haarcascades/haarcascade_frontalface_default.xml',storage)
-	'/usr/share/opencv-2.4.5/data/haarcascades/haarcascade_frontalface_alt2.xml',storage)
+	'/usr/share/opencv-2.4.6.1/data/haarcascades/haarcascade_frontalface_alt2.xml',storage)
     faces = cv.HaarDetectObjects(grayscale, cascade, storage, 1.1, 2,
         cv.CV_HAAR_DO_CANNY_PRUNING, (50,50))
 

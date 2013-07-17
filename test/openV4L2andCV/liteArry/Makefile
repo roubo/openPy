@@ -38,7 +38,7 @@ clean:
 
 # Applications:
 litearry:	$(OBJECTS)
-	$(CC)	$(CFLAGS) $(OBJECTS) $(X11_LIB) $(XPM_LIB)\
+	$(CC)	-g $(CFLAGS) $(OBJECTS) $(X11_LIB) $(XPM_LIB)\
 		$(MATH_LIB) \
 		$(SDLLIBS)\
 		$(CVLIBS)\
