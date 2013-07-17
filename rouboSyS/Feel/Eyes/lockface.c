@@ -583,7 +583,7 @@ int video_fb_init_preview()
 			CvHaarClassifierCascade *cascade=(CvHaarClassifierCascade*)cvLoad("/usr/share/opencv/haarcascades/haarcascade_frontalface_alt.xml", storage,0,0);
 			cvClearMemStorage(storage);
 			cvEqualizeHist(imggray, imggray);
-			CvSeq* objects = cvHaarDetectObjects(imggray, cascade, storage, 1.1, 2, 0, cvSize(10,10),cvSize(10,10));
+			CvSeq* objects = cvHaarDetectObjects(imggray, cascade, storage, 1.1, 2, 0, cvSize(30,30),cvSize(500,500));
 			//opencv 标记人脸
 			CvScalar colors[] = {{{255,0,0}},{{0,0,0}}};
 			int faces=0;
