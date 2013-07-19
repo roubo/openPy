@@ -5,7 +5,8 @@ CC=gcc
 APP_BINARY=Rmotion
 CVLIBS = $(shell pkg-config --libs opencv)
 CVFLAGS = $(shell pkg-config --cflags opencv)
-CFLAGS += -I $(CVFLAGS)
+
+CFLAGS += -I$(CVFLAGS)
 
 OBJECTS= Rmotion.o
 		
@@ -17,8 +18,8 @@ clean:
 	rm -f *.a *.o $(APP_BINARY) core *~ log errlog *.avi
 
 # Applications:
-Rmotion:	$(OBJECTS)
-	$(CC)	$(CFLAGS) $(OBJECTS) \
+lockface:	$(OBJECTS)
+	$(CC)	 $(CFLAGS) $(OBJECTS) \
 		$(CVLIBS)\
 		-lm\
 		-o $(APP_BINARY)

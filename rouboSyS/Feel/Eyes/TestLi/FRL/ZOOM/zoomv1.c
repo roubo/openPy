@@ -28,8 +28,10 @@ roubo_dai@san412.in
 #include <SDL/SDL.h>
 #include "opencv/cv.h"
 
-#define X               1280
-#define Y               1024
+#define X               640
+#define Y               480
+#define X_F 		1280
+#define Y_F 		1024
 #define FALSE		0
 #define TRUE		1
 
@@ -194,13 +196,56 @@ int YUYVToRGB888(unsigned char *yuyv,unsigned char *rgb888,unsigned int width,un
 	return 0;
 }
 
+/***********************************************************
+ * 感兴趣图像截取
+ * 原始大图像：src
+ * 最终小图像：dst
+ * 感兴趣点在大图像中的坐标：（xI，yI）
+ * 大图像大小：（swidth , sheight）
+ * 小图像大小：（dwidth , dheight）
+ * 
+ * src-> --------------------------------------------
+ *       |                                          |
+ *       |                                          |
+ *    ^  |                                          |
+ *    |  |                                          |
+ *    y  --------------------------------------------
+ *       x坐标->
+ * ********************************************************/
+int cutinterest(unsigned char *src,unsigned char *dst,unsigned int xI,unsigned int yI,unsigned int swidth,unsigned int sheight,unsigned int dwidth,unsigned int dheight)
+{
+	unsigned int xe,ye;        //兴趣面左上角坐标
+	unsigned int start;        //相对大图像的截取起始点偏移量
+	unsigned int i,j;
+	//测试兴趣点是否在边缘
+	if(xI<dwidth/2 || xI>swidth-dwidth/2 || yI<dheight/2 || yI>sheight-dheight/2)
+	{
+		return 1;
+	}
+	else
+	{
+		xe = xI - dwidth/2;
+		ye = yI + dheight/2;
+		start = (sheight - (ye-1))*swidth + xe; 
+		for(i=0;i<dheight;i++)
+		{
+			for(j=0;j<dwidth*2;j++)//yuv422
+			{
+				*dst++ = *(src+start+j+i*swidth);	
+			}
+		}
+		
+	}
+	return 0;
+}
 /************************************************************
  * 算法测试 灰度转化
  ***********************************************************/
 int yuv2gray(unsigned char *yuyv,unsigned char *gray,unsigned int width,unsigned int height)
 {
 	int all = 0;
-	int count =0;
+	
+int count =0;
 	unsigned char y1;
 	unsigned char u;
 	unsigned char y2;
@@ -262,6 +307,10 @@ int fb_munmap(void *start, size_t length)
 *************************************************************/
 int video_fb_init_preview()
 {
+	
+	//临时
+	int tmpcount=0;
+
 	//串口相关变量-------------------------------
 	char buff[512];
 	int nread=0;
@@ -611,6 +660,7 @@ int video_fb_init_preview()
 			*/
 			//opencv 显示图像	
 			cvShowImage("image", img);
+			tmpcount++;
 			if(cvWaitKey(10)>0)
 				sdl_quit=0;
 			
@@ -642,6 +692,112 @@ int video_fb_init_preview()
 				printf("Lost the video \n");					
 			}
 			
+			if( tmpcount ==30)
+			{
+
+				printf("Zooming...\n");
+				
+			
+				//++++++++++++++++++++++++++++++关闭视频流start+++++++++++++++++++++++++
+				
+				/*type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
+				if (ioctl(video_fd, VIDIOC_STREAMOFF, &type) < 0)
+				{
+					printf("VIDIOC_STREAMOFF error\n");
+					return 2;
+				}*/
+				//+++++++++++++++++++++++++++++关闭视频流end++++++++++++++++++++++++++
+				
+				//+++++++++++++++++++++++++++++清队列start++++++++++++++++++++++++++++++
+				for(i=0;i<req.count;i++)
+				{
+					if(-1==munmap(buffers[i].start,buffers[i].length))
+					printf("munmap error:%d \n",i);
+				}
+				//++++++++++++++++++++++++++++清队列end+++++++++++++++++++++++++++++++++	
+				
+				type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
+				if (ioctl(video_fd, VIDIOC_STREAMOFF, &type) < 0)
+				{
+					printf("VIDIOC_STREAMOFF error\n");
+					return 2;
+				}
+				//关设备
+				//close(video_fd);
+				
+				//重启设备
+				/*video_fd = open("/dev/video1", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
+				if (video_fd<0)
+				{
+					printf("open error\n");
+					return  1;
+				}*/
+				struct v4l2_format fmt1;	
+				//---------------------重新设置获取视频的格式----------------//	
+				memset( &fmt1, 0, sizeof(fmt1));
+				fmt1.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;	     //视频数据流类型，永远都V4L2_BUF_TYPE_VIDEO_CAPTURE
+				fmt1.fmt.pix.pixelformat = V4L2_PIX_FMT_YUYV; //视频源的格式为JPEG或YUN4:2:2或RGB
+				fmt1.fmt.pix.width = X_F;                       //设置视频宽度
+				fmt1.fmt.pix.height = Y_F;                      //设置视频高度
+				//fmt.fmt.pix.field=V4L2_FIELD_INTERLACED;
+				//fmt.fmt.pix.colorspace=8;
+				//printf("color: %d \n",fmt.fmt.pix.colorspace);
+				if (ioctl(video_fd, VIDIOC_S_FMT, &fmt1) < 0) //使配置生效
+				{
+					printf("set format failed\n");
+					return 2;
+				}
+				//-------------------------------------------------------//
+
+				//---------------------读取视频源格式---------------------//	
+				fmt.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;				
+				if (ioctl(video_fd, VIDIOC_G_FMT, &fmt1) < 0)	
+				{
+					printf("get format failed\n");
+					return 2 ;
+				}
+				else
+				{
+					printf("Picture:Width = %d   Height = %d\n", fmt1.fmt.pix.width, fmt1.fmt.pix.height);
+		
+				}
+				//-------------------------------------------------------//
+	
+				//开始获取FIFO中已经准备好的一帧数据-----------------------		
+				memset(&buf ,0,sizeof(buf));
+				buf.type=V4L2_BUF_TYPE_VIDEO_CAPTURE;
+				buf.memory=V4L2_MEMORY_MMAP;
+				//准备好的出列--------------------------------------------
+				ret1=ioctl (video_fd,VIDIOC_DQBUF,&buf);
+				if(ret1!=0)
+				{					
+					printf("Lost the video \n");					
+				}	
+				//从FIFO中数据获取完成------------------------------------
+
+	
+				//获取当前帧的用户空间首地址，用于格式转换------------------
+				unsigned char *tmpptcur=buffers[buf.index].start;
+				
+				unsigned char *pCUT = NULL;
+				pCUT= (unsigned char *)calloc(1,X*Y*3*sizeof(unsigned char));
+				if(cutinterest(tmpptcur,pCUT,X_F/2,Y_F/2,X_F,Y_F,X,Y)==1)
+				{
+					printf("Not the Force field.\n");
+				}
+				else
+				{
+					
+					//YUV向RGB（24bit）转换
+					YUYVToRGB888(pCUT, pRGB, X, Y);
+					cvSetData(img, pRGB, X*3);     //将pRGB数据装入img中
+					cvShowImage("image", img);
+					if(cvWaitKey(0)>0)
+						sdl_quit=0;
+				}
+				tmpcount=0;
+				
+			}
 		}	
 	}	
 
