@@ -300,7 +300,7 @@ int video_fb_init_preview()
 	SDL_Surface      *display_RGB;
 	printf("USB Camera Test\n");
 
-	video_fd = open("/dev/video0", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
+	video_fd = open("/dev/video1", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
 	if (video_fd<0)
 	{
 		printf("open error\n");
