@@ -234,7 +234,7 @@ int cutinterest(unsigned char *src,unsigned char *dst,unsigned int xI,unsigned i
 		{
 			for(j=0;j<dwidth*2;j++)//yuv422
 			{
-				*dst++ = *(src+start*2+j+i*swidth);	
+				*dst++ = *(src+start*2+j+i*swidth*2);	
 			}
 		}
 		
@@ -304,7 +304,166 @@ int fb_munmap(void *start, size_t length)
 	return (munmap(start, length));
 }
 
+/*************************************************************
+ * 以新配置重启设备
+ * 注意指数形参的使用方法
+ * **********************************************************/
+int restartdev(int *vfd, VideoBuffer **bufs, struct v4l2_requestbuffers *req, struct v4l2_buffer *buf,unsigned int nx,unsigned int ny) 
+{
+	int i,j,nbufs,ret1;
+	//clean up
+	//++++++++++++++++++++++++++++++关闭视频流start+++++++++++++++++++++++++
+	enum v4l2_buf_type type;			
+	type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
+	if (ioctl(*vfd, VIDIOC_STREAMOFF, &type) < 0)
+	{
+		printf("VIDIOC_STREAMOFF error\n");
+		return 2;
+	}
+	//+++++++++++++++++++++++++++++关闭视频流end++++++++++++++++++++++++++
+				
+	//+++++++++++++++++++++++++++++清队列start++++++++++++++++++++++++++++++
+	for(i=0;i<(*req).count;i++)
+	{
+		if(-1==munmap((*(*bufs+i)).start,(*(*bufs+i)).length))
+			printf("munmap error:%d \n",i);
+	}
+	//++++++++++++++++++++++++++++清队列end+++++++++++++++++++++++++++++++++	
+				
+	//关设备
+	close(*vfd);
+				
+	//重启设备
+	*vfd = open("/dev/video0", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
+	if (*vfd<0)
+	{
+		printf("open error\n");
+		return  1;
+	}
+	struct v4l2_format fmt1;	
+	//---------------------重新设置获取视频的格式----------------//	
+	memset( &fmt1, 0, sizeof(fmt1));
+	fmt1.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;	     //视频数据流类型，永远都V4L2_BUF_TYPE_VIDEO_CAPTURE
+	fmt1.fmt.pix.pixelformat = V4L2_PIX_FMT_YUYV; 	     //视频源的格式为JPEG或YUN4:2:2或RGB
+	fmt1.fmt.pix.width = nx;                             //设置视频宽度
+	fmt1.fmt.pix.height = ny;                            //设置视频高度
+	//fmt.fmt.pix.field=V4L2_FIELD_INTERLACED;
+	//fmt.fmt.pix.colorspace=8;
+	//printf("color: %d \n",fmt.fmt.pix.colorspace);
+	if (ioctl(*vfd, VIDIOC_S_FMT, &fmt1) < 0) //使配置生效
+	{
+		printf("set format failed\n");
+		return 2;
+	}
+	//-------------------------------------------------------//
 
+	//++++++++++++++++++++++++向video设备驱动申请帧缓冲start+++++++++++++++++
+	memset(&(*req), 0, sizeof (*req));
+	(*req).count = 3;	                                   //缓存数量，即可保存的图片数量
+	(*req).type = V4L2_BUF_TYPE_VIDEO_CAPTURE;	           //数据流类型，永远都是V4L2_BUF_TYPE_VIDEO_CAPTURE
+	(*req).memory = V4L2_MEMORY_MMAP;	                   //存储类型：V4L2_MEMORY_MMAP或V4L2_MEMORY_USERPTR
+	if (ioctl(*vfd, VIDIOC_REQBUFS, &(*req)) == -1)   //使配置生效
+	{
+		perror("request buffer error \n");
+		return 2;
+	}
+	//++++++++++++++++++++++++向video设备驱动申请帧缓冲end+++++++++++++++++
+	
+	//+++++++++++++++将VIDIOC_REQBUFS获取内存转为物理空间start+++++++++++++
+	*bufs = calloc((*req).count, sizeof(VideoBuffer));	
+	//printf("sizeof(VideoBuffer) is %d\n", sizeof(VideoBuffer));
+	for (nbufs = 0; nbufs < (*req).count; nbufs++)
+	{
+		memset( &(*buf), 0, sizeof(*buf));
+		(*buf).type = V4L2_BUF_TYPE_VIDEO_CAPTURE;	
+		
+		//存储类型：V4L2_MEMORY_MMAP（内存映射）或V4L2_MEMORY_USERPTR（用户指针）
+		(*buf).memory = V4L2_MEMORY_MMAP;
+		(*buf).index = nbufs;
+		if (ioctl(*vfd, VIDIOC_QUERYBUF, &(*buf)) < 0)        //使配置生效
+		{
+			printf("VIDIOC_QUERYBUF error\n");
+			return 2;
+		}
+		//printf("buf len is %d\n", sizeof(buf));
+		(*(*bufs+nbufs)).length = (*buf).length;
+		(*(*bufs+nbufs)).offset = (size_t) (*buf).m.offset;
+		
+		//使用mmap函数将申请的缓存地址转换应用程序的绝对地址------
+		(*(*bufs+nbufs)).start = mmap(NULL, (*buf).length, PROT_READ | PROT_WRITE,
+					MAP_SHARED, *vfd, (*buf).m.offset);	
+		if ((*(*bufs+nbufs)).start == MAP_FAILED)
+		{
+			perror("buffers error\n");
+			return 2;
+		}
+		if (ioctl(*vfd, VIDIOC_QBUF, &(*buf)) < 0)           //放入缓存队列
+		{
+			printf("VIDIOC_QBUF error\n");
+			return 2;
+		}
+
+	}
+	//+++++++++++++++将VIDIOC_REQBUFS获取内存转为物理空间end+++++++++++++
+	
+	//++++++++++++++++++++++++++++++打开视频流start+++++++++++++++++++++++++
+	type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
+	if (ioctl(*vfd, VIDIOC_STREAMON, &type) < 0)
+	{
+		printf("VIDIOC_STREAMON error\n");
+		return 2;
+	}
+	//---------------------读取视频源格式---------------------//	
+	fmt1.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;				
+	if (ioctl(*vfd, VIDIOC_G_FMT, &fmt1) < 0)	
+	{
+		printf("get format failed\n");
+		return 2 ;
+	}
+	else
+	{
+		printf("Picture:Width = %d   Height = %d\n", fmt1.fmt.pix.width, fmt1.fmt.pix.height);
+		
+	}
+	//-------------------------------------------------------//
+	
+	for(j=0;j<5;j++)
+	{
+		fd_set fds;//文件描述符集，准备使用Select机制
+		struct timeval tv;
+		//++++++++++++++++++++IO select start++++++++++++++++++++++++++
+		FD_ZERO(&fds);//清空文件描述符集
+		FD_SET(*vfd,&fds);//将视频设备文件的描述符放入集合中
+		
+		//消息等待超时,可以完全阻塞-------------------------------
+		tv.tv_sec =5;
+		tv.tv_usec=0;
+		//等待视频设备准备好--------------------------------------
+		ret1=select(*vfd+1,&fds,NULL,NULL,&tv);
+		if(-1==ret1)
+		{
+			if(EINTR==errno)
+				continue;
+			printf("select error. \n");
+			exit(EXIT_FAILURE);
+		}
+		else if(0==ret1)
+		{
+			printf("select timeout. \n");
+			if(j==4)
+			{
+				printf("Timeout too many times.\n");
+				return 2;
+			}
+			else
+				continue;
+		}
+		else
+			break;
+	}
+	return 0;
+
+}
 /*************************************************************
   视频设备和显示设备初始化，预览函数
 *************************************************************/
@@ -353,48 +512,8 @@ int video_fb_init_preview()
 	SDL_Surface      *display_RGB;
 	printf("USB Camera Test\n");
 
-	video_fd = open("/dev/video1", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
-	if (video_fd<0)
-	{
-		printf("open error\n");
-		return  1;
-	}
 
-	/*************先向驱动尝试获取设备视频格式start*************/
-	struct v4l2_fmtdesc fmt0;
-	int ret0;
-	memset(&fmt0,0,sizeof(fmt0));
-	fmt0.index = 0;
-	fmt0.type=V4L2_BUF_TYPE_VIDEO_CAPTURE;
-	while((ret0 = ioctl(video_fd,VIDIOC_ENUM_FMT,&fmt0) == 0))
-	{
-		fmt0.index++;
-		printf("%d> pixelformat =%c%c%c%c,description =%s\n",
-			fmt0.index,fmt0.pixelformat&0xff,
-			(fmt0.pixelformat>>8)&0xff,
-			(fmt0.pixelformat>>16)&0xff,
-			(fmt0.pixelformat>>24)&0xff,
-			fmt0.description);
-	}
-	/**************************END***************************/
-	
-	//---------------------设置获取视频的格式----------------//
-	struct v4l2_format fmt;	
-	memset( &fmt, 0, sizeof(fmt));
-	fmt.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;	     //视频数据流类型，永远都V4L2_BUF_TYPE_VIDEO_CAPTURE
-	fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_YUYV; //视频源的格式为JPEG或YUN4:2:2或RGB
-	fmt.fmt.pix.width = X;                     //设置视频宽度
-	fmt.fmt.pix.height = Y;                    //设置视频高度
-	//fmt.fmt.pix.field=V4L2_FIELD_INTERLACED;
-	//fmt.fmt.pix.colorspace=8;
-	//printf("color: %d \n",fmt.fmt.pix.colorspace);
-	if (ioctl(video_fd, VIDIOC_S_FMT, &fmt) < 0) //使配置生效
-	{
-		printf("set format failed\n");
-		return 2;
-	}
-	//-------------------------------------------------------//
-	
+
 	//++++++++++++++++++++++++SDL初始化和设置start+++++++++++++++++++++++++++++++
 	/*if(SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
@@ -437,13 +556,58 @@ int video_fb_init_preview()
 	
 	//++++++++++++++++++++++++openCV设置start+++++++++++++++++++++++++++++++
 	CvMemStorage*  storage = cvCreateMemStorage(0);
-	IplImage*      img     = cvCreateImageHeader(cvSize(fmt.fmt.pix.width,fmt.fmt.pix.height), IPL_DEPTH_8U, 3);//image头，未开辟数据空间
-	IplImage*      imggray = cvCreateImage(cvSize(fmt.fmt.pix.width,fmt.fmt.pix.height), IPL_DEPTH_8U, 1);//image，开辟数据空间
+	IplImage*      img     = cvCreateImageHeader(cvSize(X,Y), IPL_DEPTH_8U, 3);//image头，未开辟数据空间
+	IplImage*      imggray = cvCreateImage(cvSize(X,Y), IPL_DEPTH_8U, 1);//image，开辟数据空间
 	cvNamedWindow("image", 1);
 
 	unsigned char *pRGB = NULL;
-	pRGB = (unsigned char *)calloc(1,fmt.fmt.pix.width*fmt.fmt.pix.height*3*sizeof(unsigned char));
+	pRGB = (unsigned char *)calloc(1,X*Y*3*sizeof(unsigned char));
 	//++++++++++++++++++++++++openCV设置end+++++++++++++++++++++++++++++++++
+
+
+
+	video_fd = open("/dev/video0", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
+	if (video_fd<0)
+	{
+		printf("open error\n");
+		return  1;
+	}
+
+	/*************先向驱动尝试获取设备视频格式start*************/
+	struct v4l2_fmtdesc fmt0;
+	int ret0;
+	memset(&fmt0,0,sizeof(fmt0));
+	fmt0.index = 0;
+	fmt0.type=V4L2_BUF_TYPE_VIDEO_CAPTURE;
+	while((ret0 = ioctl(video_fd,VIDIOC_ENUM_FMT,&fmt0) == 0))
+	{
+		fmt0.index++;
+		printf("%d> pixelformat =%c%c%c%c,description =%s\n",
+			fmt0.index,fmt0.pixelformat&0xff,
+			(fmt0.pixelformat>>8)&0xff,
+			(fmt0.pixelformat>>16)&0xff,
+			(fmt0.pixelformat>>24)&0xff,
+			fmt0.description);
+	}
+	/**************************END***************************/
+	
+	//---------------------设置获取视频的格式----------------//
+	struct v4l2_format fmt;	
+	memset( &fmt, 0, sizeof(fmt));
+	fmt.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;	     //视频数据流类型，永远都V4L2_BUF_TYPE_VIDEO_CAPTURE
+	fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_YUYV; //视频源的格式为JPEG或YUN4:2:2或RGB
+	fmt.fmt.pix.width = X;                     //设置视频宽度
+	fmt.fmt.pix.height = Y;                    //设置视频高度
+	//fmt.fmt.pix.field=V4L2_FIELD_INTERLACED;
+	//fmt.fmt.pix.colorspace=8;
+	//printf("color: %d \n",fmt.fmt.pix.colorspace);
+	if (ioctl(video_fd, VIDIOC_S_FMT, &fmt) < 0) //使配置生效
+	{
+		printf("set format failed\n");
+		return 2;
+	}
+	//-------------------------------------------------------//
+	
 
 	//++++++++++++++++++++++++向video设备驱动申请帧缓冲start+++++++++++++++++
 	struct v4l2_requestbuffers req;
@@ -699,9 +863,10 @@ int video_fb_init_preview()
 			{
 
 				printf("Zooming...\n");
-				
+				if((ret1=restartdev(&video_fd,&buffers,&req,&buf,X_F,Y_F)) != 0 )
+					return ret1;
 			
-				//++++++++++++++++++++++++++++++关闭视频流start+++++++++++++++++++++++++
+			/*	//++++++++++++++++++++++++++++++关闭视频流start+++++++++++++++++++++++++
 				
 				type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
 				if (ioctl(video_fd, VIDIOC_STREAMOFF, &type) < 0)
@@ -817,6 +982,27 @@ int video_fb_init_preview()
 				}
 				//-------------------------------------------------------//
 	
+				//++++++++++++++++++++IO select start++++++++++++++++++++++++++
+				FD_ZERO(&fds);//清空文件描述符集
+				FD_SET(video_fd,&fds);//将视频设备文件的描述符放入集合中
+		
+				//消息等待超时,可以完全阻塞-------------------------------
+				tv.tv_sec =5;
+				tv.tv_usec=0;
+				//等待视频设备准备好--------------------------------------
+				ret1=select(video_fd+1,&fds,NULL,NULL,&tv);
+				if(-1==ret1)
+				{
+					if(EINTR==errno)
+						continue;
+					printf("select error. \n");
+					exit(EXIT_FAILURE);
+				}
+				if(0==ret1)
+				{
+					printf("select timeout. \n");
+					continue;
+				}*/
 				//开始获取FIFO中已经准备好的一帧数据-----------------------		
 				memset(&buf ,0,sizeof(buf));
 				buf.type=V4L2_BUF_TYPE_VIDEO_CAPTURE;
@@ -845,6 +1031,7 @@ int video_fb_init_preview()
 					//YUV向RGB（24bit）转换
 					YUYVToRGB888(pCUT, pRGB, X, Y);
 					cvSetData(img, pRGB, X*3);     //将pRGB数据装入img中
+					
 					cvShowImage("image", img);
 					if(cvWaitKey(0)>0)
 						sdl_quit=0;
