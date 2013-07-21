@@ -17,7 +17,7 @@
 #include "opencv/cv.h"
 
 // various tracking parameters (in seconds)
-const double MHI_DURATION = 0.5;
+const double MHI_DURATION = 0.1;
 const double MAX_TIME_DELTA = 0.5;
 const double MIN_TIME_DELTA = 0.05;
 
@@ -83,20 +83,20 @@ static void  update_mhi( IplImage* img, IplImage* dst, int diff_threshold )
     idx2 = (last + 1) % N; // index of (last - (N-1))th frame
     last = idx2;
 
-    silh=buf[idx2];
-    cvAbsDiff( buf[idx1], buf[idx2], silh );                          //
+    silh = buf[idx2];
+    cvAbsDiff( buf[idx1], buf[idx2], silh ); // get difference between frames
 
-    cvThreshold( silh, silh, diff_threshold, 1, CV_THRESH_BINARY ); // 类似二值化 可是只有0 1这么小的差距
-    cvUpdateMotionHistory( silh, mhi, timestamp, MHI_DURATION );    // 更新以时间为单位的运动历史图
+    cvThreshold( silh, silh, diff_threshold, 1, CV_THRESH_BINARY ); // and threshold it
+    cvUpdateMotionHistory( silh, mhi, timestamp, MHI_DURATION ); // update MHI
 
-    // 将运动历史图转换为具有像素值的图片，并merge到输出图像
+    // convert MHI to blue 8u image
     cvCvtScale( mhi, mask, 255./MHI_DURATION,
                 (MHI_DURATION - timestamp)*255./MHI_DURATION );
     cvZero( dst );
-    cvMerge( mask,0,0,0,dst );
+    cvMerge( mask, 0, 0, 0, dst );
 
     // calculate motion gradient orientation and valid orientation mask
-    cvCalcMotionGradient( mhi, mask, orient, MAX_TIME_DELTA, MIN_TIME_DELTA, 3 );//orient中保存每个运动点的方向角度值
+    cvCalcMotionGradient( mhi, mask, orient, MAX_TIME_DELTA, MIN_TIME_DELTA, 3 );
 
     if( !storage )
         storage = cvCreateMemStorage(0);
@@ -105,7 +105,7 @@ static void  update_mhi( IplImage* img, IplImage* dst, int diff_threshold )
 
     // segment motion: get sequence of motion components
     // segmask is marked motion components map. It is not used further
-    seq = cvSegmentMotion( mhi, segmask, storage, timestamp, MAX_TIME_DELTA );//对运动历史图片进行运动单元的分割
+    seq = cvSegmentMotion( mhi, segmask, storage, timestamp, MAX_TIME_DELTA );
 
     // iterate through the motion components,
     // One more iteration (i == -1) corresponds to the whole image (global motion)
@@ -118,7 +118,7 @@ static void  update_mhi( IplImage* img, IplImage* dst, int diff_threshold )
         }
         else { // i-th motion component
             comp_rect = ((CvConnectedComp*)cvGetSeqElem( seq, i ))->rect;
-            if( comp_rect.width + comp_rect.height < 50 ) // reject very small components
+            if( comp_rect.width + comp_rect.height < 100 ) // reject very small components
                 continue;
             color = CV_RGB(255,0,0);
             magnitude = 30;
@@ -131,7 +131,7 @@ static void  update_mhi( IplImage* img, IplImage* dst, int diff_threshold )
         cvSetImageROI( mask, comp_rect );
 
         // calculate orientation
-        angle = cvCalcGlobalOrientation( orient, mask, mhi, timestamp, MHI_DURATION);//统计感兴趣区域内的运动单元的总体方向
+        angle = cvCalcGlobalOrientation( orient, mask, mhi, timestamp, MHI_DURATION);
         angle = 360.0 - angle;  // adjust for images with top-left origin
 
         count = cvNorm( silh, 0, CV_L1, 0 ); // calculate number of points within silhouette ROI
@@ -142,15 +142,15 @@ static void  update_mhi( IplImage* img, IplImage* dst, int diff_threshold )
         cvResetImageROI( silh );
 
         // check for the case of little motion
-        if( count < comp_rect.width*comp_rect.height * 0.05*0.1  )
+        if( count < comp_rect.width*comp_rect.height * 0.05*0.5  )
             continue;
 
         // draw a clock with arrow indicating the direction
         center = cvPoint( (comp_rect.x + comp_rect.width/2),
                           (comp_rect.y + comp_rect.height/2) );
 
-        cvCircle( img, center, cvRound(magnitude*1.2), color, 3, CV_AA, 0 );
-        cvLine( img, center, cvPoint( cvRound( center.x + magnitude*cos(angle*CV_PI/180)),
+        cvCircle( dst, center, cvRound(magnitude*1.2), color, 3, CV_AA, 0 );
+        cvLine( dst, center, cvPoint( cvRound( center.x + magnitude*cos(angle*CV_PI/180)),
                 cvRound( center.y - magnitude*sin(angle*CV_PI/180))), color, 3, CV_AA, 0 );
     }
 }
@@ -184,7 +184,7 @@ int main(int argc, char** argv)
             }
 
             update_mhi( image, motion, 30 );
-            cvShowImage( "Motion", image );
+            cvShowImage( "Motion", motion );
 
             if( cvWaitKey(1) >= 0 )
                 break;

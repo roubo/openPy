@@ -18,7 +18,7 @@ clean:
 	rm -f *.a *.o $(APP_BINARY) core *~ log errlog *.avi
 
 # Applications:
-lockface:	$(OBJECTS)
+Rmotion:	$(OBJECTS)
 	$(CC)	 $(CFLAGS) $(OBJECTS) \
 		$(CVLIBS)\
 		-lm\

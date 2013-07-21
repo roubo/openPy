@@ -13,7 +13,7 @@ CVFLAGS = $(shell pkg-config --cflags opencv)
 
 CFLAGS += -I $(SDLFLAGS) $(CVFLAGS)
 OBJECTS=zoom.o
-
+SOURCE=zoom.c
 all:	zoom
 
 clean:
@@ -22,7 +22,7 @@ clean:
 
 # Applications:
 zoom:	$(OBJECTS)
-	$(CC)	 $(CFLAGS) $(OBJECTS) \
+	$(CC)  -g $(SOURCE) $(CFLAGS) \
 		$(CVLIBS)\
 		$(SDLLIBS)\
 		-lm\

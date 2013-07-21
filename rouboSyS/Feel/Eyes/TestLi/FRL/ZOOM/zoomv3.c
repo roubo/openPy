@@ -65,14 +65,7 @@ IplImage *mask = 0; // valid orientation mask 有效方向
 IplImage *segmask = 0; // motion segmentation map 运动分割
 CvMemStorage* mstorage = 0; // temporary storage 临时数据
 
-//运动检测与ZOOM的联合测试-----------------------------------
-unsigned int  catchflag=0;    //目标出现标志
-unsigned int  tx=0,ty=0;      //目标坐标（初始映射为小图像上）
-unsigned int  lx=0,ly=0;      //记录上一次目标的大图像坐标
-unsigned int  delayN =0;      //记录丢失运动目标的倒数次数
-#define      DELAYN       10
-#define      DX           320
-#define      DY           240  
+
 //用户空间视频缓冲区结构，用于MMap来自驱动程序的内存空间-----
 typedef struct VideoBuffer
 {
@@ -249,73 +242,24 @@ int cutinterest(unsigned char *src,unsigned char *dst,unsigned int xI,unsigned i
 	//测试兴趣点是否在边缘
 	if(xI<dwidth/2 || xI>swidth-dwidth/2 || yI<dheight/2 || yI>sheight-dheight/2)
 	{
-		//return 1;
-		if(xI<dwidth/2)
-		{
-			if(yI<dheight/2)
-			{
-				xI = dwidth/2;
-				yI = dheight/2;
-			}
-			else if(yI>sheight-dheight/2)
-			{
-				xI = dwidth/2;
-				yI = sheight-dheight/2;
-			}
-			else
-			{
-				xI = dwidth/2;
-				yI = yI;
-			}
-		}
-		else if(xI>swidth-dwidth/2)
-		{
-			
-			if(yI<dheight/2)
-			{
-				xI = swidth-dwidth/2;
-				yI = dheight/2;
-			}
-			else if(yI>sheight-dheight/2)
-			{
-				xI = swidth-dwidth/2;
-				yI = sheight-dheight/2;
-			}
-			else
-			{
-				xI = swidth-dwidth/2;
-				yI = yI;
-			}
-		}
-		else
-		{
-			if(yI < dheight/2)
-			{
-				xI = xI;
-				yI = dheight/2;
-			}
-			else
-			{
-				xI = xI;
-				yI = sheight-dheight/2;
-			}
-		}
+		return 1;
 	}
-
-	xe = xI - dwidth/2;
-	ye = yI + dheight/2;
-	//printf("Left Top:(%d,%d)\n",xe,ye);
-	start = (sheight - (ye-1))*swidth + xe; 
-	//printf("start offset:%d\n",start);
-	for(i=0;i<dheight;i++)
+	else
 	{
-		for(j=0;j<dwidth*2;j++)//yuv422
+		xe = xI - dwidth/2;
+		ye = yI + dheight/2;
+		printf("Left Top:(%d,%d)\n",xe,ye);
+		start = (sheight - (ye-1))*swidth + xe; 
+		printf("start offset:%d\n",start);
+		for(i=0;i<dheight;i++)
 		{
-			*dst++ = *(src+start*2+j+i*swidth*2);	
+			for(j=0;j<dwidth*2;j++)//yuv422
+			{
+				*dst++ = *(src+start*2+j+i*swidth*2);	
+			}
 		}
-	}
 		
-
+	}
 	return 0;
 }
 /************************************************************
@@ -463,13 +407,6 @@ static void  update_mhi( IplImage* img, IplImage* dst, int diff_threshold )
         // draw a clock with arrow indicating the direction
         center = cvPoint( (comp_rect.x + comp_rect.width/2),
                           (comp_rect.y + comp_rect.height/2) );
-	
-	if(tmppcount == 0 && i != -1)
-	{
-		tx = comp_rect.x+comp_rect.width/2;
-		ty = comp_rect.y+comp_rect.height/2;
-		catchflag = 1;
-	}
 	tmppcount++;
 	printf("The %dth rect:(%d,%d)\n",tmppcount,comp_rect.x+comp_rect.width/2,comp_rect.y+comp_rect.height/2);
         cvCircle( img, center, cvRound(magnitude*1.2), color, 3, CV_AA, 0 );
@@ -1004,7 +941,7 @@ int video_fb_init_preview()
 			YUYVToRGB888(ptcur, pRGB, fmt.fmt.pix.width, fmt.fmt.pix.height);
 			
 			cvSetData(img, pRGB, fmt.fmt.pix.width*3);     //将pRGB数据装入img中
-			//运动检测联合测试
+			//运动检测
 			update_mhi(img,motion,30);
 			/*//opencv 检测人脸
 			cvCvtColor(img, imggray, CV_RGB2GRAY);         //将img灰度转换到imggray,供opencv检测使用
@@ -1069,87 +1006,48 @@ int video_fb_init_preview()
 			{					
 				printf("Lost the video \n");					
 			}
-			if( catchflag ==1)
+			
+			if( tmpcount ==-1)
 			{
-				//小图像到大图像的坐标映射
-				tx = tx*X_F/X;
-				ty = Y_F - ty*Y_F/Y;
-				lx = tx;
-				ly = ty;
+
 				printf("Zooming...\n");
 				if((ret1=restartdev(&video_fd,&buffers,&req,&buf,X_F,Y_F)) != 0 )
 					return ret1;
 				//开始获取FIFO中已经准备好的一帧数据-----------------------		
-		                delayN = DELAYN;	
-				while( catchflag == 1 ||delayN !=0)
-				{
-
-					catchflag = 0;
-					memset(&buf ,0,sizeof(buf));
-					buf.type=V4L2_BUF_TYPE_VIDEO_CAPTURE;
-					buf.memory=V4L2_MEMORY_MMAP;
-					//准备好的出列--------------------------------------------
-					ret1=ioctl (video_fd,VIDIOC_DQBUF,&buf);
-					if(ret1!=0)
-					{					
-						printf("Lost the video \n");					
-					}	
-					//从FIFO中数据获取完成------------------------------------
+				memset(&buf ,0,sizeof(buf));
+				buf.type=V4L2_BUF_TYPE_VIDEO_CAPTURE;
+				buf.memory=V4L2_MEMORY_MMAP;
+				//准备好的出列--------------------------------------------
+				ret1=ioctl (video_fd,VIDIOC_DQBUF,&buf);
+				if(ret1!=0)
+				{					
+					printf("Lost the video \n");					
+				}	
+				//从FIFO中数据获取完成------------------------------------
 
 	
-					//获取当前帧的用户空间首地址，用于格式转换------------------
-					unsigned char *tmpptcur=buffers[buf.index].start;
+				//获取当前帧的用户空间首地址，用于格式转换------------------
+				unsigned char *tmpptcur=buffers[buf.index].start;
 				
-					unsigned char *pCUT = NULL;
-					pCUT= (unsigned char *)calloc(1,X*Y*3*sizeof(unsigned char));
-					if(cutinterest(tmpptcur,pCUT,tx,ty,X_F,Y_F,X,Y)==1)
-					{
-						printf("Not the Force field.\n");
-					}
-					else
-					{
-					
-						//YUV向RGB（24bit）转换
-						YUYVToRGB888(pCUT, pRGB, X, Y);
-						cvSetData(img, pRGB, X*3);     //将pRGB数据装入img中
-						update_mhi(img,motion,30);
-						if(catchflag == 1)
-						{
-							delayN=DELAYN;
-							if(tx<X/2-DX || tx>X/2+DX || ty<Y/2-DY || ty>Y/2+DY)//是否出了监视窗口
-							{
-								catchflag = 1;
-							}
-							else
-							{
-								catchflag = 0;
-							}
-						}
-						cvShowImage("image", img);
-						if(cvWaitKey(2)>0)
-							sdl_quit=0;
-						if(catchflag == 1)
-						{	
-							//目标坐标截取图像到大图像的坐标映射
-							tx = lx-X/2+tx;
-							ty = ly-Y/2+ty;
-							lx = tx;
-							ly = ty;
-						}
-						else if (catchflag == 0 && delayN !=0)
-						{
-							delayN--;
-						}
-						else 
-						{
-							//图像回到小模式
-							if((ret1=restartdev(&video_fd,&buffers,&req,&buf,X,Y)) != 0 )
-								return ret1;
-						}
-					}
+				unsigned char *pCUT = NULL;
+				pCUT= (unsigned char *)calloc(1,X*Y*3*sizeof(unsigned char));
+				if(cutinterest(tmpptcur,pCUT,X_F/2,Y_F/2,X_F,Y_F,X,Y)==1)
+				{
+					printf("Not the Force field.\n");
 				}
-			
-			
+				else
+				{
+					
+					//YUV向RGB（24bit）转换
+					YUYVToRGB888(pCUT, pRGB, X, Y);
+					cvSetData(img, pRGB, X*3);     //将pRGB数据装入img中
+					
+					cvShowImage("image", img);
+					if(cvWaitKey(0)>0)
+						sdl_quit=0;
+				}
+				tmpcount=0;
+				
 			}
 		}	
 	}	
