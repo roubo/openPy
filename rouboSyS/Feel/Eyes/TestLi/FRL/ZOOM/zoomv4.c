@@ -23,7 +23,6 @@ roubo_dai@san412.in
 #include <sys/mman.h>
 #include <malloc.h>
 #include <linux/fb.h>
-#include <math.h>
 //为了在非嵌入式设备上使用，这里使用了SDL
 #include <X11/Xlib.h>
 #include <SDL/SDL.h>
@@ -73,15 +72,7 @@ unsigned int  lx=0,ly=0;      //记录上一次目标的大图像坐标
 unsigned int  delayN =0;      //记录丢失运动目标的倒数次数
 #define      DELAYN       30
 #define      DX           320
-#define      DY           240 
-
-//运动检测附加稳定算法---------------------------------------
-unsigned int  ax=0,ay=0;       //记录目标算法中心坐标
-unsigned int  tmpal1=0, tmpal2=0; 
-unsigned int  Zmode = 0;       //放大或缩小模式
-#define     ZMODE_Z       1    
-#define     ZMOOE_S 	  0 
-
+#define      DY           240  
 //用户空间视频缓冲区结构，用于MMap来自驱动程序的内存空间-----
 typedef struct VideoBuffer
 {
@@ -375,7 +366,7 @@ static void  update_mhi( IplImage* img, IplImage* dst, int diff_threshold )
     double magnitude;
     CvScalar color;
 
-    unsigned  int tmpx=0,tmpy=0;
+
     int tmppcount=0;
     // allocate images at the beginning or
     // reallocate them if the frame size is changed
@@ -443,7 +434,7 @@ static void  update_mhi( IplImage* img, IplImage* dst, int diff_threshold )
         }
         else { // i-th motion component
             comp_rect = ((CvConnectedComp*)cvGetSeqElem( seq, i ))->rect;
-            if( comp_rect.width + comp_rect.height < 200 ) // reject very small components
+            if( comp_rect.width + comp_rect.height < 30 ) // reject very small components
                 continue;
             color = CV_RGB(255,0,0);
             magnitude = 30;
@@ -474,36 +465,21 @@ static void  update_mhi( IplImage* img, IplImage* dst, int diff_threshold )
         center = cvPoint( (comp_rect.x + comp_rect.width/2),
                           (comp_rect.y + comp_rect.height/2) );
 
-	if(Zmode == ZMODE_Z && i !=-1)
-	{
-		//放大模式下的稳定算法++++++++++++++++++++++++++
-		tmpx = comp_rect.x+comp_rect.width/2;//当前获取到的目标坐标之一
-		tmpy = comp_rect.y+comp_rect.height/2;
-		tmpal1 =  sqrt(abs(tx-ax))+sqrt(abs(ty-ay));
-
-		if(tmpal2 > tmpal1 || tmppcount == 0)//更接近中心
-		{
-			tmpal2 = tmpal1;
-			tx = tmpx;
-			ty = tmpy;
-		}
-		catchflag = 1;
-	}
+	//放大模式下的稳定算法++++++++++++++++++++++++++
+	//tx = comp_rect.x+comp_rect.width/2;//当前获取到的目标坐标之一
+	//ty = comp_rect.y+comp_rect.height/2;
 	
-	if(Zmode == ZMOOE_S)
-	{	
-		//缩小模式下的选择目标规则
-		if(tmppcount == 0 && i != -1)
-		{
-			tx = comp_rect.x+comp_rect.width/2;
-			ty = comp_rect.y+comp_rect.height/2;
-			catchflag = 1;
-		}
+	
+	if(tmppcount == 0 && i != -1)
+	{
+		tx = comp_rect.x+comp_rect.width/2;
+		ty = comp_rect.y+comp_rect.height/2;
+		catchflag = 1;
 	}
 	tmppcount++;
 	printf("The %dth rect:(%d,%d)\n",tmppcount,comp_rect.x+comp_rect.width/2,comp_rect.y+comp_rect.height/2);
-        cvCircle( img, center, cvRound(magnitude*1.2), color, 3, CV_AA, 0 );
-        cvLine( img, center, cvPoint( cvRound( center.x + magnitude*cos(angle*CV_PI/180)),
+        cvCircle( dst, center, cvRound(magnitude*1.2), color, 3, CV_AA, 0 );
+        cvLine( dst, center, cvPoint( cvRound( center.x + magnitude*cos(angle*CV_PI/180)),
                 cvRound( center.y - magnitude*sin(angle*CV_PI/180))), color, 3, CV_AA, 0 );
     }
 
@@ -1164,7 +1140,7 @@ int video_fb_init_preview()
 								catchflag = 0;
 							}
 						}
-						cvShowImage("image",img);
+						cvShowImage("image",motion);
 						//用完了的入列--------------------------------------------
 						ret1=ioctl (video_fd,VIDIOC_QBUF,&buf);
 						if(ret1!=0)
@@ -1175,8 +1151,6 @@ int video_fb_init_preview()
 							sdl_quit=0;
 						if(catchflag == 1)
 						{	
-							ax = tx;
-							ay = ty;
 							//目标坐标截取图像到大图像的坐标映射
 							tx = lx-X/2+tx;
 							ty = ly-Y/2+ty;
