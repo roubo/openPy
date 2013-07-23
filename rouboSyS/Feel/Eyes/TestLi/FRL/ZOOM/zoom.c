@@ -443,7 +443,7 @@ static void  update_mhi( IplImage* img, IplImage* dst, int diff_threshold )
         }
         else { // i-th motion component
             comp_rect = ((CvConnectedComp*)cvGetSeqElem( seq, i ))->rect;
-            if( comp_rect.width + comp_rect.height < 200 ) // reject very small components
+            if( comp_rect.width + comp_rect.height < 30 ) // reject very small components
                 continue;
             color = CV_RGB(255,0,0);
             magnitude = 30;
@@ -1173,6 +1173,7 @@ int video_fb_init_preview()
 						}
 						if(cvWaitKey(2)>0)
 							sdl_quit=0;
+						printf("NOW:catchflag:%d\n",catchflag);
 						if(catchflag == 1)
 						{	
 							ax = tx;
@@ -1182,10 +1183,13 @@ int video_fb_init_preview()
 							ty = ly-Y/2+ty;
 							lx = tx;
 							ly = ty;
+							printf("L:New taget:(%d,%d)",tx,ty);
 						}
 						else if (catchflag == 0 && delayN !=1)
 						{
 							delayN--;
+							tx = lx;
+							ty = ly;
 						}
 						else 
 						{

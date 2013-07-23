@@ -1,0 +1,10973 @@
+USB Camera Test
+1> pixelformat =YUYV,description =YUV 4:2:2 (YUYV)
+Picture:Width = 640   Height = 480
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 3th rect:(158,373)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 3th rect:(158,373)
+The 1th rect:(320,240)
+The 2th rect:(383,240)
+The 1th rect:(259,59)
+S:Target:(259,59)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(518,899)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(518,899)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(518,899)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(518,899)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(518,899)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(518,899)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(518,899)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(361,240)
+The 3th rect:(48,387)
+The 1th rect:(320,240)
+The 2th rect:(361,240)
+The 3th rect:(48,387)
+The 1th rect:(320,240)
+The 2th rect:(361,240)
+The 3th rect:(48,387)
+The 1th rect:(271,59)
+S:Target:(271,59)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(542,899)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(542,899)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(542,899)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(542,899)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(542,899)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(542,899)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(542,899)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(50,388)
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(50,388)
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(50,388)
+The 1th rect:(269,60)
+S:Target:(269,60)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(538,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(538,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(538,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(538,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(538,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(538,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(538,896)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(363,240)
+The 3th rect:(56,396)
+The 1th rect:(320,240)
+The 2th rect:(363,240)
+The 3th rect:(56,396)
+The 1th rect:(320,240)
+The 2th rect:(363,240)
+The 3th rect:(56,396)
+The 1th rect:(253,58)
+S:Target:(253,58)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(506,901)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(506,901)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(506,901)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(506,901)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(506,901)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(506,901)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(506,901)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(47,389)
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(48,389)
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(48,389)
+The 1th rect:(248,58)
+S:Target:(248,58)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(496,901)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(496,901)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(496,901)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(496,901)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(496,901)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(496,901)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(496,901)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(40,323)
+The 4th rect:(48,388)
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(40,323)
+The 4th rect:(48,388)
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(40,323)
+The 4th rect:(48,388)
+The 1th rect:(525,168)
+S:Target:(525,168)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(1050,666)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(1050,666)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(1050,666)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(1050,666)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(1050,666)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(1050,666)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(1050,666)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(1050,666)
+The 1th rect:(438,247)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(438,247)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(301,8)
+The 4th rect:(492,39)
+The 5th rect:(444,18)
+The 6th rect:(369,381)
+The 7th rect:(237,358)
+The 8th rect:(214,409)
+The 9th rect:(497,446)
+The 10th rect:(217,447)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(438,247)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(301,8)
+The 4th rect:(491,39)
+The 5th rect:(444,17)
+The 6th rect:(630,210)
+The 7th rect:(237,358)
+The 8th rect:(214,409)
+The 9th rect:(497,446)
+The 10th rect:(217,447)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(438,247)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(301,8)
+The 4th rect:(492,39)
+The 5th rect:(444,17)
+The 6th rect:(630,210)
+The 7th rect:(237,358)
+The 8th rect:(214,409)
+The 9th rect:(497,446)
+The 10th rect:(217,447)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(438,247)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(36,323)
+The 4th rect:(48,394)
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(36,323)
+The 4th rect:(48,394)
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(36,323)
+The 4th rect:(48,394)
+The 1th rect:(574,187)
+S:Target:(574,187)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(1148,626)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(1148,626)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(1148,626)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(1148,626)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(1148,626)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(1148,626)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(1148,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(1148,626)
+The 1th rect:(549,257)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(549,257)
+The 1th rect:(320,240)
+The 2th rect:(214,240)
+The 3th rect:(397,240)
+The 4th rect:(392,21)
+The 5th rect:(602,41)
+The 6th rect:(344,11)
+The 7th rect:(176,33)
+The 8th rect:(557,19)
+The 9th rect:(394,52)
+The 10th rect:(175,91)
+The 11th rect:(172,121)
+The 12th rect:(325,319)
+The 13th rect:(611,324)
+The 14th rect:(355,367)
+The 15th rect:(438,434)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(549,257)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(392,21)
+The 4th rect:(602,41)
+The 5th rect:(343,11)
+The 6th rect:(177,33)
+The 7th rect:(557,19)
+The 8th rect:(395,53)
+The 9th rect:(176,91)
+The 10th rect:(172,122)
+The 11th rect:(325,320)
+The 12th rect:(610,324)
+The 13th rect:(356,367)
+The 14th rect:(443,434)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(549,257)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(392,21)
+The 4th rect:(602,41)
+The 5th rect:(343,11)
+The 6th rect:(176,33)
+The 7th rect:(557,19)
+The 8th rect:(395,53)
+The 9th rect:(176,91)
+The 10th rect:(172,122)
+The 11th rect:(610,325)
+The 12th rect:(81,352)
+The 13th rect:(356,367)
+The 14th rect:(443,434)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(549,257)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(549,257)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(549,257)
+The 1th rect:(392,21)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(392,21)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(340,18)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(392,21)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(340,18)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(392,21)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(392,21)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(361,240)
+The 3th rect:(45,354)
+The 4th rect:(3,362)
+The 1th rect:(320,240)
+The 2th rect:(361,240)
+The 3th rect:(45,354)
+The 4th rect:(3,362)
+The 1th rect:(320,240)
+The 2th rect:(361,240)
+The 3th rect:(45,354)
+The 4th rect:(3,362)
+The 1th rect:(258,137)
+S:Target:(258,137)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(516,732)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(516,732)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(516,732)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(516,732)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(516,732)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(516,732)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(516,732)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(516,732)
+The 1th rect:(287,100)
+The 2th rect:(265,245)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(287,100)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 3th rect:(430,46)
+The 4th rect:(512,134)
+The 5th rect:(595,35)
+The 6th rect:(429,76)
+The 7th rect:(451,286)
+The 8th rect:(390,331)
+The 9th rect:(534,305)
+The 10th rect:(408,345)
+The 11th rect:(459,368)
+The 12th rect:(528,416)
+The 13th rect:(615,442)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(287,100)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(430,46)
+The 4th rect:(512,134)
+The 5th rect:(595,35)
+The 6th rect:(429,76)
+The 7th rect:(450,287)
+The 8th rect:(390,334)
+The 9th rect:(534,305)
+The 10th rect:(408,344)
+The 11th rect:(459,368)
+The 12th rect:(556,416)
+The 13th rect:(607,377)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(287,100)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(430,46)
+The 4th rect:(512,134)
+The 5th rect:(595,35)
+The 6th rect:(429,76)
+The 7th rect:(450,287)
+The 8th rect:(534,305)
+The 9th rect:(408,344)
+The 10th rect:(459,368)
+The 11th rect:(607,377)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(287,100)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(364,240)
+The 3th rect:(60,376)
+The 4th rect:(67,408)
+The 1th rect:(320,240)
+The 2th rect:(364,240)
+The 1th rect:(320,240)
+The 2th rect:(364,240)
+The 3th rect:(67,408)
+The 1th rect:(261,60)
+S:Target:(261,60)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(522,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(522,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(522,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(522,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(522,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(522,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(522,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(522,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(522,896)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(41,138)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(41,138)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(41,138)
+The 1th rect:(634,211)
+S:Target:(634,211)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(1268,574)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(1268,574)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(1268,574)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(1268,574)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(1268,574)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(1268,574)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(1268,574)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(1268,574)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(1268,574)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(1268,574)
+The 1th rect:(560,213)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(560,213)
+The 1th rect:(320,240)
+The 2th rect:(216,240)
+The 3th rect:(391,240)
+The 4th rect:(596,33)
+The 5th rect:(348,41)
+The 6th rect:(167,85)
+The 7th rect:(309,307)
+The 8th rect:(557,255)
+The 9th rect:(396,270)
+The 10th rect:(428,297)
+The 11th rect:(618,397)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(560,213)
+The 1th rect:(320,240)
+The 2th rect:(238,240)
+The 3th rect:(391,240)
+The 4th rect:(596,33)
+The 5th rect:(348,41)
+The 6th rect:(167,85)
+The 7th rect:(557,255)
+The 8th rect:(396,270)
+The 9th rect:(367,469)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(560,213)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(595,33)
+The 4th rect:(348,41)
+The 5th rect:(167,85)
+The 6th rect:(557,255)
+The 7th rect:(396,271)
+The 8th rect:(367,469)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(560,213)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(359,240)
+The 3th rect:(45,331)
+The 4th rect:(4,373)
+The 1th rect:(320,240)
+The 2th rect:(359,240)
+The 3th rect:(45,331)
+The 4th rect:(4,373)
+The 1th rect:(320,240)
+The 2th rect:(359,240)
+The 3th rect:(45,331)
+The 4th rect:(4,373)
+The 1th rect:(548,174)
+S:Target:(548,174)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(1096,653)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(1096,653)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(1096,653)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(1096,653)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(1096,653)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(1096,653)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(1096,653)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(1096,653)
+The 1th rect:(408,220)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(408,220)
+The 1th rect:(320,240)
+The 2th rect:(151,240)
+The 3th rect:(330,4)
+The 4th rect:(467,198)
+The 5th rect:(521,35)
+The 6th rect:(474,11)
+The 7th rect:(425,330)
+The 8th rect:(240,347)
+The 9th rect:(87,347)
+The 10th rect:(463,376)
+The 11th rect:(218,437)
+The 12th rect:(548,446)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(408,220)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(330,4)
+The 4th rect:(521,35)
+The 5th rect:(474,11)
+The 6th rect:(241,346)
+The 7th rect:(463,376)
+The 8th rect:(214,396)
+The 9th rect:(218,437)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(408,220)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(330,5)
+The 4th rect:(521,36)
+The 5th rect:(475,11)
+The 6th rect:(241,346)
+The 7th rect:(463,376)
+The 8th rect:(214,397)
+The 9th rect:(218,436)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(408,220)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(321,240)
+The 3th rect:(43,141)
+The 4th rect:(49,211)
+The 5th rect:(3,370)
+The 1th rect:(320,240)
+The 2th rect:(321,240)
+The 3th rect:(3,370)
+The 1th rect:(320,240)
+The 2th rect:(321,240)
+The 3th rect:(43,141)
+The 4th rect:(3,370)
+The 1th rect:(635,219)
+S:Target:(635,219)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(1270,557)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(1270,557)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(1270,557)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(1270,557)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(1270,557)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(1270,557)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(1270,557)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(1270,557)
+The 1th rect:(554,208)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(554,208)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(180,7)
+The 4th rect:(601,32)
+The 5th rect:(164,68)
+The 6th rect:(188,99)
+The 7th rect:(182,105)
+The 8th rect:(614,378)
+The 9th rect:(342,468)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(554,208)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(180,7)
+The 4th rect:(601,32)
+The 5th rect:(169,68)
+The 6th rect:(188,99)
+The 7th rect:(183,105)
+The 8th rect:(614,378)
+The 9th rect:(341,469)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(554,208)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(180,7)
+The 4th rect:(601,32)
+The 5th rect:(169,68)
+The 6th rect:(188,99)
+The 7th rect:(183,105)
+The 8th rect:(614,378)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(554,208)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(48,394)
+The 4th rect:(38,325)
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(48,394)
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(38,325)
+The 4th rect:(48,394)
+The 1th rect:(563,182)
+S:Target:(563,182)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(1126,636)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(1126,636)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(1126,636)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(1126,636)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(1126,636)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(1126,636)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(1126,636)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(1126,636)
+The 1th rect:(430,214)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(430,214)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(507,19)
+The 4th rect:(626,8)
+The 5th rect:(486,49)
+The 6th rect:(457,321)
+The 7th rect:(249,366)
+The 8th rect:(218,420)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(430,214)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(508,19)
+The 4th rect:(626,8)
+The 5th rect:(486,49)
+The 6th rect:(457,321)
+The 7th rect:(241,330)
+The 8th rect:(249,367)
+The 9th rect:(218,420)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(430,214)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(508,19)
+The 4th rect:(626,8)
+The 5th rect:(486,48)
+The 6th rect:(457,321)
+The 7th rect:(626,195)
+The 8th rect:(241,330)
+The 9th rect:(250,367)
+The 10th rect:(218,421)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(430,214)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(48,398)
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(48,398)
+The 1th rect:(320,240)
+The 2th rect:(362,240)
+The 3th rect:(48,398)
+The 1th rect:(494,151)
+S:Target:(494,151)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(988,702)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(988,702)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(988,702)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(988,702)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(988,702)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(988,702)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(988,702)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(988,702)
+The 1th rect:(309,226)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(309,226)
+The 1th rect:(320,240)
+The 2th rect:(257,240)
+The 3th rect:(419,7)
+The 4th rect:(501,240)
+The 5th rect:(445,13)
+The 6th rect:(622,22)
+The 7th rect:(449,34)
+The 8th rect:(385,84)
+The 9th rect:(476,377)
+The 10th rect:(248,429)
+The 11th rect:(337,448)
+The 12th rect:(319,458)
+The 13th rect:(218,457)
+The 14th rect:(221,468)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(309,226)
+The 1th rect:(320,240)
+The 2th rect:(258,240)
+The 3th rect:(425,11)
+The 4th rect:(499,240)
+The 5th rect:(625,22)
+The 6th rect:(386,84)
+The 7th rect:(243,135)
+The 8th rect:(476,377)
+The 9th rect:(232,397)
+The 10th rect:(249,428)
+The 11th rect:(337,448)
+The 12th rect:(319,453)
+The 13th rect:(218,457)
+The 14th rect:(222,468)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(309,226)
+The 1th rect:(320,240)
+The 2th rect:(259,240)
+The 3th rect:(425,11)
+The 4th rect:(499,240)
+The 5th rect:(625,27)
+The 6th rect:(243,135)
+The 7th rect:(476,377)
+The 8th rect:(232,396)
+The 9th rect:(247,427)
+The 10th rect:(585,436)
+The 11th rect:(337,448)
+The 12th rect:(319,453)
+The 13th rect:(218,457)
+The 14th rect:(224,467)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(309,226)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(361,240)
+The 3th rect:(47,372)
+The 1th rect:(320,240)
+The 2th rect:(361,240)
+The 3th rect:(47,372)
+The 1th rect:(320,240)
+The 2th rect:(361,240)
+The 3th rect:(47,372)
+The 1th rect:(196,300)
+S:Target:(196,300)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(392,384)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(543,312)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(543,312)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(543,312)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(543,312)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(519,270)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(520,271)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(392,384)
+The 1th rect:(320,240)
+The 2th rect:(529,273)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(364,240)
+The 3th rect:(78,409)
+The 1th rect:(320,240)
+The 2th rect:(364,240)
+The 1th rect:(320,240)
+The 2th rect:(364,240)
+The 1th rect:(389,338)
+S:Target:(389,338)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(484,364)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(490,367)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(494,367)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(498,368)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(504,369)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(778,303)
+The 1th rect:(320,240)
+The 2th rect:(510,371)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(364,240)
+The 3th rect:(56,407)
+The 1th rect:(320,240)
+The 2th rect:(364,240)
+The 3th rect:(56,407)
+The 1th rect:(320,240)
+The 2th rect:(364,240)
+The 3th rect:(56,407)
+The 1th rect:(566,446)
+S:Target:(566,446)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(1132,73)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(1132,73)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(1132,73)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(1132,73)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(1132,73)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(1132,73)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(1132,73)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(365,240)
+The 1th rect:(320,240)
+The 2th rect:(365,240)
+The 1th rect:(320,240)
+The 2th rect:(365,240)
+The 1th rect:(560,184)
+S:Target:(560,184)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(1120,632)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(1120,632)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(1120,632)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(1120,632)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(1120,632)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(1120,632)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(1120,632)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(1120,632)
+The 1th rect:(577,288)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(577,288)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(356,23)
+The 4th rect:(456,17)
+The 5th rect:(587,58)
+The 6th rect:(178,42)
+The 7th rect:(195,47)
+The 8th rect:(351,39)
+The 9th rect:(327,40)
+The 10th rect:(161,50)
+The 11th rect:(501,69)
+The 12th rect:(151,90)
+The 13th rect:(298,347)
+The 14th rect:(255,399)
+The 15th rect:(406,342)
+The 16th rect:(609,447)
+The 17th rect:(380,470)
+The 18th rect:(214,472)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(577,288)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(356,23)
+The 4th rect:(456,17)
+The 5th rect:(587,58)
+The 6th rect:(178,41)
+The 7th rect:(195,47)
+The 8th rect:(333,39)
+The 9th rect:(161,50)
+The 10th rect:(501,69)
+The 11th rect:(151,85)
+The 12th rect:(298,347)
+The 13th rect:(406,342)
+The 14th rect:(609,446)
+The 15th rect:(214,471)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(577,288)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(356,23)
+The 4th rect:(456,17)
+The 5th rect:(587,59)
+The 6th rect:(178,41)
+The 7th rect:(195,47)
+The 8th rect:(333,39)
+The 9th rect:(161,50)
+The 10th rect:(496,66)
+The 11th rect:(151,85)
+The 12th rect:(298,347)
+The 13th rect:(406,342)
+The 14th rect:(609,446)
+The 15th rect:(214,471)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(577,288)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(187,32)
+The 3th rect:(367,240)
+The 1th rect:(320,240)
+The 2th rect:(187,32)
+The 3th rect:(367,240)
+The 1th rect:(320,240)
+The 2th rect:(187,32)
+The 3th rect:(367,240)
+The 1th rect:(631,212)
+S:Target:(631,212)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(1262,572)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(1262,572)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(1262,572)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(1262,572)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(1262,572)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(1262,572)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(1262,572)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(1262,572)
+The 1th rect:(512,223)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(512,223)
+The 1th rect:(320,240)
+The 2th rect:(162,240)
+The 3th rect:(212,9)
+The 4th rect:(415,240)
+The 5th rect:(431,9)
+The 6th rect:(618,27)
+The 7th rect:(416,48)
+The 8th rect:(209,50)
+The 9th rect:(211,93)
+The 10th rect:(356,284)
+The 11th rect:(320,366)
+The 12th rect:(616,272)
+The 13th rect:(358,319)
+The 14th rect:(209,413)
+The 15th rect:(241,428)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(512,223)
+The 1th rect:(320,240)
+The 2th rect:(162,240)
+The 3th rect:(223,13)
+The 4th rect:(414,240)
+The 5th rect:(431,9)
+The 6th rect:(618,27)
+The 7th rect:(416,48)
+The 8th rect:(211,74)
+The 9th rect:(616,272)
+The 10th rect:(358,319)
+The 11th rect:(241,428)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(512,223)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(223,13)
+The 4th rect:(431,9)
+The 5th rect:(618,27)
+The 6th rect:(416,48)
+The 7th rect:(214,74)
+The 8th rect:(616,272)
+The 9th rect:(358,319)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(512,223)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(369,240)
+The 3th rect:(188,177)
+The 1th rect:(320,240)
+The 2th rect:(369,240)
+The 1th rect:(320,240)
+The 2th rect:(369,240)
+The 3th rect:(188,177)
+The 1th rect:(500,173)
+S:Target:(500,173)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(1000,655)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(1000,655)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(1000,655)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(1000,655)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(1000,655)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(1000,655)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(1000,655)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(1000,655)
+The 1th rect:(307,218)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(307,218)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(419,9)
+The 4th rect:(491,10)
+The 5th rect:(514,9)
+The 6th rect:(596,36)
+The 7th rect:(563,12)
+The 8th rect:(398,60)
+The 9th rect:(459,230)
+The 10th rect:(506,250)
+The 11th rect:(561,272)
+The 12th rect:(606,285)
+The 13th rect:(610,344)
+The 14th rect:(68,356)
+The 15th rect:(459,415)
+The 16th rect:(621,364)
+The 17th rect:(612,443)
+The 18th rect:(600,451)
+The 19th rect:(559,473)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(307,218)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(418,9)
+The 4th rect:(491,10)
+The 5th rect:(514,9)
+The 6th rect:(596,36)
+The 7th rect:(562,12)
+The 8th rect:(398,61)
+The 9th rect:(458,231)
+The 10th rect:(554,270)
+The 11th rect:(555,323)
+The 12th rect:(610,343)
+The 13th rect:(567,341)
+The 14th rect:(68,356)
+The 15th rect:(621,364)
+The 16th rect:(612,443)
+The 17th rect:(599,451)
+The 18th rect:(339,441)
+The 19th rect:(367,446)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(307,218)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(418,9)
+The 4th rect:(491,10)
+The 5th rect:(514,9)
+The 6th rect:(596,36)
+The 7th rect:(562,12)
+The 8th rect:(398,61)
+The 9th rect:(459,231)
+The 10th rect:(553,270)
+The 11th rect:(555,323)
+The 12th rect:(610,343)
+The 13th rect:(567,341)
+The 14th rect:(68,356)
+The 15th rect:(621,364)
+The 16th rect:(367,445)
+The 17th rect:(339,441)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(307,218)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(191,14)
+The 3th rect:(414,240)
+The 4th rect:(186,318)
+The 5th rect:(167,458)
+The 1th rect:(320,240)
+The 2th rect:(190,14)
+The 3th rect:(414,240)
+The 4th rect:(185,316)
+The 5th rect:(166,443)
+The 1th rect:(320,240)
+The 2th rect:(190,14)
+The 3th rect:(414,240)
+The 4th rect:(185,317)
+The 5th rect:(166,435)
+The 1th rect:(428,143)
+S:Target:(428,143)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(856,719)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(856,719)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(856,719)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(856,719)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(856,719)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(856,719)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(856,719)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(856,719)
+The 1th rect:(270,214)
+The 2th rect:(268,232)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(270,214)
+The 1th rect:(320,240)
+The 2th rect:(308,240)
+The 3th rect:(453,34)
+The 4th rect:(511,135)
+The 5th rect:(595,36)
+The 6th rect:(562,12)
+The 7th rect:(604,126)
+The 8th rect:(577,116)
+The 9th rect:(610,164)
+The 10th rect:(393,250)
+The 11th rect:(623,372)
+The 12th rect:(404,366)
+The 13th rect:(485,427)
+The 14th rect:(411,402)
+The 15th rect:(424,430)
+The 16th rect:(182,418)
+The 17th rect:(614,443)
+The 18th rect:(599,451)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(270,214)
+The 1th rect:(320,240)
+The 2th rect:(308,240)
+The 3th rect:(454,34)
+The 4th rect:(511,135)
+The 5th rect:(595,36)
+The 6th rect:(562,12)
+The 7th rect:(632,31)
+The 8th rect:(610,164)
+The 9th rect:(393,250)
+The 10th rect:(472,272)
+The 11th rect:(529,298)
+The 12th rect:(404,365)
+The 13th rect:(623,372)
+The 14th rect:(488,427)
+The 15th rect:(424,432)
+The 16th rect:(182,418)
+The 17th rect:(614,443)
+The 18th rect:(599,451)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(270,214)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(454,35)
+The 4th rect:(594,36)
+The 5th rect:(631,30)
+The 6th rect:(609,164)
+The 7th rect:(393,250)
+The 8th rect:(480,276)
+The 9th rect:(529,298)
+The 10th rect:(626,316)
+The 11th rect:(623,372)
+The 12th rect:(404,365)
+The 13th rect:(517,427)
+The 14th rect:(182,418)
+The 15th rect:(424,432)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(270,214)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(270,214)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(270,214)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(270,214)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(270,214)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(270,214)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 3th rect:(183,314)
+The 4th rect:(156,416)
+The 5th rect:(108,448)
+The 6th rect:(112,467)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 3th rect:(183,314)
+The 4th rect:(156,416)
+The 5th rect:(108,448)
+The 6th rect:(112,467)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 3th rect:(183,314)
+The 4th rect:(156,416)
+The 5th rect:(112,467)
+The 1th rect:(407,343)
+S:Target:(407,343)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(463,343)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(465,351)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(814,293)
+The 1th rect:(320,240)
+The 2th rect:(468,355)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(190,17)
+The 3th rect:(414,240)
+The 4th rect:(145,360)
+The 1th rect:(320,240)
+The 2th rect:(190,17)
+The 3th rect:(414,240)
+The 4th rect:(145,360)
+The 1th rect:(320,240)
+The 2th rect:(190,17)
+The 3th rect:(414,240)
+The 4th rect:(145,360)
+The 1th rect:(540,435)
+S:Target:(540,435)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(1080,96)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(1080,96)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(1080,96)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(1080,96)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(1080,96)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(1080,96)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(1080,96)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(189,17)
+The 3th rect:(414,240)
+The 4th rect:(182,316)
+The 5th rect:(157,418)
+The 1th rect:(320,240)
+The 2th rect:(189,17)
+The 3th rect:(414,240)
+The 4th rect:(182,316)
+The 5th rect:(157,418)
+The 1th rect:(320,240)
+The 2th rect:(189,17)
+The 3th rect:(414,240)
+The 4th rect:(182,316)
+The 5th rect:(157,418)
+The 1th rect:(240,120)
+S:Target:(240,120)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(480,768)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(480,768)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(480,768)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(480,768)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(480,768)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(480,768)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(480,768)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(480,768)
+The 1th rect:(481,189)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(481,189)
+The 1th rect:(320,240)
+The 2th rect:(426,240)
+The 3th rect:(257,7)
+The 4th rect:(295,6)
+The 5th rect:(342,6)
+The 6th rect:(445,40)
+The 7th rect:(606,21)
+The 8th rect:(335,17)
+The 9th rect:(483,192)
+The 10th rect:(567,241)
+The 11th rect:(596,217)
+The 12th rect:(449,229)
+The 13th rect:(550,238)
+The 14th rect:(539,245)
+The 15th rect:(543,253)
+The 16th rect:(499,263)
+The 17th rect:(539,257)
+The 18th rect:(534,260)
+The 19th rect:(596,268)
+The 20th rect:(587,371)
+The 21th rect:(520,269)
+The 22th rect:(304,281)
+The 23th rect:(583,282)
+The 24th rect:(567,286)
+The 25th rect:(559,288)
+The 26th rect:(582,288)
+The 27th rect:(543,292)
+The 28th rect:(555,293)
+The 29th rect:(326,351)
+The 30th rect:(525,305)
+The 31th rect:(300,311)
+The 32th rect:(269,423)
+The 33th rect:(336,379)
+The 34th rect:(283,384)
+The 35th rect:(150,438)
+The 36th rect:(63,438)
+The 37th rect:(419,455)
+The 38th rect:(337,461)
+The 39th rect:(585,454)
+The 40th rect:(577,464)
+The 41th rect:(570,477)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(481,189)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(257,7)
+The 4th rect:(295,6)
+The 5th rect:(342,6)
+The 6th rect:(445,40)
+The 7th rect:(605,21)
+The 8th rect:(335,17)
+The 9th rect:(483,192)
+The 10th rect:(508,175)
+The 11th rect:(567,241)
+The 12th rect:(596,217)
+The 13th rect:(449,229)
+The 14th rect:(549,238)
+The 15th rect:(539,245)
+The 16th rect:(543,253)
+The 17th rect:(499,263)
+The 18th rect:(539,257)
+The 19th rect:(533,260)
+The 20th rect:(596,268)
+The 21th rect:(520,269)
+The 22th rect:(304,281)
+The 23th rect:(583,282)
+The 24th rect:(575,284)
+The 25th rect:(567,286)
+The 26th rect:(559,288)
+The 27th rect:(550,290)
+The 28th rect:(543,292)
+The 29th rect:(525,305)
+The 30th rect:(300,311)
+The 31th rect:(336,379)
+The 32th rect:(283,384)
+The 33th rect:(581,454)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(481,189)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(258,7)
+The 4th rect:(295,6)
+The 5th rect:(342,6)
+The 6th rect:(445,40)
+The 7th rect:(604,21)
+The 8th rect:(483,192)
+The 9th rect:(508,175)
+The 10th rect:(567,241)
+The 11th rect:(597,217)
+The 12th rect:(449,229)
+The 13th rect:(549,238)
+The 14th rect:(539,245)
+The 15th rect:(543,253)
+The 16th rect:(500,263)
+The 17th rect:(539,257)
+The 18th rect:(533,260)
+The 19th rect:(596,268)
+The 20th rect:(520,269)
+The 21th rect:(304,281)
+The 22th rect:(583,282)
+The 23th rect:(575,284)
+The 24th rect:(567,286)
+The 25th rect:(559,288)
+The 26th rect:(550,290)
+The 27th rect:(543,292)
+The 28th rect:(525,304)
+The 29th rect:(300,311)
+The 30th rect:(336,378)
+The 31th rect:(283,384)
+The 32th rect:(579,454)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(481,189)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(189,14)
+The 3th rect:(414,240)
+The 4th rect:(183,320)
+The 5th rect:(157,421)
+The 1th rect:(320,240)
+The 2th rect:(189,14)
+The 3th rect:(414,240)
+The 4th rect:(183,320)
+The 5th rect:(157,421)
+The 1th rect:(320,240)
+The 2th rect:(189,14)
+The 3th rect:(414,240)
+The 4th rect:(183,320)
+The 5th rect:(157,421)
+The 1th rect:(412,139)
+S:Target:(412,139)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(824,728)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(824,728)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(824,728)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(824,728)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(824,728)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(824,728)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(824,728)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(824,728)
+The 1th rect:(372,272)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(372,272)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(485,177)
+The 4th rect:(455,30)
+The 5th rect:(511,44)
+The 6th rect:(344,81)
+The 7th rect:(349,110)
+The 8th rect:(455,246)
+The 9th rect:(395,312)
+The 10th rect:(389,349)
+The 11th rect:(455,350)
+The 12th rect:(344,353)
+The 13th rect:(403,370)
+The 14th rect:(357,368)
+The 15th rect:(450,430)
+The 16th rect:(540,402)
+The 17th rect:(482,452)
+The 18th rect:(523,462)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(372,272)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(485,177)
+The 4th rect:(455,30)
+The 5th rect:(511,44)
+The 6th rect:(344,79)
+The 7th rect:(349,110)
+The 8th rect:(455,246)
+The 9th rect:(475,255)
+The 10th rect:(395,312)
+The 11th rect:(418,327)
+The 12th rect:(348,356)
+The 13th rect:(395,365)
+The 14th rect:(455,350)
+The 15th rect:(431,377)
+The 16th rect:(450,430)
+The 17th rect:(540,402)
+The 18th rect:(518,460)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(372,272)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(485,177)
+The 4th rect:(455,30)
+The 5th rect:(511,44)
+The 6th rect:(344,79)
+The 7th rect:(349,110)
+The 8th rect:(454,246)
+The 9th rect:(475,255)
+The 10th rect:(418,327)
+The 11th rect:(364,331)
+The 12th rect:(349,356)
+The 13th rect:(395,365)
+The 14th rect:(456,350)
+The 15th rect:(431,377)
+The 16th rect:(450,430)
+The 17th rect:(547,406)
+The 18th rect:(518,460)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(372,272)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 3th rect:(186,319)
+The 4th rect:(165,435)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 3th rect:(186,316)
+The 4th rect:(164,435)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 3th rect:(185,314)
+The 4th rect:(162,435)
+The 1th rect:(511,195)
+S:Target:(511,195)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(1022,608)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(1022,608)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(1022,608)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(1022,608)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(1022,608)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(1022,608)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(1022,608)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(1022,608)
+The 1th rect:(531,330)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(531,330)
+The 1th rect:(320,240)
+The 2th rect:(136,240)
+The 3th rect:(177,21)
+The 4th rect:(186,12)
+The 5th rect:(367,20)
+The 6th rect:(411,55)
+The 7th rect:(437,14)
+The 8th rect:(506,39)
+The 9th rect:(213,27)
+The 10th rect:(231,31)
+The 11th rect:(406,246)
+The 12th rect:(193,31)
+The 13th rect:(635,29)
+The 14th rect:(618,34)
+The 15th rect:(611,104)
+The 16th rect:(398,146)
+The 17th rect:(323,368)
+The 18th rect:(410,268)
+The 19th rect:(66,308)
+The 20th rect:(291,412)
+The 21th rect:(614,429)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(531,330)
+The 1th rect:(320,240)
+The 2th rect:(206,240)
+The 3th rect:(186,12)
+The 4th rect:(368,20)
+The 5th rect:(411,55)
+The 6th rect:(437,14)
+The 7th rect:(513,43)
+The 8th rect:(213,28)
+The 9th rect:(232,31)
+The 10th rect:(406,246)
+The 11th rect:(193,31)
+The 12th rect:(631,28)
+The 13th rect:(618,34)
+The 14th rect:(611,103)
+The 15th rect:(398,146)
+The 16th rect:(323,367)
+The 17th rect:(414,268)
+The 18th rect:(460,273)
+The 19th rect:(614,429)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(531,330)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(186,12)
+The 4th rect:(400,56)
+The 5th rect:(437,14)
+The 6th rect:(512,43)
+The 7th rect:(213,28)
+The 8th rect:(232,31)
+The 9th rect:(193,31)
+The 10th rect:(627,33)
+The 11th rect:(611,103)
+The 12th rect:(396,105)
+The 13th rect:(398,146)
+The 14th rect:(323,367)
+The 15th rect:(414,268)
+The 16th rect:(459,273)
+The 17th rect:(614,429)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(531,330)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(632,232)
+S:Target:(632,232)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(1264,530)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(1264,530)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(1264,530)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(1264,530)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(1264,530)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(1264,530)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(1264,530)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(1264,530)
+The 1th rect:(525,205)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(525,205)
+The 1th rect:(320,240)
+The 2th rect:(216,240)
+The 3th rect:(409,240)
+The 4th rect:(419,15)
+The 5th rect:(618,28)
+The 6th rect:(604,34)
+The 7th rect:(419,32)
+The 8th rect:(412,164)
+The 9th rect:(329,274)
+The 10th rect:(68,230)
+The 11th rect:(625,352)
+The 12th rect:(430,421)
+The 13th rect:(346,454)
+The 14th rect:(442,442)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(525,205)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(417,15)
+The 4th rect:(618,28)
+The 5th rect:(604,34)
+The 6th rect:(420,32)
+The 7th rect:(412,164)
+The 8th rect:(329,277)
+The 9th rect:(416,175)
+The 10th rect:(66,230)
+The 11th rect:(625,352)
+The 12th rect:(442,442)
+The 13th rect:(532,465)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(525,205)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(417,15)
+The 4th rect:(618,28)
+The 5th rect:(604,34)
+The 6th rect:(420,32)
+The 7th rect:(406,55)
+The 8th rect:(411,164)
+The 9th rect:(329,277)
+The 10th rect:(416,175)
+The 11th rect:(66,230)
+The 12th rect:(624,352)
+The 13th rect:(442,442)
+The 14th rect:(532,465)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(525,205)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(494,197)
+S:Target:(494,197)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(988,604)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(988,604)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(988,604)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(988,604)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(988,604)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(988,604)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(988,604)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(988,604)
+The 1th rect:(302,215)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(302,215)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(413,19)
+The 4th rect:(511,136)
+The 5th rect:(619,11)
+The 6th rect:(595,40)
+The 7th rect:(512,272)
+The 8th rect:(590,429)
+The 9th rect:(628,446)
+The 10th rect:(354,460)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(302,215)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(413,19)
+The 4th rect:(511,187)
+The 5th rect:(619,11)
+The 6th rect:(595,39)
+The 7th rect:(590,429)
+The 8th rect:(628,447)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(302,215)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(414,19)
+The 4th rect:(619,11)
+The 5th rect:(595,39)
+The 6th rect:(455,22)
+The 7th rect:(622,23)
+The 8th rect:(590,430)
+The 9th rect:(628,447)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(302,215)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(429,160)
+S:Target:(429,160)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(858,683)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(858,683)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(858,683)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(858,683)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(858,683)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(858,683)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(858,683)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(858,683)
+The 1th rect:(287,230)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(287,230)
+The 1th rect:(320,240)
+The 2th rect:(293,240)
+The 3th rect:(432,15)
+The 4th rect:(511,136)
+The 5th rect:(597,35)
+The 6th rect:(560,12)
+The 7th rect:(621,91)
+The 8th rect:(511,274)
+The 9th rect:(614,443)
+The 10th rect:(597,446)
+The 11th rect:(625,448)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(287,230)
+The 1th rect:(320,240)
+The 2th rect:(319,240)
+The 3th rect:(432,15)
+The 4th rect:(511,136)
+The 5th rect:(597,35)
+The 6th rect:(560,12)
+The 7th rect:(621,91)
+The 8th rect:(511,276)
+The 9th rect:(398,335)
+The 10th rect:(597,446)
+The 11th rect:(625,448)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(287,230)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(432,15)
+The 4th rect:(511,136)
+The 5th rect:(597,35)
+The 6th rect:(560,12)
+The 7th rect:(400,31)
+The 8th rect:(410,42)
+The 9th rect:(621,91)
+The 10th rect:(511,276)
+The 11th rect:(398,335)
+The 12th rect:(597,446)
+The 13th rect:(625,448)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(287,230)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(320,240)
+The 2th rect:(190,15)
+The 3th rect:(414,240)
+The 1th rect:(320,240)
+The 2th rect:(190,15)
+The 3th rect:(414,240)
+The 1th rect:(359,150)
+S:Target:(359,150)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(718,704)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(718,704)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(718,704)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(718,704)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(718,704)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(718,704)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(718,704)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(718,704)
+The 1th rect:(284,228)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(284,228)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(433,57)
+The 4th rect:(487,7)
+The 5th rect:(512,135)
+The 6th rect:(595,36)
+The 7th rect:(561,12)
+The 8th rect:(626,88)
+The 9th rect:(8,278)
+The 10th rect:(429,319)
+The 11th rect:(470,419)
+The 12th rect:(614,443)
+The 13th rect:(600,448)
+The 14th rect:(554,457)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(284,228)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(434,57)
+The 4th rect:(487,7)
+The 5th rect:(595,36)
+The 6th rect:(562,12)
+The 7th rect:(428,320)
+The 8th rect:(523,424)
+The 9th rect:(600,448)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(284,228)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(434,57)
+The 4th rect:(487,7)
+The 5th rect:(595,36)
+The 6th rect:(562,12)
+The 7th rect:(428,320)
+The 8th rect:(524,424)
+The 9th rect:(600,448)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(284,228)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(637,251)
+S:Target:(637,251)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(1274,489)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(1274,489)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(1274,489)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(1274,489)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(1274,489)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(1274,489)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(1274,489)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(1274,489)
+The 1th rect:(558,170)
+The 2th rect:(556,193)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(558,170)
+The 1th rect:(320,240)
+The 2th rect:(182,240)
+The 3th rect:(393,240)
+The 4th rect:(582,33)
+The 5th rect:(368,15)
+The 6th rect:(352,54)
+The 7th rect:(411,181)
+The 8th rect:(301,280)
+The 9th rect:(423,202)
+The 10th rect:(552,267)
+The 11th rect:(347,250)
+The 12th rect:(211,255)
+The 13th rect:(215,293)
+The 14th rect:(579,276)
+The 15th rect:(208,330)
+The 16th rect:(365,398)
+The 17th rect:(374,441)
+The 18th rect:(376,452)
+The 19th rect:(410,445)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(558,170)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(582,33)
+The 4th rect:(365,14)
+The 5th rect:(352,54)
+The 6th rect:(410,182)
+The 7th rect:(301,280)
+The 8th rect:(425,203)
+The 9th rect:(552,268)
+The 10th rect:(348,250)
+The 11th rect:(211,255)
+The 12th rect:(216,294)
+The 13th rect:(208,330)
+The 14th rect:(331,379)
+The 15th rect:(365,398)
+The 16th rect:(410,445)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(558,170)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(582,33)
+The 4th rect:(365,14)
+The 5th rect:(352,54)
+The 6th rect:(410,182)
+The 7th rect:(301,280)
+The 8th rect:(425,203)
+The 9th rect:(552,268)
+The 10th rect:(348,250)
+The 11th rect:(211,255)
+The 12th rect:(216,294)
+The 13th rect:(208,330)
+The 14th rect:(331,379)
+The 15th rect:(365,398)
+The 16th rect:(410,445)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(558,170)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(369,240)
+The 1th rect:(320,240)
+The 2th rect:(369,240)
+The 1th rect:(320,240)
+The 2th rect:(369,240)
+The 1th rect:(518,189)
+S:Target:(518,189)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(1036,621)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(1036,621)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(1036,621)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(1036,621)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(1036,621)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(1036,621)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(1036,621)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(1036,621)
+The 1th rect:(328,194)
+The 2th rect:(328,213)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(328,194)
+The 1th rect:(320,240)
+The 2th rect:(316,240)
+The 3th rect:(411,25)
+The 4th rect:(507,137)
+The 5th rect:(591,36)
+The 6th rect:(475,10)
+The 7th rect:(619,27)
+The 8th rect:(601,163)
+The 9th rect:(508,275)
+The 10th rect:(622,449)
+The 11th rect:(580,436)
+The 12th rect:(560,441)
+The 13th rect:(603,457)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(328,194)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(411,25)
+The 4th rect:(475,9)
+The 5th rect:(507,137)
+The 6th rect:(591,36)
+The 7th rect:(619,27)
+The 8th rect:(601,163)
+The 9th rect:(508,275)
+The 10th rect:(580,436)
+The 11th rect:(560,441)
+The 12th rect:(602,457)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(328,194)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(411,25)
+The 4th rect:(475,9)
+The 5th rect:(507,189)
+The 6th rect:(591,36)
+The 7th rect:(601,163)
+The 8th rect:(580,436)
+The 9th rect:(560,441)
+The 10th rect:(602,457)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(328,194)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(369,240)
+The 1th rect:(320,240)
+The 2th rect:(369,240)
+The 1th rect:(320,240)
+The 2th rect:(369,240)
+The 1th rect:(585,454)
+S:Target:(585,454)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(328,313)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(321,311)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(1170,56)
+The 1th rect:(320,240)
+The 2th rect:(313,303)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(416,338)
+S:Target:(416,338)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(832,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(832,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(832,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(832,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(832,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(832,303)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(832,303)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(832,303)
+The 1th rect:(230,164)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(230,164)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(418,6)
+The 4th rect:(603,35)
+The 5th rect:(562,12)
+The 6th rect:(626,22)
+The 7th rect:(332,71)
+The 8th rect:(570,395)
+The 9th rect:(394,433)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(230,164)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(418,6)
+The 4th rect:(568,10)
+The 5th rect:(602,35)
+The 6th rect:(625,22)
+The 7th rect:(332,71)
+The 8th rect:(569,395)
+The 9th rect:(395,434)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(230,164)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(388,13)
+The 4th rect:(418,6)
+The 5th rect:(568,10)
+The 6th rect:(602,35)
+The 7th rect:(625,22)
+The 8th rect:(332,71)
+The 9th rect:(569,395)
+The 10th rect:(395,434)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(230,164)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(303,187)
+S:Target:(303,187)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(606,626)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(606,626)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(606,626)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(606,626)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(606,626)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(606,626)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(606,626)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(606,626)
+The 1th rect:(325,212)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(325,212)
+The 1th rect:(320,240)
+The 2th rect:(368,240)
+The 3th rect:(408,7)
+The 4th rect:(525,136)
+The 5th rect:(606,15)
+The 6th rect:(557,10)
+The 7th rect:(634,32)
+The 8th rect:(397,129)
+The 9th rect:(403,127)
+The 10th rect:(413,126)
+The 11th rect:(395,134)
+The 12th rect:(462,137)
+The 13th rect:(457,140)
+The 14th rect:(475,138)
+The 15th rect:(602,163)
+The 16th rect:(613,174)
+The 17th rect:(429,332)
+The 18th rect:(570,413)
+The 19th rect:(333,370)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(325,212)
+The 1th rect:(320,240)
+The 2th rect:(366,240)
+The 3th rect:(405,7)
+The 4th rect:(525,136)
+The 5th rect:(606,15)
+The 6th rect:(557,10)
+The 7th rect:(634,32)
+The 8th rect:(397,129)
+The 9th rect:(403,127)
+The 10th rect:(412,126)
+The 11th rect:(395,134)
+The 12th rect:(462,137)
+The 13th rect:(457,140)
+The 14th rect:(475,138)
+The 15th rect:(602,163)
+The 16th rect:(613,174)
+The 17th rect:(429,332)
+The 18th rect:(570,413)
+The 19th rect:(333,370)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(325,212)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(405,7)
+The 4th rect:(525,136)
+The 5th rect:(606,15)
+The 6th rect:(557,10)
+The 7th rect:(397,129)
+The 8th rect:(403,127)
+The 9th rect:(412,126)
+The 10th rect:(395,134)
+The 11th rect:(462,137)
+The 12th rect:(457,140)
+The 13th rect:(475,137)
+The 14th rect:(602,163)
+The 15th rect:(612,174)
+The 16th rect:(429,333)
+The 17th rect:(570,413)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(325,212)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 1th rect:(239,148)
+S:Target:(239,148)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(478,709)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(478,709)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(478,709)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(478,709)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(478,709)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(478,709)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(478,709)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(478,709)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(478,709)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(478,709)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(478,709)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(478,709)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(478,709)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(478,709)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(478,709)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(478,709)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(478,709)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(478,709)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(478,709)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(478,709)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(478,709)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(478,709)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(478,709)
+The 1th rect:(448,209)
+catchflag:1.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(448,209)
+The 1th rect:(320,240)
+The 2th rect:(404,240)
+The 3th rect:(292,6)
+The 4th rect:(346,10)
+The 5th rect:(447,113)
+The 6th rect:(631,11)
+The 7th rect:(448,23)
+The 8th rect:(295,39)
+The 9th rect:(270,95)
+The 10th rect:(487,129)
+The 11th rect:(506,134)
+The 12th rect:(541,200)
+The 13th rect:(465,179)
+The 14th rect:(464,209)
+The 15th rect:(512,211)
+The 16th rect:(529,208)
+The 17th rect:(526,212)
+The 18th rect:(545,347)
+The 19th rect:(627,244)
+The 20th rect:(315,322)
+The 21th rect:(284,325)
+The 22th rect:(514,421)
+The 23th rect:(575,388)
+The 24th rect:(415,392)
+The 25th rect:(359,400)
+The 26th rect:(395,400)
+The 27th rect:(514,419)
+The 28th rect:(365,429)
+The 29th rect:(380,454)
+The 30th rect:(314,457)
+The 31th rect:(404,476)
+The 32th rect:(610,477)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(448,209)
+The 1th rect:(320,240)
+The 2th rect:(433,240)
+The 3th rect:(293,6)
+The 4th rect:(346,10)
+The 5th rect:(631,11)
+The 6th rect:(443,28)
+The 7th rect:(295,39)
+The 8th rect:(270,95)
+The 9th rect:(506,140)
+The 10th rect:(540,200)
+The 11th rect:(465,179)
+The 12th rect:(464,209)
+The 13th rect:(512,211)
+The 14th rect:(529,208)
+The 15th rect:(523,210)
+The 16th rect:(545,346)
+The 17th rect:(627,244)
+The 18th rect:(315,322)
+The 19th rect:(284,325)
+The 20th rect:(489,421)
+The 21th rect:(575,388)
+The 22th rect:(415,392)
+The 23th rect:(359,400)
+The 24th rect:(394,401)
+The 25th rect:(515,419)
+The 26th rect:(365,429)
+The 27th rect:(610,476)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(448,209)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+The 3th rect:(293,6)
+The 4th rect:(346,10)
+The 5th rect:(631,11)
+The 6th rect:(443,28)
+The 7th rect:(295,39)
+The 8th rect:(270,95)
+The 9th rect:(506,140)
+The 10th rect:(540,200)
+The 11th rect:(465,179)
+The 12th rect:(464,206)
+The 13th rect:(512,211)
+The 14th rect:(529,208)
+The 15th rect:(523,210)
+The 16th rect:(545,346)
+The 17th rect:(627,244)
+The 18th rect:(315,322)
+The 19th rect:(284,325)
+The 20th rect:(494,421)
+The 21th rect:(415,392)
+The 22th rect:(395,401)
+The 23th rect:(515,419)
+The 24th rect:(365,429)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:9.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:8.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:7.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:6.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:5.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:4.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:3.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:2.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+delayN:1.
+...
+Cent:(448,209)
+catchflag:0.
+NOW:catchflag:0
+out Zoom...
+Picture:Width = 640   Height = 480
+delayN:0.
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 3th rect:(186,317)
+The 4th rect:(185,425)
+The 5th rect:(163,453)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 3th rect:(186,317)
+The 4th rect:(185,425)
+The 5th rect:(163,453)
+The 1th rect:(320,240)
+The 2th rect:(414,240)
+The 3th rect:(186,317)
+The 4th rect:(185,425)
+The 5th rect:(163,453)
+The 1th rect:(249,60)
+S:Target:(249,60)Zooming...
+Picture:Width = 1280   Height = 1024
+...
+Cent:(498,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:29.
+...
+Cent:(498,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:28.
+...
+Cent:(498,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:27.
+...
+Cent:(498,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:26.
+...
+Cent:(498,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:25.
+...
+Cent:(498,896)
+The 1th rect:(320,240)
+The 2th rect:(320,240)
+catchflag:0.
+NOW:catchflag:0
+delayN:24.
+...
+Cent:(498,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:23.
+...
+Cent:(498,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:22.
+...
+Cent:(498,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:21.
+...
+Cent:(498,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:20.
+...
+Cent:(498,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:19.
+...
+Cent:(498,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:18.
+...
+Cent:(498,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:17.
+...
+Cent:(498,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:16.
+...
+Cent:(498,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:15.
+...
+Cent:(498,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:14.
+...
+Cent:(498,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:13.
+...
+Cent:(498,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:12.
+...
+Cent:(498,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:11.
+...
+Cent:(498,896)
+catchflag:0.
+NOW:catchflag:0
+delayN:10.
+...
+Cent:(498,896)
+catchflag:0.
+NOW:catchflag:0
+del
