@@ -571,7 +571,7 @@ int restartdev(int *vfd, VideoBuffer **bufs, struct v4l2_requestbuffers *req, st
 	close(*vfd);
 				
 	//重启设备
-	*vfd = open("/dev/video1", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
+	*vfd = open("/dev/video0", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
 	if (*vfd<0)
 	{
 		printf("open error\n");
@@ -804,7 +804,7 @@ int video_fb_init_preview()
 
 
 
-	video_fd = open("/dev/video1", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
+	video_fd = open("/dev/video0", O_RDWR, 0);//打开摄像头设备，使用阻塞方式打开
 	if (video_fd<0)
 	{
 		printf("open error\n");
