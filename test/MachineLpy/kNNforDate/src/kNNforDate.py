@@ -134,15 +134,15 @@ class kNNforDate:
         方便交互界面测试该class
         """
         #self.__init__()
-        #m,c = self._file2matrix()
+        m,c = self._file2matrix()
         #print m
         #print c 
-        #self._show2D(m, c)
-        #self._show3D(m, c)
+        self._show2D(m, c)
+        self._show3D(m, c)
         #m1,rang,min=self._autoNorm(m)
         #print m1
         #self._datingClassTest()
-        self._classifyperson()
+        #self._classifyperson()
         
 def main():
     """
