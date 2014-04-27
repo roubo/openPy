@@ -47,3 +47,5 @@ roubo_dai@san412.in
 除顶层目录rouboSyS以外，所有目录都为测试目录。
 
 rouboSyS的README由其自身的wiki目录维护。
+
+平台确定为树莓派。
