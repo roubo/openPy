@@ -1,0 +1,9 @@
+SDLLIBS = $(shell sdl-config --libs)
+SDLFLAGS = $(shell sdl-config --cflags)
+all: litearry
+
+usb_camera:litearry.c
+	gcc -o litearry litearry.c -ljpeg -lpthread $(X11_LIB) $(SDLLIBS) -I $(SDLFLAGS)
+	strip litearry
+clean:
+	@rm -vf litearry *.o *~
