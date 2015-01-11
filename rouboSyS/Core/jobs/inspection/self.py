@@ -1,0 +1,1 @@
+''' system self-inspection '''
